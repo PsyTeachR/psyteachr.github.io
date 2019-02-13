@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>psyTeachR on psyTeachR</title>
+    <link>https://psyteachr.github.io/</link>
+    <description>Recent content in psyTeachR on psyTeachR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Course Book Template</title>
+      <link>https://psyteachr.github.io/project/book-template/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://psyteachr.github.io/project/book-template/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hack Your Data Beautiful</title>
+      <link>https://psyteachr.github.io/talk/2019_hackdata/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://psyteachr.github.io/talk/2019_hackdata/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://psyteachr.github.io/hack-your-data/&#34; target=&#34;_blank&#34;&gt;Further Info&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Open Science Toolbox: Leveraging Methodological Reforms to Accelerate Research</title>
+      <link>https://psyteachr.github.io/talk/2019_icps/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://psyteachr.github.io/talk/2019_icps/</guid>
+      <description>
+
+&lt;h3 id=&#34;crowdsourcing-psychological-science&#34;&gt;Crowdsourcing Psychological Science&lt;/h3&gt;
+
+&lt;h4 id=&#34;benedict-jones&#34;&gt;Benedict Jones&lt;/h4&gt;
+
+&lt;p&gt;Crowdsourcing presents a solution to problems of low power and lack of diversity in research samples that often undermine conclusions from psychological research. I will focus on my lab’s experience conducting a preregistered study through the Psychological Science Accelerator, a globally distributed network of &amp;gt;350 laboratories from &amp;gt;45 countries.&lt;/p&gt;
+
+&lt;h3 id=&#34;do-psychological-effects-vary-across-sample-and-setting-findings-from-many-labs-2&#34;&gt;Do Psychological Effects Vary across Sample and Setting? Findings from Many Labs 2&lt;/h3&gt;
+
+&lt;h4 id=&#34;richard-klein&#34;&gt;Richard Klein&lt;/h4&gt;
+
+&lt;p&gt;This talk presents results from Many Labs 2, a recent large-scale project in which 28 psychological effects were replicated across 125 samples from 36 countries (N = 15,305). This talk will emphasize whether replication effect size varies based on the specific sample or setting of data collection.&lt;/p&gt;
+
+&lt;h3 id=&#34;teaching-open-science&#34;&gt;Teaching Open Science&lt;/h3&gt;
+
+&lt;h4 id=&#34;niamh-stack&#34;&gt;Niamh Stack&lt;/h4&gt;
+
+&lt;p&gt;To address recent concerns about the reliability of psychological findings, some have emphasized the need to improve training at a grassroots level (cf. Button et al., 2016). This talk discusses how we can answer this call by supporting undergraduates in becoming more intelligent ‘consumers of science’ (Diener &amp;amp; Biwas-Diener, 2016).&lt;/p&gt;
+
+&lt;h3 id=&#34;writing-reproducible-manuscripts&#34;&gt;Writing Reproducible Manuscripts&lt;/h3&gt;
+
+&lt;h4 id=&#34;lisa-debruine&#34;&gt;Lisa DeBruine&lt;/h4&gt;
+
+&lt;p&gt;Perhaps half of published psychology papers contain at least one inconsistent statistic (e.g., Nuijten et al, 2016). I will discuss methods for reproducible manuscripts that reduce transcription errors and act as self-documentation of data and analysis. These techniques promote open science and make it easier to meet new journal requirements.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Data Input in R/Shiny</title>
+      <link>https://psyteachr.github.io/talk/2018_tquant/</link>
+      <pubDate>Sun, 25 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://psyteachr.github.io/talk/2018_tquant/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://gupsych.github.io/tquant/data-input.html&#34; target=&#34;_blank&#34;&gt;Tutorial Materials&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Teaching Reproducible Data Analysis in R</title>
+      <link>https://psyteachr.github.io/talk/2017_trdair/</link>
+      <pubDate>Thu, 09 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://psyteachr.github.io/talk/2017_trdair/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://gupsych.github.io/trdair_workshop/&#34; target=&#34;_blank&#34;&gt;Schedule and materials&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Academic Webpages with RMarkdown and GitHub/GitLab</title>
+      <link>https://psyteachr.github.io/project/acadweb/</link>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://psyteachr.github.io/project/acadweb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Skills for Reproducible Science</title>
+      <link>https://psyteachr.github.io/project/data-skills/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://psyteachr.github.io/project/data-skills/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

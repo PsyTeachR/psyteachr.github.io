@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R on psyTeachR</title>
+    <link>https://psyteachr.github.io/tags/r/</link>
+    <description>Recent content in R on psyTeachR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Feb 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://psyteachr.github.io/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Course Book Template</title>
+      <link>https://psyteachr.github.io/project/book-template/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://psyteachr.github.io/project/book-template/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hack Your Data Beautiful</title>
+      <link>https://psyteachr.github.io/talk/2019_hackdata/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://psyteachr.github.io/talk/2019_hackdata/</guid>
+      <description>Further Info</description>
+    </item>
+    
+    <item>
+      <title>Data Input in R/Shiny</title>
+      <link>https://psyteachr.github.io/talk/2018_tquant/</link>
+      <pubDate>Sun, 25 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://psyteachr.github.io/talk/2018_tquant/</guid>
+      <description>Tutorial Materials</description>
+    </item>
+    
+    <item>
+      <title>Teaching Reproducible Data Analysis in R</title>
+      <link>https://psyteachr.github.io/talk/2017_trdair/</link>
+      <pubDate>Thu, 09 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://psyteachr.github.io/talk/2017_trdair/</guid>
+      <description>Schedule and materials</description>
+    </item>
+    
+    <item>
+      <title>Academic Webpages with RMarkdown and GitHub/GitLab</title>
+      <link>https://psyteachr.github.io/project/acadweb/</link>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://psyteachr.github.io/project/acadweb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Skills for Reproducible Science</title>
+      <link>https://psyteachr.github.io/project/data-skills/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://psyteachr.github.io/project/data-skills/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

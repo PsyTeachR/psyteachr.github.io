@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>teaching on psyTeachR</title>
+    <link>https://psyteachr.github.io/tags/teaching/</link>
+    <description>Recent content in teaching on psyTeachR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Feb 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://psyteachr.github.io/tags/teaching/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Course Book Template</title>
+      <link>https://psyteachr.github.io/project/book-template/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://psyteachr.github.io/project/book-template/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Academic Webpages with RMarkdown and GitHub/GitLab</title>
+      <link>https://psyteachr.github.io/project/acadweb/</link>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://psyteachr.github.io/project/acadweb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Skills for Reproducible Science</title>
+      <link>https://psyteachr.github.io/project/data-skills/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://psyteachr.github.io/project/data-skills/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
