@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>faces on psyTeachR</title>
+    <link>/tags/faces/</link>
+    <description>Recent content in faces on psyTeachR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 17 Nov 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/faces/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Replication and Generalisation: Crowdsourcing Better Research</title>
+      <link>/talk/2018_debruine/</link>
+      <pubDate>Sat, 17 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/2018_debruine/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

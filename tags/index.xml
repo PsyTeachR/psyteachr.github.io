@@ -2,156 +2,183 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on psyTeachR</title>
-    <link>https://psyteachr.github.io/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on psyTeachR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 19 Feb 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://psyteachr.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>BPS</title>
-      <link>https://psyteachr.github.io/tags/bps/</link>
+      <link>/tags/bps/</link>
       <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://psyteachr.github.io/tags/bps/</guid>
+      <guid>/tags/bps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Psychological Science Accelerator</title>
+      <link>/tags/psychological-science-accelerator/</link>
+      <pubDate>Sat, 17 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/psychological-science-accelerator/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
-      <link>https://psyteachr.github.io/tags/r/</link>
+      <link>/tags/r/</link>
       <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://psyteachr.github.io/tags/r/</guid>
+      <guid>/tags/r/</guid>
       <description></description>
     </item>
     
     <item>
       <title>bookdown</title>
-      <link>https://psyteachr.github.io/tags/bookdown/</link>
+      <link>/tags/bookdown/</link>
       <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://psyteachr.github.io/tags/bookdown/</guid>
+      <guid>/tags/bookdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>collaboration</title>
-      <link>https://psyteachr.github.io/tags/collaboration/</link>
+      <link>/tags/collaboration/</link>
       <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://psyteachr.github.io/tags/collaboration/</guid>
+      <guid>/tags/collaboration/</guid>
       <description></description>
     </item>
     
     <item>
       <title>dataviz</title>
-      <link>https://psyteachr.github.io/tags/dataviz/</link>
+      <link>/tags/dataviz/</link>
       <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://psyteachr.github.io/tags/dataviz/</guid>
+      <guid>/tags/dataviz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>faces</title>
+      <link>/tags/faces/</link>
+      <pubDate>Sat, 17 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/faces/</guid>
       <description></description>
     </item>
     
     <item>
       <title>open science</title>
-      <link>https://psyteachr.github.io/tags/open-science/</link>
+      <link>/tags/open-science/</link>
       <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://psyteachr.github.io/tags/open-science/</guid>
+      <guid>/tags/open-science/</guid>
       <description></description>
     </item>
     
     <item>
       <title>pedagogy</title>
-      <link>https://psyteachr.github.io/tags/pedagogy/</link>
+      <link>/tags/pedagogy/</link>
       <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://psyteachr.github.io/tags/pedagogy/</guid>
+      <guid>/tags/pedagogy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>postgraduate</title>
-      <link>https://psyteachr.github.io/tags/postgraduate/</link>
+      <link>/tags/postgraduate/</link>
       <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://psyteachr.github.io/tags/postgraduate/</guid>
+      <guid>/tags/postgraduate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>registered reports</title>
+      <link>/tags/registered-reports/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/registered-reports/</guid>
       <description></description>
     </item>
     
     <item>
       <title>reproducibility</title>
-      <link>https://psyteachr.github.io/tags/reproducibility/</link>
+      <link>/tags/reproducibility/</link>
       <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://psyteachr.github.io/tags/reproducibility/</guid>
+      <guid>/tags/reproducibility/</guid>
       <description></description>
     </item>
     
     <item>
       <title>rmarkdown</title>
-      <link>https://psyteachr.github.io/tags/rmarkdown/</link>
+      <link>/tags/rmarkdown/</link>
       <pubDate>Sat, 01 Sep 2018 00:00:00 +0100</pubDate>
       
-      <guid>https://psyteachr.github.io/tags/rmarkdown/</guid>
+      <guid>/tags/rmarkdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>shiny</title>
-      <link>https://psyteachr.github.io/tags/shiny/</link>
+      <link>/tags/shiny/</link>
       <pubDate>Sun, 25 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://psyteachr.github.io/tags/shiny/</guid>
+      <guid>/tags/shiny/</guid>
       <description></description>
     </item>
     
     <item>
       <title>teaching</title>
-      <link>https://psyteachr.github.io/tags/teaching/</link>
+      <link>/tags/teaching/</link>
       <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://psyteachr.github.io/tags/teaching/</guid>
+      <guid>/tags/teaching/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tquant</title>
-      <link>https://psyteachr.github.io/tags/tquant/</link>
+      <link>/tags/tquant/</link>
       <pubDate>Sun, 25 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://psyteachr.github.io/tags/tquant/</guid>
+      <guid>/tags/tquant/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tutorial</title>
-      <link>https://psyteachr.github.io/tags/tutorial/</link>
+      <link>/tags/tutorial/</link>
       <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://psyteachr.github.io/tags/tutorial/</guid>
+      <guid>/tags/tutorial/</guid>
       <description></description>
     </item>
     
     <item>
       <title>undergrad</title>
-      <link>https://psyteachr.github.io/tags/undergrad/</link>
+      <link>/tags/undergrad/</link>
       <pubDate>Thu, 09 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://psyteachr.github.io/tags/undergrad/</guid>
+      <guid>/tags/undergrad/</guid>
       <description></description>
     </item>
     
     <item>
       <title>website</title>
-      <link>https://psyteachr.github.io/tags/website/</link>
+      <link>/tags/website/</link>
       <pubDate>Sat, 01 Sep 2018 00:00:00 +0100</pubDate>
       
-      <guid>https://psyteachr.github.io/tags/website/</guid>
+      <guid>/tags/website/</guid>
       <description></description>
     </item>
     

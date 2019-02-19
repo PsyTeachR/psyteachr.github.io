@@ -2,83 +2,83 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on psyTeachR</title>
-    <link>https://psyteachr.github.io/authors/</link>
+    <link>/authors/</link>
     <description>Recent content in Authors on psyTeachR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://psyteachr.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Benedict Jones</title>
-      <link>https://psyteachr.github.io/authors/benedict-jones/</link>
+      <link>/authors/benedict-jones/</link>
       <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://psyteachr.github.io/authors/benedict-jones/</guid>
+      <guid>/authors/benedict-jones/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Dale Barr</title>
-      <link>https://psyteachr.github.io/authors/dale-barr/</link>
+      <link>/authors/dale-barr/</link>
       <pubDate>Thu, 09 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://psyteachr.github.io/authors/dale-barr/</guid>
+      <guid>/authors/dale-barr/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Heather Cleland Woods</title>
-      <link>https://psyteachr.github.io/authors/heather-cleland-woods/</link>
+      <link>/authors/heather-cleland-woods/</link>
       <pubDate>Thu, 09 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://psyteachr.github.io/authors/heather-cleland-woods/</guid>
+      <guid>/authors/heather-cleland-woods/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Helena Patterson</title>
-      <link>https://psyteachr.github.io/authors/helena-patterson/</link>
+      <link>/authors/helena-patterson/</link>
       <pubDate>Thu, 09 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://psyteachr.github.io/authors/helena-patterson/</guid>
+      <guid>/authors/helena-patterson/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Lisa DeBruine</title>
-      <link>https://psyteachr.github.io/authors/lisa-debruine/</link>
+      <link>/authors/lisa-debruine/</link>
       <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://psyteachr.github.io/authors/lisa-debruine/</guid>
+      <guid>/authors/lisa-debruine/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Niamh Stack</title>
-      <link>https://psyteachr.github.io/authors/niamh-stack/</link>
+      <link>/authors/niamh-stack/</link>
       <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://psyteachr.github.io/authors/niamh-stack/</guid>
+      <guid>/authors/niamh-stack/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Phil McAleer</title>
-      <link>https://psyteachr.github.io/authors/phil-mcaleer/</link>
+      <link>/authors/phil-mcaleer/</link>
       <pubDate>Thu, 09 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://psyteachr.github.io/authors/phil-mcaleer/</guid>
+      <guid>/authors/phil-mcaleer/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Rick Klein</title>
-      <link>https://psyteachr.github.io/authors/rick-klein/</link>
+      <link>/authors/rick-klein/</link>
       <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://psyteachr.github.io/authors/rick-klein/</guid>
+      <guid>/authors/rick-klein/</guid>
       <description></description>
     </item>
     

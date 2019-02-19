@@ -2,67 +2,85 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recent &amp; Upcoming Talks on psyTeachR</title>
-    <link>https://psyteachr.github.io/talk/</link>
+    <link>/talk/</link>
     <description>Recent content in Recent &amp; Upcoming Talks on psyTeachR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 19 Feb 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://psyteachr.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Everything is cool when you’re part of a team: The role of large-scale collaboration in improving replicability and generalisability</title>
-      <link>https://psyteachr.github.io/talk/2019_aarhus/</link>
+      <link>/talk/2019_aarhus/</link>
       <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://psyteachr.github.io/talk/2019_aarhus/</guid>
+      <guid>/talk/2019_aarhus/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Transforming Teaching in Tricky Times</title>
-      <link>https://psyteachr.github.io/talk/2019_tttt/</link>
+      <link>/talk/2019_tttt/</link>
       <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://psyteachr.github.io/talk/2019_tttt/</guid>
+      <guid>/talk/2019_tttt/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hack Your Data Beautiful</title>
-      <link>https://psyteachr.github.io/talk/2019_hackdata/</link>
+      <link>/talk/2019_hackdata/</link>
       <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://psyteachr.github.io/talk/2019_hackdata/</guid>
+      <guid>/talk/2019_hackdata/</guid>
       <description>Further Info</description>
     </item>
     
     <item>
-      <title>Open Science Toolbox: Leveraging Methodological Reforms to Accelerate Research</title>
-      <link>https://psyteachr.github.io/talk/2019_icps/</link>
+      <title>Improving the generalisability and replicability of psychological science</title>
+      <link>/talk/2019_durham/</link>
       <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://psyteachr.github.io/talk/2019_icps/</guid>
+      <guid>/talk/2019_durham/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Open Science Toolbox: Leveraging Methodological Reforms to Accelerate Research</title>
+      <link>/talk/2019_icps/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/2019_icps/</guid>
       <description>Crowdsourcing Psychological Science Benedict Jones Crowdsourcing presents a solution to problems of low power and lack of diversity in research samples that often undermine conclusions from psychological research. I will focus on my lab’s experience conducting a preregistered study through the Psychological Science Accelerator, a globally distributed network of &amp;gt;350 laboratories from &amp;gt;45 countries.
 Do Psychological Effects Vary across Sample and Setting? Findings from Many Labs 2 Richard Klein This talk presents results from Many Labs 2, a recent large-scale project in which 28 psychological effects were replicated across 125 samples from 36 countries (N = 15,305).</description>
     </item>
     
     <item>
+      <title>Replication and Generalisation: Crowdsourcing Better Research</title>
+      <link>/talk/2018_debruine/</link>
+      <pubDate>Sat, 17 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/2018_debruine/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Data Input in R/Shiny</title>
-      <link>https://psyteachr.github.io/talk/2018_tquant/</link>
+      <link>/talk/2018_tquant/</link>
       <pubDate>Sun, 25 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://psyteachr.github.io/talk/2018_tquant/</guid>
+      <guid>/talk/2018_tquant/</guid>
       <description>Tutorial Materials</description>
     </item>
     
     <item>
       <title>Teaching Reproducible Data Analysis in R</title>
-      <link>https://psyteachr.github.io/talk/2017_trdair/</link>
+      <link>/talk/2017_trdair/</link>
       <pubDate>Thu, 09 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://psyteachr.github.io/talk/2017_trdair/</guid>
+      <guid>/talk/2017_trdair/</guid>
       <description>Schedule and materials</description>
     </item>
     

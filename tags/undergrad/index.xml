@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>undergrad on psyTeachR</title>
-    <link>https://psyteachr.github.io/tags/undergrad/</link>
+    <link>/tags/undergrad/</link>
     <description>Recent content in undergrad on psyTeachR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 09 Mar 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://psyteachr.github.io/tags/undergrad/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/undergrad/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Teaching Reproducible Data Analysis in R</title>
-      <link>https://psyteachr.github.io/talk/2017_trdair/</link>
+      <link>/talk/2017_trdair/</link>
       <pubDate>Thu, 09 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://psyteachr.github.io/talk/2017_trdair/</guid>
+      <guid>/talk/2017_trdair/</guid>
       <description>Schedule and materials</description>
     </item>
     
