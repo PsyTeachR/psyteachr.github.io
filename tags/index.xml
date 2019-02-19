@@ -6,10 +6,19 @@
     <description>Recent content in Tags on psyTeachR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 19 Feb 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://psyteachr.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>BPS</title>
+      <link>https://psyteachr.github.io/tags/bps/</link>
+      <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://psyteachr.github.io/tags/bps/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>R</title>
@@ -32,7 +41,7 @@
     <item>
       <title>collaboration</title>
       <link>https://psyteachr.github.io/tags/collaboration/</link>
-      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://psyteachr.github.io/tags/collaboration/</guid>
       <description></description>
@@ -48,9 +57,18 @@
     </item>
     
     <item>
+      <title>open science</title>
+      <link>https://psyteachr.github.io/tags/open-science/</link>
+      <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://psyteachr.github.io/tags/open-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>pedagogy</title>
       <link>https://psyteachr.github.io/tags/pedagogy/</link>
-      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://psyteachr.github.io/tags/pedagogy/</guid>
       <description></description>
@@ -68,7 +86,7 @@
     <item>
       <title>reproducibility</title>
       <link>https://psyteachr.github.io/tags/reproducibility/</link>
-      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://psyteachr.github.io/tags/reproducibility/</guid>
       <description></description>
