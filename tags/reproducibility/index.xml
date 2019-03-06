@@ -6,10 +6,19 @@
     <description>Recent content in reproducibility on psyTeachR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 19 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 06 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/reproducibility/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>SIPS Workshop: Redesigning methods curricula for reproducibility</title>
+      <link>/talk/2019_sips/</link>
+      <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/2019_sips/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Everything is cool when you’re part of a team: The role of large-scale collaboration in improving replicability and generalisability</title>
@@ -30,15 +39,6 @@
     </item>
     
     <item>
-      <title>Improving the generalisability and replicability of psychological science</title>
-      <link>/talk/2019_durham/</link>
-      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/talk/2019_durham/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Open Science Toolbox: Leveraging Methodological Reforms to Accelerate Research</title>
       <link>/talk/2019_icps/</link>
       <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
@@ -46,15 +46,6 @@
       <guid>/talk/2019_icps/</guid>
       <description>Crowdsourcing Psychological Science Benedict Jones Crowdsourcing presents a solution to problems of low power and lack of diversity in research samples that often undermine conclusions from psychological research. I will focus on my lab’s experience conducting a preregistered study through the Psychological Science Accelerator, a globally distributed network of &amp;gt;350 laboratories from &amp;gt;45 countries.
 Do Psychological Effects Vary across Sample and Setting? Findings from Many Labs 2 Richard Klein This talk presents results from Many Labs 2, a recent large-scale project in which 28 psychological effects were replicated across 125 samples from 36 countries (N = 15,305).</description>
-    </item>
-    
-    <item>
-      <title>Replication and Generalisation: Crowdsourcing Better Research</title>
-      <link>/talk/2018_debruine/</link>
-      <pubDate>Sat, 17 Nov 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/talk/2018_debruine/</guid>
-      <description></description>
     </item>
     
   </channel>

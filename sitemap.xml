@@ -4,6 +4,14 @@
     
     <url>
     
+      <loc>/talk/2019_sips/</loc>
+      <lastmod>2019-03-06T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/talk/2019_aarhus/</loc>
       <lastmod>2019-02-19T00:00:00+00:00</lastmod>
     </url>
@@ -36,24 +44,8 @@
     
     <url>
     
-      <loc>/talk/2019_durham/</loc>
-      <lastmod>2019-02-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>/talk/2019_icps/</loc>
       <lastmod>2019-02-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/talk/2018_debruine/</loc>
-      <lastmod>2018-11-17T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -107,6 +99,15 @@
     
     <url>
     
+      <loc>/authors/anna-henschel/</loc>
+      <lastmod>2019-02-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/author/</loc>
       <priority>0</priority>
     </url>
@@ -116,6 +117,7 @@
     <url>
     
       <loc>/authors/</loc>
+      <lastmod>2019-02-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -141,6 +143,15 @@
     
     <url>
     
+      <loc>/authors/carolyn-saund/</loc>
+      <lastmod>2019-02-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/categories/</loc>
       <priority>0</priority>
     </url>
@@ -150,7 +161,7 @@
     <url>
     
       <loc>/authors/dale-barr/</loc>
-      <lastmod>2017-03-09T00:00:00+00:00</lastmod>
+      <lastmod>2019-03-06T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -159,7 +170,16 @@
     <url>
     
       <loc>/authors/heather-cleland-woods/</loc>
-      <lastmod>2017-03-09T00:00:00+00:00</lastmod>
+      <lastmod>2019-03-06T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/authors/helena-paterson/</loc>
+      <lastmod>2019-03-06T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -176,8 +196,26 @@
     
     <url>
     
+      <loc>/authors/jack-taylor/</loc>
+      <lastmod>2019-02-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/authors/lisa-debruine/</loc>
-      <lastmod>2019-02-19T00:00:00+00:00</lastmod>
+      <lastmod>2019-03-06T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/authors/lovisa-sundin/</loc>
+      <lastmod>2019-02-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -186,7 +224,7 @@
     <url>
     
       <loc>/authors/niamh-stack/</loc>
-      <lastmod>2019-02-19T00:00:00+00:00</lastmod>
+      <lastmod>2019-03-06T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -195,7 +233,7 @@
     <url>
     
       <loc>/authors/phil-mcaleer/</loc>
-      <lastmod>2017-03-09T00:00:00+00:00</lastmod>
+      <lastmod>2019-03-06T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -212,15 +250,6 @@
     
       <loc>/project/</loc>
       <lastmod>2019-02-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/psychological-science-accelerator/</loc>
-      <lastmod>2018-11-17T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -252,8 +281,17 @@
     
     <url>
     
+      <loc>/authors/rebecca-lai/</loc>
+      <lastmod>2019-03-06T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/talk/</loc>
-      <lastmod>2019-02-19T00:00:00+00:00</lastmod>
+      <lastmod>2019-03-06T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -261,6 +299,33 @@
     <url>
     
       <loc>/authors/rick-klein/</loc>
+      <lastmod>2019-02-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/authors/shannon-mcnee/</loc>
+      <lastmod>2019-02-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/authors/shanon-mcnee/</loc>
+      <lastmod>2019-03-06T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/authors/steph-allan/</loc>
       <lastmod>2019-02-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -312,17 +377,8 @@
     
     <url>
     
-      <loc>/tags/faces/</loc>
-      <lastmod>2018-11-17T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>/tags/open-science/</loc>
-      <lastmod>2019-02-19T00:00:00+00:00</lastmod>
+      <lastmod>2019-03-06T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -331,7 +387,7 @@
     <url>
     
       <loc>/tags/pedagogy/</loc>
-      <lastmod>2019-02-19T00:00:00+00:00</lastmod>
+      <lastmod>2019-03-06T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -349,16 +405,7 @@
     <url>
     
       <loc>/</loc>
-      <lastmod>2019-02-19T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/registered-reports/</loc>
-      <lastmod>2019-02-01T00:00:00+00:00</lastmod>
+      <lastmod>2019-03-06T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -367,7 +414,7 @@
     <url>
     
       <loc>/tags/reproducibility/</loc>
-      <lastmod>2019-02-19T00:00:00+00:00</lastmod>
+      <lastmod>2019-03-06T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -377,6 +424,15 @@
     
       <loc>/tags/rmarkdown/</loc>
       <lastmod>2018-09-01T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/rstats/</loc>
+      <lastmod>2019-03-06T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

@@ -6,10 +6,19 @@
     <description>Recent content in open science on psyTeachR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 19 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 06 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/open-science/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>SIPS Workshop: Redesigning methods curricula for reproducibility</title>
+      <link>/talk/2019_sips/</link>
+      <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/2019_sips/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Everything is cool when you’re part of a team: The role of large-scale collaboration in improving replicability and generalisability</title>

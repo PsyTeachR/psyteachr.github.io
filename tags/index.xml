@@ -21,15 +21,6 @@
     </item>
     
     <item>
-      <title>Psychological Science Accelerator</title>
-      <link>/tags/psychological-science-accelerator/</link>
-      <pubDate>Sat, 17 Nov 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/psychological-science-accelerator/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>R</title>
       <link>/tags/r/</link>
       <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
@@ -66,18 +57,9 @@
     </item>
     
     <item>
-      <title>faces</title>
-      <link>/tags/faces/</link>
-      <pubDate>Sat, 17 Nov 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/faces/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>open science</title>
       <link>/tags/open-science/</link>
-      <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>/tags/open-science/</guid>
       <description></description>
@@ -86,7 +68,7 @@
     <item>
       <title>pedagogy</title>
       <link>/tags/pedagogy/</link>
-      <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>/tags/pedagogy/</guid>
       <description></description>
@@ -102,18 +84,9 @@
     </item>
     
     <item>
-      <title>registered reports</title>
-      <link>/tags/registered-reports/</link>
-      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/registered-reports/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>reproducibility</title>
       <link>/tags/reproducibility/</link>
-      <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>/tags/reproducibility/</guid>
       <description></description>
@@ -125,6 +98,15 @@
       <pubDate>Sat, 01 Sep 2018 00:00:00 +0100</pubDate>
       
       <guid>/tags/rmarkdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rstats</title>
+      <link>/tags/rstats/</link>
+      <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/rstats/</guid>
       <description></description>
     </item>
     
