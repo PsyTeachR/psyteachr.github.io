@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Heather Cleland Woods on psyTeachR</title>
-    <link>/authors/heather-cleland-woods/</link>
+    <link>https://psyteachr.github.io/authors/heather-cleland-woods/</link>
     <description>Recent content in Heather Cleland Woods on psyTeachR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 06 Mar 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/authors/heather-cleland-woods/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://psyteachr.github.io/authors/heather-cleland-woods/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>SIPS Workshop: Redesigning methods curricula for reproducibility</title>
-      <link>/talk/2019_sips/</link>
+      <link>https://psyteachr.github.io/talk/2019_sips/</link>
       <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/talk/2019_sips/</guid>
+      <guid>https://psyteachr.github.io/talk/2019_sips/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Teaching Reproducible Data Analysis in R</title>
-      <link>/talk/2017_trdair/</link>
+      <link>https://psyteachr.github.io/talk/2017_trdair/</link>
       <pubDate>Thu, 09 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>/talk/2017_trdair/</guid>
+      <guid>https://psyteachr.github.io/talk/2017_trdair/</guid>
       <description>Schedule and materials</description>
     </item>
     

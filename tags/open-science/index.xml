@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>open science on psyTeachR</title>
-    <link>/tags/open-science/</link>
+    <link>https://psyteachr.github.io/tags/open-science/</link>
     <description>Recent content in open science on psyTeachR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 06 Mar 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/open-science/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://psyteachr.github.io/tags/open-science/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>SIPS Workshop: Redesigning methods curricula for reproducibility</title>
-      <link>/talk/2019_sips/</link>
+      <link>https://psyteachr.github.io/talk/2019_sips/</link>
       <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/talk/2019_sips/</guid>
+      <guid>https://psyteachr.github.io/talk/2019_sips/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Everything is cool when you’re part of a team: The role of large-scale collaboration in improving replicability and generalisability</title>
-      <link>/talk/2019_aarhus/</link>
+      <link>https://psyteachr.github.io/talk/2019_aarhus/</link>
       <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>/talk/2019_aarhus/</guid>
+      <guid>https://psyteachr.github.io/talk/2019_aarhus/</guid>
       <description></description>
     </item>
     

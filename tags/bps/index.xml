@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>BPS on psyTeachR</title>
-    <link>/tags/bps/</link>
+    <link>https://psyteachr.github.io/tags/bps/</link>
     <description>Recent content in BPS on psyTeachR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 19 Feb 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/bps/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://psyteachr.github.io/tags/bps/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Transforming Teaching in Tricky Times</title>
-      <link>/talk/2019_tttt/</link>
+      <link>https://psyteachr.github.io/talk/2019_tttt/</link>
       <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>/talk/2019_tttt/</guid>
+      <guid>https://psyteachr.github.io/talk/2019_tttt/</guid>
       <description></description>
     </item>
     

@@ -2,48 +2,75 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>teaching on psyTeachR</title>
-    <link>/tags/teaching/</link>
+    <link>https://psyteachr.github.io/tags/teaching/</link>
     <description>Recent content in teaching on psyTeachR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 14 Apr 2019 19:17:41 +0100</lastBuildDate>
     
-	<atom:link href="/tags/teaching/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://psyteachr.github.io/tags/teaching/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>webex: An R package for creating interactive web tutorials</title>
+      <link>https://psyteachr.github.io/project/webex/</link>
+      <pubDate>Sun, 14 Apr 2019 19:17:41 +0100</pubDate>
+      
+      <guid>https://psyteachr.github.io/project/webex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Free and open source software for open science</title>
+      <link>https://psyteachr.github.io/project/fossos/</link>
+      <pubDate>Sun, 14 Apr 2019 19:08:43 +0100</pubDate>
+      
+      <guid>https://psyteachr.github.io/project/fossos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Glossary</title>
+      <link>https://psyteachr.github.io/project/glossary/</link>
+      <pubDate>Thu, 21 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://psyteachr.github.io/project/glossary/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Course Book Template</title>
-      <link>/project/book-template/</link>
+      <link>https://psyteachr.github.io/project/book-template/</link>
       <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>/project/book-template/</guid>
+      <guid>https://psyteachr.github.io/project/book-template/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Shiny Tutorials</title>
-      <link>/project/shiny-tutorials/</link>
+      <link>https://psyteachr.github.io/project/shiny-tutorials/</link>
       <pubDate>Sat, 01 Sep 2018 00:00:00 +0100</pubDate>
       
-      <guid>/project/shiny-tutorials/</guid>
+      <guid>https://psyteachr.github.io/project/shiny-tutorials/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Academic Webpages with RMarkdown and GitHub/GitLab</title>
-      <link>/project/acadweb/</link>
+      <link>https://psyteachr.github.io/project/acadweb/</link>
       <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>/project/acadweb/</guid>
+      <guid>https://psyteachr.github.io/project/acadweb/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Data Skills for Reproducible Science</title>
-      <link>/project/data-skills/</link>
+      <link>https://psyteachr.github.io/project/data-skills/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/project/data-skills/</guid>
+      <guid>https://psyteachr.github.io/project/data-skills/</guid>
       <description></description>
     </item>
     

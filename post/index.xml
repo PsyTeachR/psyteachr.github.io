@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on psyTeachR</title>
-    <link>/post/</link>
+    <link>https://psyteachr.github.io/post/</link>
     <description>Recent content in Posts on psyTeachR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://psyteachr.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
