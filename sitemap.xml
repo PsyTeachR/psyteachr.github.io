@@ -4,7 +4,7 @@
     
     <url>
     
-      <loc>https://psyteachr.github.io/project/webex/</loc>
+      <loc>/project/webex/</loc>
       <lastmod>2019-04-14T19:17:41+01:00</lastmod>
     </url>
     
@@ -12,7 +12,7 @@
     
     <url>
     
-      <loc>https://psyteachr.github.io/project/fossos/</loc>
+      <loc>/project/fossos/</loc>
       <lastmod>2019-04-14T19:08:43+01:00</lastmod>
     </url>
     
@@ -20,7 +20,7 @@
     
     <url>
     
-      <loc>https://psyteachr.github.io/project/glossary/</loc>
+      <loc>/project/glossary/</loc>
       <lastmod>2019-03-21T00:00:00+00:00</lastmod>
     </url>
     
@@ -28,7 +28,7 @@
     
     <url>
     
-      <loc>https://psyteachr.github.io/talk/2019_sips/</loc>
+      <loc>/talk/2019_sips/</loc>
       <lastmod>2019-03-06T00:00:00+00:00</lastmod>
     </url>
     
@@ -36,7 +36,7 @@
     
     <url>
     
-      <loc>https://psyteachr.github.io/talk/2019_aarhus/</loc>
+      <loc>/talk/2019_aarhus/</loc>
       <lastmod>2019-02-19T00:00:00+00:00</lastmod>
     </url>
     
@@ -44,7 +44,7 @@
     
     <url>
     
-      <loc>https://psyteachr.github.io/talk/2019_tttt/</loc>
+      <loc>/talk/2019_tttt/</loc>
       <lastmod>2019-02-19T00:00:00+00:00</lastmod>
     </url>
     
@@ -52,7 +52,7 @@
     
     <url>
     
-      <loc>https://psyteachr.github.io/project/book-template/</loc>
+      <loc>/project/book-template/</loc>
       <lastmod>2019-02-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -60,7 +60,7 @@
     
     <url>
     
-      <loc>https://psyteachr.github.io/talk/2019_hackdata/</loc>
+      <loc>/talk/2019_hackdata/</loc>
       <lastmod>2019-02-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -68,7 +68,7 @@
     
     <url>
     
-      <loc>https://psyteachr.github.io/talk/2019_durham/</loc>
+      <loc>/talk/2019_durham/</loc>
       <lastmod>2019-02-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -76,7 +76,7 @@
     
     <url>
     
-      <loc>https://psyteachr.github.io/talk/2019_icps/</loc>
+      <loc>/talk/2019_icps/</loc>
       <lastmod>2019-02-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -84,7 +84,7 @@
     
     <url>
     
-      <loc>https://psyteachr.github.io/talk/2018_debruine/</loc>
+      <loc>/talk/2018_debruine/</loc>
       <lastmod>2018-11-17T00:00:00+00:00</lastmod>
     </url>
     
@@ -92,7 +92,7 @@
     
     <url>
     
-      <loc>https://psyteachr.github.io/project/shiny-tutorials/</loc>
+      <loc>/project/shiny-tutorials/</loc>
       <lastmod>2018-09-01T00:00:00+01:00</lastmod>
     </url>
     
@@ -100,7 +100,7 @@
     
     <url>
     
-      <loc>https://psyteachr.github.io/talk/2018_tquant/</loc>
+      <loc>/talk/2018_tquant/</loc>
       <lastmod>2018-03-25T00:00:00+00:00</lastmod>
     </url>
     
@@ -108,7 +108,7 @@
     
     <url>
     
-      <loc>https://psyteachr.github.io/talk/2017_trdair/</loc>
+      <loc>/talk/2017_trdair/</loc>
       <lastmod>2017-03-09T00:00:00+00:00</lastmod>
     </url>
     
@@ -116,7 +116,7 @@
     
     <url>
     
-      <loc>https://psyteachr.github.io/project/acadweb/</loc>
+      <loc>/project/acadweb/</loc>
       <lastmod>2017-02-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -124,7 +124,7 @@
     
     <url>
     
-      <loc>https://psyteachr.github.io/project/data-skills/</loc>
+      <loc>/project/data-skills/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -132,14 +132,14 @@
     
     <url>
     
-      <loc>https://psyteachr.github.io/author/admin/</loc>
+      <loc>/author/admin/</loc>
     </url>
     
   
     
     <url>
     
-      <loc>https://psyteachr.github.io/authors/anna-henschel/</loc>
+      <loc>/authors/anna-henschel/</loc>
       <lastmod>2019-02-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -148,7 +148,7 @@
     
     <url>
     
-      <loc>https://psyteachr.github.io/author/</loc>
+      <loc>/author/</loc>
       <priority>0</priority>
     </url>
     
@@ -156,7 +156,7 @@
     
     <url>
     
-      <loc>https://psyteachr.github.io/authors/</loc>
+      <loc>/authors/</loc>
       <lastmod>2019-02-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -165,7 +165,7 @@
     
     <url>
     
-      <loc>https://psyteachr.github.io/tags/bps/</loc>
+      <loc>/tags/bps/</loc>
       <lastmod>2019-02-19T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -174,7 +174,7 @@
     
     <url>
     
-      <loc>https://psyteachr.github.io/authors/benedict-jones/</loc>
+      <loc>/authors/benedict-jones/</loc>
       <lastmod>2019-02-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -183,7 +183,7 @@
     
     <url>
     
-      <loc>https://psyteachr.github.io/authors/carolyn-saund/</loc>
+      <loc>/authors/carolyn-saund/</loc>
       <lastmod>2019-02-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -192,7 +192,7 @@
     
     <url>
     
-      <loc>https://psyteachr.github.io/categories/</loc>
+      <loc>/categories/</loc>
       <priority>0</priority>
     </url>
     
@@ -200,7 +200,7 @@
     
     <url>
     
-      <loc>https://psyteachr.github.io/authors/dale-barr/</loc>
+      <loc>/authors/dale-barr/</loc>
       <lastmod>2019-03-06T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -209,7 +209,7 @@
     
     <url>
     
-      <loc>https://psyteachr.github.io/authors/heather-cleland-woods/</loc>
+      <loc>/authors/emily-nordmann/</loc>
       <lastmod>2019-03-06T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -218,7 +218,7 @@
     
     <url>
     
-      <loc>https://psyteachr.github.io/authors/helena-paterson/</loc>
+      <loc>/authors/heather-cleland-woods/</loc>
       <lastmod>2019-03-06T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -227,7 +227,16 @@
     
     <url>
     
-      <loc>https://psyteachr.github.io/authors/helena-patterson/</loc>
+      <loc>/authors/helena-paterson/</loc>
+      <lastmod>2019-03-06T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/authors/helena-patterson/</loc>
       <lastmod>2017-03-09T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -236,7 +245,7 @@
     
     <url>
     
-      <loc>https://psyteachr.github.io/authors/jack-taylor/</loc>
+      <loc>/authors/jack-taylor/</loc>
       <lastmod>2019-02-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -245,7 +254,7 @@
     
     <url>
     
-      <loc>https://psyteachr.github.io/authors/lisa-debruine/</loc>
+      <loc>/authors/lisa-debruine/</loc>
       <lastmod>2019-03-06T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -254,7 +263,7 @@
     
     <url>
     
-      <loc>https://psyteachr.github.io/authors/lovisa-sundin/</loc>
+      <loc>/authors/lovisa-sundin/</loc>
       <lastmod>2019-02-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -263,7 +272,7 @@
     
     <url>
     
-      <loc>https://psyteachr.github.io/authors/niamh-stack/</loc>
+      <loc>/authors/niamh-stack/</loc>
       <lastmod>2019-03-06T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -272,7 +281,7 @@
     
     <url>
     
-      <loc>https://psyteachr.github.io/authors/phil-mcaleer/</loc>
+      <loc>/authors/phil-mcaleer/</loc>
       <lastmod>2019-03-06T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -281,14 +290,14 @@
     
     <url>
     
-      <loc>https://psyteachr.github.io/post/</loc>
+      <loc>/post/</loc>
     </url>
     
   
     
     <url>
     
-      <loc>https://psyteachr.github.io/project/</loc>
+      <loc>/project/</loc>
       <lastmod>2019-04-14T19:17:41+01:00</lastmod>
       <priority>0</priority>
     </url>
@@ -297,7 +306,7 @@
     
     <url>
     
-      <loc>https://psyteachr.github.io/tags/psychological-science-accelerator/</loc>
+      <loc>/tags/psychological-science-accelerator/</loc>
       <lastmod>2018-11-17T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -306,7 +315,7 @@
     
     <url>
     
-      <loc>https://psyteachr.github.io/publication_types/</loc>
+      <loc>/publication_types/</loc>
       <priority>0</priority>
     </url>
     
@@ -314,14 +323,14 @@
     
     <url>
     
-      <loc>https://psyteachr.github.io/publication/</loc>
+      <loc>/publication/</loc>
     </url>
     
   
     
     <url>
     
-      <loc>https://psyteachr.github.io/tags/r/</loc>
+      <loc>/tags/r/</loc>
       <lastmod>2019-04-14T19:17:41+01:00</lastmod>
       <priority>0</priority>
     </url>
@@ -330,7 +339,7 @@
     
     <url>
     
-      <loc>https://psyteachr.github.io/authors/rebecca-lai/</loc>
+      <loc>/authors/rebecca-lai/</loc>
       <lastmod>2019-03-06T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -339,7 +348,7 @@
     
     <url>
     
-      <loc>https://psyteachr.github.io/talk/</loc>
+      <loc>/talk/</loc>
       <lastmod>2019-03-06T00:00:00+00:00</lastmod>
     </url>
     
@@ -347,7 +356,7 @@
     
     <url>
     
-      <loc>https://psyteachr.github.io/authors/rick-klein/</loc>
+      <loc>/authors/rick-klein/</loc>
       <lastmod>2019-02-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -356,7 +365,7 @@
     
     <url>
     
-      <loc>https://psyteachr.github.io/authors/shannon-mcnee/</loc>
+      <loc>/authors/shannon-mcnee/</loc>
       <lastmod>2019-02-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -365,7 +374,7 @@
     
     <url>
     
-      <loc>https://psyteachr.github.io/authors/shanon-mcnee/</loc>
+      <loc>/authors/shanon-mcnee/</loc>
       <lastmod>2019-03-06T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -374,7 +383,7 @@
     
     <url>
     
-      <loc>https://psyteachr.github.io/authors/steph-allan/</loc>
+      <loc>/authors/steph-allan/</loc>
       <lastmod>2019-02-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -383,7 +392,7 @@
     
     <url>
     
-      <loc>https://psyteachr.github.io/tags/</loc>
+      <loc>/tags/</loc>
       <lastmod>2019-02-19T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -392,14 +401,14 @@
     
     <url>
     
-      <loc>https://psyteachr.github.io/tutorial/</loc>
+      <loc>/tutorial/</loc>
     </url>
     
   
     
     <url>
     
-      <loc>https://psyteachr.github.io/tags/bookdown/</loc>
+      <loc>/tags/bookdown/</loc>
       <lastmod>2019-02-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -408,7 +417,7 @@
     
     <url>
     
-      <loc>https://psyteachr.github.io/tags/collaboration/</loc>
+      <loc>/tags/collaboration/</loc>
       <lastmod>2019-02-19T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -417,7 +426,7 @@
     
     <url>
     
-      <loc>https://psyteachr.github.io/tags/dataviz/</loc>
+      <loc>/tags/dataviz/</loc>
       <lastmod>2019-02-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -426,7 +435,7 @@
     
     <url>
     
-      <loc>https://psyteachr.github.io/tags/faces/</loc>
+      <loc>/tags/faces/</loc>
       <lastmod>2018-11-17T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -435,7 +444,7 @@
     
     <url>
     
-      <loc>https://psyteachr.github.io/tags/glossary/</loc>
+      <loc>/tags/glossary/</loc>
       <lastmod>2019-03-21T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -444,7 +453,7 @@
     
     <url>
     
-      <loc>https://psyteachr.github.io/tags/open-science/</loc>
+      <loc>/tags/open-science/</loc>
       <lastmod>2019-03-06T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -453,7 +462,7 @@
     
     <url>
     
-      <loc>https://psyteachr.github.io/tags/pedagogy/</loc>
+      <loc>/tags/pedagogy/</loc>
       <lastmod>2019-03-06T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -462,7 +471,7 @@
     
     <url>
     
-      <loc>https://psyteachr.github.io/tags/postgraduate/</loc>
+      <loc>/tags/postgraduate/</loc>
       <lastmod>2019-02-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -471,7 +480,7 @@
     
     <url>
     
-      <loc>https://psyteachr.github.io/</loc>
+      <loc>/</loc>
       <lastmod>2019-04-14T19:17:41+01:00</lastmod>
       <priority>0</priority>
     </url>
@@ -480,7 +489,7 @@
     
     <url>
     
-      <loc>https://psyteachr.github.io/tags/registered-reports/</loc>
+      <loc>/tags/registered-reports/</loc>
       <lastmod>2019-02-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -489,7 +498,7 @@
     
     <url>
     
-      <loc>https://psyteachr.github.io/tags/reproducibility/</loc>
+      <loc>/tags/reproducibility/</loc>
       <lastmod>2019-03-06T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -498,7 +507,7 @@
     
     <url>
     
-      <loc>https://psyteachr.github.io/tags/rmarkdown/</loc>
+      <loc>/tags/rmarkdown/</loc>
       <lastmod>2018-09-01T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
@@ -507,7 +516,7 @@
     
     <url>
     
-      <loc>https://psyteachr.github.io/tags/rstats/</loc>
+      <loc>/tags/rstats/</loc>
       <lastmod>2019-03-06T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -516,7 +525,7 @@
     
     <url>
     
-      <loc>https://psyteachr.github.io/tags/shiny/</loc>
+      <loc>/tags/shiny/</loc>
       <lastmod>2018-03-25T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -525,7 +534,7 @@
     
     <url>
     
-      <loc>https://psyteachr.github.io/tags/teaching/</loc>
+      <loc>/tags/teaching/</loc>
       <lastmod>2019-04-14T19:17:41+01:00</lastmod>
       <priority>0</priority>
     </url>
@@ -534,7 +543,7 @@
     
     <url>
     
-      <loc>https://psyteachr.github.io/tags/tquant/</loc>
+      <loc>/tags/tquant/</loc>
       <lastmod>2018-03-25T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -543,7 +552,7 @@
     
     <url>
     
-      <loc>https://psyteachr.github.io/tags/tutorial/</loc>
+      <loc>/tags/tutorial/</loc>
       <lastmod>2019-02-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -552,7 +561,7 @@
     
     <url>
     
-      <loc>https://psyteachr.github.io/tags/undergrad/</loc>
+      <loc>/tags/undergrad/</loc>
       <lastmod>2017-03-09T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -561,7 +570,7 @@
     
     <url>
     
-      <loc>https://psyteachr.github.io/tags/vocabulary/</loc>
+      <loc>/tags/vocabulary/</loc>
       <lastmod>2019-03-21T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -570,7 +579,7 @@
     
     <url>
     
-      <loc>https://psyteachr.github.io/tags/website/</loc>
+      <loc>/tags/website/</loc>
       <lastmod>2018-09-01T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>

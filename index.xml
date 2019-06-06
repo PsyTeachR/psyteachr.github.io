@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>psyTeachR on psyTeachR</title>
-    <link>https://psyteachr.github.io/</link>
+    <link>/</link>
     <description>Recent content in psyTeachR on psyTeachR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,92 +11,92 @@
     
     <item>
       <title>webex: An R package for creating interactive web tutorials</title>
-      <link>https://psyteachr.github.io/project/webex/</link>
+      <link>/project/webex/</link>
       <pubDate>Sun, 14 Apr 2019 19:17:41 +0100</pubDate>
       
-      <guid>https://psyteachr.github.io/project/webex/</guid>
+      <guid>/project/webex/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Free and open source software for open science</title>
-      <link>https://psyteachr.github.io/project/fossos/</link>
+      <link>/project/fossos/</link>
       <pubDate>Sun, 14 Apr 2019 19:08:43 +0100</pubDate>
       
-      <guid>https://psyteachr.github.io/project/fossos/</guid>
+      <guid>/project/fossos/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Glossary</title>
-      <link>https://psyteachr.github.io/project/glossary/</link>
+      <link>/project/glossary/</link>
       <pubDate>Thu, 21 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://psyteachr.github.io/project/glossary/</guid>
+      <guid>/project/glossary/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SIPS Workshop: Redesigning methods curricula for reproducibility</title>
-      <link>https://psyteachr.github.io/talk/2019_sips/</link>
+      <link>/talk/2019_sips/</link>
       <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://psyteachr.github.io/talk/2019_sips/</guid>
+      <guid>/talk/2019_sips/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Everything is cool when you’re part of a team: The role of large-scale collaboration in improving replicability and generalisability</title>
-      <link>https://psyteachr.github.io/talk/2019_aarhus/</link>
+      <link>/talk/2019_aarhus/</link>
       <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://psyteachr.github.io/talk/2019_aarhus/</guid>
+      <guid>/talk/2019_aarhus/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Transforming Teaching in Tricky Times</title>
-      <link>https://psyteachr.github.io/talk/2019_tttt/</link>
+      <link>/talk/2019_tttt/</link>
       <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://psyteachr.github.io/talk/2019_tttt/</guid>
+      <guid>/talk/2019_tttt/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Course Book Template</title>
-      <link>https://psyteachr.github.io/project/book-template/</link>
+      <link>/project/book-template/</link>
       <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://psyteachr.github.io/project/book-template/</guid>
+      <guid>/project/book-template/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hack Your Data Beautiful</title>
-      <link>https://psyteachr.github.io/talk/2019_hackdata/</link>
+      <link>/talk/2019_hackdata/</link>
       <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://psyteachr.github.io/talk/2019_hackdata/</guid>
+      <guid>/talk/2019_hackdata/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://psyteachr.github.io/hack-your-data/&#34; target=&#34;_blank&#34;&gt;Further Info&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Improving the generalisability and replicability of psychological science</title>
-      <link>https://psyteachr.github.io/talk/2019_durham/</link>
+      <link>/talk/2019_durham/</link>
       <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://psyteachr.github.io/talk/2019_durham/</guid>
+      <guid>/talk/2019_durham/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Open Science Toolbox: Leveraging Methodological Reforms to Accelerate Research</title>
-      <link>https://psyteachr.github.io/talk/2019_icps/</link>
+      <link>/talk/2019_icps/</link>
       <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://psyteachr.github.io/talk/2019_icps/</guid>
+      <guid>/talk/2019_icps/</guid>
       <description>
 
 &lt;h3 id=&#34;crowdsourcing-psychological-science&#34;&gt;Crowdsourcing Psychological Science&lt;/h3&gt;
@@ -127,48 +127,48 @@
     
     <item>
       <title>Replication and Generalisation: Crowdsourcing Better Research</title>
-      <link>https://psyteachr.github.io/talk/2018_debruine/</link>
+      <link>/talk/2018_debruine/</link>
       <pubDate>Sat, 17 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://psyteachr.github.io/talk/2018_debruine/</guid>
+      <guid>/talk/2018_debruine/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Shiny Tutorials</title>
-      <link>https://psyteachr.github.io/project/shiny-tutorials/</link>
+      <link>/project/shiny-tutorials/</link>
       <pubDate>Sat, 01 Sep 2018 00:00:00 +0100</pubDate>
       
-      <guid>https://psyteachr.github.io/project/shiny-tutorials/</guid>
+      <guid>/project/shiny-tutorials/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Data Input in R/Shiny</title>
-      <link>https://psyteachr.github.io/talk/2018_tquant/</link>
+      <link>/talk/2018_tquant/</link>
       <pubDate>Sun, 25 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://psyteachr.github.io/talk/2018_tquant/</guid>
+      <guid>/talk/2018_tquant/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://gupsych.github.io/tquant/data-input.html&#34; target=&#34;_blank&#34;&gt;Tutorial Materials&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Teaching Reproducible Data Analysis in R</title>
-      <link>https://psyteachr.github.io/talk/2017_trdair/</link>
+      <link>/talk/2017_trdair/</link>
       <pubDate>Thu, 09 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://psyteachr.github.io/talk/2017_trdair/</guid>
+      <guid>/talk/2017_trdair/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://gupsych.github.io/trdair_workshop/&#34; target=&#34;_blank&#34;&gt;Schedule and materials&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Academic Webpages with RMarkdown and GitHub/GitLab</title>
-      <link>https://psyteachr.github.io/project/acadweb/</link>
+      <link>/project/acadweb/</link>
       <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://psyteachr.github.io/project/acadweb/</guid>
+      <guid>/project/acadweb/</guid>
       <description></description>
     </item>
     

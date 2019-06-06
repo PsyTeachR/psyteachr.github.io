@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Dale Barr on psyTeachR</title>
-    <link>/authors/dale-barr/</link>
-    <description>Recent content in Dale Barr on psyTeachR</description>
+    <title>Emily Nordmann on psyTeachR</title>
+    <link>/authors/emily-nordmann/</link>
+    <description>Recent content in Emily Nordmann on psyTeachR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 06 Mar 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/authors/dale-barr/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/authors/emily-nordmann/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,15 +18,6 @@
       
       <guid>/talk/2019_sips/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Teaching Reproducible Data Analysis in R</title>
-      <link>/talk/2017_trdair/</link>
-      <pubDate>Thu, 09 Mar 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/talk/2017_trdair/</guid>
-      <description>Schedule and materials</description>
     </item>
     
   </channel>

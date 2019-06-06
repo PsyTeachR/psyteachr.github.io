@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Anna Henschel on psyTeachR</title>
-    <link>https://psyteachr.github.io/authors/anna-henschel/</link>
+    <link>/authors/anna-henschel/</link>
     <description>Recent content in Anna Henschel on psyTeachR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 01 Feb 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://psyteachr.github.io/authors/anna-henschel/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/authors/anna-henschel/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hack Your Data Beautiful</title>
-      <link>https://psyteachr.github.io/talk/2019_hackdata/</link>
+      <link>/talk/2019_hackdata/</link>
       <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://psyteachr.github.io/talk/2019_hackdata/</guid>
+      <guid>/talk/2019_hackdata/</guid>
       <description>Further Info</description>
     </item>
     

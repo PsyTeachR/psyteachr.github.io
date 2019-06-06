@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>registered reports on psyTeachR</title>
-    <link>https://psyteachr.github.io/tags/registered-reports/</link>
+    <link>/tags/registered-reports/</link>
     <description>Recent content in registered reports on psyTeachR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 01 Feb 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://psyteachr.github.io/tags/registered-reports/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/registered-reports/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Improving the generalisability and replicability of psychological science</title>
-      <link>https://psyteachr.github.io/talk/2019_durham/</link>
+      <link>/talk/2019_durham/</link>
       <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://psyteachr.github.io/talk/2019_durham/</guid>
+      <guid>/talk/2019_durham/</guid>
       <description></description>
     </item>
     

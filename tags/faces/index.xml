@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>faces on psyTeachR</title>
-    <link>https://psyteachr.github.io/tags/faces/</link>
+    <link>/tags/faces/</link>
     <description>Recent content in faces on psyTeachR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 17 Nov 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://psyteachr.github.io/tags/faces/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/faces/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Replication and Generalisation: Crowdsourcing Better Research</title>
-      <link>https://psyteachr.github.io/talk/2018_debruine/</link>
+      <link>/talk/2018_debruine/</link>
       <pubDate>Sat, 17 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://psyteachr.github.io/talk/2018_debruine/</guid>
+      <guid>/talk/2018_debruine/</guid>
       <description></description>
     </item>
     

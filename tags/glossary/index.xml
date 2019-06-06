@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>glossary on psyTeachR</title>
-    <link>https://psyteachr.github.io/tags/glossary/</link>
+    <link>/tags/glossary/</link>
     <description>Recent content in glossary on psyTeachR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 21 Mar 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://psyteachr.github.io/tags/glossary/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/glossary/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Glossary</title>
-      <link>https://psyteachr.github.io/project/glossary/</link>
+      <link>/project/glossary/</link>
       <pubDate>Thu, 21 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://psyteachr.github.io/project/glossary/</guid>
+      <guid>/project/glossary/</guid>
       <description></description>
     </item>
     
