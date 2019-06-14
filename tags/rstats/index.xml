@@ -6,10 +6,19 @@
     <description>Recent content in rstats on psyTeachR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 06 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 06 Jun 2019 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="/tags/rstats/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Redesigning methods curricula for reproducibility</title>
+      <link>/project/sips2019/</link>
+      <pubDate>Thu, 06 Jun 2019 00:00:00 +0100</pubDate>
+      
+      <guid>/project/sips2019/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>SIPS Workshop: Redesigning methods curricula for reproducibility</title>
@@ -17,15 +26,6 @@
       <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>/talk/2019_sips/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Redesigning methods curricula for reproducibility</title>
-      <link>/project/shiny-tutorials/</link>
-      <pubDate>Sat, 01 Sep 2018 00:00:00 +0100</pubDate>
-      
-      <guid>/project/shiny-tutorials/</guid>
       <description></description>
     </item>
     

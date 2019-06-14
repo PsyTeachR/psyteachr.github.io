@@ -6,10 +6,19 @@
     <description>Recent content in pedagogy on psyTeachR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 06 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 06 Jun 2019 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="/tags/pedagogy/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Redesigning methods curricula for reproducibility</title>
+      <link>/project/sips2019/</link>
+      <pubDate>Thu, 06 Jun 2019 00:00:00 +0100</pubDate>
+      
+      <guid>/project/sips2019/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>SIPS Workshop: Redesigning methods curricula for reproducibility</title>
@@ -37,15 +46,6 @@
       <guid>/talk/2019_icps/</guid>
       <description>Crowdsourcing Psychological Science Benedict Jones Crowdsourcing presents a solution to problems of low power and lack of diversity in research samples that often undermine conclusions from psychological research. I will focus on my lab’s experience conducting a preregistered study through the Psychological Science Accelerator, a globally distributed network of &amp;gt;350 laboratories from &amp;gt;45 countries.
 Do Psychological Effects Vary across Sample and Setting? Findings from Many Labs 2 Richard Klein This talk presents results from Many Labs 2, a recent large-scale project in which 28 psychological effects were replicated across 125 samples from 36 countries (N = 15,305).</description>
-    </item>
-    
-    <item>
-      <title>Redesigning methods curricula for reproducibility</title>
-      <link>/project/shiny-tutorials/</link>
-      <pubDate>Sat, 01 Sep 2018 00:00:00 +0100</pubDate>
-      
-      <guid>/project/shiny-tutorials/</guid>
-      <description></description>
     </item>
     
     <item>
