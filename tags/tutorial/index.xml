@@ -20,5 +20,23 @@
       <description>Further Info</description>
     </item>
     
+    <item>
+      <title>Shiny Tutorials</title>
+      <link>/project/sips2019/</link>
+      <pubDate>Sat, 01 Sep 2018 00:00:00 +0100</pubDate>
+      
+      <guid>/project/sips2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Academic Webpages with RMarkdown and GitHub/GitLab</title>
+      <link>/project/acadweb/</link>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/project/acadweb/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

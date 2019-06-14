@@ -6,8 +6,17 @@
     <description>Recent content in psyTeachR on psyTeachR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 Apr 2019 19:17:41 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 13 Jun 2019 00:00:00 +0100</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The role of large-scale collaboration in improving replicability and generalisability</title>
+      <link>/talk/2019_cambridge/</link>
+      <pubDate>Thu, 13 Jun 2019 00:00:00 +0100</pubDate>
+      
+      <guid>/talk/2019_cambridge/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>webex: An R package for creating interactive web tutorials</title>
@@ -135,11 +144,20 @@
     </item>
     
     <item>
-      <title>Shiny Tutorials</title>
+      <title>Redesigning methods curricula for reproducibility</title>
       <link>/project/shiny-tutorials/</link>
       <pubDate>Sat, 01 Sep 2018 00:00:00 +0100</pubDate>
       
       <guid>/project/shiny-tutorials/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shiny Tutorials</title>
+      <link>/project/sips2019/</link>
+      <pubDate>Sat, 01 Sep 2018 00:00:00 +0100</pubDate>
+      
+      <guid>/project/sips2019/</guid>
       <description></description>
     </item>
     
@@ -151,25 +169,6 @@
       <guid>/talk/2018_tquant/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://gupsych.github.io/tquant/data-input.html&#34; target=&#34;_blank&#34;&gt;Tutorial Materials&lt;/a&gt;&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Teaching Reproducible Data Analysis in R</title>
-      <link>/talk/2017_trdair/</link>
-      <pubDate>Thu, 09 Mar 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/talk/2017_trdair/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://gupsych.github.io/trdair_workshop/&#34; target=&#34;_blank&#34;&gt;Schedule and materials&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Academic Webpages with RMarkdown and GitHub/GitLab</title>
-      <link>/project/acadweb/</link>
-      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/project/acadweb/</guid>
-      <description></description>
     </item>
     
   </channel>

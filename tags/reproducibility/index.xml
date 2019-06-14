@@ -6,10 +6,19 @@
     <description>Recent content in reproducibility on psyTeachR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 06 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 Jun 2019 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="/tags/reproducibility/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The role of large-scale collaboration in improving replicability and generalisability</title>
+      <link>/talk/2019_cambridge/</link>
+      <pubDate>Thu, 13 Jun 2019 00:00:00 +0100</pubDate>
+      
+      <guid>/talk/2019_cambridge/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>SIPS Workshop: Redesigning methods curricula for reproducibility</title>
@@ -63,6 +72,15 @@ Do Psychological Effects Vary across Sample and Setting? Findings from Many Labs
       <pubDate>Sat, 17 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>/talk/2018_debruine/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Redesigning methods curricula for reproducibility</title>
+      <link>/project/shiny-tutorials/</link>
+      <pubDate>Sat, 01 Sep 2018 00:00:00 +0100</pubDate>
+      
+      <guid>/project/shiny-tutorials/</guid>
       <description></description>
     </item>
     

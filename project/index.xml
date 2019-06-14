@@ -48,11 +48,20 @@
     </item>
     
     <item>
-      <title>Shiny Tutorials</title>
+      <title>Redesigning methods curricula for reproducibility</title>
       <link>/project/shiny-tutorials/</link>
       <pubDate>Sat, 01 Sep 2018 00:00:00 +0100</pubDate>
       
       <guid>/project/shiny-tutorials/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shiny Tutorials</title>
+      <link>/project/sips2019/</link>
+      <pubDate>Sat, 01 Sep 2018 00:00:00 +0100</pubDate>
+      
+      <guid>/project/sips2019/</guid>
       <description></description>
     </item>
     

@@ -74,15 +74,6 @@
     </item>
     
     <item>
-      <title>Talks &amp; Workshops</title>
-      <link>/home/talks/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/home/talks/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Featured Talks</title>
       <link>/home/talks_featured/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -92,11 +83,20 @@
     </item>
     
     <item>
-      <title>Projects &amp; Resources</title>
+      <title>Resources</title>
       <link>/home/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/home/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Talks</title>
+      <link>/home/talks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/home/talks/</guid>
       <description></description>
     </item>
     

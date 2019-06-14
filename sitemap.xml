@@ -4,6 +4,14 @@
     
     <url>
     
+      <loc>/talk/2019_cambridge/</loc>
+      <lastmod>2019-06-13T00:00:00+01:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/project/webex/</loc>
       <lastmod>2019-04-14T19:17:41+01:00</lastmod>
     </url>
@@ -100,6 +108,14 @@
     
     <url>
     
+      <loc>/project/sips2019/</loc>
+      <lastmod>2018-09-01T00:00:00+01:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/talk/2018_tquant/</loc>
       <lastmod>2018-03-25T00:00:00+00:00</lastmod>
     </url>
@@ -167,6 +183,15 @@
     
       <loc>/tags/bps/</loc>
       <lastmod>2019-02-19T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/authors/ben-jones/</loc>
+      <lastmod>2019-06-13T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -349,7 +374,7 @@
     <url>
     
       <loc>/talk/</loc>
-      <lastmod>2019-03-06T00:00:00+00:00</lastmod>
+      <lastmod>2019-06-13T00:00:00+01:00</lastmod>
     </url>
     
   
@@ -418,7 +443,16 @@
     <url>
     
       <loc>/tags/collaboration/</loc>
-      <lastmod>2019-02-19T00:00:00+00:00</lastmod>
+      <lastmod>2019-06-13T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/course/</loc>
+      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -454,7 +488,7 @@
     <url>
     
       <loc>/tags/open-science/</loc>
-      <lastmod>2019-03-06T00:00:00+00:00</lastmod>
+      <lastmod>2019-06-13T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -481,7 +515,7 @@
     <url>
     
       <loc>/</loc>
-      <lastmod>2019-04-14T19:17:41+01:00</lastmod>
+      <lastmod>2019-06-13T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -499,7 +533,7 @@
     <url>
     
       <loc>/tags/reproducibility/</loc>
-      <lastmod>2019-03-06T00:00:00+00:00</lastmod>
+      <lastmod>2019-06-13T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -508,7 +542,7 @@
     <url>
     
       <loc>/tags/rmarkdown/</loc>
-      <lastmod>2018-09-01T00:00:00+01:00</lastmod>
+      <lastmod>2017-02-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -526,7 +560,7 @@
     <url>
     
       <loc>/tags/shiny/</loc>
-      <lastmod>2018-03-25T00:00:00+00:00</lastmod>
+      <lastmod>2018-09-01T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -580,7 +614,7 @@
     <url>
     
       <loc>/tags/website/</loc>
-      <lastmod>2018-09-01T00:00:00+01:00</lastmod>
+      <lastmod>2017-02-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

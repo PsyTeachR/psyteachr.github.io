@@ -50,9 +50,18 @@
     <item>
       <title>collaboration</title>
       <link>/tags/collaboration/</link>
-      <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 13 Jun 2019 00:00:00 +0100</pubDate>
       
       <guid>/tags/collaboration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>course</title>
+      <link>/tags/course/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/course/</guid>
       <description></description>
     </item>
     
@@ -86,7 +95,7 @@
     <item>
       <title>open science</title>
       <link>/tags/open-science/</link>
-      <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 13 Jun 2019 00:00:00 +0100</pubDate>
       
       <guid>/tags/open-science/</guid>
       <description></description>
@@ -122,7 +131,7 @@
     <item>
       <title>reproducibility</title>
       <link>/tags/reproducibility/</link>
-      <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 13 Jun 2019 00:00:00 +0100</pubDate>
       
       <guid>/tags/reproducibility/</guid>
       <description></description>
@@ -131,7 +140,7 @@
     <item>
       <title>rmarkdown</title>
       <link>/tags/rmarkdown/</link>
-      <pubDate>Sat, 01 Sep 2018 00:00:00 +0100</pubDate>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
       
       <guid>/tags/rmarkdown/</guid>
       <description></description>
@@ -149,7 +158,7 @@
     <item>
       <title>shiny</title>
       <link>/tags/shiny/</link>
-      <pubDate>Sun, 25 Mar 2018 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 01 Sep 2018 00:00:00 +0100</pubDate>
       
       <guid>/tags/shiny/</guid>
       <description></description>
@@ -203,7 +212,7 @@
     <item>
       <title>website</title>
       <link>/tags/website/</link>
-      <pubDate>Sat, 01 Sep 2018 00:00:00 +0100</pubDate>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
       
       <guid>/tags/website/</guid>
       <description></description>
