@@ -6,10 +6,19 @@
     <description>Recent content in Lisa DeBruine on psyTeachR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 06 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 Jun 2019 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="/authors/lisa-debruine/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Edinburgh Open Science Workshop</title>
+      <link>/talk/2019_edinburgh/</link>
+      <pubDate>Thu, 13 Jun 2019 00:00:00 +0100</pubDate>
+      
+      <guid>/talk/2019_edinburgh/</guid>
+      <description> 9:30-11:00 Keynote talks 9:30 Dale Barr (University of Glasgow) 10:15 Lisa DeBruine (University of Glasgow) 11:00-11:30 Coffee break 11:30-1:00 Challenges for Open Science with different types of data 11:30 Tom Booth (University of Edinburgh) 12:00 Hugh Rabagliati (University of Edinburgh) 12:30 Discussion 1:00-2:00 Lunch 2:00-3:00 Pre-registration &amp;amp; reviews 2:00 Carmen Saldana (University of Edinburgh) 2:30 Maria Gardani (University of Glasgow) 3:00-3:30 Coffee break 3:30-4:30 Practical session: Pre-registration DIY 4:30-5:00 Summary panel and general discussion </description>
+    </item>
     
     <item>
       <title>SIPS Workshop: Redesigning methods curricula for reproducibility</title>
