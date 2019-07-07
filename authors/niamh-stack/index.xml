@@ -6,7 +6,7 @@
     <description>Recent content in Niamh Stack on psyTeachR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 06 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 06 Mar 2019 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="/authors/niamh-stack/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>SIPS Workshop: Redesigning methods curricula for reproducibility</title>
       <link>/talk/2019_sips/</link>
-      <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 06 Mar 2019 00:00:00 +0100</pubDate>
       
       <guid>/talk/2019_sips/</guid>
       <description></description>
@@ -23,7 +23,7 @@
     <item>
       <title>Transforming Teaching in Tricky Times</title>
       <link>/talk/2019_tttt/</link>
-      <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 19 Feb 2019 00:00:00 +0100</pubDate>
       
       <guid>/talk/2019_tttt/</guid>
       <description></description>
@@ -32,7 +32,7 @@
     <item>
       <title>Open Science Toolbox: Leveraging Methodological Reforms to Accelerate Research</title>
       <link>/talk/2019_icps/</link>
-      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0100</pubDate>
       
       <guid>/talk/2019_icps/</guid>
       <description>Crowdsourcing Psychological Science Benedict Jones Crowdsourcing presents a solution to problems of low power and lack of diversity in research samples that often undermine conclusions from psychological research. I will focus on my lab’s experience conducting a preregistered study through the Psychological Science Accelerator, a globally distributed network of &amp;gt;350 laboratories from &amp;gt;45 countries.
@@ -42,7 +42,7 @@ Do Psychological Effects Vary across Sample and Setting? Findings from Many Labs
     <item>
       <title>Teaching Reproducible Data Analysis in R</title>
       <link>/talk/2017_trdair/</link>
-      <pubDate>Thu, 09 Mar 2017 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 09 Mar 2017 00:00:00 +0100</pubDate>
       
       <guid>/talk/2017_trdair/</guid>
       <description>Schedule and materials</description>

@@ -6,7 +6,7 @@
     <description>Recent content in Tags on psyTeachR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 19 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 19 Feb 2019 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>BPS</title>
       <link>/tags/bps/</link>
-      <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 19 Feb 2019 00:00:00 +0100</pubDate>
       
       <guid>/tags/bps/</guid>
       <description></description>
@@ -23,7 +23,7 @@
     <item>
       <title>Psychological Science Accelerator</title>
       <link>/tags/psychological-science-accelerator/</link>
-      <pubDate>Sat, 17 Nov 2018 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 17 Nov 2018 00:00:00 +0100</pubDate>
       
       <guid>/tags/psychological-science-accelerator/</guid>
       <description></description>
@@ -41,7 +41,7 @@
     <item>
       <title>bookdown</title>
       <link>/tags/bookdown/</link>
-      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0100</pubDate>
       
       <guid>/tags/bookdown/</guid>
       <description></description>
@@ -50,7 +50,7 @@
     <item>
       <title>collaboration</title>
       <link>/tags/collaboration/</link>
-      <pubDate>Thu, 13 Jun 2019 00:00:00 +0100</pubDate>
+      <pubDate>Thu, 13 Jun 2019 00:00:00 +0200</pubDate>
       
       <guid>/tags/collaboration/</guid>
       <description></description>
@@ -59,7 +59,7 @@
     <item>
       <title>course</title>
       <link>/tags/course/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
       
       <guid>/tags/course/</guid>
       <description></description>
@@ -68,7 +68,7 @@
     <item>
       <title>dataviz</title>
       <link>/tags/dataviz/</link>
-      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0100</pubDate>
       
       <guid>/tags/dataviz/</guid>
       <description></description>
@@ -77,7 +77,7 @@
     <item>
       <title>faces</title>
       <link>/tags/faces/</link>
-      <pubDate>Sat, 17 Nov 2018 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 17 Nov 2018 00:00:00 +0100</pubDate>
       
       <guid>/tags/faces/</guid>
       <description></description>
@@ -86,7 +86,7 @@
     <item>
       <title>glossary</title>
       <link>/tags/glossary/</link>
-      <pubDate>Thu, 21 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 21 Mar 2019 00:00:00 +0100</pubDate>
       
       <guid>/tags/glossary/</guid>
       <description></description>
@@ -95,7 +95,7 @@
     <item>
       <title>open science</title>
       <link>/tags/open-science/</link>
-      <pubDate>Thu, 13 Jun 2019 00:00:00 +0100</pubDate>
+      <pubDate>Thu, 13 Jun 2019 00:00:00 +0200</pubDate>
       
       <guid>/tags/open-science/</guid>
       <description></description>
@@ -104,7 +104,7 @@
     <item>
       <title>pedagogy</title>
       <link>/tags/pedagogy/</link>
-      <pubDate>Thu, 13 Jun 2019 00:00:00 +0100</pubDate>
+      <pubDate>Thu, 13 Jun 2019 00:00:00 +0200</pubDate>
       
       <guid>/tags/pedagogy/</guid>
       <description></description>
@@ -113,7 +113,7 @@
     <item>
       <title>postgraduate</title>
       <link>/tags/postgraduate/</link>
-      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0100</pubDate>
       
       <guid>/tags/postgraduate/</guid>
       <description></description>
@@ -122,7 +122,7 @@
     <item>
       <title>registered reports</title>
       <link>/tags/registered-reports/</link>
-      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0100</pubDate>
       
       <guid>/tags/registered-reports/</guid>
       <description></description>
@@ -131,7 +131,7 @@
     <item>
       <title>reproducibility</title>
       <link>/tags/reproducibility/</link>
-      <pubDate>Thu, 13 Jun 2019 00:00:00 +0100</pubDate>
+      <pubDate>Thu, 13 Jun 2019 00:00:00 +0200</pubDate>
       
       <guid>/tags/reproducibility/</guid>
       <description></description>
@@ -140,7 +140,7 @@
     <item>
       <title>rmarkdown</title>
       <link>/tags/rmarkdown/</link>
-      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0100</pubDate>
       
       <guid>/tags/rmarkdown/</guid>
       <description></description>
@@ -149,7 +149,7 @@
     <item>
       <title>rstats</title>
       <link>/tags/rstats/</link>
-      <pubDate>Thu, 06 Jun 2019 00:00:00 +0100</pubDate>
+      <pubDate>Thu, 06 Jun 2019 00:00:00 +0200</pubDate>
       
       <guid>/tags/rstats/</guid>
       <description></description>
@@ -158,7 +158,7 @@
     <item>
       <title>shiny</title>
       <link>/tags/shiny/</link>
-      <pubDate>Sat, 01 Sep 2018 00:00:00 +0100</pubDate>
+      <pubDate>Sat, 01 Sep 2018 00:00:00 +0200</pubDate>
       
       <guid>/tags/shiny/</guid>
       <description></description>
@@ -176,7 +176,7 @@
     <item>
       <title>tquant</title>
       <link>/tags/tquant/</link>
-      <pubDate>Sun, 25 Mar 2018 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 25 Mar 2018 00:00:00 +0100</pubDate>
       
       <guid>/tags/tquant/</guid>
       <description></description>
@@ -185,7 +185,7 @@
     <item>
       <title>tutorial</title>
       <link>/tags/tutorial/</link>
-      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0100</pubDate>
       
       <guid>/tags/tutorial/</guid>
       <description></description>
@@ -194,7 +194,7 @@
     <item>
       <title>undergrad</title>
       <link>/tags/undergrad/</link>
-      <pubDate>Thu, 09 Mar 2017 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 09 Mar 2017 00:00:00 +0100</pubDate>
       
       <guid>/tags/undergrad/</guid>
       <description></description>
@@ -203,7 +203,7 @@
     <item>
       <title>vocabulary</title>
       <link>/tags/vocabulary/</link>
-      <pubDate>Thu, 21 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 21 Mar 2019 00:00:00 +0100</pubDate>
       
       <guid>/tags/vocabulary/</guid>
       <description></description>
@@ -212,7 +212,7 @@
     <item>
       <title>website</title>
       <link>/tags/website/</link>
-      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0100</pubDate>
       
       <guid>/tags/website/</guid>
       <description></description>

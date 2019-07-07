@@ -6,7 +6,7 @@
     <description>Recent content in undergrad on psyTeachR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Mar 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Mar 2017 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="/tags/undergrad/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Teaching Reproducible Data Analysis in R</title>
       <link>/talk/2017_trdair/</link>
-      <pubDate>Thu, 09 Mar 2017 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 09 Mar 2017 00:00:00 +0100</pubDate>
       
       <guid>/talk/2017_trdair/</guid>
       <description>Schedule and materials</description>
