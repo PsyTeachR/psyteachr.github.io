@@ -6,15 +6,24 @@
     <description>Recent content in course on psyTeachR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jul 2019 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="/tags/course/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Course Books</title>
+      <link>/project/books/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0100</pubDate>
+      
+      <guid>/project/books/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Data Skills for Reproducible Science</title>
       <link>/project/data-skills/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>/project/data-skills/</guid>
       <description></description>

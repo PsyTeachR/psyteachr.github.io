@@ -6,10 +6,19 @@
     <description>Recent content in R on psyTeachR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 Apr 2019 19:17:41 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jul 2019 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Course Books</title>
+      <link>/project/books/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0100</pubDate>
+      
+      <guid>/project/books/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>webex: An R package for creating interactive web tutorials</title>
@@ -32,7 +41,7 @@
     <item>
       <title>Glossary</title>
       <link>/project/glossary/</link>
-      <pubDate>Thu, 21 Mar 2019 00:00:00 +0100</pubDate>
+      <pubDate>Thu, 21 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>/project/glossary/</guid>
       <description></description>
@@ -41,7 +50,7 @@
     <item>
       <title>Course Book Template</title>
       <link>/project/book-template/</link>
-      <pubDate>Fri, 01 Feb 2019 00:00:00 +0100</pubDate>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>/project/book-template/</guid>
       <description></description>
@@ -50,7 +59,7 @@
     <item>
       <title>Hack Your Data Beautiful</title>
       <link>/talk/2019_hackdata/</link>
-      <pubDate>Fri, 01 Feb 2019 00:00:00 +0100</pubDate>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>/talk/2019_hackdata/</guid>
       <description>Further Info</description>
@@ -59,7 +68,7 @@
     <item>
       <title>Shiny Tutorials</title>
       <link>/project/shiny-tutorials/</link>
-      <pubDate>Sat, 01 Sep 2018 00:00:00 +0200</pubDate>
+      <pubDate>Sat, 01 Sep 2018 00:00:00 +0100</pubDate>
       
       <guid>/project/shiny-tutorials/</guid>
       <description></description>
@@ -68,7 +77,7 @@
     <item>
       <title>Data Input in R/Shiny</title>
       <link>/talk/2018_tquant/</link>
-      <pubDate>Sun, 25 Mar 2018 00:00:00 +0100</pubDate>
+      <pubDate>Sun, 25 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>/talk/2018_tquant/</guid>
       <description>Tutorial Materials</description>
@@ -77,7 +86,7 @@
     <item>
       <title>Teaching Reproducible Data Analysis in R</title>
       <link>/talk/2017_trdair/</link>
-      <pubDate>Thu, 09 Mar 2017 00:00:00 +0100</pubDate>
+      <pubDate>Thu, 09 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>/talk/2017_trdair/</guid>
       <description>Schedule and materials</description>
@@ -86,7 +95,7 @@
     <item>
       <title>Academic Webpages with RMarkdown and GitHub/GitLab</title>
       <link>/project/acadweb/</link>
-      <pubDate>Wed, 01 Feb 2017 00:00:00 +0100</pubDate>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
       
       <guid>/project/acadweb/</guid>
       <description></description>
@@ -95,7 +104,7 @@
     <item>
       <title>Data Skills for Reproducible Science</title>
       <link>/project/data-skills/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>/project/data-skills/</guid>
       <description></description>

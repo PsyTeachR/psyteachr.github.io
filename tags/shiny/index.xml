@@ -6,7 +6,7 @@
     <description>Recent content in shiny on psyTeachR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 01 Sep 2018 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 01 Sep 2018 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="/tags/shiny/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Shiny Tutorials</title>
       <link>/project/shiny-tutorials/</link>
-      <pubDate>Sat, 01 Sep 2018 00:00:00 +0200</pubDate>
+      <pubDate>Sat, 01 Sep 2018 00:00:00 +0100</pubDate>
       
       <guid>/project/shiny-tutorials/</guid>
       <description></description>
@@ -23,7 +23,7 @@
     <item>
       <title>Data Input in R/Shiny</title>
       <link>/talk/2018_tquant/</link>
-      <pubDate>Sun, 25 Mar 2018 00:00:00 +0100</pubDate>
+      <pubDate>Sun, 25 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>/talk/2018_tquant/</guid>
       <description>Tutorial Materials</description>

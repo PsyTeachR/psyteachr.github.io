@@ -6,7 +6,7 @@
     <description>Recent content in tutorial on psyTeachR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Feb 2019 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 01 Feb 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Hack Your Data Beautiful</title>
       <link>/talk/2019_hackdata/</link>
-      <pubDate>Fri, 01 Feb 2019 00:00:00 +0100</pubDate>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>/talk/2019_hackdata/</guid>
       <description>Further Info</description>
@@ -23,7 +23,7 @@
     <item>
       <title>Shiny Tutorials</title>
       <link>/project/shiny-tutorials/</link>
-      <pubDate>Sat, 01 Sep 2018 00:00:00 +0200</pubDate>
+      <pubDate>Sat, 01 Sep 2018 00:00:00 +0100</pubDate>
       
       <guid>/project/shiny-tutorials/</guid>
       <description></description>
@@ -32,7 +32,7 @@
     <item>
       <title>Academic Webpages with RMarkdown and GitHub/GitLab</title>
       <link>/project/acadweb/</link>
-      <pubDate>Wed, 01 Feb 2017 00:00:00 +0100</pubDate>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
       
       <guid>/project/acadweb/</guid>
       <description></description>

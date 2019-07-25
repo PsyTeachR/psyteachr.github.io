@@ -6,7 +6,7 @@
     <description>Recent content in Phil McAleer on psyTeachR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 06 Mar 2019 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 06 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/authors/phil-mcaleer/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>SIPS Workshop: Redesigning methods curricula for reproducibility</title>
       <link>/talk/2019_sips/</link>
-      <pubDate>Wed, 06 Mar 2019 00:00:00 +0100</pubDate>
+      <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>/talk/2019_sips/</guid>
       <description></description>
@@ -23,7 +23,7 @@
     <item>
       <title>Teaching Reproducible Data Analysis in R</title>
       <link>/talk/2017_trdair/</link>
-      <pubDate>Thu, 09 Mar 2017 00:00:00 +0100</pubDate>
+      <pubDate>Thu, 09 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>/talk/2017_trdair/</guid>
       <description>Schedule and materials</description>

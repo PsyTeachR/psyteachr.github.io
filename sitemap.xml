@@ -4,6 +4,14 @@
     
     <url>
     
+      <loc>/project/books/</loc>
+      <lastmod>2019-07-01T00:00:00+01:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/talk/2019_edinburgh/</loc>
       <lastmod>2019-06-18T15:39:18+01:00</lastmod>
     </url>
@@ -141,7 +149,7 @@
     <url>
     
       <loc>/talk/2017_trdair/</loc>
-      <lastmod>2019-02-13T20:49:06+00:00</lastmod>
+      <lastmod>2019-07-07T07:55:29+02:00</lastmod>
     </url>
     
   
@@ -279,7 +287,7 @@
     <url>
     
       <loc>/authors/helena-patterson/</loc>
-      <lastmod>2019-02-13T20:49:06+00:00</lastmod>
+      <lastmod>2019-07-07T07:55:29+02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -350,7 +358,7 @@
     <url>
     
       <loc>/project/</loc>
-      <lastmod>2019-06-14T13:45:45+01:00</lastmod>
+      <lastmod>2019-07-01T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -384,7 +392,7 @@
     <url>
     
       <loc>/tags/r/</loc>
-      <lastmod>2019-04-14T19:30:51+01:00</lastmod>
+      <lastmod>2019-07-01T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -481,7 +489,7 @@
     <url>
     
       <loc>/tags/course/</loc>
-      <lastmod>2019-06-14T12:44:02+01:00</lastmod>
+      <lastmod>2019-07-01T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -509,6 +517,15 @@
     
       <loc>/tags/glossary/</loc>
       <lastmod>2019-03-21T17:08:06+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/materials/</loc>
+      <lastmod>2019-07-01T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -544,7 +561,7 @@
     <url>
     
       <loc>/</loc>
-      <lastmod>2019-06-18T15:39:18+01:00</lastmod>
+      <lastmod>2019-07-01T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -562,7 +579,7 @@
     <url>
     
       <loc>/tags/reproducibility/</loc>
-      <lastmod>2019-06-18T15:39:18+01:00</lastmod>
+      <lastmod>2019-07-01T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -598,7 +615,7 @@
     <url>
     
       <loc>/tags/teaching/</loc>
-      <lastmod>2019-04-14T19:30:51+01:00</lastmod>
+      <lastmod>2019-07-01T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -625,7 +642,7 @@
     <url>
     
       <loc>/tags/undergrad/</loc>
-      <lastmod>2019-02-13T20:49:06+00:00</lastmod>
+      <lastmod>2019-07-07T07:55:29+02:00</lastmod>
       <priority>0</priority>
     </url>
     

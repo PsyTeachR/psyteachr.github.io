@@ -6,7 +6,7 @@
     <description>Recent content in Lovisa Sundin on psyTeachR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Feb 2019 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 01 Feb 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/authors/lovisa-sundin/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Hack Your Data Beautiful</title>
       <link>/talk/2019_hackdata/</link>
-      <pubDate>Fri, 01 Feb 2019 00:00:00 +0100</pubDate>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>/talk/2019_hackdata/</guid>
       <description>Further Info</description>

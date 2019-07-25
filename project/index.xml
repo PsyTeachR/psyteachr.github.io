@@ -6,15 +6,24 @@
     <description>Recent content in Projects on psyTeachR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 06 Jun 2019 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jul 2019 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Course Books</title>
+      <link>/project/books/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0100</pubDate>
+      
+      <guid>/project/books/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Redesigning methods curricula for reproducibility</title>
       <link>/project/sips2019/</link>
-      <pubDate>Thu, 06 Jun 2019 00:00:00 +0200</pubDate>
+      <pubDate>Thu, 06 Jun 2019 00:00:00 +0100</pubDate>
       
       <guid>/project/sips2019/</guid>
       <description></description>
@@ -41,7 +50,7 @@
     <item>
       <title>Glossary</title>
       <link>/project/glossary/</link>
-      <pubDate>Thu, 21 Mar 2019 00:00:00 +0100</pubDate>
+      <pubDate>Thu, 21 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>/project/glossary/</guid>
       <description></description>
@@ -50,7 +59,7 @@
     <item>
       <title>Course Book Template</title>
       <link>/project/book-template/</link>
-      <pubDate>Fri, 01 Feb 2019 00:00:00 +0100</pubDate>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>/project/book-template/</guid>
       <description></description>
@@ -59,7 +68,7 @@
     <item>
       <title>Shiny Tutorials</title>
       <link>/project/shiny-tutorials/</link>
-      <pubDate>Sat, 01 Sep 2018 00:00:00 +0200</pubDate>
+      <pubDate>Sat, 01 Sep 2018 00:00:00 +0100</pubDate>
       
       <guid>/project/shiny-tutorials/</guid>
       <description></description>
@@ -68,7 +77,7 @@
     <item>
       <title>Academic Webpages with RMarkdown and GitHub/GitLab</title>
       <link>/project/acadweb/</link>
-      <pubDate>Wed, 01 Feb 2017 00:00:00 +0100</pubDate>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
       
       <guid>/project/acadweb/</guid>
       <description></description>
@@ -77,7 +86,7 @@
     <item>
       <title>Data Skills for Reproducible Science</title>
       <link>/project/data-skills/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>/project/data-skills/</guid>
       <description></description>
