@@ -74,10 +74,10 @@ The College panel was impressed by several aspects of the nomination, including 
     
     <item>
       <title>Course Books</title>
-      <link>/books/</link>
+      <link>/coursebooks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/books/</guid>
+      <guid>/coursebooks/</guid>
       <description>br { clear: both; } a.logo { display: block; width: 25%; max-width: 150px; min-width: 50px; float: left; margin-right: 10px; border: none; } a.logo img { width: 100%; }  
 
 Level 1: Grassroots Our first-year undergraduate course covers current state of psychological science and what Open Science is as well as its importance. It also aims to make students confident and competent at using RStudio as a tool to achieve good data management skills.</description>
