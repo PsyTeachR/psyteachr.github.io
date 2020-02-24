@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Phil McAleer on PsyTeachR</title>
+    <link>/tags/phil-mcaleer/</link>
+    <description>Recent content in Phil McAleer on PsyTeachR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 10 Jan 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/phil-mcaleer/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Phil McAleer appointed SSI Fellow</title>
+      <link>/2020/01/10/mcaleer-ssi-fellow/</link>
+      <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/01/10/mcaleer-ssi-fellow/</guid>
+      <description>Dr Phil McAleer was named as one of the 2020 Software Sustainability Institute Fellows. He was one of 18 fellows chosen from diverse fields, such as Medicine and dentistry; Biological sciences; Physical sciences; Mathematical sciences; Engineering and technology; Computer science; Communications; Histoy; Philosophy; and Veterinary science.
+The Fellowship Programme run by the Software Sustainability Institute provides funding for individuals who want to improve how research software is done in their domains and/or area of work.</description>
+    </item>
+    
+  </channel>
+</rss>

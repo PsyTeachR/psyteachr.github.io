@@ -1,668 +1,117 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-    
-    <url>
-    
-      <loc>/project/books/</loc>
-      <lastmod>2019-07-01T00:00:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/talk/2019_edinburgh/</loc>
-      <lastmod>2019-06-18T15:39:18+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/talk/2019_cambridge/</loc>
-      <lastmod>2019-06-14T12:50:22+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/project/sips2019/</loc>
-      <lastmod>2019-06-14T13:45:45+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/project/webex/</loc>
-      <lastmod>2019-04-14T19:30:51+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/project/fossos/</loc>
-      <lastmod>2019-04-14T19:30:51+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/project/glossary/</loc>
-      <lastmod>2019-03-21T17:08:06+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/talk/2019_sips/</loc>
-      <lastmod>2019-06-14T13:45:45+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/talk/2019_aarhus/</loc>
-      <lastmod>2019-02-19T16:55:14+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/talk/2019_tttt/</loc>
-      <lastmod>2019-03-21T17:08:06+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/project/book-template/</loc>
-      <lastmod>2019-02-13T20:49:06+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/talk/2019_hackdata/</loc>
-      <lastmod>2019-03-06T11:51:57+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/talk/2019_durham/</loc>
-      <lastmod>2019-06-14T12:44:02+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/talk/2019_icps/</loc>
-      <lastmod>2019-06-14T13:45:45+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/talk/2018_debruine/</loc>
-      <lastmod>2019-03-21T17:08:06+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/talk/2018_oxford/</loc>
-      <lastmod>2019-06-14T13:45:45+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/project/shiny-tutorials/</loc>
-      <lastmod>2019-06-19T12:49:11+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/talk/2018_tquant/</loc>
-      <lastmod>2019-02-13T20:49:06+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/talk/2017_trdair/</loc>
-      <lastmod>2019-07-07T07:55:29+02:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/project/acadweb/</loc>
-      <lastmod>2019-06-14T12:44:02+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/project/data-skills/</loc>
-      <lastmod>2019-06-14T12:44:02+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/author/admin/</loc>
-      <lastmod>2019-06-14T12:44:02+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/authors/anna-henschel/</loc>
-      <lastmod>2019-03-06T11:51:57+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/author/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/authors/</loc>
-      <lastmod>2019-03-06T11:51:57+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/bps/</loc>
-      <lastmod>2019-03-21T17:08:06+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/authors/ben-jones/</loc>
-      <lastmod>2019-06-14T12:50:22+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/authors/benedict-jones/</loc>
-      <lastmod>2019-06-14T12:44:02+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/authors/carolyn-saund/</loc>
-      <lastmod>2019-03-06T11:51:57+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/categories/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/authors/dale-barr/</loc>
-      <lastmod>2019-06-18T15:39:18+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/authors/emily-nordmann/</loc>
-      <lastmod>2019-06-14T13:45:45+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/authors/heather-cleland-woods/</loc>
-      <lastmod>2019-06-14T13:45:45+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/authors/helena-paterson/</loc>
-      <lastmod>2019-06-14T13:45:45+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/authors/helena-patterson/</loc>
-      <lastmod>2019-07-07T07:55:29+02:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/authors/jack-taylor/</loc>
-      <lastmod>2019-03-06T11:51:57+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/authors/lisa-debruine/</loc>
-      <lastmod>2019-06-18T15:39:18+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/authors/lovisa-sundin/</loc>
-      <lastmod>2019-03-06T11:51:57+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/authors/maria-gardani/</loc>
-      <lastmod>2019-06-18T15:39:18+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/authors/niamh-stack/</loc>
-      <lastmod>2019-06-14T13:45:45+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/authors/phil-mcaleer/</loc>
-      <lastmod>2019-06-14T13:45:45+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/post/</loc>
-      <lastmod>2019-02-13T13:15:50+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/project/</loc>
-      <lastmod>2019-07-01T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/psychological-science-accelerator/</loc>
-      <lastmod>2019-03-21T17:08:06+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/publication_types/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/publication/</loc>
-      <lastmod>2019-02-13T13:15:50+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/r/</loc>
-      <lastmod>2019-07-01T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/authors/rebecca-lai/</loc>
-      <lastmod>2019-06-14T13:45:45+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/talk/</loc>
-      <lastmod>2019-02-13T13:15:50+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/authors/rick-klein/</loc>
-      <lastmod>2019-06-14T13:45:45+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/authors/shannon-mcnee/</loc>
-      <lastmod>2019-03-06T11:51:57+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/authors/shanon-mcnee/</loc>
-      <lastmod>2019-06-14T13:45:45+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/authors/steph-allan/</loc>
-      <lastmod>2019-03-06T11:51:57+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/</loc>
-      <lastmod>2019-03-21T17:08:06+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tutorial/</loc>
-      <lastmod>2019-02-13T16:32:21+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/bookdown/</loc>
-      <lastmod>2019-02-13T20:49:06+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/collaboration/</loc>
-      <lastmod>2019-06-18T15:39:18+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/course/</loc>
-      <lastmod>2019-07-01T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/dataviz/</loc>
-      <lastmod>2019-03-06T11:51:57+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/faces/</loc>
-      <lastmod>2019-03-21T17:08:06+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/glossary/</loc>
-      <lastmod>2019-03-21T17:08:06+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/materials/</loc>
-      <lastmod>2019-07-01T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/open-science/</loc>
-      <lastmod>2019-06-14T12:50:22+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/pedagogy/</loc>
-      <lastmod>2019-06-18T15:39:18+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/postgraduate/</loc>
-      <lastmod>2019-03-06T11:51:57+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/</loc>
-      <lastmod>2019-07-01T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/registered-reports/</loc>
-      <lastmod>2019-06-14T12:44:02+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/reproducibility/</loc>
-      <lastmod>2019-07-01T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/rmarkdown/</loc>
-      <lastmod>2019-06-14T12:44:02+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/rstats/</loc>
-      <lastmod>2019-06-14T13:45:45+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/shiny/</loc>
-      <lastmod>2019-06-19T12:49:11+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/teaching/</loc>
-      <lastmod>2019-07-01T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/tquant/</loc>
-      <lastmod>2019-02-13T20:49:06+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/tutorial/</loc>
-      <lastmod>2019-03-06T11:51:57+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/undergrad/</loc>
-      <lastmod>2019-07-07T07:55:29+02:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/vocabulary/</loc>
-      <lastmod>2019-03-21T17:08:06+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/website/</loc>
-      <lastmod>2019-06-14T12:44:02+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/categories/awards/</loc>
+    <lastmod>2020-01-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <lastmod>2020-01-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/fellowship/</loc>
+    <lastmod>2020-01-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/phil-mcaleer/</loc>
+    <lastmod>2020-01-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2020/01/10/mcaleer-ssi-fellow/</loc>
+    <lastmod>2020-01-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2020-01-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-01-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/software/</loc>
+    <lastmod>2020-01-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-01-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/curriculum/</loc>
+    <lastmod>2019-07-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2019/07/07/redesigning-methods-curricula-for-reproducibility/</loc>
+    <lastmod>2019-07-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/sips/</loc>
+    <lastmod>2019-07-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/workshop/</loc>
+    <lastmod>2019-07-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/data/</loc>
+    <lastmod>2019-04-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2019/04/15/hack-your-data-beautiful/</loc>
+    <lastmod>2019-04-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/postgrads/</loc>
+    <lastmod>2019-04-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/r/</loc>
+    <lastmod>2019-04-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/visualistion/</loc>
+    <lastmod>2019-04-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/teaching/</loc>
+    <lastmod>2018-06-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2018/06/25/teaching-excellence-award/</loc>
+    <lastmod>2018-06-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/about/</loc>
+  </url>
+  
+  <url>
+    <loc>/books/</loc>
+  </url>
+  
+  <url>
+    <loc>/resources/</loc>
+  </url>
   
 </urlset>

@@ -1,229 +1,85 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on psyTeachR</title>
+    <title>Tags on PsyTeachR</title>
     <link>/tags/</link>
-    <description>Recent content in Tags on psyTeachR</description>
+    <description>Recent content in Tags on PsyTeachR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 19 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>BPS</title>
-      <link>/tags/bps/</link>
-      <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
+      <title>fellowship</title>
+      <link>/tags/fellowship/</link>
+      <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/bps/</guid>
+      <guid>/tags/fellowship/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Psychological Science Accelerator</title>
-      <link>/tags/psychological-science-accelerator/</link>
-      <pubDate>Sat, 17 Nov 2018 00:00:00 +0000</pubDate>
+      <title>Phil McAleer</title>
+      <link>/tags/phil-mcaleer/</link>
+      <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/psychological-science-accelerator/</guid>
+      <guid>/tags/phil-mcaleer/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>R</title>
-      <link>/tags/r/</link>
-      <pubDate>Mon, 01 Jul 2019 00:00:00 +0100</pubDate>
+      <title>software</title>
+      <link>/tags/software/</link>
+      <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/r/</guid>
+      <guid>/tags/software/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>bookdown</title>
-      <link>/tags/bookdown/</link>
-      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      <title>SIPS</title>
+      <link>/tags/sips/</link>
+      <pubDate>Sun, 07 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/bookdown/</guid>
+      <guid>/tags/sips/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>collaboration</title>
-      <link>/tags/collaboration/</link>
-      <pubDate>Thu, 13 Jun 2019 00:00:00 +0100</pubDate>
+      <title>data</title>
+      <link>/tags/data/</link>
+      <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/collaboration/</guid>
+      <guid>/tags/data/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>course</title>
-      <link>/tags/course/</link>
-      <pubDate>Mon, 01 Jul 2019 00:00:00 +0100</pubDate>
+      <title>postgrads</title>
+      <link>/tags/postgrads/</link>
+      <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/course/</guid>
+      <guid>/tags/postgrads/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>dataviz</title>
-      <link>/tags/dataviz/</link>
-      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      <title>visualistion</title>
+      <link>/tags/visualistion/</link>
+      <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/dataviz/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>faces</title>
-      <link>/tags/faces/</link>
-      <pubDate>Sat, 17 Nov 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/faces/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>glossary</title>
-      <link>/tags/glossary/</link>
-      <pubDate>Thu, 21 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/glossary/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>materials</title>
-      <link>/tags/materials/</link>
-      <pubDate>Mon, 01 Jul 2019 00:00:00 +0100</pubDate>
-      
-      <guid>/tags/materials/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>open science</title>
-      <link>/tags/open-science/</link>
-      <pubDate>Thu, 13 Jun 2019 00:00:00 +0100</pubDate>
-      
-      <guid>/tags/open-science/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>pedagogy</title>
-      <link>/tags/pedagogy/</link>
-      <pubDate>Thu, 13 Jun 2019 00:00:00 +0100</pubDate>
-      
-      <guid>/tags/pedagogy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>postgraduate</title>
-      <link>/tags/postgraduate/</link>
-      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/postgraduate/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>registered reports</title>
-      <link>/tags/registered-reports/</link>
-      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/registered-reports/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>reproducibility</title>
-      <link>/tags/reproducibility/</link>
-      <pubDate>Mon, 01 Jul 2019 00:00:00 +0100</pubDate>
-      
-      <guid>/tags/reproducibility/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>rmarkdown</title>
-      <link>/tags/rmarkdown/</link>
-      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/rmarkdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>rstats</title>
-      <link>/tags/rstats/</link>
-      <pubDate>Thu, 06 Jun 2019 00:00:00 +0100</pubDate>
-      
-      <guid>/tags/rstats/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>shiny</title>
-      <link>/tags/shiny/</link>
-      <pubDate>Sat, 01 Sep 2018 00:00:00 +0100</pubDate>
-      
-      <guid>/tags/shiny/</guid>
+      <guid>/tags/visualistion/</guid>
       <description></description>
     </item>
     
     <item>
       <title>teaching</title>
       <link>/tags/teaching/</link>
-      <pubDate>Mon, 01 Jul 2019 00:00:00 +0100</pubDate>
+      <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/teaching/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tquant</title>
-      <link>/tags/tquant/</link>
-      <pubDate>Sun, 25 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/tquant/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tutorial</title>
-      <link>/tags/tutorial/</link>
-      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/tutorial/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>undergrad</title>
-      <link>/tags/undergrad/</link>
-      <pubDate>Thu, 09 Mar 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/undergrad/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>vocabulary</title>
-      <link>/tags/vocabulary/</link>
-      <pubDate>Thu, 21 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/vocabulary/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>website</title>
-      <link>/tags/website/</link>
-      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/website/</guid>
       <description></description>
     </item>
     

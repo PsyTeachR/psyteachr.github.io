@@ -1,204 +1,86 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>psyTeachR on psyTeachR</title>
+    <title>PsyTeachR</title>
     <link>/</link>
-    <description>Recent content in psyTeachR on psyTeachR</description>
+    <description>Recent content on PsyTeachR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Jul 2019 00:00:00 +0100</lastBuildDate>
-    <atom:link href="/" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Jan 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
-      <title>Course Books</title>
-      <link>/project/books/</link>
-      <pubDate>Mon, 01 Jul 2019 00:00:00 +0100</pubDate>
+      <title>Phil McAleer appointed SSI Fellow</title>
+      <link>/2020/01/10/mcaleer-ssi-fellow/</link>
+      <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>/project/books/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Edinburgh Open Science Workshop</title>
-      <link>/talk/2019_edinburgh/</link>
-      <pubDate>Thu, 13 Jun 2019 00:00:00 +0100</pubDate>
-      
-      <guid>/talk/2019_edinburgh/</guid>
-      <description>
-
-&lt;h3 id=&#34;9-30-11-00-keynote-talks&#34;&gt;9:30-11:00  Keynote talks&lt;/h3&gt;
-
-&lt;h4 id=&#34;9-30-dale-barr-university-of-glasgow&#34;&gt;9:30   Dale Barr (University of Glasgow)&lt;/h4&gt;
-
-&lt;h4 id=&#34;10-15-lisa-debruine-university-of-glasgow&#34;&gt;10:15  Lisa DeBruine (University of Glasgow)&lt;/h4&gt;
-
-&lt;h3 id=&#34;11-00-11-30-coffee-break&#34;&gt;11:00-11:30     Coffee break&lt;/h3&gt;
-
-&lt;h3 id=&#34;11-30-1-00-challenges-for-open-science-with-different-types-of-data&#34;&gt;11:30-1:00  Challenges for Open Science with different types of data&lt;/h3&gt;
-
-&lt;h4 id=&#34;11-30-tom-booth-university-of-edinburgh&#34;&gt;11:30  Tom Booth (University of Edinburgh)&lt;/h4&gt;
-
-&lt;h4 id=&#34;12-00-hugh-rabagliati-university-of-edinburgh&#34;&gt;12:00  Hugh Rabagliati (University of Edinburgh)&lt;/h4&gt;
-
-&lt;h4 id=&#34;12-30-discussion&#34;&gt;12:30  Discussion&lt;/h4&gt;
-
-&lt;h3 id=&#34;1-00-2-00-lunch&#34;&gt;1:00-2:00   Lunch&lt;/h3&gt;
-
-&lt;h3 id=&#34;2-00-3-00-pre-registration-reviews&#34;&gt;2:00-3:00   Pre-registration &amp;amp; reviews&lt;/h3&gt;
-
-&lt;h4 id=&#34;2-00-carmen-saldana-university-of-edinburgh&#34;&gt;2:00   Carmen Saldana (University of Edinburgh)&lt;/h4&gt;
-
-&lt;h4 id=&#34;2-30-maria-gardani-university-of-glasgow&#34;&gt;2:30   Maria Gardani (University of Glasgow)&lt;/h4&gt;
-
-&lt;h3 id=&#34;3-00-3-30-coffee-break&#34;&gt;3:00-3:30   Coffee break&lt;/h3&gt;
-
-&lt;h3 id=&#34;3-30-4-30-practical-session-pre-registration-diy&#34;&gt;3:30-4:30   Practical session: Pre-registration DIY&lt;/h3&gt;
-
-&lt;h3 id=&#34;4-30-5-00-summary-panel-and-general-discussion&#34;&gt;4:30-5:00   Summary panel and general discussion&lt;/h3&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>The role of large-scale collaboration in improving replicability and generalisability</title>
-      <link>/talk/2019_cambridge/</link>
-      <pubDate>Thu, 13 Jun 2019 00:00:00 +0100</pubDate>
-      
-      <guid>/talk/2019_cambridge/</guid>
-      <description></description>
+      <guid>/2020/01/10/mcaleer-ssi-fellow/</guid>
+      <description>Dr Phil McAleer was named as one of the 2020 Software Sustainability Institute Fellows. He was one of 18 fellows chosen from diverse fields, such as Medicine and dentistry; Biological sciences; Physical sciences; Mathematical sciences; Engineering and technology; Computer science; Communications; Histoy; Philosophy; and Veterinary science.
+The Fellowship Programme run by the Software Sustainability Institute provides funding for individuals who want to improve how research software is done in their domains and/or area of work.</description>
     </item>
     
     <item>
       <title>Redesigning methods curricula for reproducibility</title>
-      <link>/project/sips2019/</link>
-      <pubDate>Thu, 06 Jun 2019 00:00:00 +0100</pubDate>
+      <link>/2019/07/07/redesigning-methods-curricula-for-reproducibility/</link>
+      <pubDate>Sun, 07 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>/project/sips2019/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>webex: An R package for creating interactive web tutorials</title>
-      <link>/project/webex/</link>
-      <pubDate>Sun, 14 Apr 2019 19:17:41 +0100</pubDate>
-      
-      <guid>/project/webex/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Free and open source software for open science</title>
-      <link>/project/fossos/</link>
-      <pubDate>Sun, 14 Apr 2019 19:08:43 +0100</pubDate>
-      
-      <guid>/project/fossos/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Glossary</title>
-      <link>/project/glossary/</link>
-      <pubDate>Thu, 21 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/project/glossary/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SIPS Workshop: Redesigning methods curricula for reproducibility</title>
-      <link>/talk/2019_sips/</link>
-      <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/talk/2019_sips/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Everything is cool when you’re part of a team: The role of large-scale collaboration in improving replicability and generalisability</title>
-      <link>/talk/2019_aarhus/</link>
-      <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/talk/2019_aarhus/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Transforming Teaching in Tricky Times</title>
-      <link>/talk/2019_tttt/</link>
-      <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/talk/2019_tttt/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Course Book Template</title>
-      <link>/project/book-template/</link>
-      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/project/book-template/</guid>
-      <description></description>
+      <guid>/2019/07/07/redesigning-methods-curricula-for-reproducibility/</guid>
+      <description>The PsyTeachR team gave a workshop at the 2019 meeting of the Society for the Improvement on Psychological Science. See our materials here.
+Abstract At Glasgow our PsyTeachR teaching team has successfully made the transition to teaching R across all undergraduate and postgraduate levels. In this workshop we will share our experiences, insights, and teaching materials. Our curriculum now emphasises certain essential ‘data science’ graduate skills that have been overlooked in traditional approaches to teaching, including programming skills, data visualisation, data wrangling and reproducible reports.</description>
     </item>
     
     <item>
       <title>Hack Your Data Beautiful</title>
-      <link>/talk/2019_hackdata/</link>
-      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      <link>/2019/04/15/hack-your-data-beautiful/</link>
+      <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/talk/2019_hackdata/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://psyteachr.github.io/hack-your-data/&#34; target=&#34;_blank&#34;&gt;Further Info&lt;/a&gt;&lt;/p&gt;
-</description>
+      <guid>/2019/04/15/hack-your-data-beautiful/</guid>
+      <description>The PsyTeachR postgrads are putting on a workshop sponsored by the Scottish Graduate School of Social Science on April 15-16, 2019.
+Schedule and materials
+Abstract Coding is a skill that can be picked up by people from all backgrounds, for any kind of data. Everyone can be a data scientist! Coding skills provide tools to enhance communicating your data and ideas to a wide range of audiences and disciplines. If you’ve ever wanted to learn how to make your own website or to visualise your data in a way that is engaging and rigorous, coding is for you.</description>
     </item>
     
     <item>
-      <title>Improving the generalisability and replicability of psychological science</title>
-      <link>/talk/2019_durham/</link>
-      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      <title>Teaching Excellence Award</title>
+      <link>/2018/06/25/teaching-excellence-award/</link>
+      <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>/talk/2019_durham/</guid>
-      <description></description>
+      <guid>/2018/06/25/teaching-excellence-award/</guid>
+      <description>Congratulations to the PsyTeachR team who recently received a College of Science &amp;amp; Engineering Teaching Excellence Award for their submission PsyTeachR: Teaching Reproducible Data Analysis.
+The award was presented by Professor John Davies, Dean of Learning &amp;amp; Teaching, at graduation prize giving in the Wolfson Medical Building on Wednesday 25 June.
+The College panel was impressed by several aspects of the nomination, including the clear underlying principles which guided its implementation, the co-creation of material with students, and the workshop, which shared experiences, insights, and teaching materials with academic staff from other institutions.</description>
     </item>
     
     <item>
-      <title>Open Science Toolbox: Leveraging Methodological Reforms to Accelerate Research</title>
-      <link>/talk/2019_icps/</link>
-      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/talk/2019_icps/</guid>
-      <description>
-
-&lt;h3 id=&#34;crowdsourcing-psychological-science&#34;&gt;Crowdsourcing Psychological Science&lt;/h3&gt;
-
-&lt;h4 id=&#34;benedict-jones&#34;&gt;Benedict Jones&lt;/h4&gt;
-
-&lt;p&gt;Crowdsourcing presents a solution to problems of low power and lack of diversity in research samples that often undermine conclusions from psychological research. I will focus on my lab’s experience conducting a preregistered study through the Psychological Science Accelerator, a globally distributed network of &amp;gt;350 laboratories from &amp;gt;45 countries.&lt;/p&gt;
-
-&lt;h3 id=&#34;do-psychological-effects-vary-across-sample-and-setting-findings-from-many-labs-2&#34;&gt;Do Psychological Effects Vary across Sample and Setting? Findings from Many Labs 2&lt;/h3&gt;
-
-&lt;h4 id=&#34;richard-klein&#34;&gt;Richard Klein&lt;/h4&gt;
-
-&lt;p&gt;This talk presents results from Many Labs 2, a recent large-scale project in which 28 psychological effects were replicated across 125 samples from 36 countries (N = 15,305). This talk will emphasize whether replication effect size varies based on the specific sample or setting of data collection.&lt;/p&gt;
-
-&lt;h3 id=&#34;teaching-open-science&#34;&gt;Teaching Open Science&lt;/h3&gt;
-
-&lt;h4 id=&#34;niamh-stack&#34;&gt;Niamh Stack&lt;/h4&gt;
-
-&lt;p&gt;To address recent concerns about the reliability of psychological findings, some have emphasized the need to improve training at a grassroots level (cf. Button et al., 2016). This talk discusses how we can answer this call by supporting undergraduates in becoming more intelligent ‘consumers of science’ (Diener &amp;amp; Biwas-Diener, 2016).&lt;/p&gt;
-
-&lt;h3 id=&#34;writing-reproducible-manuscripts&#34;&gt;Writing Reproducible Manuscripts&lt;/h3&gt;
-
-&lt;h4 id=&#34;lisa-debruine&#34;&gt;Lisa DeBruine&lt;/h4&gt;
-
-&lt;p&gt;Perhaps half of published psychology papers contain at least one inconsistent statistic (e.g., Nuijten et al, 2016). I will discuss methods for reproducible manuscripts that reduce transcription errors and act as self-documentation of data and analysis. These techniques promote open science and make it easier to meet new journal requirements.&lt;/p&gt;
-</description>
+      <guid>/about/</guid>
+      <description>The psyTeachR team at the University of Glasgow School of Psychology has successfully made the transition to teaching reproducible research using R across all undergraduate and postgraduate levels. Our curriculum now emphasizes essential ‘data science’ graduate skills that have been overlooked in traditional approaches to teaching, including programming skills, data visualisation, data wrangling and reproducible reports. Students learn about probability and inference through data simulation as well as by working with real datasets.</description>
     </item>
     
     <item>
-      <title>Replication and Generalisation: Crowdsourcing Better Research</title>
-      <link>/talk/2018_debruine/</link>
-      <pubDate>Sat, 17 Nov 2018 00:00:00 +0000</pubDate>
+      <title>Course Books</title>
+      <link>/books/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/talk/2018_debruine/</guid>
-      <description></description>
+      <guid>/books/</guid>
+      <description>br { clear: both; } a.logo { display: block; width: 25%; max-width: 150px; min-width: 50px; float: left; margin-right: 10px; }  
+
+Level 1: Grassroots Our first-year undergraduate course covers current state of psychological science and what Open Science is as well as its importance. It also aims to make students confident and competent at using RStudio as a tool to achieve good data management skills.
+Contact: Emily Nordmann | Emily.</description>
+    </item>
+    
+    <item>
+      <title>Resources</title>
+      <link>/resources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/</guid>
+      <description>Resources  Redesigning methods curricula for reproducibility: Workshop on experiences, insights, and teaching materials for the transition to teaching R across all undergraduate and postgraduate levels. Free and open source software for doing and teaching open science. Course book template: A quick start guide for the specific bookdown templates we&amp;rsquo;re using at UofG Psychology, plus a style guide and inclusion guidelines for open science materials.  Tutorials  Shiny Tutorials: A series of tutorials for creating shiny apps for psychology research and teaching.</description>
     </item>
     
   </channel>

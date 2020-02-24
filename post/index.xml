@@ -1,15 +1,57 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on psyTeachR</title>
+    <title>Posts on PsyTeachR</title>
     <link>/post/</link>
-    <description>Recent content in Posts on psyTeachR</description>
+    <description>Recent content in Posts on PsyTeachR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 Feb 2019 13:15:50 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Phil McAleer appointed SSI Fellow</title>
+      <link>/2020/01/10/mcaleer-ssi-fellow/</link>
+      <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/01/10/mcaleer-ssi-fellow/</guid>
+      <description>Dr Phil McAleer was named as one of the 2020 Software Sustainability Institute Fellows. He was one of 18 fellows chosen from diverse fields, such as Medicine and dentistry; Biological sciences; Physical sciences; Mathematical sciences; Engineering and technology; Computer science; Communications; Histoy; Philosophy; and Veterinary science.
+The Fellowship Programme run by the Software Sustainability Institute provides funding for individuals who want to improve how research software is done in their domains and/or area of work.</description>
+    </item>
+    
+    <item>
+      <title>Redesigning methods curricula for reproducibility</title>
+      <link>/2019/07/07/redesigning-methods-curricula-for-reproducibility/</link>
+      <pubDate>Sun, 07 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/07/07/redesigning-methods-curricula-for-reproducibility/</guid>
+      <description>The PsyTeachR team gave a workshop at the 2019 meeting of the Society for the Improvement on Psychological Science. See our materials here.
+Abstract At Glasgow our PsyTeachR teaching team has successfully made the transition to teaching R across all undergraduate and postgraduate levels. In this workshop we will share our experiences, insights, and teaching materials. Our curriculum now emphasises certain essential ‘data science’ graduate skills that have been overlooked in traditional approaches to teaching, including programming skills, data visualisation, data wrangling and reproducible reports.</description>
+    </item>
+    
+    <item>
+      <title>Hack Your Data Beautiful</title>
+      <link>/2019/04/15/hack-your-data-beautiful/</link>
+      <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/04/15/hack-your-data-beautiful/</guid>
+      <description>The PsyTeachR postgrads are putting on a workshop sponsored by the Scottish Graduate School of Social Science on April 15-16, 2019.
+Schedule and materials
+Abstract Coding is a skill that can be picked up by people from all backgrounds, for any kind of data. Everyone can be a data scientist! Coding skills provide tools to enhance communicating your data and ideas to a wide range of audiences and disciplines. If you’ve ever wanted to learn how to make your own website or to visualise your data in a way that is engaging and rigorous, coding is for you.</description>
+    </item>
+    
+    <item>
+      <title>Teaching Excellence Award</title>
+      <link>/2018/06/25/teaching-excellence-award/</link>
+      <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/06/25/teaching-excellence-award/</guid>
+      <description>Congratulations to the PsyTeachR team who recently received a College of Science &amp;amp; Engineering Teaching Excellence Award for their submission PsyTeachR: Teaching Reproducible Data Analysis.
+The award was presented by Professor John Davies, Dean of Learning &amp;amp; Teaching, at graduation prize giving in the Wolfson Medical Building on Wednesday 25 June.
+The College panel was impressed by several aspects of the nomination, including the clear underlying principles which guided its implementation, the co-creation of material with students, and the workshop, which shared experiences, insights, and teaching materials with academic staff from other institutions.</description>
+    </item>
     
   </channel>
 </rss>
