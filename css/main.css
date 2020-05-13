@@ -1,11 +1,3 @@
-:root {
-  --pink: #983E82;   /* hsl(315, 42%, 42%) */
-  --orange: #E2A458; /* hsl( 33, 70%, 62%) */
-  --yellow: #F5DC70; /* hsl( 49, 87%, 70%) */
-  --green: #59935B;  /* hsl(122, 25%, 46%) */
-  --blue: #467AAC;   /* hsl(209, 42%, 47%) */
-  --purple: #61589C; /* hsl(248, 28%, 48%) */
-}
 html,
 body {
   margin: 0;
@@ -98,14 +90,6 @@ code {
   color: #000;
 }
 
-.nav-links li:nth-child(1) a:hover { color: var(--pink); }
-.nav-links li:nth-child(2) a:hover { color: var(--orange); }
-.nav-links li:nth-child(3) a:hover { color: var(--yellow); }
-.nav-links li:nth-child(4) a:hover { color: var(--green); }
-.nav-links li:nth-child(5) a:hover { color: var(--blue); }
-.nav-links li:nth-child(6) a:hover { color: var(--purple); }
-
-
 .content {
   max-width: 700px;
   margin: 40px auto 10px;
@@ -144,15 +128,15 @@ code {
 .article-content a {
   text-decoration: none;
   color: inherit;
-  border-bottom: 1px solid #467AAC;
-  box-shadow: inset 0 -2px 0 #467AAC;
+  border-bottom: 3px solid #CBF8DF;
+  box-shadow: inset 0 -4px 0 #CBF8DF;
   background: transparent;
   transition: background 150ms ease;
 }
 
 .article-content a:hover,
 .article-content a:focus {
-  background: #467AAC;
+  background: #CBF8DF;
 }
 
 .article-content hr {

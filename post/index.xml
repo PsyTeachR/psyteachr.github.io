@@ -6,10 +6,20 @@
     <description>Recent content in Posts on PsyTeachR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 10 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 31 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Embedding open research and reproducibility in the UG and PGT curricula</title>
+      <link>/2020/03/31/embedding-open-research/</link>
+      <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/03/31/embedding-open-research/</guid>
+      <description>Facilitators: Andrew Stewart, University of Manchester; Phil McAleer, University of Glasgow and Pablo Bernabeu, Lancaster University
+Abstract Arguably, one of the most effective ways in which to enable researchers to adopt open and reproducible research practices is to introduce the underlying computational skills needed to create reproducible workflows early on in the researchers&amp;rsquo; training. Traditionally, undergraduate degree programmes in science and social sciences provide students with key skills in research methods and statistical modelling.</description>
+    </item>
     
     <item>
       <title>Phil McAleer appointed SSI Fellow</title>
@@ -22,21 +32,21 @@ The Fellowship Programme run by the Software Sustainability Institute provides f
     </item>
     
     <item>
+      <title>Teaching Open Science</title>
+      <link>/2019/09/26/teaching-open-science/</link>
+      <pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/09/26/teaching-open-science/</guid>
+      <description>Talk for Mid Sweden University by Phil McAleer.
+Slides</description>
+    </item>
+    
+    <item>
       <title>Redesigning methods curricula for reproducibility</title>
       <link>/2019/07/07/redesigning-methods-curricula-for-reproducibility/</link>
       <pubDate>Sun, 07 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>/2019/07/07/redesigning-methods-curricula-for-reproducibility/</guid>
-      <description>The PsyTeachR team gave a workshop at the 2019 meeting of the Society for the Improvement on Psychological Science. See our materials here.
-Abstract At Glasgow our PsyTeachR teaching team has successfully made the transition to teaching R across all undergraduate and postgraduate levels. In this workshop we will share our experiences, insights, and teaching materials. Our curriculum now emphasises certain essential ‘data science’ graduate skills that have been overlooked in traditional approaches to teaching, including programming skills, data visualisation, data wrangling and reproducible reports.</description>
-    </item>
-    
-    <item>
-      <title>SIPS Workshop: Redesigning methods curricula for reproducibility</title>
-      <link>/2019/07/07/sips-workshop/</link>
-      <pubDate>Sun, 07 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/2019/07/07/sips-workshop/</guid>
       <description>The PsyTeachR team gave a workshop at the 2019 meeting of the Society for the Improvement on Psychological Science. See our materials here.
 Abstract At Glasgow our PsyTeachR teaching team has successfully made the transition to teaching R across all undergraduate and postgraduate levels. In this workshop we will share our experiences, insights, and teaching materials. Our curriculum now emphasises certain essential ‘data science’ graduate skills that have been overlooked in traditional approaches to teaching, including programming skills, data visualisation, data wrangling and reproducible reports.</description>
     </item>

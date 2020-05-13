@@ -6,10 +6,19 @@
     <description>Recent content in Categories on PsyTeachR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 10 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 31 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>workshop</title>
+      <link>/categories/workshop/</link>
+      <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/workshop/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>awards</title>
@@ -21,20 +30,20 @@
     </item>
     
     <item>
+      <title>talk</title>
+      <link>/categories/talk/</link>
+      <pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/talk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>curriculum</title>
       <link>/categories/curriculum/</link>
       <pubDate>Sun, 07 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>/categories/curriculum/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>workshop</title>
-      <link>/categories/workshop/</link>
-      <pubDate>Sun, 07 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/workshop/</guid>
       <description></description>
     </item>
     
