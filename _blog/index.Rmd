@@ -37,7 +37,7 @@ Contact: Phil McAleer |
 
 <br><a class="logo" href="/ug3-stats/"><img class="logo" src="images/L3.png"></a>
 
-### Level 3: [Statistical Models](/ug3-stats/)
+### [Level 3: Statistical Models](/ug3-stats/)
 
 This third-year undergraduate course teaches students how to specify, estimate, and interpret statistical models corresponding to various study designs, using a General Linear Models approach.
 
