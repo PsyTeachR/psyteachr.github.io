@@ -1,0 +1,22 @@
+name: "psyteachr"
+author: "psyTeachR"
+output_dir: "../"
+exclude: ["*.xls", "*.csv","*.R"]
+output:
+  html_document:
+    toc: true
+    toc_float: yes
+    toc_depth: 2
+    df_print: paged
+    theme: flatly
+    highlight: tango
+    css: style.css
+    includes:
+      in_header: "header.html"
+navbar:
+  title: "psyTeachR"
+  left:
+  - text: "Methods & Meta-Science"
+    href: /mms/
+  - text: "Resources"
+    href: /resources.html

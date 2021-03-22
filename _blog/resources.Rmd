@@ -1,0 +1,24 @@
+---
+title: 'Resources'
+---
+
+## Workshops 
+
+* [Coding Club](/shiny-tutorials/coding_club.html): A bi-weekly tutorial for fun projects with R code. We're currently making a quiz Shiny app.
+* [Redesigning methods curricula for reproducibility](/sips2019/): Workshop on experiences, insights, and teaching materials for the transition to teaching R across all undergraduate and postgraduate levels. 
+* [Hack Your Data Beautiful](/hack-your-data/): A workshop sponsored by the [SGSSS](https://www.sgsss.ac.uk/training/spring-into-methods/) to teach social science and humanities posgraduated coding skills to make your own website or to visualise your data in a way that is engaging and rigorous.
+
+## Resources
+
+* [Redesigning methods curricula for reproducibility](/sips2019/): Workshop on experiences, insights, and teaching materials for the transition to teaching R across all undergraduate and postgraduate levels.
+* [Free and open source software](/fossos/) for doing and teaching open science.
+* [Course book template](/book-template/): A quick start guide for the specific bookdown templates we're using at UofG Psychology, plus a style guide and inclusion guidelines for open science materials.
+
+## Tutorials
+
+* [Shiny Tutorials](/shiny-tutorials/): A series of tutorials for creating shiny apps for psychology research and teaching.
+* [Academic Webpages](https://debruine.github.io/tutorials/webpages.html): How to create a simple academic website using GitHub and RStudio.
+
+## R Packages
+
+* [webex](/webex/): An R package for creating interactive web tutorials using RMarkdown for self-guided learning.

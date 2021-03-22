@@ -1,0 +1,78 @@
+---
+title: "PsyTeachR"
+output:
+  html_document:
+    toc: false
+---
+
+```{r setup, include = FALSE}
+source("_R/psyteachr_setup.R")
+```
+
+The psyTeachR team at the University of Glasgow [School of Psychology](https://www.gla.ac.uk/schools/psychology/) and [Institute of Neuroscience and Psychology](https://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/) has successfully made the transition to teaching reproducible research using R across all undergraduate and postgraduate levels. Our curriculum now emphasizes essential ‘data science’ graduate skills that have been overlooked in traditional approaches to teaching, including programming skills, data visualisation, data wrangling and reproducible reports. Students learn about probability and inference through data simulation as well as by working with real datasets.
+
+This website contains our open materials for teaching reproducible research.
+
+## Course Books
+
+<br><a class="logo" href="/ug1-practical/"><img src="images/L1.png"></a>
+
+### [Level 1: Grassroots](/ug1-practical/)
+
+Our first-year undergraduate course covers current state of psychological science and what Open Science is as well as its importance. It also aims to make students confident and competent at using RStudio as a tool to achieve good data management skills.
+
+Contact: Emily Nordmann | 
+<a href="mailto:Emily.Nordmann@glasgow.ac.uk?subject=PsyTeachR%20L1%20Book">Emily.Nordmann@glasgow.ac.uk</a> | 
+[&commat;emilynordmann](https://twitter.com/emilynordmann)
+
+<br><a class="logo" href="https://psyteachr.github.io/ug2-practical/"><img src="images/L2.png"></a>
+
+### [Level 2: Practical](https://psyteachr.github.io/ug2-practical/)
+
+Our second-year undergraduate course covers data skills such as R Markdown, data wrangling with tidyverse, and data visualisation with ggplot2. It also introduces statistical concepts such as permutation tests, NHST, alpha, power, effect size, and sample size. Semester 2 focusses on correlations and the general linear model.
+
+Contact: Phil McAleer | 
+<a href="mailto:Philip.McAleer@glasgow.ac.uk?subject=PsyTeachR%20L2%20Book">Philip.McAleer@glasgow.ac.uk</a> | 
+[&commat;McAleerP](https://twitter.com/McAleerP)
+
+<br><a class="logo" href="/ug3-stats/"><img class="logo" src="images/L3.png"></a>
+
+### Level 3: [Statistical Models](/ug3-stats/)
+
+This third-year undergraduate course teaches students how to specify, estimate, and interpret statistical models corresponding to various study designs, using a General Linear Models approach.
+
+Contact: Dale Barr | 
+<a href="mailto:Dale.Barr@glasgow.ac.uk?subject=PsyTeachR%20L3%20Book">Dale.Barr@glasgow.ac.uk</a> | 
+[&commat;dalejbarr](https://twitter.com/dalejbarr)
+
+<br><a class="logo" href="/msc-conv-f2f/"><img  src="images/msc_conv.png"> 
+
+### [MSc Conversion](/msc-conv-f2f/)
+
+This book contains materials for students on the MSc Conversion in Psychological Studies/Science, a one-year postgraduate degree for students with a non-psychology undergraduate degree. This research methods course covers core data skills that allow you to manipulate and analyse quantitative data.
+
+Contact: Emily Nordmann | 
+<a href="mailto:Emily.Nordmann@glasgow.ac.uk?subject=PsyTeachR%20MSc%20Book">Emily.Nordmann@glasgow.ac.uk</a> | 
+[&commat;emilynordmann](https://twitter.com/emilynordmann)
+
+<br><a class="logo" href="/msc-data-skills/"><img  src="images/msc_ds.png"></a>
+
+### [MSc Data Skills](/msc-data-skills/)
+
+This course provides an overview of skills needed for reproducible research and open science using the statistical programming language R. Students will learn about data visualisation, data tidying and wrangling, archiving, iteration and functions, probability and data simulations, general linear models, and reproducible workflows.
+
+Contact: Lisa DeBruine | 
+<a href="mailto:Lisa.DeBruine@glasgow.ac.uk?subject=PsyTeachR%20MSc%20Book">Lisa.DeBruine@glasgow.ac.uk</a> | 
+[&commat;LisaDeBruine](https://twitter.com/LisaDeBruine)
+
+<br><a class="logo" href="/glossary/"><img class="logo" src="images/glossary.png"></a>
+
+### [Glossary of Terms](/glossary/)
+
+PsyTeachR books (and external websites) can link to the glossary to define common terms. Anyone can contribute to the glossary through the github project.
+
+Contact: Lisa DeBruine | 
+<a href="mailto:Lisa.DeBruine@glasgow.ac.uk?subject=PsyTeachR%20Glossary">Lisa.DeBruine@glasgow.ac.uk</a> | 
+[&commat;LisaDeBruine](https://twitter.com/LisaDeBruine)
+
+<br/><hr>If you are an educator looking to create your own version of PsyTeachR materials, please see our [PsyTeachR Book Template](/book-template/).

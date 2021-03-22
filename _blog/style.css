@@ -1,0 +1,15 @@
+.hex {
+  float: right; 
+  width:150px; 
+  margin:0px 20px;
+}
+
+br { clear: both; }
+a.logo {
+  display: block;
+  width: 25%;
+  max-width: 150px;
+  min-width: 50px;
+  float: left;
+  margin-right: 10px;
+}
