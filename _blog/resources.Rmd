@@ -6,7 +6,7 @@ title: 'Resources'
 
 * [Coding Club](/shiny-tutorials/coding_club.html): A bi-weekly tutorial for fun projects with R code. We're currently making a quiz Shiny app.
 * [Redesigning methods curricula for reproducibility](/sips2019/): Workshop on experiences, insights, and teaching materials for the transition to teaching R across all undergraduate and postgraduate levels. 
-* [Hack Your Data Beautiful](/hack-your-data/): A workshop sponsored by the [SGSSS](https://www.sgsss.ac.uk/training/spring-into-methods/) to teach social science and humanities posgraduated coding skills to make your own website or to visualise your data in a way that is engaging and rigorous.
+* [Hack Your Data Beautiful](/hack-your-data/): A workshop sponsored by the [SGSSS](https://www.sgsss.ac.uk/training/spring-into-methods/) to teach social science and humanities posgraduates coding skills to make your own website or to visualise your data in a way that is engaging and rigorous.
 
 ## Resources
 
@@ -21,4 +21,6 @@ title: 'Resources'
 
 ## R Packages
 
-* [webex](/webex/): An R package for creating interactive web tutorials using RMarkdown for self-guided learning.
+* [webex](/webex/): An R package for creating interactive web tutorials using RMarkdown for self-guided learning. ![](http://cranlogs.r-pkg.org/badges/grand-total/webex)
+* [markr](/markr/): An R package for creating individual feedback documents and marking summaries from flexibly organised spreadsheets and other types of input.
+
