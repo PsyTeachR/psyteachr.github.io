@@ -18,5 +18,7 @@ navbar:
   left:
   - text: "Methods & Meta-Science"
     href: /mms/
+  - text: "Coding Club"
+    href: /shny-tutorials/coding_club.html
   - text: "Resources"
     href: /resources.html
