@@ -2,11 +2,15 @@
 title: 'Resources'
 ---
 
-## Workshops 
+## Workshops
 
 * [Coding Club](/shiny-tutorials/coding_club.html): A bi-weekly tutorial for fun projects with R code. We're currently making a quiz Shiny app.
 * [Redesigning methods curricula for reproducibility](/sips2019/): Workshop on experiences, insights, and teaching materials for the transition to teaching R across all undergraduate and postgraduate levels. 
-* [Hack Your Data Beautiful](/hack-your-data/): A workshop sponsored by the [SGSSS](https://www.sgsss.ac.uk/training/spring-into-methods/) to teach social science and humanities posgraduates coding skills to make your own website or to visualise your data in a way that is engaging and rigorous.
+* [Hack Your Data Beautiful](/hack-your-data/): A workshop sponsored by the [SGSSS](https://www.sgsss.ac.uk/training/spring-into-methods/) to teach social science and humanities postgraduates coding skills to make your own website or to visualise your data in a way that is engaging and rigorous.
+
+## Talks
+
+* [Creating a curriculum centered on reproducible research for the Psychologists of the future](https://www.projecttier.org/fellowships-and-workshops/2021-spring-symposium/creating-curriculum-centered-reproducible-research-psychologists-future/) [2021-04-16]: A talk by Phil McAleer for the Project Tier Spring Symposium 2021. [video](https://youtu.be/eArfSK3huFY) | [ppt](files/McAleer_ProjectTier_2021.pptx) | [pdf](files/McAleer_ProjectTier_2021.pdf)
 
 ## Resources
 
