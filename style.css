@@ -4,12 +4,26 @@
   margin:0px 20px;
 }
 
-br { clear: both; }
-a.logo {
-  display: block;
-  width: 25%;
-  max-width: 150px;
-  min-width: 50px;
-  float: left;
-  margin-right: 10px;
+.level:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column-left {
+    float: left;
+    width: 15%;
+}
+
+.column-right {
+    float: left;
+    width: 85%;
+}
+
+.column-left img {
+    display: block;
+    width: 100%;
+    max-width: 150px;
+    min-width: 50px;
+    margin-right: 10px;
 }
