@@ -10,14 +10,15 @@
 /* rainbow borders */
 div.navbar {
   margin-bottom: 12px;
-  box-shadow: 0 3px 0 0px var(--green),
-              0 6px 0 0px var(--yellow),
-              0 9px 0 0px var(--orange),
-              0 12px 0 0px var(--pink);
+  box-shadow: 0 3px 0 0px var(--blue),
+              0 6px 0 0px var(--green),
+              0 9px 0 0px var(--yellow),
+              0 12px 0 0px var(--orange),
+              0 15px 0 0px var(--pink);
 }
 
 .navbar-default {
-  background-color: var(--blue);
+  background-color: var(--purple);
 }
 
 a, a:link, a:visited, a:hover  {
