@@ -5,20 +5,29 @@
   --green: #59935B;  /* hsl(122, 25%, 46%) */
   --blue: #467AAC;   /* hsl(209, 42%, 47%) */
   --purple: #61589C; /* hsl(248, 28%, 48%) */
+  --grey: #2C3E4F;
 }
 
 /* rainbow borders */
 div.navbar {
-  margin-bottom: 12px;
-  box-shadow: 0 3px 0 0px var(--blue),
-              0 6px 0 0px var(--green),
-              0 9px 0 0px var(--yellow),
-              0 12px 0 0px var(--orange),
-              0 15px 0 0px var(--pink);
+  margin-top: 18px;
+  box-shadow: 0 -3px 0 0px var(--purple),
+              0 -6px 0 0px var(--blue),
+              0 -9px 0 0px var(--green),
+              0 -12px 0 0px var(--yellow),
+              0 -15px 0 0px var(--orange),
+              0 -18px 0 0px var(--pink);
 }
 
 .navbar-default {
-  background-color: var(--purple);
+  background-color: var(--grey);
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-nav > li > a:active {
+  color: white;
 }
 
 a, a:link, a:visited, a:hover  {
