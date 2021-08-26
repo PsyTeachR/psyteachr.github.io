@@ -1,3 +1,30 @@
+:root {
+  --pink: #983E82;   /* hsl(315, 42%, 42%) */
+  --orange: #E2A458; /* hsl( 33, 70%, 62%) */
+  --yellow: #F5DC70; /* hsl( 49, 87%, 70%) */
+  --green: #59935B;  /* hsl(122, 25%, 46%) */
+  --blue: #467AAC;   /* hsl(209, 42%, 47%) */
+  --purple: #61589C; /* hsl(248, 28%, 48%) */
+}
+
+/* rainbow borders */
+div.navbar {
+  margin-bottom: 12px;
+  box-shadow: 0 3px 0 0px var(--green),
+              0 6px 0 0px var(--yellow),
+              0 9px 0 0px var(--orange),
+              0 12px 0 0px var(--pink);
+}
+
+.navbar-default {
+  background-color: var(--blue);
+}
+
+a, a:link, a:visited, a:hover  {
+  color: var(--blue);
+  text-decoration-color: var(--blue);
+}
+
 .hex {
   float: right; 
   width:150px; 

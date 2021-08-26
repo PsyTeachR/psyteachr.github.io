@@ -1,6 +1,4 @@
-# change wd
-setwd(rstudioapi::getActiveProject())
-setwd("_blog")
-
-browseURL(rmarkdown::render_site("index.Rmd"))
+browseURL(
+  xfun::in_dir("_blog", rmarkdown::render_site("index.Rmd"))
+)
 
