@@ -9,7 +9,7 @@
 }
 
 /* rainbow borders */
-body {
+div.navbar {
   margin-top: 18px;
   box-shadow: 0 -3px 0 0px var(--purple),
               0 -6px 0 0px var(--blue),
