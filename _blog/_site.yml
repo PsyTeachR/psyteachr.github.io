@@ -8,7 +8,10 @@ output:
     toc_float: yes
     toc_depth: 2
     df_print: paged
-    theme: flatly
+    self_contained: no
+    theme: 
+      primary: "#127AB2"
+      version: 4
     highlight: tango
     css: style.css
     includes:
