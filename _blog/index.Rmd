@@ -74,12 +74,12 @@ Author: [Dale Barr](https://www.gla.ac.uk/researchinstitutes/neurosciencepsychol
 
 <div class="level">
 <div class="column-left">
-<a href="/msc-conv-f2f/"><img src="images/msc_conv.png"> 
+<a href="/msc-conv/"><img src="images/quant-fun.png"> 
 </div>
 
 <div class="column-right">
 
-#### [MSc Conversion](/msc-conv-f2f/)
+#### [Fundamentals of Quantitative Analysis](/msc-conv/)
 
 This book contains materials for students on the MSc Conversion in Psychological Studies/Science, a one-year postgraduate degree for students with a non-psychology undergraduate degree. This research methods course covers core data skills that allow you to manipulate and analyse quantitative data.
 
