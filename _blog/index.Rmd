@@ -79,11 +79,12 @@ Author: [Dale Barr](https://www.gla.ac.uk/researchinstitutes/neurosciencepsychol
 
 <div class="column-right">
 
-#### [Fundamentals of Quantitative Analysis](/msc-conv/)
+#### [Fundamentals of Quantitative Analysis](/quant-fun/)
 
 This book contains materials for students on the MSc Conversion in Psychological Studies/Science, a one-year postgraduate degree for students with a non-psychology undergraduate degree. This research methods course covers core data skills that allow you to manipulate and analyse quantitative data.
 
-Author: [Emily Nordmann](https://www.gla.ac.uk/schools/psychology/staff/emilynordmann/)
+Author: [Emily Nordmann](https://www.gla.ac.uk/schools/psychology/staff/emilynordmann/)  
+Contact: [Phil McAleer](https://www.gla.ac.uk/schools/psychology/staff/philipmcaleer)
 
 </div>
 </div>
