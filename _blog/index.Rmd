@@ -38,12 +38,12 @@ Contributors: [Jack Taylor](https://www.psy.gla.ac.uk/otherstaff/?id=JT002), [Sh
 
 <div class="level">
 <div class="column-left">
-<a href="/ug2-practical/"><img src="images/analysis.png"></a>
+<a href="/analysis/"><img src="images/analysis.png"></a>
 </div>
 
 <div class="column-right">
 
-#### [Level 2: Analysis](/ug2-practical/)
+#### [Level 2: Analysis](/analysis/)
 
 Our second-year undergraduate course covers data skills such as R Markdown, data wrangling with tidyverse, and data visualisation with ggplot2. It also introduces statistical concepts such as permutation tests, NHST, alpha, power, effect size, and sample size. Semester 2 focusses on correlations and the general linear model.
 
