@@ -25,6 +25,10 @@ title: 'Resources'
 
 ## R Packages
 
-* [webex](/webex/): An R package for creating interactive web tutorials using RMarkdown for self-guided learning. ![](http://cranlogs.r-pkg.org/badges/grand-total/webex)
+* [webexercises](/webexercises/): Create interactive web tutorials using RMarkdown for self-guided learning
+![](http://cranlogs.r-pkg.org/badges/grand-total/webexercises?color=467AAC)
+    (formerly webex ![](http://cranlogs.r-pkg.org/badges/grand-total/webex?color=467AAC)). 
+* [faux](https://debruine.github.io/faux/): Simulate data with factorial designs.
+![](http://cranlogs.r-pkg.org/badges/grand-total/faux?color=467AAC)
 * [markr](/markr/): An R package for creating individual feedback documents and marking summaries from flexibly organised spreadsheets and other types of input.
 
