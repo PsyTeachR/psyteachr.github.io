@@ -112,6 +112,23 @@ Contributors: [Rebecca Lai](http://www.psy.gla.ac.uk/staff/index.php?id=RL003)
 
 <div class="level">
 <div class="column-left">
+<a href="/glossary/"><img src="images/glossary.png"></a>
+</div>
+
+<div class="column-right">
+
+#### [Glossary of Terms](/glossary/)
+
+PsyTeachR books (and external websites) can link to the glossary to define common terms. Anyone can contribute to the glossary through the github project.
+
+Contact: [Lisa DeBruine](https://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/staff/lisadebruine/) 
+
+</div>
+</div>
+
+
+<div class="level">
+<div class="column-left">
 <a href="/introdataviz/"><img src="images/introdataviz.png"></a>
 </div>
 
@@ -133,21 +150,6 @@ Contact: [Emily Nordmann](https://www.gla.ac.uk/schools/psychology/staff/emilyno
 </div>
 </div>
 
-<div class="level">
-<div class="column-left">
-<a href="/glossary/"><img src="images/glossary.png"></a>
-</div>
-
-<div class="column-right">
-
-#### [Glossary of Terms](/glossary/)
-
-PsyTeachR books (and external websites) can link to the glossary to define common terms. Anyone can contribute to the glossary through the github project.
-
-Contact: [Lisa DeBruine](https://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/staff/lisadebruine/) 
-
-</div>
-</div>
 
 <div class="level">
 <div class="column-left">
