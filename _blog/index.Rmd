@@ -112,6 +112,29 @@ Contributors: [Rebecca Lai](http://www.psy.gla.ac.uk/staff/index.php?id=RL003)
 
 <div class="level">
 <div class="column-left">
+<a href="/introdataviz/"><img src="images/introdataviz.png"></a>
+</div>
+
+<div class="column-right">
+
+#### [Data Visualisation Using R, For Researchers Who Don’t Use R](/introdataviz/)
+
+In this tutorial, we provide a practical introduction to data visualisation using R, specifically aimed at researchers who have little to no prior experience of using R. 
+
+Authors: [Emily Nordmann](https://www.gla.ac.uk/schools/psychology/staff/emilynordmann/), 
+[Phil McAleer](https://www.gla.ac.uk/schools/psychology/staff/philipmcaleer), 
+[Wilhelmiina Toivo](https://www.gla.ac.uk/schools/psychology/staff/tarutoivo/), 
+[Helena Paterson](https://www.gla.ac.uk/schools/psychology/staff/helenapaterson/),
+[Lisa DeBruine](https://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/staff/lisadebruine/) 
+
+
+Contact: [Emily Nordmann](https://www.gla.ac.uk/schools/psychology/staff/emilynordmann/) 
+
+</div>
+</div>
+
+<div class="level">
+<div class="column-left">
 <a href="/glossary/"><img src="images/glossary.png"></a>
 </div>
 
