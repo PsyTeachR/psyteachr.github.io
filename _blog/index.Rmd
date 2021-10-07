@@ -47,7 +47,7 @@ Contributors: [Jack Taylor](https://www.psy.gla.ac.uk/otherstaff/?id=JT002), [Sh
 
 Our second-year undergraduate course covers data skills such as R Markdown, data wrangling with tidyverse, and data visualisation with ggplot2. It also introduces statistical concepts such as permutation tests, NHST, alpha, power, effect size, and sample size. Semester 2 focusses on correlations and the general linear model.
 
-This book is currently being updated and many chapter have not yet been posted. [Access the older version.](/ug2-pactical/)
+This book is currently being updated and many chapters have not yet been posted. [Access the older version.](/ug2-pactical/)
 
 Authors: [Phil McAleer](https://www.gla.ac.uk/schools/psychology/staff/philipmcaleer), [Carolina Kuepper-Tetzel](https://www.gla.ac.uk/schools/psychology/staff/carolinakueppertetzel/), [Helena Paterson](https://www.gla.ac.uk/schools/psychology/staff/helenapaterson/)  
 Contact: [Carolina Kuepper-Tetzel](https://www.gla.ac.uk/schools/psychology/staff/carolinakueppertetzel/)
