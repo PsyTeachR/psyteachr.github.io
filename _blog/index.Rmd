@@ -176,7 +176,7 @@ Contact: [Lisa DeBruine](https://www.gla.ac.uk/researchinstitutes/neuroscienceps
 <div class="column-right">
 #### [**`{webexercises}`**](webexercises)
 
-The R package `{webexercises}` helps instructors easily create interactive web pages that students can use in self-guided learning.
+The R package `{webexercises}` helps instructors easily create interactive web pages that students can use in self-guided learning. ![](http://cranlogs.r-pkg.org/badges/grand-total/webexercises?color=467AAC) (formerly webex ![](http://cranlogs.r-pkg.org/badges/grand-total/webex?color=467AAC))
 
 Authors: [Dale Barr](https://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/staff/dalebarr/), [Lisa DeBruine](https://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/staff/lisadebruine/) 
 </div>
@@ -215,7 +215,7 @@ style="padding: 10px;"></a>
 <div class="column-right">
 #### [**`{faux}`**](https://debruine.github.io/faux/)
 
-The R package `{faux}` package makes it easier to simulate data with a specified structure. 
+The R package `{faux}` package makes it easier to simulate data with a specified structure. ![](http://cranlogs.r-pkg.org/badges/grand-total/faux?color=467AAC)
 
 Author: [Lisa DeBruine](https://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/staff/lisadebruine/) 
 
