@@ -235,9 +235,9 @@ Author: [Lisa DeBruine](https://www.gla.ac.uk/researchinstitutes/neurosciencepsy
 
 <div class="column-right">
 
-#### simulate
+#### [simulate](https://shiny.psy.gla.ac.uk/debruine/simulate)
 
-Explore a few basic distributions that you can sample in R. Generating random samples is a good way to get better intuitions about what data look like. By [Lisa DeBruine](https://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/staff/lisadebruine/), source code on [github](https://github.com/debruine/shiny_apps/tree/master/simulate), License: CC-BY-SA
+Shiny app exploring a few basic distributions that you can sample in R. Generating random samples is a good way to get better intuitions about what data look like. By [Lisa DeBruine](https://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/staff/lisadebruine/), source code on [github](https://github.com/debruine/shiny_apps/tree/master/simulate), License: CC-BY-SA
 </div>
 </div>
 
@@ -249,9 +249,10 @@ Explore a few basic distributions that you can sample in R. Generating random sa
 </div>
 
 <div class="column-right">
-#### normal-distributions
 
-App written using shiny to help students understand how to use the distribution and quantile functions `pnorm()` and `rnorm()` for the normal distribution. By Jack Taylor, source code on [github](https://github.com/JackEdTaylor/ShinyPsyTeachR/tree/master/ug1/normal-distributions), License: CC-BY-SA
+#### [normal-distributions](https://shiny.psy.gla.ac.uk/normal-distributions/)
+
+Shiny app to help students understand how to use the distribution and quantile functions `pnorm()` and `rnorm()` for the normal distribution. By Jack Taylor, source code on [github](https://github.com/JackEdTaylor/ShinyPsyTeachR/tree/master/ug1/normal-distributions), License: CC-BY-SA
 </div>
 </div>
 
@@ -264,9 +265,9 @@ App written using shiny to help students understand how to use the distribution 
 
 <div class="column-right">
 
-#### peek
+#### [peek](https://shiny.psy.gla.ac.uk/debruine/peek)
 
-Just how bad is it to peek at your data every few observations and stop collecting data once you have a significant result? By [Lisa DeBruine](https://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/staff/lisadebruine/), source code on [github](https://github.com/debruine/shiny_apps/tree/master/peek), License: CC-BY-SA
+Shiny app that asks: Just how bad is it to peek at your data every few observations and stop collecting data once you have a significant result? By [Lisa DeBruine](https://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/staff/lisadebruine/), source code on [github](https://github.com/debruine/shiny_apps/tree/master/peek), License: CC-BY-SA
 </div>
 </div>
 
@@ -278,9 +279,10 @@ Just how bad is it to peek at your data every few observations and stop collecti
 </div>
 
 <div class="column-right">
-#### bivariate
 
-App written in d3.js (JavaScript) to help students understand bivariate distributions. By [Dale Barr](https://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/staff/dalebarr/), source code on [github](https://github.com/dalejbarr/bivariate), License: CC-BY-SA
+#### [bivariate](https://dalejbarr.github.io/bivariate/)
+
+d3.js (JavaScript) app to help students understand bivariate distributions. By [Dale Barr](https://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/staff/dalebarr/), source code on [github](https://github.com/dalejbarr/bivariate), License: CC-BY-SA
 </div>
 </div>
 
@@ -292,7 +294,8 @@ App written in d3.js (JavaScript) to help students understand bivariate distribu
 </div>
 
 <div class="column-right">
-#### covariance-quiz
+
+#### [covariance-quiz](https://shiny.psy.gla.ac.uk/Dale/cvmx)
 
 Shiny app quiz on covariance matrices. By [Dale Barr](https://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/staff/dalebarr/), source code on [github](https://github.com/dalejbarr/shiny-covariance-quiz), License: CC-BY-SA
 </div>
@@ -306,7 +309,8 @@ Shiny app quiz on covariance matrices. By [Dale Barr](https://www.gla.ac.uk/rese
 </div>
 
 <div class="column-right">
-#### plotdemo
+
+#### [plotdemo](https://shiny.psy.gla.ac.uk/debruine/plotdemo)
 
 Shiny app to visualize simulated data from a 2x2 factorial design with 6 different plots. By [Lisa DeBruine](https://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/staff/lisadebruine/), source code on [github](https://github.com/debruine/tree/master/plotdemo), License: CC-BY-SA
 </div>
@@ -320,14 +324,12 @@ Shiny app to visualize simulated data from a 2x2 factorial design with 6 differe
 </div>
 
 <div class="column-right">
-#### faux-app
+
+#### [faux-app](https://shiny.psy.gla.ac.uk/debruine/fauxapp)
 
 Shiny app to set up a factorial design, simulate data, visualise and download it. By [Lisa DeBruine](https://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/staff/lisadebruine/), source code on [github](https://github.com/debruine/shiny_apps), License: CC-BY-SA
 </div>
 </div>
-
-
-
 
 
 <div class="level">
@@ -337,7 +339,8 @@ Shiny app to set up a factorial design, simulate data, visualise and download it
 </div>
 
 <div class="column-right">
-#### lmem_sim
+
+#### [lmem_sim](https://shiny.psy.gla.ac.uk/lmem_sim)
 
 Shiny app demonstrating simulation of data with crossed random effects of subjects and items, to accompany tutorial paper by [Debruine and Barr (2021)](https://doi.org/10.1177/2515245920965119). By [Lisa DeBruine](https://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/staff/lisadebruine/), source code on [github](https://github.com/debruine/lmem_sim/tree/master/inst/app), License: CC-BY-SA
 </div>
