@@ -167,7 +167,7 @@ Contact: [Lisa DeBruine](https://www.gla.ac.uk/researchinstitutes/neuroscienceps
 </div>
 </div>
 
-### Software
+### R packages
 
 <div class="level">
 
@@ -223,4 +223,61 @@ Author: [Lisa DeBruine](https://www.gla.ac.uk/researchinstitutes/neurosciencepsy
 
 </div>
 
+</div>
+
+### Web apps
+
+<div class="level">
+
+<div class="column-left">
+<a href="https://shiny.psy.gla.ac.uk/normal-distributions/"><img src="images/apps/normal-distributions_thumb.png" style="padding: 10px;"/></a>
+</div>
+
+<div class="column-right">
+#### normal-distributions
+
+App written using shiny to help students understand how to use the distribution and quantile functions `pnorm()` and `rnorm()` for the normal distribution. By Jack Taylor, source code on [github](https://github.com/JackEdTaylor/ShinyPsyTeachR/tree/master/ug1/normal-distributions), License: CC-BY-SA
+</div>
+</div>
+
+
+<div class="level">
+
+<div class="column-left">
+<a href="https://dalejbarr.github.io/bivariate/"><img src="images/apps/bivariate_thumb.png" style="padding: 10px;"/></a>
+</div>
+
+<div class="column-right">
+#### bivariate
+
+App written in d3.js (JavaScript) to help students understand bivariate distributions. By [Dale Barr](https://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/staff/dalebarr/), source code on [github](https://github.com/dalejbarr/bivariate), License: CC-BY-SA
+</div>
+</div>
+
+
+<div class="level">
+
+<div class="column-left">
+<a href="https://shiny.psy.gla.ac.uk/Dale/cvmx"><img src="images/apps/shiny-covariance-quiz_thumb.png" style="padding: 10px;"/></a>
+</div>
+
+<div class="column-right">
+#### covariance-quiz
+
+Shiny app quiz on covariance matrices. By [Dale Barr](https://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/staff/dalebarr/), source code on [github](https://github.com/dalejbarr/shiny-covariance-quiz), License: CC-BY-SA
+</div>
+</div>
+
+
+<div class="level">
+
+<div class="column-left">
+<a href="https://shiny.psy.gla.ac.uk/lmem_sim"><img src="images/apps/lmem-sim_thumb.png" style="padding: 10px;"/></a>
+</div>
+
+<div class="column-right">
+#### lmem_sim
+
+Shiny app demonstrating simulation of data with crossed random effects of subjects and items, to accompany tutorial paper by [Debruine and Barr (2021)](https://doi.org/10.1177/2515245920965119). By [Lisa DeBruine](https://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/staff/lisadebruine/), source code on [github](https://github.com/debruine/lmem_sim/tree/master/inst/app), License: CC-BY-SA
+</div>
 </div>
