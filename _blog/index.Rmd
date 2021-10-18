@@ -152,6 +152,24 @@ Contact: [Emily Nordmann](https://www.gla.ac.uk/schools/psychology/staff/emilyno
 </div>
 </div>
 
+<div class="level">
+<div class="column-left">
+<a href="/tutorials/"><img src="images/psyteachr_hex.png"></a>
+</div>
+
+<div class="column-right">
+
+#### [Tutorials](/tutorials/)
+
+Collected short tutorials in R.
+
+Authors: psyTeachR Team
+
+Contact: [Dale Barr](https://www.gla.ac.uk/schools/psychology/staff/dalejbarr/) 
+
+</div>
+</div>
+
 
 <div class="level">
 <div class="column-left">

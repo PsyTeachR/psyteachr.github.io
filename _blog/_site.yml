@@ -17,11 +17,14 @@ output:
     includes:
       in_header: "header.html"
 navbar:
-  title: "psyTeachR"
   left:
   - text: "Methods & Meta-Science"
     href: /mms/
   - text: "Coding Club"
-    href: /shiny-tutorials/coding_club.html
+    href: /mms/coding_club.html
   - text: "Resources"
     href: /resources.html
+  right:
+  - text: "psyTeachR"
+    icon: fa-home
+    href: /
