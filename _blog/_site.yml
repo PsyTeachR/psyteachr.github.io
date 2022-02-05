@@ -5,7 +5,8 @@ exclude: ["*.xls", "*.csv","*.R"]
 output:
   html_document:
     toc: true
-    toc_float: yes
+    toc_float: 
+      collapsed: false
     toc_depth: 2
     df_print: paged
     self_contained: no

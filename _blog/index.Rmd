@@ -2,7 +2,8 @@
 title: "PsyTeachR"
 output:
   html_document:
-    toc: false
+    toc: true
+    toc_depth: 3
 ---
 
 ```{r setup, include = FALSE}
@@ -110,7 +111,7 @@ Contributors: [Rebecca Lai](http://www.psy.gla.ac.uk/staff/index.php?id=RL003)
 </div>
 </div>
 
-### Other Books
+## Other Books
 
 <div class="level">
 <div class="column-left">
@@ -128,6 +129,21 @@ Contact: [Lisa DeBruine](https://www.gla.ac.uk/researchinstitutes/neuroscienceps
 </div>
 </div>
 
+<div class="level">
+<div class="column-left">
+<a href="/handyworkbook/"><img src="images/handyworkbook.png"></a>
+</div>
+
+<div class="column-right">
+
+#### [A Handy Workbook for Research Methods & Statistics](/handyworkbook/)
+
+A Handy Workbook to help students understand Research Methods and Statistics through worked examples and self-tests.
+
+Author: [Phil McAleer](https://www.gla.ac.uk/schools/psychology/staff/philipmcaleer)
+
+</div>
+</div>
 
 <div class="level">
 <div class="column-left">
@@ -170,10 +186,26 @@ Contact: [Dale Barr](https://www.gla.ac.uk/schools/psychology/staff/dalejbarr/)
 </div>
 </div>
 
+<div class="level">
+<div class="column-left">
+<a href="https://debruine.github.io/shinyintro/"><img src="images/shinyintro.png"></a>
+</div>
+
+<div class="column-right">
+
+#### [Building Web Apps with R Shiny](https://debruine.github.io/shinyintro/)
+
+Learn the basics of Shiny app programming, including skills that will form the basis of almost any app you want to build.
+
+Contact: [Lisa DeBruine](https://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/staff/lisadebruine/) 
+
+</div>
+</div>
+
 
 <div class="level">
 <div class="column-left">
-<a href="/glossary/"><img src="images/psyteachr_hex.png"></a>
+<a href="/template/"><img src="images/psyteachr_hex.png"></a>
 </div>
 
 <div class="column-right">
@@ -185,7 +217,7 @@ Contact: [Lisa DeBruine](https://www.gla.ac.uk/researchinstitutes/neuroscienceps
 </div>
 </div>
 
-### R packages
+## R Packages
 
 <div class="level">
 
@@ -243,7 +275,7 @@ Author: [Lisa DeBruine](https://www.gla.ac.uk/researchinstitutes/neurosciencepsy
 
 </div>
 
-### Web apps
+## Web Apps
 
 <div class="level">
 
