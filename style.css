@@ -19,6 +19,16 @@ div.navbar {
               0 -18px 0 0px var(--pink);
 }
 
+.hexes a { display: inline-block; 
+           width: 20%; 
+           padding: 0;
+           margin: 0;}
+.hexes img { width: 100%; padding: 0; border: 0; margin: 0; }
+.hexrow { display: block; clear: both; margin-top: -2.5%;}
+.hexrow:nth-child(1) { margin-top: 0; }
+.hexrow:nth-child(2) { padding-left: 10%; padding-right: 10%;}
+.hexrow:nth-child(2) a { width: 25%; }
+
 .hex {
   float: right; 
   width:150px; 

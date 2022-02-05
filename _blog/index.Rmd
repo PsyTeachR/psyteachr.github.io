@@ -14,13 +14,23 @@ The psyTeachR team at the University of Glasgow [School of Psychology](https://w
 
 This website contains our open materials for teaching reproducible research.
 
+<!-- no spaces between <a> or % is wonky -->
+<div class="hexes">
+<div class="hexrow"><a href="/data-skills/"><img src="images/data-skills.png"></a><a href="/analysis/"><img src="images/analysis.png"></a><a href="/ug3-stats/"><img src="images/stat-models.png"></a><a href="/msc-conv/"><img src="images/quant-fun.png"></a><a href="/msc-data-skills/"><img src="images/reprores.png"></a></div>
+<div class="hexrow"><a href="/glossary/"><img src="images/glossary.png"></a><a href="/handyworkbook/"><img src="images/handyworkbook.png"></a><a href="/introdataviz/"><img src="images/introdataviz.png"></a><a href="/tutorials/"><img src="images/tutorials.png"></a></div>
+<div class="hexrow"><a href="https://debruine.github.io/shinyintro/"><img   src="images/shinyintro.png"></a><a href="/template/"><img src="images/template.png"></a><a href="https://psyteachr.github.io/webexercises"><img src="https://psyteachr.github.io/webexercises/logo.png"></a><a href="https://psyteachr.github.io/markr/"><img src="images/markr.png"></a><a href="https://debruine.github.io/faux/"><img src="images/faux.png"></a></div>
+</div>
+
+
+--------------------------
+
 ## Course Books
 
 ### Undergraduate Series
 
 <div class="level">
 <div class="column-left">
-<a href="/ug1-practical/"><img src="images/data-skills.png"></a>
+<a href="/data-skills/"><img src="images/data-skills.png"></a>
 </div>
 
 <div class="column-right">
@@ -170,7 +180,7 @@ Contact: [Emily Nordmann](https://www.gla.ac.uk/schools/psychology/staff/emilyno
 
 <div class="level">
 <div class="column-left">
-<a href="/tutorials/"><img src="images/psyteachr_hex.png"></a>
+<a href="/tutorials/"><img src="images/tutorials.png"></a>
 </div>
 
 <div class="column-right">
@@ -205,7 +215,7 @@ Contact: [Lisa DeBruine](https://www.gla.ac.uk/researchinstitutes/neuroscienceps
 
 <div class="level">
 <div class="column-left">
-<a href="/template/"><img src="images/psyteachr_hex.png"></a>
+<a href="/template/"><img src="images/template.png"></a>
 </div>
 
 <div class="column-right">
@@ -239,7 +249,7 @@ Authors: [Dale Barr](https://www.gla.ac.uk/researchinstitutes/neurosciencepsycho
 
 <div class="level">
 <div class="column-left">
-<a href="https://psyteachr.github.io/markr/"><img src="https://psyteachr.github.io/markr/reference/figures/logo.png"></a>
+<a href="https://psyteachr.github.io/markr/"><img src="images/markr.png"></a>
 </div>
 
 <div class="column-right">
@@ -260,8 +270,7 @@ Authors:
 <div class="level">
 
 <div class="column-left">
-<a href="https://debruine.github.io/faux/"><img src="https://debruine.github.io/faux/reference/figures/logo.png"
-style="padding: 10px;"></a>
+<a href="https://debruine.github.io/faux/"><img src="images/faux.png"></a>
 </div>
 
 <div class="column-right">
