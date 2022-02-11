@@ -222,6 +222,8 @@ Contact: [Lisa DeBruine](https://www.gla.ac.uk/researchinstitutes/neuroscienceps
 
 #### [PsyTeachR Book Template](/template/)
 
+Fork the [GitHub project](https://github.com/psyteachr/template) to get started making a book with the psyTeachR styles and conventions. This includes custom code to make the subheader menu accessible on mobile or smaller screens, and integrated support for [webexercises](/webexercises/). The template has a CC-BY-SA license, so feel free to make any modifications.
+
 Contact: [Lisa DeBruine](https://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/staff/lisadebruine/) 
 
 </div>
