@@ -16,7 +16,7 @@ This website contains our open materials for teaching reproducible research.
 
 <!-- no spaces between <a> or % is wonky -->
 <div class="hexes">
-<div class="hexrow"><a href="/data-skills/"><img src="images/data-skills.png"></a><a href="/analysis/"><img src="images/analysis.png"></a><a href="/stat-models/"><img src="images/stat-models.png"></a><a href="/msc-conv/"><img src="images/quant-fun.png"></a><a href="/reprores/"><img src="images/reprores.png"></a></div>
+<div class="hexrow"><a href="/data-skills/"><img src="images/data-skills.png"></a><a href="/analysis/"><img src="images/analysis.png"></a><a href="/stat-models/"><img src="images/stat-models.png"></a><a href="/quant-fun/"><img src="images/quant-fun.png"></a><a href="/reprores/"><img src="images/reprores.png"></a></div>
 <div class="hexrow"><a href="/glossary/"><img src="images/glossary.png"></a><a href="/handyworkbook/"><img src="images/handyworkbook.png"></a><a href="/introdataviz/"><img src="images/introdataviz.png"></a><a href="/tutorials/"><img src="images/tutorials.png"></a></div>
 <div class="hexrow"><a href="https://debruine.github.io/shinyintro/"><img   src="images/shinyintro.png"></a><a href="/template/"><img src="images/template.png"></a><a href="https://psyteachr.github.io/webexercises"><img src="https://psyteachr.github.io/webexercises/logo.png"></a><a href="https://psyteachr.github.io/markr/"><img src="images/markr.png"></a><a href="https://debruine.github.io/faux/"><img src="images/faux.png"></a></div>
 </div>
@@ -87,7 +87,7 @@ Author: [Dale Barr](https://www.gla.ac.uk/researchinstitutes/neurosciencepsychol
 
 <div class="level">
 <div class="column-left">
-<a href="/msc-conv/"><img src="images/quant-fun.png"> 
+<a href="/quant-fun/"><img src="images/quant-fun.png"> 
 </div>
 
 <div class="column-right">
