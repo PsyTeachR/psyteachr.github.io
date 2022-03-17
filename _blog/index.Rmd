@@ -16,9 +16,8 @@ This website contains our open materials for teaching reproducible research.
 
 <!-- no spaces between <a> or % is wonky -->
 <div class="hexes">
-<div class="hexrow"><a href="/data-skills/"><img src="images/data-skills.png"></a><a href="/analysis/"><img src="images/analysis.png"></a><a href="/stat-models/"><img src="images/stat-models.png"></a><a href="/quant-fun/"><img src="images/quant-fun.png"></a><a href="/reprores/"><img src="images/reprores.png"></a></div>
-<div class="hexrow"><a href="/glossary/"><img src="images/glossary.png"></a><a href="/handyworkbook/"><img src="images/handyworkbook.png"></a><a href="/introdataviz/"><img src="images/introdataviz.png"></a><a href="/tutorials/"><img src="images/tutorials.png"></a></div>
-<div class="hexrow"><a href="https://debruine.github.io/shinyintro/"><img   src="images/shinyintro.png"></a><a href="/template/"><img src="images/template.png"></a><a href="https://psyteachr.github.io/webexercises"><img src="https://psyteachr.github.io/webexercises/logo.png"></a><a href="https://psyteachr.github.io/markr/"><img src="images/markr.png"></a><a href="https://debruine.github.io/faux/"><img src="images/faux.png"></a></div>
+<div class="hexrow"><a href="/data-skills/"><img src="images/data-skills.png"></a><a href="/analysis/"><img src="images/analysis.png"></a><a href="/stat-models/"><img src="images/stat-models.png"></a><a href="/quant-fun/"><img src="images/quant-fun.png"></a><a href="/reprores/"><img src="images/reprores.png"></a><a href="/glossary/"><img src="images/glossary.png"></a><a href="/ads/"><img src="images/ads.png"></a></div>
+<div class="hexrow"><a href="/handyworkbook/"><img src="images/handyworkbook.png"></a><a href="/introdataviz/"><img src="images/introdataviz.png"></a><a href="/tutorials/"><img src="images/tutorials.png"></a><a href="https://debruine.github.io/shinyintro/"><img   src="images/shinyintro.png"></a><a href="/template/"><img src="images/template.png"></a><a href="https://psyteachr.github.io/webexercises"><img src="https://psyteachr.github.io/webexercises/logo.png"></a><a href="https://psyteachr.github.io/markr/"><img src="images/markr.png"></a><a href="https://debruine.github.io/faux/"><img src="images/faux.png"></a></div>
 </div>
 
 
@@ -39,8 +38,8 @@ This website contains our open materials for teaching reproducible research.
 
 Our first-year undergraduate course covers current state of psychological science and what Open Science is as well as its importance. It also aims to make students confident and competent at using RStudio as a tool to achieve good data management skills.
 
-Authors: [Emily Nordmann](https://www.gla.ac.uk/schools/psychology/staff/emilynordmann/), [Heather Cleland-Woods](https://www.gla.ac.uk/schools/psychology/staff/heatherwoods/)  
-Contact: [Emily Nordmann](https://www.gla.ac.uk/schools/psychology/staff/emilynordmann/)  
+Authors: [Emily Nordmann](https://www.gla.ac.uk/schools/psychologyneuroscience/staff/emilynordmann/), [Heather Cleland-Woods](https://www.gla.ac.uk/schools/psychologyneuroscience/staff/heatherwoods/)  
+Contact: [Emily Nordmann](https://www.gla.ac.uk/schools/psychologyneuroscience/staff/emilynordmann/)  
 Contributors: [Jack Taylor](https://www.psy.gla.ac.uk/otherstaff/?id=JT002), [Shannon McNee](https://twitter.com/ShannonMcNee2)
 
 </div>
@@ -60,8 +59,8 @@ Our second-year undergraduate course covers data skills such as R Markdown, data
 
 This book is currently being updated and many chapters have not yet been posted. [Access the older version.](/ug2-practical/)
 
-Authors: [Phil McAleer](https://www.gla.ac.uk/schools/psychology/staff/philipmcaleer), [Carolina Kuepper-Tetzel](https://www.gla.ac.uk/schools/psychology/staff/carolinakueppertetzel/), [Helena Paterson](https://www.gla.ac.uk/schools/psychology/staff/helenapaterson/)  
-Contact: [Carolina Kuepper-Tetzel](https://www.gla.ac.uk/schools/psychology/staff/carolinakueppertetzel/)
+Authors: [Phil McAleer](https://www.gla.ac.uk/schools/psychologyneuroscience/staff/philipmcaleer), [Carolina Kuepper-Tetzel](https://www.gla.ac.uk/schools/psychologyneuroscience/staff/carolinakueppertetzel/), [Helena Paterson](https://www.gla.ac.uk/schools/psychologyneuroscience/staff/helenapaterson/)  
+Contact: [Carolina Kuepper-Tetzel](https://www.gla.ac.uk/schools/psychologyneuroscience/staff/carolinakueppertetzel/)
 
 </div>
 </div>
@@ -78,7 +77,7 @@ Contact: [Carolina Kuepper-Tetzel](https://www.gla.ac.uk/schools/psychology/staf
 
 This third-year undergraduate course teaches students how to specify, estimate, and interpret statistical models corresponding to various study designs, using a General Linear Models approach.
 
-Author: [Dale Barr](https://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/staff/dalebarr/)
+Author: [Dale Barr](https://www.gla.ac.uk/schools/psychologyneuroscience/staff/dalebarr/)
 
 </div>
 </div>
@@ -96,8 +95,8 @@ Author: [Dale Barr](https://www.gla.ac.uk/researchinstitutes/neurosciencepsychol
 
 This book contains materials for students on the MSc Conversion in Psychological Studies/Science, a one-year postgraduate degree for students with a non-psychology undergraduate degree. This research methods course covers core data skills that allow you to manipulate and analyse quantitative data.
 
-Author: [Emily Nordmann](https://www.gla.ac.uk/schools/psychology/staff/emilynordmann/)  
-Contact: [Phil McAleer](https://www.gla.ac.uk/schools/psychology/staff/philipmcaleer)
+Author: [Emily Nordmann](https://www.gla.ac.uk/schools/psychologyneuroscience/staff/emilynordmann/)  
+Contact: [Phil McAleer](https://www.gla.ac.uk/schools/psychologyneuroscience/staff/philipmcaleer)
 
 </div>
 </div>
@@ -114,8 +113,8 @@ Contact: [Phil McAleer](https://www.gla.ac.uk/schools/psychology/staff/philipmca
 
 This book provides an overview of skills needed for reproducible research and open science using the statistical programming language R and tidyverse packages. It covers data visualisation, data tidying and wrangling, archiving, iteration and functions, probability and data simulations, general linear models, and reproducible workflows. It assumes at least an undergraduate level of methods training, but no prior experience in R.
 
-Authors: [Lisa DeBruine](https://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/staff/lisadebruine/), [Dale Barr](https://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/staff/dalebarr/)  
-Contact: [Lisa DeBruine](https://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/staff/lisadebruine/)  
+Authors: [Lisa DeBruine](https://www.gla.ac.uk/schools/psychologyneuroscience/staff/lisadebruine/), [Dale Barr](https://www.gla.ac.uk/schools/psychologyneuroscience/staff/dalebarr/)  
+Contact: [Lisa DeBruine](https://www.gla.ac.uk/schools/psychologyneuroscience/staff/lisadebruine/)  
 Contributors: [Rebecca Lai](http://www.psy.gla.ac.uk/staff/index.php?id=RL003)
 
 </div>
@@ -134,10 +133,29 @@ Contributors: [Rebecca Lai](http://www.psy.gla.ac.uk/staff/index.php?id=RL003)
 
 PsyTeachR books (and external websites) can link to the glossary to define common terms. Anyone can contribute to the glossary through the github project.
 
-Contact: [Lisa DeBruine](https://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/staff/lisadebruine/) 
+Contact: [Lisa DeBruine](https://www.gla.ac.uk/schools/psychologyneuroscience/staff/lisadebruine/) 
 
 </div>
 </div>
+
+
+<div class="level">
+<div class="column-left">
+<a href="/ads/"><img src="images/ads.png"></a>
+</div>
+
+<div class="column-right">
+
+#### [Applied Data Skills](/ads/)
+
+This book provides an overview of the basic skills needed to turn raw data into informative summaries and visualisations presented in professional reports and presentations. 
+
+Authors: [Emily Nordmann](https://www.gla.ac.uk/schools/psychologyneuroscience/staff/emilynordmann/), [Lisa DeBruine](https://www.gla.ac.uk/schools/psychologyneuroscience/staff/lisadebruine/)
+
+</div>
+</div>
+
+
 
 <div class="level">
 <div class="column-left">
@@ -150,7 +168,7 @@ Contact: [Lisa DeBruine](https://www.gla.ac.uk/researchinstitutes/neuroscienceps
 
 A Handy Workbook to help students understand Research Methods and Statistics through worked examples and self-tests.
 
-Author: [Phil McAleer](https://www.gla.ac.uk/schools/psychology/staff/philipmcaleer)
+Author: [Phil McAleer](https://www.gla.ac.uk/schools/psychologyneuroscience/staff/philipmcaleer)
 
 </div>
 </div>
@@ -166,14 +184,14 @@ Author: [Phil McAleer](https://www.gla.ac.uk/schools/psychology/staff/philipmcal
 
 In this tutorial, we provide a practical introduction to data visualisation using R, specifically aimed at researchers who have little to no prior experience of using R. 
 
-Authors: [Emily Nordmann](https://www.gla.ac.uk/schools/psychology/staff/emilynordmann/), 
-[Phil McAleer](https://www.gla.ac.uk/schools/psychology/staff/philipmcaleer), 
-[Wilhelmiina Toivo](https://www.gla.ac.uk/schools/psychology/staff/tarutoivo/), 
-[Helena Paterson](https://www.gla.ac.uk/schools/psychology/staff/helenapaterson/),
-[Lisa DeBruine](https://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/staff/lisadebruine/) 
+Authors: [Emily Nordmann](https://www.gla.ac.uk/schools/psychologyneuroscience/staff/emilynordmann/), 
+[Phil McAleer](https://www.gla.ac.uk/schools/psychologyneuroscience/staff/philipmcaleer), 
+[Wilhelmiina Toivo](https://www.gla.ac.uk/schools/psychologyneuroscience/staff/tarutoivo/), 
+[Helena Paterson](https://www.gla.ac.uk/schools/psychologyneuroscience/staff/helenapaterson/),
+[Lisa DeBruine](https://www.gla.ac.uk/schools/psychologyneuroscience/staff/lisadebruine/) 
 
 
-Contact: [Emily Nordmann](https://www.gla.ac.uk/schools/psychology/staff/emilynordmann/) 
+Contact: [Emily Nordmann](https://www.gla.ac.uk/schools/psychologyneuroscience/staff/emilynordmann/) 
 
 </div>
 </div>
@@ -191,7 +209,7 @@ Collected short tutorials in R.
 
 Authors: psyTeachR Team
 
-Contact: [Dale Barr](https://www.gla.ac.uk/schools/psychology/staff/dalejbarr/) 
+Contact: [Dale Barr](https://www.gla.ac.uk/schools/psychologyneuroscience/staff/dalejbarr/) 
 
 </div>
 </div>
@@ -207,7 +225,7 @@ Contact: [Dale Barr](https://www.gla.ac.uk/schools/psychology/staff/dalejbarr/)
 
 Learn the basics of Shiny app programming, including skills that will form the basis of almost any app you want to build.
 
-Contact: [Lisa DeBruine](https://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/staff/lisadebruine/) 
+Contact: [Lisa DeBruine](https://www.gla.ac.uk/schools/psychologyneuroscience/staff/lisadebruine/) 
 
 </div>
 </div>
@@ -224,7 +242,7 @@ Contact: [Lisa DeBruine](https://www.gla.ac.uk/researchinstitutes/neuroscienceps
 
 Fork the [GitHub project](https://github.com/psyteachr/template) to get started making a book with the psyTeachR styles and conventions. This includes custom code to make the subheader menu accessible on mobile or smaller screens, and integrated support for [webexercises](/webexercises/). The template has a CC-BY-SA license, so feel free to make any modifications.
 
-Contact: [Lisa DeBruine](https://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/staff/lisadebruine/) 
+Contact: [Lisa DeBruine](https://www.gla.ac.uk/schools/psychologyneuroscience/staff/lisadebruine/) 
 
 </div>
 </div>
@@ -242,7 +260,7 @@ Contact: [Lisa DeBruine](https://www.gla.ac.uk/researchinstitutes/neuroscienceps
 
 The R package `{webexercises}` helps instructors easily create interactive web pages that students can use in self-guided learning. ![](http://cranlogs.r-pkg.org/badges/grand-total/webexercises?color=467AAC) (formerly webex ![](http://cranlogs.r-pkg.org/badges/grand-total/webex?color=467AAC))
 
-Authors: [Dale Barr](https://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/staff/dalebarr/), [Lisa DeBruine](https://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/staff/lisadebruine/) 
+Authors: [Dale Barr](https://www.gla.ac.uk/schools/psychologyneuroscience/staff/dalebarr/), [Lisa DeBruine](https://www.gla.ac.uk/schools/psychologyneuroscience/staff/lisadebruine/) 
 </div>
 
 </div>
@@ -260,9 +278,9 @@ Authors: [Dale Barr](https://www.gla.ac.uk/researchinstitutes/neurosciencepsycho
 The R package `{markr}` helps instructors create individual feedback documents and marking summaries from flexibly organised spreadsheets and other types of input.
 
 Authors: 
-[Lisa DeBruine](https://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/staff/lisadebruine/),
-[Helena Paterson](https://www.gla.ac.uk/schools/psychology/staff/helenapaterson/),
-[Phil McAleer](https://www.gla.ac.uk/schools/psychology/staff/philipmcaleer)
+[Lisa DeBruine](https://www.gla.ac.uk/schools/psychologyneuroscience/staff/lisadebruine/),
+[Helena Paterson](https://www.gla.ac.uk/schools/psychologyneuroscience/staff/helenapaterson/),
+[Phil McAleer](https://www.gla.ac.uk/schools/psychologyneuroscience/staff/philipmcaleer)
 
 </div>
 
@@ -280,7 +298,7 @@ Authors:
 
 The R package `{faux}` package makes it easier to simulate data with a specified structure. ![](http://cranlogs.r-pkg.org/badges/grand-total/faux?color=467AAC)
 
-Author: [Lisa DeBruine](https://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/staff/lisadebruine/) 
+Author: [Lisa DeBruine](https://www.gla.ac.uk/schools/psychologyneuroscience/staff/lisadebruine/) 
 
 </div>
 
@@ -298,7 +316,7 @@ Author: [Lisa DeBruine](https://www.gla.ac.uk/researchinstitutes/neurosciencepsy
 
 #### [simulate](https://shiny.psy.gla.ac.uk/debruine/simulate)
 
-Shiny app exploring a few basic distributions that you can sample in R. Generating random samples is a good way to get better intuitions about what data look like. By [Lisa DeBruine](https://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/staff/lisadebruine/), source code on [github](https://github.com/debruine/shiny_apps/tree/master/simulate), License: CC-BY-SA
+Shiny app exploring a few basic distributions that you can sample in R. Generating random samples is a good way to get better intuitions about what data look like. By [Lisa DeBruine](https://www.gla.ac.uk/schools/psychologyneuroscience/staff/lisadebruine/), source code on [github](https://github.com/debruine/shiny_apps/tree/master/simulate), License: CC-BY-SA
 </div>
 </div>
 
@@ -328,7 +346,7 @@ Shiny app to help students understand how to use the distribution and quantile f
 
 #### [peek](https://shiny.psy.gla.ac.uk/debruine/peek)
 
-Shiny app that asks: Just how bad is it to peek at your data every few observations and stop collecting data once you have a significant result? By [Lisa DeBruine](https://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/staff/lisadebruine/), source code on [github](https://github.com/debruine/shiny_apps/tree/master/peek), License: CC-BY-SA
+Shiny app that asks: Just how bad is it to peek at your data every few observations and stop collecting data once you have a significant result? By [Lisa DeBruine](https://www.gla.ac.uk/schools/psychologyneuroscience/staff/lisadebruine/), source code on [github](https://github.com/debruine/shiny_apps/tree/master/peek), License: CC-BY-SA
 </div>
 </div>
 
@@ -343,7 +361,7 @@ Shiny app that asks: Just how bad is it to peek at your data every few observati
 
 #### [bivariate](https://dalejbarr.github.io/bivariate/)
 
-d3.js (JavaScript) app to help students understand bivariate distributions. By [Dale Barr](https://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/staff/dalebarr/), source code on [github](https://github.com/dalejbarr/bivariate), License: CC-BY-SA
+d3.js (JavaScript) app to help students understand bivariate distributions. By [Dale Barr](https://www.gla.ac.uk/schools/psychologyneuroscience/staff/dalebarr/), source code on [github](https://github.com/dalejbarr/bivariate), License: CC-BY-SA
 </div>
 </div>
 
@@ -358,7 +376,7 @@ d3.js (JavaScript) app to help students understand bivariate distributions. By [
 
 #### [covariance-quiz](https://shiny.psy.gla.ac.uk/Dale/cvmx)
 
-Shiny app quiz on covariance matrices. By [Dale Barr](https://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/staff/dalebarr/), source code on [github](https://github.com/dalejbarr/shiny-covariance-quiz), License: CC-BY-SA
+Shiny app quiz on covariance matrices. By [Dale Barr](https://www.gla.ac.uk/schools/psychologyneuroscience/staff/dalebarr/), source code on [github](https://github.com/dalejbarr/shiny-covariance-quiz), License: CC-BY-SA
 </div>
 </div>
 
@@ -373,7 +391,7 @@ Shiny app quiz on covariance matrices. By [Dale Barr](https://www.gla.ac.uk/rese
 
 #### [plotdemo](https://shiny.psy.gla.ac.uk/debruine/plotdemo)
 
-Shiny app to visualize simulated data from a 2x2 factorial design with 6 different plots. By [Lisa DeBruine](https://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/staff/lisadebruine/), source code on [github](https://github.com/debruine/tree/master/plotdemo), License: CC-BY-SA
+Shiny app to visualize simulated data from a 2x2 factorial design with 6 different plots. By [Lisa DeBruine](https://www.gla.ac.uk/schools/psychologyneuroscience/staff/lisadebruine/), source code on [github](https://github.com/debruine/tree/master/plotdemo), License: CC-BY-SA
 </div>
 </div>
 
@@ -388,7 +406,7 @@ Shiny app to visualize simulated data from a 2x2 factorial design with 6 differe
 
 #### [faux-app](https://shiny.psy.gla.ac.uk/debruine/fauxapp)
 
-Shiny app to set up a factorial design, simulate data, visualise and download it. By [Lisa DeBruine](https://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/staff/lisadebruine/), source code on [github](https://github.com/debruine/shiny_apps), License: CC-BY-SA
+Shiny app to set up a factorial design, simulate data, visualise and download it. By [Lisa DeBruine](https://www.gla.ac.uk/schools/psychologyneuroscience/staff/lisadebruine/), source code on [github](https://github.com/debruine/shiny_apps), License: CC-BY-SA
 </div>
 </div>
 
@@ -403,6 +421,6 @@ Shiny app to set up a factorial design, simulate data, visualise and download it
 
 #### [lmem_sim](https://shiny.psy.gla.ac.uk/lmem_sim)
 
-Shiny app demonstrating simulation of data with crossed random effects of subjects and items, to accompany tutorial paper by [Debruine and Barr (2021)](https://doi.org/10.1177/2515245920965119). By [Lisa DeBruine](https://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/staff/lisadebruine/), source code on [github](https://github.com/debruine/lmem_sim/tree/master/inst/app), License: CC-BY-SA
+Shiny app demonstrating simulation of data with crossed random effects of subjects and items, to accompany tutorial paper by [Debruine and Barr (2021)](https://doi.org/10.1177/2515245920965119). By [Lisa DeBruine](https://www.gla.ac.uk/schools/psychologyneuroscience/staff/lisadebruine/), source code on [github](https://github.com/debruine/lmem_sim/tree/master/inst/app), License: CC-BY-SA
 </div>
 </div>
