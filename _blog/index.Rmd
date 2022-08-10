@@ -111,11 +111,29 @@ Contact: [Phil McAleer](https://www.gla.ac.uk/schools/psychologyneuroscience/sta
 
 #### [Data Skills for Reproducible Research](/reprores/)
 
-This book provides an overview of skills needed for reproducible research and open science using the statistical programming language R and tidyverse packages. It covers data visualisation, data tidying and wrangling, archiving, iteration and functions, probability and data simulations, general linear models, and reproducible workflows. It assumes at least an undergraduate level of methods training, but no prior experience in R.
+This book provides an overview of skills needed for reproducible research and open science using the statistical programming language R and tidyverse packages. It covers reproducible workflows, data visualisation, data tidying and wrangling, archiving, iteration and functions, probability and data simulations. It assumes at least an undergraduate level of methods training, but no prior experience in R.
 
 Authors: [Lisa DeBruine](https://www.gla.ac.uk/schools/psychologyneuroscience/staff/lisadebruine/), [Dale Barr](https://www.gla.ac.uk/schools/psychologyneuroscience/staff/dalebarr/)  
 Contact: [Lisa DeBruine](https://www.gla.ac.uk/schools/psychologyneuroscience/staff/lisadebruine/)  
 Contributors: [Rebecca Lai](http://www.psy.gla.ac.uk/staff/index.php?id=RL003)
+
+</div>
+</div>
+
+
+<div class="level">
+<div class="column-left">
+<img src="images/statsresdesign.png">
+</div>
+
+<div class="column-right">
+
+#### Statistics and Research Design
+
+Coming soon! The second term statistics course for our MSc in Research Methods.
+
+Authors: [James Bartlett](https://www.gla.ac.uk/schools/psychologyneuroscience/staff/jamesbartlett/), [Christoph Scheepers](https://www.gla.ac.uk/schools/psychologyneuroscience/staff/christophscheepers/), [Guillaume Rousselet](https://www.gla.ac.uk/schools/psychologyneuroscience/staff/guillaumerousselet/)  
+Contact: [James Bartlett](https://www.gla.ac.uk/schools/psychologyneuroscience/staff/jamesbartlett/)  
 
 </div>
 </div>
