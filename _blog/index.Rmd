@@ -16,8 +16,9 @@ This website contains our open materials for teaching reproducible research. See
 
 <!-- no spaces between <a> or % is wonky -->
 <div class="hexes">
-<div class="hexrow"><a href="/data-skills/"><img src="images/data-skills.png"></a><a href="/analysis/"><img src="images/analysis.png"></a><a href="/stat-models/"><img src="images/stat-models.png"></a><a href="/quant-fun/"><img src="images/quant-fun.png"></a><a href="/reprores/"><img src="images/reprores.png"></a><a href="/glossary/"><img src="images/glossary.png"></a><a href="/ads/"><img src="images/ads.png"></a></div>
-<div class="hexrow"><a href="/handyworkbook/"><img src="images/handyworkbook.png"></a><a href="/introdataviz/"><img src="images/introdataviz.png"></a><a href="/tutorials/"><img src="images/tutorials.png"></a><a href="https://debruine.github.io/shinyintro/"><img   src="images/shinyintro.png"></a><a href="/template/"><img src="images/template.png"></a><a href="https://psyteachr.github.io/webexercises"><img src="https://psyteachr.github.io/webexercises/logo.png"></a><a href="https://psyteachr.github.io/markr/"><img src="images/markr.png"></a><a href="https://debruine.github.io/faux/"><img src="images/faux.png"></a></div>
+<div class="hexrow"><a href="/data-skills/"><img src="images/data-skills.png"></a><a href="/analysis/"><img src="images/analysis.png"></a><a href="/stat-models/"><img src="images/stat-models.png"></a><a href="/quant-fun/"><img src="images/quant-fun.png"></a><a href="/reprores/"><img src="images/reprores.png"></a></div>
+<div class="hexrow"><a href="/glossary/"><img src="images/glossary.png"></a><a href="/ads/"><img src="images/ads.png"></a><a href="/introdataviz/"><img src="images/introdataviz.png"></a><a href="/tutorials/"><img src="images/tutorials.png"></a><a href="https://debruine.github.io/shinyintro/"><img   src="images/shinyintro.png"></a><a href="https://psyteachr.github.io/intro-r-pkgs/"><img   src="images/coding-club.png"></a></div>
+<div class="hexrow"><a href="/handyworkbook/"><img src="images/handyworkbook.png"></a><a href="/template/"><img src="images/template.png"></a><a href="https://psyteachr.github.io/webexercises"><img src="https://psyteachr.github.io/webexercises/logo.png"></a><a href="https://psyteachr.github.io/markr/"><img src="images/markr.png"></a><a href="https://debruine.github.io/faux/"><img src="images/faux.png"></a></div>
 </div>
 
 
@@ -242,6 +243,23 @@ Contact: [Dale Barr](https://www.gla.ac.uk/schools/psychologyneuroscience/staff/
 #### [Building Web Apps with R Shiny](https://debruine.github.io/shinyintro/)
 
 Learn the basics of Shiny app programming, including skills that will form the basis of almost any app you want to build.
+
+Contact: [Lisa DeBruine](https://www.gla.ac.uk/schools/psychologyneuroscience/staff/lisadebruine/) 
+
+</div>
+</div>
+
+
+<div class="level">
+<div class="column-left">
+<a href="https://psyteachr.github.io/intro-r-pkgs/"><img src="images/coding-club.png"></a>
+</div>
+
+<div class="column-right">
+
+#### [Coding Club: Creating an R Package](https://psyteachr.github.io/intro-r-pkgs/)
+
+Making an R package develops generic coding skills and gives you valuable insight to how R works. Covers setting up a package project, creating functions, documenting them with roxygen, creating vignettes, unit testing, package testing, version control with git, and distribution with github.
 
 Contact: [Lisa DeBruine](https://www.gla.ac.uk/schools/psychologyneuroscience/staff/lisadebruine/) 
 
