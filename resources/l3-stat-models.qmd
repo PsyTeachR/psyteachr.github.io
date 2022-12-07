@@ -1,0 +1,10 @@
+---
+title: "Level 3: Statistical Models"
+author: [Dale Barr]
+categories: [textbook, undergraduate]
+description: This third-year undergraduate course teaches students how to specify, estimate, and interpret statistical models corresponding to various study designs, using a General Linear Models approach.
+image: ../../images/stat-models.png
+url: https://psyteachr.github.io/stat-models/
+contact: Dale Barr
+order: 3
+---

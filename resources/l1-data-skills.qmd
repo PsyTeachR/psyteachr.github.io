@@ -1,0 +1,12 @@
+---
+title: "Level 1: Data Skills"
+author: [Emily Nordmann, Heather Cleland-Woods]
+categories: [textbook, undergraduate]
+description: Our first-year undergraduate course covers current state of psychological science and what Open Science is as well as its importance. It also aims to make students confident and competent at using RStudio as a tool to achieve good data management skills.
+image: ../../images/data-skills.png
+url: https://psyteachr.github.io/data-skills/
+contact: 
+  name: Emily Nordmann
+  url: https://www.gla.ac.uk/schools/psychologyneuroscience/staff/emilynordmann/
+order: 1
+---

@@ -1,0 +1,34 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "PsyTeachR"
+  site-url: https://psyteachr.github.io
+  repo-url: https://github.com/PsyTeachR/PsyTeachR.github.io
+  image: /images/logo.png
+  favicon: /images/favicon.ico
+  open-graph: true
+  twitter-card:
+    site: "@PsyTeachR"
+  description: "Psychologists from @UofGPsychNeuro advocating open, reproducible methods teaching."
+  navbar:
+    logo: /images/logo.png
+    logo-alt: "Hexagon with PsyTeachR in rainbow art deco letters"
+    right:
+      - resources.qmd
+      - papers.qmd
+      - text: "Coding Club"
+        href: https://psyteachr.github.io/mms/coding_club.html
+      - text: "M&Ms"
+        href: https://psyteachr.github.io/mms/
+      - icon: github
+        href: https://github.com/psyteachr/
+      - icon: twitter
+        href: https://twitter.com/psyteachr
+format:
+  html:
+    theme: slate
+    css: styles.css
+
+

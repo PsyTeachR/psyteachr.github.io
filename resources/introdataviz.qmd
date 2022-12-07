@@ -1,0 +1,12 @@
+---
+title: "Data Visualisation Using R, For Researchers Who Don’t Use R"
+author: [Emily Nordmann, Phil McAleer, Wilhelmiina Toivo, Helena Paterson, Lisa DeBruine]
+categories: [tutorials]
+description: In this tutorial, we provide a practical introduction to data visualisation using R, specifically aimed at researchers who have little to no prior experience of using R.
+image: ../../images/introdataviz.png
+url: https://psyteachr.github.io/introdataviz/
+contact: 
+  name: Emily Nordmann
+  url: https://www.gla.ac.uk/schools/psychologyneuroscience/staff/emilynordmann/
+order: 10
+---

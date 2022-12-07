@@ -1,0 +1,11 @@
+---
+title: "Tutorials"
+categories: [tutorials]
+description: Collected short tutorials in R.
+image: ../../images/tutorials.png
+url: https://psyteachr.github.io/tutorials/
+contact:
+  name: Dale Barr
+  url: https://www.gla.ac.uk/schools/psychologyneuroscience/staff/dalebarr/
+order: 11
+---

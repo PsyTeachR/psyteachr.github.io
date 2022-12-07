@@ -1,0 +1,9 @@
+---
+title: "{markr}"
+author: [Lisa DeBruine, Helena Paterson, Phil McAleer]
+categories: [r-package]
+description: The R package {markr} helps instructors create individual feedback documents and marking summaries from flexibly organised spreadsheets and other types of input.
+image: ../../images/markr.png
+url: https://psyteachr.github.io/markr/
+order: 31
+---

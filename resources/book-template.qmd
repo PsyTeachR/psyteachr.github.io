@@ -1,0 +1,9 @@
+---
+title: "Book Template"
+author: [Lisa DeBruine]
+categories: [template]
+description: Fork the GitHub project to get started making a book with the psyTeachR styles and conventions. This includes custom code to make the subheader menu accessible on mobile or smaller screens, and integrated support for webexercises. The template has a CC-BY-SA license, so feel free to make any modifications.
+image: ../../images/template.png
+url: https://psyteachr.github.io/template/
+order: 14
+---

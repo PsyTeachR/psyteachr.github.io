@@ -1,0 +1,9 @@
+---
+title: "Statistics and Research Design"
+author: [James Bartlett, Christoph Scheepers, Guillaume Rousselet]
+categories: [textbook, postgraduate]
+description: Coming soon! The second term statistics course for our MSc in Research Methods.
+image: ../../images/statsresdesign.png
+contact: James Bartlett
+order: 6
+---

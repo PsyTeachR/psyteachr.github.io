@@ -1,0 +1,39 @@
+```{=html}
+<ul class="reslist list">
+<% for (const item of items) { %>
+  <li <%= metadataAttrs(item) %>>
+    <div>
+      <a href="<%- item.url %>"><img src="<%- item.image %>"></a>
+    </div>
+  
+    <div>
+      <% if (item.url) { %>
+      <h3><a href="<%- item.url %>"><%= item.title %></a></h3>
+      <% } else { %>
+      <h3><%= item.title %></h3>
+      <% } %>
+      
+      <p><%= item.description %></p>
+      
+      <% if (item.author) { %>
+        Author: <%- item.author %>
+      <% } %>
+      <% if (item.contributors) { %>
+        <br>Contributors: <%- item.contributors %>
+      <% } %>
+      <% if (item.contact) { %>
+        <br>Contact: 
+        <% if (item.contact.url) { %>
+          <a href="<%- item.contact.url %>"><%- item.contact.name %></a>
+        <% } else { %>
+          <%- item.contact %>
+        <% } %>
+      <% } %>
+      <% if (item.doi) { %>
+        <br>DOI: <a href="https://doi.org/<%- item.doi %>"><%- item.doi %></a>
+      <% } %>
+    </div>
+  </li>
+<% } %>
+</ul>
+```

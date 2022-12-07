@@ -1,0 +1,46 @@
+[
+  {
+    "listing": "/papers.html",
+    "items": [
+      "/papers/2022-embedding.html",
+      "/papers/2022-open-source-tutorials.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/posts/2022-11-01_ADS.html"
+    ]
+  },
+  {
+    "listing": "/posts.html",
+    "items": [
+      "/posts/2022-11-01_ADS.html"
+    ]
+  },
+  {
+    "listing": "/resources.html",
+    "items": [
+      "/resources/l1-data-skills.html",
+      "/resources/l2-analysis.html",
+      "/resources/l3-stat-models.html",
+      "/resources/quant-fun.html",
+      "/resources/reprores.html",
+      "/resources/stats-res.html",
+      "/resources/glossary.html",
+      "/resources/ads.html",
+      "/resources/handy-workbook.html",
+      "/resources/introdataviz.html",
+      "/resources/tutorials.html",
+      "/resources/shiny-intro.html",
+      "/resources/intro-r-pkgs.html",
+      "/resources/book-template.html",
+      "/resources/webex.html",
+      "/resources/markr.html",
+      "/resources/faux.html",
+      "/resources/hack-your-data-beautiful.html",
+      "/resources/redesigning-methods-curricula.html",
+      "/resources/psych-future.html"
+    ]
+  }
+]

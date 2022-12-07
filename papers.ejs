@@ -1,0 +1,24 @@
+```{=html}
+<ul class="paperlist list">
+<% for (const item of items) { %>
+  <li <%= metadataAttrs(item) %>>
+    <div>
+      <h3><a href="<%- item.path %>"><%= item.title %></a></h3>
+      <% if (item.abstract) { %>
+        <p class="abstract"><%- item.abstract.match(/^[^(\.|\?)]*(\.|\?)/)[0] %></p>
+      <% } %>
+      
+      <% if (item.author) { %>
+        Authors: <%- item.author %>
+      <% } %>
+      <% if (item.doi) { %>
+        <br>DOI: <a href="https://doi.org/<%- item.doi %>"><%- item.doi %></a>
+      <% } %>
+      <% if (item.categories) { %>
+        <br>Categories: <%- item.categories.join(" | ") %>
+      <% } %>
+    </div>
+  </li>
+<% } %>
+</ul>
+```

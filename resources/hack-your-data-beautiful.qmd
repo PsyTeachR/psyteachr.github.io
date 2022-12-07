@@ -1,0 +1,9 @@
+---
+title: "Hack Your Data Beautiful"
+categories: [workshop]
+author: [Carolyn Saund, Shannon McNee, Rebecca Lai, Jack Taylor, Stephanie Allan, Anna Henschel, Lovisa Sundin, Dale Barr, Lisa DeBruine]
+description: A 2017 workshop sponsored by the SGSSS to teach social science and humanities postgraduates coding skills to make your own website or to visualise your data in a way that is engaging and rigorous.
+image: ../../images/hydb_hex.png
+url: https://psyteachr.github.io/hack-your-data/
+order: 40
+---

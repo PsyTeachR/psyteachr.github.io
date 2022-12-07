@@ -1,0 +1,14 @@
+---
+title: "Applied Data Skills Course"
+date: 2022-11-03
+image: ../images/ads.png
+---
+
+Have you been meaning to learn R, but need some structure to help motivate you and get over the initial steep learning curve?
+
+Emily Nordmann and Lisa DeBruine are offering a 10-week microcredential course on "Applied Data Skills for Processing and Presenting Data", starting January 24, 2023!
+
+It’s a paid course (£799) for course credits (if you complete the assessment) or a CPD certificate. There are also some fully funded places for Scottish-domiciled learners.
+
+* [Sign up for the course](https://www.gla.ac.uk/study/microcredentials/applieddataskillsforprocessingandpresentingdata/)
+* [Textbook](href: https://psyteachr.github.io/ads/)

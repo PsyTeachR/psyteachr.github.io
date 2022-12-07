@@ -1,0 +1,9 @@
+---
+title: "Redesigning methods curricula for reproducibility"
+author: [Dale Barr, Heather Cleland Woods, Lisa DeBruine, Rebecca Lai, Phil McAleer, Shanon McNee, Emily Nordmann, Helena Paterson, Niamh Stack]
+categories: [workshop]
+description: A 2019 workshop on experiences, insights, and teaching materials for the transition to teaching R across all undergraduate and postgraduate levels.
+image: ../../images/Rlogo-warhol-9b.svg
+url: https://psyteachr.github.io/sips2019/
+order: 41
+---

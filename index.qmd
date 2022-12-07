@@ -1,0 +1,27 @@
+---
+listing:
+  contents: posts
+  date-format: iso
+  sort: "date desc"
+  type: default
+  max-items: 3
+  image-placeholder: "images/logo.png"
+  categories: false
+  sort-ui: false
+  filter-ui: false
+---
+
+The psyTeachR team at the University of Glasgow [School of Psychology and Neuroscience](https://www.gla.ac.uk/schools/psychologyneuroscience/) has successfully made the transition to teaching reproducible research using R across all undergraduate and postgraduate levels. Our curriculum now emphasizes essential ‘data science’ graduate skills that have been overlooked in traditional approaches to teaching, including programming skills, data visualisation, data wrangling and reproducible reports. Students learn about probability and inference through data simulation as well as by working with real datasets.
+
+This website contains our open materials for teaching reproducible research. See our [GitHub](https://github.com/PsyTeachR) for open data and code.
+
+### Quick Links
+
+<!-- no spaces between <a> or % is wonky -->
+<div class="hexes">
+<div class="hexrow"><a href="/data-skills/"><img src="images/data-skills.png"></a><a href="/analysis/"><img src="images/analysis.png"></a><a href="/stat-models/"><img src="images/stat-models.png"></a><a href="/quant-fun/"><img src="images/quant-fun.png"></a><a href="/reprores/"><img src="images/reprores.png"></a></div>
+<div class="hexrow"><a href="/glossary/"><img src="images/glossary.png"></a><a href="/ads/"><img src="images/ads.png"></a><a href="/introdataviz/"><img src="images/introdataviz.png"></a><a href="/tutorials/"><img src="images/tutorials.png"></a><a href="https://debruine.github.io/shinyintro/"><img   src="images/shinyintro.png"></a><a href="https://psyteachr.github.io/intro-r-pkgs/"><img   src="images/coding-club.png"></a></div>
+<div class="hexrow"><a href="/handyworkbook/"><img src="images/handyworkbook.png"></a><a href="/template/"><img src="images/template.png"></a><a href="https://psyteachr.github.io/webexercises"><img src="https://psyteachr.github.io/webexercises/logo.png"></a><a href="https://psyteachr.github.io/markr/"><img src="images/markr.png"></a><a href="https://debruine.github.io/faux/"><img src="images/faux.png"></a></div>
+</div>
+
+### Recent News

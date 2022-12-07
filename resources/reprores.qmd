@@ -1,0 +1,15 @@
+---
+title: "Data Skills for Reproducible Research"
+author: 
+  - Lisa DeBruine
+  - Dale Barr
+categories: [textbook, postgraduate]
+description: This book provides an overview of skills needed for reproducible research and open science using the statistical programming language R and tidyverse packages. It covers reproducible workflows, data visualisation, data tidying and wrangling, archiving, iteration and functions, probability and data simulations. It assumes at least an undergraduate level of methods training, but no prior experience in R.
+image: ../../images/reprores.png
+url: https://psyteachr.github.io/reprores/
+doi: 10.5281/zenodo.6527194
+contact: 
+  name: Lisa DeBruine
+  url: https://debruine.github.io/
+order: 5
+---

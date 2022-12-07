@@ -1,0 +1,13 @@
+---
+title: "Open-source tutorials benefit the field"
+author: [Freda Wan, Wilhelmiina Toivo, Helena Paterson, Emily Nordmann, Phil McAleer, Kalliopi Mavromati, Rebecca Lai, Carolina Kuepper-Tetzel, Lisa DeBruine, James Bartlett, Dale Barr]
+categories: [tutorials, pedagogy]
+doi: 10.1038/s44159-022-00058-8
+venue: Nature Reviews Psychology
+volume: 1
+pages: 312-313
+year: 2022
+date: 2022-05-03
+abstract: |
+  Open research is increasingly required by journals and funders but involves many new skills. Creating open-source tutorials is useful to the field and personally rewarding, but these efforts must be credited accordingly.
+---

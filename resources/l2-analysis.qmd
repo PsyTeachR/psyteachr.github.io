@@ -1,0 +1,10 @@
+---
+title: "Level 2: Analysis"
+author: [Phil McAleer, Carolina Kuepper-Tetzel, Helena Paterson]
+categories: [textbook, undergraduate]
+description: Our second-year undergraduate course covers data skills such as R Markdown, data wrangling with tidyverse, and data visualisation with ggplot2. It also introduces statistical concepts such as permutation tests, NHST, alpha, power, effect size, and sample size. Semester 2 focusses on correlations and the general linear model.
+image: ../../images/analysis.png
+url: https://psyteachr.github.io/analysis/
+contact: Carolina Kuepper-Tetzel
+order: 2
+---

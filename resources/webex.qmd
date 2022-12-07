@@ -1,0 +1,10 @@
+---
+title: "{webexercises}"
+author: [Dale Barr, Lisa DeBruine]
+categories: [r-package]
+description: |
+  The R package {webexercises} helps instructors easily create interactive web pages that students can use in self-guided learning. <img src="http://cranlogs.r-pkg.org/badges/grand-total/webexercises?color=467AAC"> (formerly webex <img src="http://cranlogs.r-pkg.org/badges/grand-total/webex?color=467AAC">).
+image: ../../images/webex_hex.png
+url: https://psyteachr.github.io/webexercises/
+order: 30
+---

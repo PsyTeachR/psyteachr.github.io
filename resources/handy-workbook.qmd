@@ -1,0 +1,9 @@
+---
+title: "A Handy Workbook for Research Methods & Statistics"
+author: [Phil McAleer]
+categories: [textbook, undergraduate]
+description: A Handy Workbook to help students understand Research Methods and Statistics through worked examples and self-tests.
+image: ../../images/handyworkbook.png
+url: https://psyteachr.github.io/handyworkbook/
+order: 9
+---

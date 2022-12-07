@@ -1,0 +1,14 @@
+---
+title: "Resources"
+listing:
+  template: res.ejs
+  contents: resources
+  date-format: iso
+  type: default
+  sort: order
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: false
+---

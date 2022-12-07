@@ -1,0 +1,11 @@
+---
+title: "Glossary of Terms"
+categories: [reference]
+description: PsyTeachR books (and external websites) can link to the glossary to define common terms. Anyone can contribute to the glossary through the github project.
+image: ../../images/glossary.png
+url: https://psyteachr.github.io/glossary/
+contact:
+  name: Lisa DeBruine
+  url: https://debruine.github.io/
+order: 7
+---

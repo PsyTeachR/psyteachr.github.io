@@ -1,0 +1,11 @@
+---
+title: "Embedding Data Skills in Research Methods Education: Preparing Students for Reproducible Research"
+author: [Phil McAleer, Niamh Stack, Heather Cleland Woods, Lisa DeBruine, Helena Paterson, Emily Nordmann, Carolina Kuepper-Tetzel, Dale Barr]
+categories: [data skills, pedagogy]
+doi: 10.31234/osf.io/hq68s
+venue: PsyArXiv
+url: https://psyarxiv.com/hq68s/
+date: 2022-11-03
+abstract: |
+  Many initiatives to improve reproducibility incentivise replication and encourage greater transparency without directly addressing the underlying skills needed for transparent and reproducible data preparation and analysis. In this paper, we argue that training in data processing and transformation should be embedded in field-specific research methods curricula. Promoting reproducibility and open science requires not only teaching relevant values and practices, but also providing the skills needed for reproducible data analysis. Improving students’ data skills will also enhance their employability within and beyond the academic context. To demonstrate the necessity of these skills, we walk through the analysis of realistic data from a classic paradigm in experimental psychology that is often used in teaching: the Stroop Interference Task. When starting from realistic raw data, nearly 80% of the data analytic effort for this task involves skills not commonly taught—namely, importing, manipulating, and transforming tabular data. Data processing and transformation is a large and inescapable part of data analysis, and so education should strive to make the work associated with it as efficient, transparent, and reproducible as possible. We conclude by considering the challenges of embedding computational data skills training in undergraduate programmes and offer some solutions.
+---

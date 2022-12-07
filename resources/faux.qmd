@@ -1,0 +1,10 @@
+---
+title: "{faux}"
+author: [Lisa DeBruine]
+categories: [r-package]
+description: |
+  The R package {faux} package makes it easier to simulate data with a specified structure. <img src="http://cranlogs.r-pkg.org/badges/grand-total/faux?color=467AAC">
+image: ../../images/faux.png
+url: https://debruine.github.io/faux/
+order: 32
+---

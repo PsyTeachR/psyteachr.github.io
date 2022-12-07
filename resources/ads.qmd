@@ -1,0 +1,9 @@
+---
+title: "Applied Data Skills"
+author: [Emily Nordmann, Lisa DeBruine]
+categories: [textbook]
+description: This book provides an overview of the basic skills needed to turn raw data into informative summaries and visualisations presented in professional reports and presentations.
+image: ../../images/ads.png
+url: https://psyteachr.github.io/ads/
+order: 8
+---
