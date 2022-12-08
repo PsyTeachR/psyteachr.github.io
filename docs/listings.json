@@ -10,12 +10,16 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/2022-12-09_riots-r-repro.html",
+      "/posts/2022-11-21_riots-code-review.html",
       "/posts/2022-11-01_ADS.html"
     ]
   },
   {
     "listing": "/posts.html",
     "items": [
+      "/posts/2022-12-09_riots-r-repro.html",
+      "/posts/2022-11-21_riots-code-review.html",
       "/posts/2022-11-01_ADS.html"
     ]
   },

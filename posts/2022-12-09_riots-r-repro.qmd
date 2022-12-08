@@ -1,0 +1,10 @@
+---
+title: "R is for Reproducibility"
+date: 2022-12-09
+image: ../images/2022-riots-r-repro.jpg
+categories: [rstats, talk, open science, reproducibility, data skills]
+url: http://tinyurl.com/yxjfpsdv
+---
+
+On Friday at 2pm UTC, Emily Nordmann will be talking to the RIOTS Club about how the University of Glasgow School of Psychology and Neuroscience transformed our curriculum to prioritise data skills and reproducibility and why R is important but also just a tool - [free to join and no need to register](http://tinyurl.com/yxjfpsdv)!
+

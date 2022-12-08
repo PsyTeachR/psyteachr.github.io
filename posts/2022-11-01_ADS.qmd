@@ -2,6 +2,7 @@
 title: "Applied Data Skills Course"
 date: 2022-11-03
 image: ../images/ads.png
+categories: [rstats, data skills, course]
 ---
 
 Have you been meaning to learn R, but need some structure to help motivate you and get over the initial steep learning curve?

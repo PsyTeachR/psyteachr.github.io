@@ -1,119 +1,127 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://psyteachr.github.io/posts/2022-12-09_riots-r-repro.html</loc>
+    <lastmod>2022-12-08T20:15:42.959Z</lastmod>
+  </url>
+  <url>
     <loc>https://psyteachr.github.io/posts/2022-11-01_ADS.html</loc>
-    <lastmod>2022-12-07T11:39:59.853Z</lastmod>
+    <lastmod>2022-12-08T20:15:43.880Z</lastmod>
+  </url>
+  <url>
+    <loc>https://psyteachr.github.io/posts/2022-11-21_riots-code-review.html</loc>
+    <lastmod>2022-12-08T20:15:44.931Z</lastmod>
   </url>
   <url>
     <loc>https://psyteachr.github.io/papers/2022-open-source-tutorials.html</loc>
-    <lastmod>2022-12-07T11:40:00.248Z</lastmod>
+    <lastmod>2022-12-08T20:15:45.612Z</lastmod>
   </url>
   <url>
     <loc>https://psyteachr.github.io/papers/2022-dataviz.html</loc>
-    <lastmod>2022-12-07T11:40:00.668Z</lastmod>
+    <lastmod>2022-12-08T20:15:46.821Z</lastmod>
   </url>
   <url>
     <loc>https://psyteachr.github.io/papers/2022-embedding.html</loc>
-    <lastmod>2022-12-07T11:40:01.120Z</lastmod>
+    <lastmod>2022-12-08T20:15:47.398Z</lastmod>
   </url>
   <url>
     <loc>https://psyteachr.github.io/papers.html</loc>
-    <lastmod>2022-12-07T11:40:01.431Z</lastmod>
+    <lastmod>2022-12-08T20:15:47.974Z</lastmod>
   </url>
   <url>
     <loc>https://psyteachr.github.io/resources/introdataviz.html</loc>
-    <lastmod>2022-12-07T11:40:01.710Z</lastmod>
+    <lastmod>2022-12-08T20:15:48.458Z</lastmod>
   </url>
   <url>
     <loc>https://psyteachr.github.io/resources/hack-your-data-beautiful.html</loc>
-    <lastmod>2022-12-07T11:40:02.042Z</lastmod>
+    <lastmod>2022-12-08T20:15:49.059Z</lastmod>
   </url>
   <url>
     <loc>https://psyteachr.github.io/resources/faux.html</loc>
-    <lastmod>2022-12-07T11:40:02.337Z</lastmod>
+    <lastmod>2022-12-08T20:15:49.629Z</lastmod>
   </url>
   <url>
     <loc>https://psyteachr.github.io/resources/l3-stat-models.html</loc>
-    <lastmod>2022-12-07T11:40:02.618Z</lastmod>
+    <lastmod>2022-12-08T20:15:50.033Z</lastmod>
   </url>
   <url>
     <loc>https://psyteachr.github.io/resources/reprores.html</loc>
-    <lastmod>2022-12-07T11:40:02.896Z</lastmod>
+    <lastmod>2022-12-08T20:15:50.486Z</lastmod>
   </url>
   <url>
     <loc>https://psyteachr.github.io/resources/psych-future.html</loc>
-    <lastmod>2022-12-07T11:40:03.179Z</lastmod>
+    <lastmod>2022-12-08T20:15:50.892Z</lastmod>
   </url>
   <url>
     <loc>https://psyteachr.github.io/resources/ads.html</loc>
-    <lastmod>2022-12-07T11:40:03.451Z</lastmod>
+    <lastmod>2022-12-08T20:15:51.322Z</lastmod>
   </url>
   <url>
     <loc>https://psyteachr.github.io/resources/book-template.html</loc>
-    <lastmod>2022-12-07T11:40:03.725Z</lastmod>
+    <lastmod>2022-12-08T20:15:51.765Z</lastmod>
   </url>
   <url>
     <loc>https://psyteachr.github.io/resources/l2-analysis.html</loc>
-    <lastmod>2022-12-07T11:40:04.033Z</lastmod>
+    <lastmod>2022-12-08T20:15:52.171Z</lastmod>
   </url>
   <url>
     <loc>https://psyteachr.github.io/resources/redesigning-methods-curricula.html</loc>
-    <lastmod>2022-12-07T11:40:04.324Z</lastmod>
+    <lastmod>2022-12-08T20:15:52.650Z</lastmod>
   </url>
   <url>
     <loc>https://psyteachr.github.io/resources/l1-data-skills.html</loc>
-    <lastmod>2022-12-07T11:40:04.620Z</lastmod>
+    <lastmod>2022-12-08T20:15:53.053Z</lastmod>
   </url>
   <url>
     <loc>https://psyteachr.github.io/resources/stats-res.html</loc>
-    <lastmod>2022-12-07T11:40:04.889Z</lastmod>
+    <lastmod>2022-12-08T20:15:53.472Z</lastmod>
   </url>
   <url>
     <loc>https://psyteachr.github.io/resources/glossary.html</loc>
-    <lastmod>2022-12-07T11:40:05.187Z</lastmod>
+    <lastmod>2022-12-08T20:15:53.857Z</lastmod>
   </url>
   <url>
     <loc>https://psyteachr.github.io/resources/intro-r-pkgs.html</loc>
-    <lastmod>2022-12-07T11:40:05.464Z</lastmod>
+    <lastmod>2022-12-08T20:15:54.231Z</lastmod>
   </url>
   <url>
     <loc>https://psyteachr.github.io/resources/quant-fun.html</loc>
-    <lastmod>2022-12-07T11:40:05.773Z</lastmod>
+    <lastmod>2022-12-08T20:15:54.691Z</lastmod>
   </url>
   <url>
     <loc>https://psyteachr.github.io/resources/tutorials.html</loc>
-    <lastmod>2022-12-07T11:40:06.039Z</lastmod>
+    <lastmod>2022-12-08T20:15:55.051Z</lastmod>
   </url>
   <url>
     <loc>https://psyteachr.github.io/resources/markr.html</loc>
-    <lastmod>2022-12-07T11:40:06.336Z</lastmod>
+    <lastmod>2022-12-08T20:15:55.512Z</lastmod>
   </url>
   <url>
     <loc>https://psyteachr.github.io/resources/shiny-intro.html</loc>
-    <lastmod>2022-12-07T11:40:06.604Z</lastmod>
+    <lastmod>2022-12-08T20:15:55.904Z</lastmod>
   </url>
   <url>
     <loc>https://psyteachr.github.io/resources/webex.html</loc>
-    <lastmod>2022-12-07T11:40:06.910Z</lastmod>
+    <lastmod>2022-12-08T20:15:56.334Z</lastmod>
   </url>
   <url>
     <loc>https://psyteachr.github.io/resources/handy-workbook.html</loc>
-    <lastmod>2022-12-07T11:40:07.188Z</lastmod>
+    <lastmod>2022-12-08T20:15:56.769Z</lastmod>
   </url>
   <url>
     <loc>https://psyteachr.github.io/index.html</loc>
-    <lastmod>2022-12-07T11:40:07.525Z</lastmod>
+    <lastmod>2022-12-08T20:15:57.278Z</lastmod>
   </url>
   <url>
     <loc>https://psyteachr.github.io/about.html</loc>
-    <lastmod>2022-12-07T11:40:07.799Z</lastmod>
+    <lastmod>2022-12-08T20:15:57.831Z</lastmod>
   </url>
   <url>
     <loc>https://psyteachr.github.io/posts.html</loc>
-    <lastmod>2022-12-07T11:40:08.097Z</lastmod>
+    <lastmod>2022-12-08T20:15:58.577Z</lastmod>
   </url>
   <url>
     <loc>https://psyteachr.github.io/resources.html</loc>
-    <lastmod>2022-12-07T11:40:08.446Z</lastmod>
+    <lastmod>2022-12-08T20:15:59.324Z</lastmod>
   </url>
 </urlset>

@@ -1,0 +1,14 @@
+---
+title: "Code Review"
+date: 2022-11-21
+image: ../images/2022-riots-code-review.jpg
+categories: [rstats, talk, code review, open science, reproducibility, data skills]
+url: https://www.youtube.com/watch?v=-e5EQIw9rAg
+---
+
+View Lisa DeBruine's talk on Code Review for the RIOT Science Club on [YouTube](https://www.youtube.com/watch?v=-e5EQIw9rAg).
+
+### Abstract
+
+Sharing analyses using computationally reproducible code is increasingly common, with more journals encouraging or even requiring this level of transparency. However, this increased focus on writing code hasn’t been matched by an increased focus on assessing code, either informally within research teams or formally during the review process. A recent survey suggests that people don’t arrange for their code to be reviewed because there is a lack of time, it’s not seen as a priority, there are not enough colleagues with the appropriate expertise, or they are embarrassed for others see their code. In this talk, I’ll summarise the work of a group of researchers developing a code review guide for beginners. I’ll cover the goals of code check, explain some key concepts, and present checklists for both code reviewers and code writers to get their code in shape for review.
+
