@@ -21,6 +21,13 @@
     "text": "Abstract\nSharing analyses using computationally reproducible code is increasingly common, with more journals encouraging or even requiring this level of transparency. However, this increased focus on writing code hasn’t been matched by an increased focus on assessing code, either informally within research teams or formally during the review process. A recent survey suggests that people don’t arrange for their code to be reviewed because there is a lack of time, it’s not seen as a priority, there are not enough colleagues with the appropriate expertise, or they are embarrassed for others see their code. In this talk, I’ll summarise the work of a group of researchers developing a code review guide for beginners. I’ll cover the goals of code check, explain some key concepts, and present checklists for both code reviewers and code writers to get their code in shape for review."
   },
   {
+    "objectID": "posts/2022-06-29_riots-teaching-open.html",
+    "href": "posts/2022-06-29_riots-teaching-open.html",
+    "title": "Reflecting on our Teaching with Open Science",
+    "section": "",
+    "text": "This was part of a conference on Teaching & Mentoring Open Research"
+  },
+  {
     "objectID": "papers.html",
     "href": "papers.html",
     "title": "Papers",
@@ -32,7 +39,7 @@
     "href": "index.html",
     "title": "PsyTeachR",
     "section": "",
-    "text": "This website contains our open materials for teaching reproducible research. See our GitHub for open data and code.\n\nQuick Links\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRecent News\n\n\n\n\n\n\n\n\n\n  \n\n\n\n\nR is for Reproducibility\n\n\n\n\n\n\n\n\n\n\n\n\n2022-12-09\n\n\n\n\n\n\n  \n\n\n\n\nCode Review\n\n\n\n\n\n\n\n\n\n\n\n\n2022-11-21\n\n\n\n\n\n\n  \n\n\n\n\nApplied Data Skills Course\n\n\n\n\n\n\n\n\n\n\n\n\n2022-11-03\n\n\n\n\n\n\nNo matching items"
+    "text": "This website contains our open materials for teaching reproducible research. See our GitHub for open data and code.\n\nQuick Links\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRecent News\n\n\n\n\n\n\n\n\n\n  \n\n\n\n\nR is for Reproducibility\n\n\n\n\n\n\n\n\n\n\n\n\n2022-12-09\n\n\n\n\n\n\n  \n\n\n\n\nCode Review\n\n\n\n\n\n\n\n\n\n\n\n\n2022-11-21\n\n\n\n\n\n\n  \n\n\n\n\nApplied Data Skills Course\n\n\n\n\n\n\n\n\n\n\n\n\n2022-11-03\n\n\n\n\n\n\n  \n\n\n\n\nReflecting on our Teaching with Open Science\n\n\n\n\n\n\n\n\n\n\n\n\n2022-06-29\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -46,7 +53,7 @@
     "href": "posts.html",
     "title": "Posts",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\n2022-12-09\n\n\nR is for Reproducibility\n\n\n\n\n\n\n2022-11-21\n\n\nCode Review\n\n\n\n\n\n\n2022-11-03\n\n\nApplied Data Skills Course\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\n2022-12-09\n\n\nR is for Reproducibility\n\n\n\n\n\n\n2022-11-21\n\n\nCode Review\n\n\n\n\n\n\n2022-11-03\n\n\nApplied Data Skills Course\n\n\n\n\n\n\n2022-06-29\n\n\nReflecting on our Teaching with Open Science\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "resources.html",

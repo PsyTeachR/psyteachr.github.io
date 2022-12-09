@@ -4,7 +4,7 @@ listing:
   date-format: iso
   sort: "date desc"
   type: default
-  max-items: 3
+  max-items: 5
   image-placeholder: "images/logo.png"
   categories: false
   sort-ui: false

@@ -1,0 +1,14 @@
+---
+title: "Reflecting on our Teaching with Open Science"
+date: 2022-06-29
+image: ../images/2022-riots-teaching-open.jpg
+categories: [rstats, talk, pedagogy, data skills]
+url: https://www.youtube.com/watch?v=O7sY78E9Rzc
+---
+
+View Helena Paterson and Phil McAleer's talk on Reflecting on our Teaching with Open Science for the RIOT Science Club on [YouTube](https://www.youtube.com/watch?v=O7sY78E9Rzc).
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/O7sY78E9Rzc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+This was part of a conference on [Teaching & Mentoring Open Research](https://docs.google.com/document/d/1psIhOvNadoQpHN296HFJfJwSsTAgK2LKJTBu9qZlA3M/edit#)
+
