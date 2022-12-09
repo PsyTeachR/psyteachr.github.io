@@ -1,0 +1,12 @@
+---
+title: "Understanding Mixed-Effects Models Through Data Simulation"
+author: [Lisa DeBruine, Dale Barr]
+categories: [tutorials, mixed-effects, rstats]
+doi: 10.1177/2515245920965119
+venue: Advances in Methods and Practices in Psychological Science
+year: 2021
+date: 2021-04-23
+abstract: |
+  Experimental designs that sample both subjects and stimuli from a larger population need to account for random effects of both subjects and stimuli using mixed-effects models. However, much of this research is analyzed using analysis of variance on aggregated responses because researchers are not confident specifying and interpreting mixed-effects models. This Tutorial explains how to simulate data with random-effects structure and analyze the data using linear mixed-effects regression (with the lme4 R package), with a focus on interpreting the output in light of the simulated parameters. Data simulation not only can enhance understanding of how these models work, but also enables researchers to perform power calculations for complex designs. All materials associated with this article can be accessed at https://osf.io/3cz2e/.
+---
+

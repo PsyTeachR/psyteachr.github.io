@@ -1,0 +1,12 @@
+---
+title: "Improving Pedagogy through Registered Reports"
+author: [Phil McAleer, Helena Paterson]
+categories: [pedagogy, registered reports]
+doi: 10.31234/osf.io/q34k8
+venue: PsyArXiv
+year: 2022
+date: 2022-02-05
+abstract: |
+  An emphasis on research-led teaching across educational settings has meant that more and more implementations for improving student learning are based on published research. However, the utility of those implementations is only as strong as the research they are based on. The recent replication crisis, witnessed across various fields of science, including pedagogical research, has called into question the published research record.  Along with addressing issues in research practices, changes to publication practices are seen as an important step in ensuring that the evidence-based teaching practices we adopt in our classrooms are fit for purpose. Here we highlight a number of issues within the pedagogical literature, including a lack of replication studies and a positive publication bias, as well as common questionable research practices, that need addressed to ensure credible science as a basis for educational interventions. We propose the adoption of Registered Reports as a means for counteracting these issues. By ensuring that the literature that we base policy and practice upon is published based on its scientific rigor, and not merely its outcome, we believe that the field will have a stronger basis on which to decide the implementations and approaches we adopt within our classrooms.
+---
+
