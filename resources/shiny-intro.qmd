@@ -1,7 +1,7 @@
 ---
 title: "Building Web Apps with R Shiny"
 author: [Lisa DeBruine]
-categories: [tutorials]
+categories: [tutorial]
 description: Learn the basics of Shiny app programming, including skills that will form the basis of almost any app you want to build.
 image: ../../images/shinyintro.png
 url: https://debruine.github.io/shinyintro/

@@ -1,6 +1,6 @@
 ---
 title: "Tutorials"
-categories: [tutorials]
+categories: [tutorial]
 description: Collected short tutorials in R.
 image: ../../images/tutorials.png
 url: https://psyteachr.github.io/tutorials/

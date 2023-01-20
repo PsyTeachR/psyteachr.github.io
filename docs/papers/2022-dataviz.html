@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.1.189">
+<meta name="generator" content="quarto-1.2.269">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -69,10 +69,11 @@ ul.task-list li input[type="checkbox"] {
 
 <link rel="stylesheet" href="../styles.css">
 <meta property="og:title" content="PsyTeachR - Data visualisation using R, for researchers who don’t use R">
-<meta property="og:description" content="In addition to benefiting reproducibility and transparency, one of the advantages of using R is that researchers have a much larger range of fully customizable data visualizations options than are typically available in point-and-click software because of the open-source nature of R. These visualization options not only look attractive but also can increase transparency about the distribution of the underlying data rather than relying on commonly used visualizations of aggregations, such as bar charts of means. In this tutorial, we provide a practical introduction to data visualization using R specifically aimed at researchers who have little to no prior experience of using R. First, we detail the rationale for using R for data visualization and introduce the “grammar of graphics” that underlies data visualization using the ggplot package. The tutorial then walks the reader through how to replicate plots that are commonly available in point-and-click software, such as histograms and box plots, and shows how the code for these “basic” plots can be easily extended to less commonly available options, such as violin box plots. The data set and code used in this tutorial and an interactive version with activity solutions, additional resources, and advanced plotting options are available at https://osf.io/bj83f/.">
+<meta property="og:description" content="In addition to benefiting reproducibility and transparency, one of the advantages of using R is that researchers have a much larger range of fully customizable data visualizations options than are…">
 <meta property="og:site-name" content="PsyTeachR">
 <meta name="twitter:title" content="PsyTeachR - Data visualisation using R, for researchers who don’t use R">
-<meta name="twitter:description" content="In addition to benefiting reproducibility and transparency, one of the advantages of using R is that researchers have a much larger range of fully customizable data visualizations options than are typically available in point-and-click software because of the open-source nature of R. These visualization options not only look attractive but also can increase transparency about the distribution of the underlying data rather than relying on commonly used visualizations of aggregations, such as bar charts of means. In this tutorial, we provide a practical introduction to data visualization using R specifically aimed at researchers who have little to no prior experience of using R. First, we detail the rationale for using R for data visualization and introduce the “grammar of graphics” that underlies data visualization using the ggplot package. The tutorial then walks the reader through how to replicate plots that are commonly available in point-and-click software, such as histograms and box plots, and shows how the code for these “basic” plots can be easily extended to less commonly available options, such as violin box plots. The data set and code used in this tutorial and an interactive version with activity solutions, additional resources, and advanced plotting options are available at https://osf.io/bj83f/.">
+<meta name="twitter:description" content="In addition to benefiting reproducibility and transparency, one of the advantages of using R is that researchers have a much larger range of fully customizable data visualizations options than are…">
+<meta name="twitter:site" content="@PsyTeachR">
 <meta name="twitter:card" content="summary">
 </head>
 
@@ -96,26 +97,30 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../resources.html">Resources</a>
+    <a class="nav-link" href="../resources.html">
+ <span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../papers.html">Papers</a>
+    <a class="nav-link" href="../papers.html">
+ <span class="menu-text">Papers</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://psyteachr.github.io/mms/coding_club.html">Coding Club</a>
+    <a class="nav-link" href="https://psyteachr.github.io/mms/coding_club.html">
+ <span class="menu-text">Coding Club</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://psyteachr.github.io/mms/">M&amp;Ms</a>
+    <a class="nav-link" href="https://psyteachr.github.io/mms/">
+ <span class="menu-text">M&amp;Ms</span></a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/psyteachr/"><i class="bi bi-github" role="img">
 </i> 
- </a>
+ <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://twitter.com/psyteachr"><i class="bi bi-twitter" role="img">
 </i> 
- </a>
+ <span class="menu-text"></span></a>
   </li>  
 </ul>
               <div id="quarto-search" class="" title="Search"></div>
@@ -156,6 +161,7 @@ ul.task-list li input[type="checkbox"] {
         <p class="date">April 27, 2022</p>
       </div>
     </div>
+    
       
       <div>
       <div class="quarto-title-meta-heading">Doi</div>
@@ -229,7 +235,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -265,24 +288,42 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
 });
 </script>
