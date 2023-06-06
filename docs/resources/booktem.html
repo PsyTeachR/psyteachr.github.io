@@ -7,10 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Lisa DeBruine">
-<meta name="author" content="Dale Barr">
-<meta name="dcterms.date" content="2021-04-23">
+<meta name="description" content="The R package {booktem} helps to make the creation of open-source, methods-focussed books quick and easy. It integrates with webexercises for short self-checking quizzes and glossary for defining terms in text and creating glossary tables.">
 
-<title>PsyTeachR - Understanding Mixed-Effects Models Through Data Simulation</title>
+<title>PsyTeachR - {booktem}</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -65,13 +64,15 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../styles.css">
-<meta property="og:title" content="PsyTeachR - Understanding Mixed-Effects Models Through Data Simulation">
-<meta property="og:description" content="Experimental designs that sample both subjects and stimuli from a larger population need to account for random effects of both subjects and stimuli using mixed-effects models. However, much of this research is analyzed using analysis of variance on aggregated responses because researchers are not confident specifying and interpreting mixed-effects models. This Tutorial explains how to simulate data with random-effects structure and analyze the data using linear mixed-effects regression (with the lme4 R package), with a focus on interpreting the output in light of the simulated parameters. Data simulation not only can enhance understanding of how these models work, but also enables researchers to perform power calculations for complex designs. All materials associated with this article can be accessed at https://osf.io/3cz2e/.">
+<meta property="og:title" content="PsyTeachR - {booktem}">
+<meta property="og:description" content="The R package {booktem} helps to make the creation of open-source, methods-focussed books quick and easy. It integrates with webexercises for short self-checking quizzes and glossary for defining terms in text and creating glossary tables.">
+<meta property="og:image" content="https://psyteachr.github.io/../images/booktem.png">
 <meta property="og:site-name" content="PsyTeachR">
-<meta name="twitter:title" content="PsyTeachR - Understanding Mixed-Effects Models Through Data Simulation">
-<meta name="twitter:description" content="Experimental designs that sample both subjects and stimuli from a larger population need to account for random effects of both subjects and stimuli using mixed-effects models. However, much of this research is analyzed using analysis of variance on aggregated responses because researchers are not confident specifying and interpreting mixed-effects models. This Tutorial explains how to simulate data with random-effects structure and analyze the data using linear mixed-effects regression (with the lme4 R package), with a focus on interpreting the output in light of the simulated parameters. Data simulation not only can enhance understanding of how these models work, but also enables researchers to perform power calculations for complex designs. All materials associated with this article can be accessed at https://osf.io/3cz2e/.">
+<meta name="twitter:title" content="PsyTeachR - {booktem}">
+<meta name="twitter:description" content="The R package {booktem} helps to make the creation of open-source, methods-focussed books quick and easy. It integrates with webexercises for short self-checking quizzes and glossary for defining terms in text and creating glossary tables.">
+<meta name="twitter:image" content="https://psyteachr.github.io/../images/booktem.png">
 <meta name="twitter:site" content="@PsyTeachR">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -131,11 +132,15 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Understanding Mixed-Effects Models Through Data Simulation</h1>
-                                <div class="quarto-categories">
-                <div class="quarto-category">tutorials</div>
-                <div class="quarto-category">mixed-effects</div>
-                <div class="quarto-category">rstats</div>
+      <h1 class="title">{booktem}</h1>
+                  <div>
+        <div class="description">
+          <p>The R package {booktem} helps to make the creation of open-source, methods-focussed books quick and easy. It integrates with <a href="https://psyteachr.github.io/webexercises/">webexercises</a> for short self-checking quizzes and <a href="https://debruine.github.io/glossary/">glossary</a> for defining terms in text and creating glossary tables.</p>
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">r-package</div>
+                <div class="quarto-category">textbook</div>
               </div>
                   </div>
   </div>
@@ -144,37 +149,16 @@ ul.task-list li input[type="checkbox"] {
   <div class="quarto-title-meta">
 
       <div>
-      <div class="quarto-title-meta-heading">Authors</div>
+      <div class="quarto-title-meta-heading">Author</div>
       <div class="quarto-title-meta-contents">
                <p>Lisa DeBruine </p>
-               <p>Dale Barr </p>
             </div>
     </div>
       
-      <div>
-      <div class="quarto-title-meta-heading">Published</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date">April 23, 2021</p>
-      </div>
-    </div>
     
       
-      <div>
-      <div class="quarto-title-meta-heading">Doi</div>
-      <div class="quarto-title-meta-contents">
-        <p class="doi">
-          <a href="https://doi.org/10.1177/2515245920965119">10.1177/2515245920965119</a>
-        </p>
-      </div>
-    </div>
     </div>
     
-  <div>
-    <div class="abstract">
-      <div class="abstract-title">Abstract</div>
-      <p>Experimental designs that sample both subjects and stimuli from a larger population need to account for random effects of both subjects and stimuli using mixed-effects models. However, much of this research is analyzed using analysis of variance on aggregated responses because researchers are not confident specifying and interpreting mixed-effects models. This Tutorial explains how to simulate data with random-effects structure and analyze the data using linear mixed-effects regression (with the lme4 R package), with a focus on interpreting the output in light of the simulated parameters. Data simulation not only can enhance understanding of how these models work, but also enables researchers to perform power calculations for complex designs. All materials associated with this article can be accessed at https://osf.io/3cz2e/.</p>
-    </div>
-  </div>
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->

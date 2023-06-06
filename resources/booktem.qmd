@@ -1,0 +1,11 @@
+---
+title: "{booktem}"
+author: [Lisa DeBruine]
+categories: [r-package, textbook]
+description: |
+  The R package {booktem} helps to make the creation of open-source, methods-focussed books quick and easy. It integrates with  [webexercises](https://psyteachr.github.io/webexercises/) for short self-checking quizzes and [glossary](https://debruine.github.io/glossary/) for defining terms in text and creating glossary tables.
+image: ../../images/booktem.png
+url: https://debruine.github.io/booktem/
+order: 33
+---
+

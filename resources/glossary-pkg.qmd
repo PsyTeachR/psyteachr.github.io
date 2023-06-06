@@ -1,0 +1,9 @@
+---
+title: "{glossary}"
+author: [Lisa DeBruine]
+categories: [r-package]
+description: The R package {glossary} provides a lightweight solution for making glossaries in educational materials written in quarto or R Markdown. <img src="http://cranlogs.r-pkg.org/badges/grand-total/glossary?color=467AAC">
+image: ../../images/glossary-pkg.png
+url: https://debruine.github.io/glossary/
+order: 33
+---

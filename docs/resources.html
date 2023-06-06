@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.269">
+<meta name="generator" content="quarto-1.3.340">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -71,9 +71,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-freeze','listing-title-block-banner','listing-title','listing-author','listing-categories','listing-description','listing-image','listing-url','listing-contact','listing-order','listing-path','listing-filename','listing-file-modified','listing-reading-time','listing-doi','listing-date','listing-venue','listing-links',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-date-sort'] }],
+      valueNames: ['listing-project','listing-website','listing-format','listing-language','listing-freeze','listing-title-block-banner','listing-title','listing-author','listing-categories','listing-description','listing-image','listing-url','listing-contact','listing-order','listing-path','listing-outputHref','listing-filename','listing-file-modified','listing-reading-time','listing-doi','listing-date','listing-venue','listing-links','listing-date-modified',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] }],
       
-      searchColumns: ["listing-freeze","listing-title-block-banner","listing-title","listing-author","listing-categories","listing-description","listing-image","listing-url","listing-contact","listing-order","listing-path","listing-filename","listing-file-modified","listing-reading-time","listing-doi","listing-date","listing-venue","listing-links"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-freeze","listing-title-block-banner","listing-title","listing-author","listing-categories","listing-description","listing-image","listing-url","listing-contact","listing-order","listing-path","listing-outputHref","listing-filename","listing-file-modified","listing-reading-time","listing-doi","listing-date","listing-venue","listing-links","listing-date-modified"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -91,14 +91,21 @@ ul.task-list li input[type="checkbox"] {
   })
   </script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="PsyTeachR - Resources">
+<meta property="og:image" content="https://psyteachr.github.io/images/data-skills.png">
 <meta property="og:site-name" content="PsyTeachR">
+<meta property="og:image:height" content="1024">
+<meta property="og:image:width" content="1024">
 <meta name="twitter:title" content="PsyTeachR - Resources">
+<meta name="twitter:image" content="https://psyteachr.github.io/images/data-skills.png">
 <meta name="twitter:site" content="@PsyTeachR">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:image-height" content="1024">
+<meta name="twitter:image-width" content="1024">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed">
@@ -115,39 +122,41 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">PsyTeachR</span>
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./resources.html" aria-current="page">
+    <a class="nav-link active" href="./resources.html" rel="" target="" aria-current="page">
  <span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./papers.html">
+    <a class="nav-link" href="./papers.html" rel="" target="">
  <span class="menu-text">Papers</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://psyteachr.github.io/mms/coding_club.html">
+    <a class="nav-link" href="https://psyteachr.github.io/mms/coding_club.html" rel="" target="">
  <span class="menu-text">Coding Club</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://psyteachr.github.io/mms/">
+    <a class="nav-link" href="https://psyteachr.github.io/mms/" rel="" target="">
  <span class="menu-text">M&amp;Ms</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/psyteachr/"><i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/psyteachr/" rel="" target=""><i class="bi bi-github" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/psyteachr"><i class="bi bi-twitter" role="img">
+    <a class="nav-link" href="https://twitter.com/psyteachr" rel="" target=""><i class="bi bi-twitter" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
@@ -158,7 +167,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(20)</span></div><div class="category" data-category="postgraduate">postgraduate <span class="quarto-category-count">(3)</span></div><div class="category" data-category="r-package">r-package <span class="quarto-category-count">(3)</span></div><div class="category" data-category="reference">reference <span class="quarto-category-count">(1)</span></div><div class="category" data-category="talk">talk <span class="quarto-category-count">(1)</span></div><div class="category" data-category="template">template <span class="quarto-category-count">(1)</span></div><div class="category" data-category="textbook">textbook <span class="quarto-category-count">(8)</span></div><div class="category" data-category="tutorial">tutorial <span class="quarto-category-count">(4)</span></div><div class="category" data-category="undergraduate">undergraduate <span class="quarto-category-count">(4)</span></div><div class="category" data-category="workshop">workshop <span class="quarto-category-count">(2)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(22)</span></div><div class="category" data-category="postgraduate">postgraduate <span class="quarto-category-count">(3)</span></div><div class="category" data-category="r-package">r-package <span class="quarto-category-count">(5)</span></div><div class="category" data-category="reference">reference <span class="quarto-category-count">(1)</span></div><div class="category" data-category="talk">talk <span class="quarto-category-count">(1)</span></div><div class="category" data-category="template">template <span class="quarto-category-count">(1)</span></div><div class="category" data-category="textbook">textbook <span class="quarto-category-count">(9)</span></div><div class="category" data-category="tutorial">tutorial <span class="quarto-category-count">(4)</span></div><div class="category" data-category="undergraduate">undergraduate <span class="quarto-category-count">(4)</span></div><div class="category" data-category="workshop">workshop <span class="quarto-category-count">(2)</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
@@ -184,8 +193,9 @@ ul.task-list li input[type="checkbox"] {
 
 
 <div class="quarto-listing quarto-listing-container-custom" id="listing-listing">
+
 <ul class="reslist list">
-  <li data-index="0" data-categories="textbook,undergraduate" data-listing-file-modified-sort="1670257255222" data-listing-reading-time-sort="0.005">
+  <li data-index="0" data-categories="textbook,undergraduate" data-listing-file-modified-sort="1686052189712" data-listing-reading-time-sort="1">
     <div>
       <a href="https://psyteachr.github.io/data-skills/"><img src="./images/data-skills.png"></a>
     </div>
@@ -197,7 +207,7 @@ ul.task-list li input[type="checkbox"] {
           <a href="https://www.gla.ac.uk/schools/psychologyneuroscience/staff/emilynordmann/">Emily Nordmann</a>
     </div>
   </li>
-  <li data-index="1" data-categories="textbook,undergraduate" data-listing-file-modified-sort="1670249851737" data-listing-reading-time-sort="0.005">
+  <li data-index="1" data-categories="textbook,undergraduate" data-listing-file-modified-sort="1686052189713" data-listing-reading-time-sort="1">
     <div>
       <a href="https://psyteachr.github.io/analysis/"><img src="./images/analysis.png"></a>
     </div>
@@ -209,7 +219,7 @@ ul.task-list li input[type="checkbox"] {
           Carolina Kuepper-Tetzel
     </div>
   </li>
-  <li data-index="2" data-categories="textbook,undergraduate" data-listing-file-modified-sort="1670249848710" data-listing-reading-time-sort="0.005">
+  <li data-index="2" data-categories="textbook,undergraduate" data-listing-file-modified-sort="1686052189713" data-listing-reading-time-sort="1">
     <div>
       <a href="https://psyteachr.github.io/stat-models/"><img src="./images/stat-models.png"></a>
     </div>
@@ -221,7 +231,7 @@ ul.task-list li input[type="checkbox"] {
           Dale Barr
     </div>
   </li>
-  <li data-index="3" data-categories="textbook,postgraduate" data-listing-file-modified-sort="1670249845759" data-listing-reading-time-sort="0.005">
+  <li data-index="3" data-categories="textbook,postgraduate" data-listing-file-modified-sort="1686052189714" data-listing-reading-time-sort="1">
     <div>
       <a href="https://psyteachr.github.io/quant-fun/"><img src="./images/quant-fun.png"></a>
     </div>
@@ -233,7 +243,7 @@ ul.task-list li input[type="checkbox"] {
           Phil McAleer
     </div>
   </li>
-  <li data-index="4" data-categories="textbook,postgraduate" data-listing-file-modified-sort="1670252712493" data-listing-reading-time-sort="0.005">
+  <li data-index="4" data-categories="textbook,postgraduate" data-listing-file-modified-sort="1686052189714" data-listing-reading-time-sort="1">
     <div>
       <a href="https://psyteachr.github.io/reprores/"><img src="./images/reprores.png"></a>
     </div>
@@ -246,7 +256,7 @@ ul.task-list li input[type="checkbox"] {
         <br>DOI: <a href="https://doi.org/10.5281/zenodo.6527194">10.5281/zenodo.6527194</a>
     </div>
   </li>
-  <li data-index="5" data-categories="textbook,postgraduate" data-listing-file-modified-sort="1670257796221" data-listing-reading-time-sort="0.005">
+  <li data-index="5" data-categories="textbook,postgraduate" data-listing-file-modified-sort="1686052189715" data-listing-reading-time-sort="1">
     <div>
       <a href=""><img src="./images/statsresdesign.png"></a>
     </div>
@@ -258,7 +268,7 @@ ul.task-list li input[type="checkbox"] {
           James Bartlett
     </div>
   </li>
-  <li data-index="6" data-categories="reference" data-listing-file-modified-sort="1670257547574" data-listing-reading-time-sort="0.005">
+  <li data-index="6" data-categories="reference" data-listing-file-modified-sort="1686052189711" data-listing-reading-time-sort="1">
     <div>
       <a href="https://psyteachr.github.io/glossary/"><img src="./images/glossary.png"></a>
     </div>
@@ -269,7 +279,7 @@ ul.task-list li input[type="checkbox"] {
           <a href="https://debruine.github.io/">Lisa DeBruine</a>
     </div>
   </li>
-  <li data-index="7" data-categories="textbook" data-listing-file-modified-sort="1670257042159" data-listing-reading-time-sort="0.005">
+  <li data-index="7" data-categories="textbook" data-listing-file-modified-sort="1686052189710" data-listing-reading-time-sort="1">
     <div>
       <a href="https://psyteachr.github.io/ads/"><img src="./images/ads.png"></a>
     </div>
@@ -279,7 +289,7 @@ ul.task-list li input[type="checkbox"] {
         Author: Emily Nordmann, Lisa DeBruine
     </div>
   </li>
-  <li data-index="8" data-categories="textbook,undergraduate" data-listing-file-modified-sort="1670257100143" data-listing-reading-time-sort="0.005">
+  <li data-index="8" data-categories="textbook,undergraduate" data-listing-file-modified-sort="1686052189711" data-listing-reading-time-sort="1">
     <div>
       <a href="https://psyteachr.github.io/handyworkbook/"><img src="./images/handyworkbook.png"></a>
     </div>
@@ -289,7 +299,7 @@ ul.task-list li input[type="checkbox"] {
         Author: Phil McAleer
     </div>
   </li>
-  <li data-index="9" data-categories="tutorial" data-listing-file-modified-sort="1674128049781" data-listing-reading-time-sort="0.005">
+  <li data-index="9" data-categories="tutorial" data-listing-file-modified-sort="1686052189712" data-listing-reading-time-sort="1">
     <div>
       <a href="https://psyteachr.github.io/introdataviz/"><img src="./images/introdataviz.png"></a>
     </div>
@@ -301,7 +311,7 @@ ul.task-list li input[type="checkbox"] {
           <a href="https://www.gla.ac.uk/schools/psychologyneuroscience/staff/emilynordmann/">Emily Nordmann</a>
     </div>
   </li>
-  <li data-index="10" data-categories="tutorial" data-listing-file-modified-sort="1674128058413" data-listing-reading-time-sort="0.005">
+  <li data-index="10" data-categories="tutorial" data-listing-file-modified-sort="1686052189715" data-listing-reading-time-sort="1">
     <div>
       <a href="https://psyteachr.github.io/tutorials/"><img src="./images/tutorials.png"></a>
     </div>
@@ -312,7 +322,7 @@ ul.task-list li input[type="checkbox"] {
           <a href="https://www.gla.ac.uk/schools/psychologyneuroscience/staff/dalebarr/">Dale Barr</a>
     </div>
   </li>
-  <li data-index="11" data-categories="tutorial" data-listing-file-modified-sort="1674127885332" data-listing-reading-time-sort="0.005">
+  <li data-index="11" data-categories="tutorial" data-listing-file-modified-sort="1686052189715" data-listing-reading-time-sort="1">
     <div>
       <a href="https://debruine.github.io/shinyintro/"><img src="./images/shinyintro.png"></a>
     </div>
@@ -322,7 +332,7 @@ ul.task-list li input[type="checkbox"] {
         Author: Lisa DeBruine
     </div>
   </li>
-  <li data-index="12" data-categories="tutorial" data-listing-file-modified-sort="1674128074446" data-listing-reading-time-sort="0.005">
+  <li data-index="12" data-categories="tutorial" data-listing-file-modified-sort="1686052189712" data-listing-reading-time-sort="1">
     <div>
       <a href="https://psyteachr.github.io/intro-r-pkgs/"><img src="./images/coding-club.png"></a>
     </div>
@@ -332,7 +342,7 @@ ul.task-list li input[type="checkbox"] {
         Author: Lisa DeBruine
     </div>
   </li>
-  <li data-index="13" data-categories="template" data-listing-file-modified-sort="1670257029863" data-listing-reading-time-sort="0.005">
+  <li data-index="13" data-categories="template" data-listing-file-modified-sort="1686052189710" data-listing-reading-time-sort="1">
     <div>
       <a href="https://psyteachr.github.io/template/"><img src="./images/template.png"></a>
     </div>
@@ -342,7 +352,7 @@ ul.task-list li input[type="checkbox"] {
         Author: Lisa DeBruine
     </div>
   </li>
-  <li data-index="14" data-categories="r-package" data-listing-file-modified-sort="1670259570224" data-listing-reading-time-sort="0.005">
+  <li data-index="14" data-categories="r-package" data-listing-file-modified-sort="1686052189716" data-listing-reading-time-sort="1">
     <div>
       <a href="https://psyteachr.github.io/webexercises/"><img src="./images/webex_hex.png"></a>
     </div>
@@ -353,7 +363,7 @@ ul.task-list li input[type="checkbox"] {
         Author: Dale Barr, Lisa DeBruine
     </div>
   </li>
-  <li data-index="15" data-categories="r-package" data-listing-file-modified-sort="1670258708068" data-listing-reading-time-sort="0.005">
+  <li data-index="15" data-categories="r-package" data-listing-file-modified-sort="1686052189713" data-listing-reading-time-sort="1">
     <div>
       <a href="https://psyteachr.github.io/markr/"><img src="./images/markr.png"></a>
     </div>
@@ -363,7 +373,7 @@ ul.task-list li input[type="checkbox"] {
         Author: Lisa DeBruine, Helena Paterson, Phil McAleer
     </div>
   </li>
-  <li data-index="16" data-categories="r-package" data-listing-file-modified-sort="1670259594448" data-listing-reading-time-sort="0.005">
+  <li data-index="16" data-categories="r-package" data-listing-file-modified-sort="1686052189710" data-listing-reading-time-sort="1">
     <div>
       <a href="https://debruine.github.io/faux/"><img src="./images/faux.png"></a>
     </div>
@@ -374,7 +384,28 @@ ul.task-list li input[type="checkbox"] {
         Author: Lisa DeBruine
     </div>
   </li>
-  <li data-index="17" data-categories="workshop" data-listing-file-modified-sort="1670259177706" data-listing-reading-time-sort="0.005">
+  <li data-index="17" data-categories="r-package,textbook" data-listing-file-modified-sort="1686057711870" data-listing-reading-time-sort="1">
+    <div>
+      <a href="https://debruine.github.io/booktem/"><img src="./images/booktem.png"></a>
+    </div>
+    <div>
+      <h3 class="anchored"><a href="https://debruine.github.io/booktem/">{booktem}</a></h3>
+      <p>The R package {booktem} helps to make the creation of open-source, methods-focussed books quick and easy. It integrates with  [webexercises](https://psyteachr.github.io/webexercises/) for short self-checking quizzes and [glossary](https://debruine.github.io/glossary/) for defining terms in text and creating glossary tables.
+</p>
+        Author: Lisa DeBruine
+    </div>
+  </li>
+  <li data-index="18" data-categories="r-package" data-listing-file-modified-sort="1686052871440" data-listing-reading-time-sort="1">
+    <div>
+      <a href="https://debruine.github.io/glossary/"><img src="./images/glossary-pkg.png"></a>
+    </div>
+    <div>
+      <h3 class="anchored"><a href="https://debruine.github.io/glossary/">{glossary}</a></h3>
+      <p>The R package {glossary} provides a lightweight solution for making glossaries in educational materials written in quarto or R Markdown. <img src="http://cranlogs.r-pkg.org/badges/grand-total/glossary?color=467AAC"></p>
+        Author: Lisa DeBruine
+    </div>
+  </li>
+  <li data-index="19" data-categories="workshop" data-listing-file-modified-sort="1686052189711" data-listing-reading-time-sort="1">
     <div>
       <a href="https://psyteachr.github.io/hack-your-data/"><img src="./images/hydb_hex.png"></a>
     </div>
@@ -384,7 +415,7 @@ ul.task-list li input[type="checkbox"] {
         Author: Carolyn Saund, Shannon McNee, Rebecca Lai, Jack Taylor, Stephanie Allan, Anna Henschel, Lovisa Sundin, Dale Barr, Lisa DeBruine
     </div>
   </li>
-  <li data-index="18" data-categories="workshop" data-listing-file-modified-sort="1670259711200" data-listing-reading-time-sort="0.005">
+  <li data-index="20" data-categories="workshop" data-listing-file-modified-sort="1686052189714" data-listing-reading-time-sort="1">
     <div>
       <a href="https://psyteachr.github.io/sips2019/"><img src="./images/Rlogo-warhol-9b.svg"></a>
     </div>
@@ -394,7 +425,7 @@ ul.task-list li input[type="checkbox"] {
         Author: Dale Barr, Heather Cleland Woods, Lisa DeBruine, Rebecca Lai, Phil McAleer, Shanon McNee, Emily Nordmann, Helena Paterson, Niamh Stack
     </div>
   </li>
-  <li data-index="19" data-categories="talk" data-listing-date-sort="1618527600000" data-listing-file-modified-sort="1670260518772" data-listing-reading-time-sort="0.005">
+  <li data-index="21" data-categories="talk" data-listing-date-sort="1618527600000" data-listing-file-modified-sort="1686052189714" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
     <div>
       <a href=""><img src="./images/logo.png"></a>
     </div>
@@ -436,9 +467,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -503,6 +548,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
