@@ -3,7 +3,7 @@ title: "Coding Club: Creating an R Package"
 author: [Lisa DeBruine]
 categories: [tutorial]
 description: Making an R package develops generic coding skills and gives you valuable insight to how R works. Covers setting up a package project, creating functions, documenting them with roxygen, creating vignettes, unit testing, package testing, version control with git, and distribution with github.
-image: ../../images/coding-club.png
+image: ../../images/intro-r-pkgs.png
 url: https://psyteachr.github.io/intro-r-pkgs/
 order: 13
 ---
