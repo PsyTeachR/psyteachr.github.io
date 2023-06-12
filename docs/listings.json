@@ -12,6 +12,10 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/2023-06-23.html",
+      "/posts/2023-06-20.html",
+      "/posts/2023-06-01_empseb.html",
+      "/posts/2023-05-28_aps-dataviz.html",
       "/posts/2022-12-09_riots-r-repro.html",
       "/posts/2022-11-21_riots-code-review.html",
       "/posts/2022-11-01_ADS.html",
@@ -21,6 +25,10 @@
   {
     "listing": "/posts.html",
     "items": [
+      "/posts/2023-06-23.html",
+      "/posts/2023-06-20.html",
+      "/posts/2023-06-01_empseb.html",
+      "/posts/2023-05-28_aps-dataviz.html",
       "/posts/2022-12-09_riots-r-repro.html",
       "/posts/2022-11-21_riots-code-review.html",
       "/posts/2022-11-01_ADS.html",

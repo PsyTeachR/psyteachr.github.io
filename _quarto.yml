@@ -18,6 +18,7 @@ website:
     right:
       - resources.qmd
       - papers.qmd
+      - posts.qmd
       - text: "Coding Club"
         href: https://psyteachr.github.io/mms/coding_club.html
       - text: "M&Ms"

@@ -1,0 +1,11 @@
+---
+title: "Teaching Reproducibility: reflections on redeveloping a curriculum for teaching reproducible methods"
+date: 2023-06-20
+author: Helena Paterson
+image: ../images/psyteachr_hex.png
+categories: [talk, pedagogy, reproducibility]
+url: https://www.sheffield.ac.uk/smi/events/teaching-reproducible-research-and-open-science-conference
+---
+
+Helena Paterson will be giving a keynote talk on the first day of the [Teaching Reproducible Research and Open Science Conference](https://www.sheffield.ac.uk/smi/events/teaching-reproducible-research-and-open-science-conference) at the University of Sheffield, UK. 
+

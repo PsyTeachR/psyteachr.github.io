@@ -1,6 +1,7 @@
 ---
 title: "Code Review"
 date: 2022-11-21
+author: Lisa DeBruine
 image: ../images/2022-riots-code-review.jpg
 categories: [rstats, talk, code review, open science, reproducibility, data skills]
 url: https://www.youtube.com/watch?v=-e5EQIw9rAg

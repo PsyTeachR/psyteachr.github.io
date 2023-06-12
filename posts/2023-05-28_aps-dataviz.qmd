@@ -1,0 +1,14 @@
+---
+title: "Data Visualization Using R for Researchers Who Don’t Use R "
+date: 2023-05-28
+author: Emily Nordmann
+image: ../images/introdataviz.png
+categories: [rstats, talk, dataviz, data skills]
+url: https://emilynordmann.github.io/aps-dataviz/
+---
+
+Emily Nordmann was invited by the Association for Psychological Science to give a [workshop at the 2023 APA Conference](https://www.psychologicalscience.org/conventions/2023-aps-annual-convention/2023-workshops) introducing researchers who don't use R to data visualisation using ggplot2. (Unfortunately, air travel problems meant this was cancelled.)
+
+### Abstract
+
+This workshop will provide a pragmatic introduction to the programming language R through focusing on data visualization using materials adapted from the PsyTeachR team at the University of Glasgow. No prior knowledge of R or programming is required.

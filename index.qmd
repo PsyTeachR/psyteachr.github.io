@@ -25,3 +25,4 @@ This website contains our open materials for teaching reproducible research. See
 </div>
 
 ### Recent News
+
