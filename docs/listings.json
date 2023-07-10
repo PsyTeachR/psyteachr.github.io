@@ -2,6 +2,7 @@
   {
     "listing": "/papers.html",
     "items": [
+      "/papers/2023-teaching-open.html",
       "/papers/2022-embedding.html",
       "/papers/2022-open-source-tutorials.html",
       "/papers/2022-dataviz.html",
@@ -12,10 +13,11 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/2023-06-23.html",
-      "/posts/2023-06-20.html",
+      "/posts/2023-06-23_SIPS-booktem.html",
+      "/posts/2023-06-20_shefield-teaching-open.html",
       "/posts/2023-06-01_empseb.html",
       "/posts/2023-05-28_aps-dataviz.html",
+      "/posts/2023-02-27_newcastle-teaching-psych.html",
       "/posts/2022-12-09_riots-r-repro.html",
       "/posts/2022-11-21_riots-code-review.html",
       "/posts/2022-11-01_ADS.html",
@@ -25,10 +27,11 @@
   {
     "listing": "/posts.html",
     "items": [
-      "/posts/2023-06-23.html",
-      "/posts/2023-06-20.html",
+      "/posts/2023-06-23_SIPS-booktem.html",
+      "/posts/2023-06-20_shefield-teaching-open.html",
       "/posts/2023-06-01_empseb.html",
       "/posts/2023-05-28_aps-dataviz.html",
+      "/posts/2023-02-27_newcastle-teaching-psych.html",
       "/posts/2022-12-09_riots-r-repro.html",
       "/posts/2022-11-21_riots-code-review.html",
       "/posts/2022-11-01_ADS.html",

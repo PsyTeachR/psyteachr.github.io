@@ -1,0 +1,16 @@
+---
+title: "Creating Open Source Textbooks"
+date: 2023-06-23
+author: [Lisa DeBruine, Helena Paterson]
+image: ../images/booktem.png
+categories: [workshop, pedagogy]
+url: https://docs.google.com/document/d/1G9HdI10EowJsXpTJZGe0Ljd2xXLLK60pkf5mKHLCMf8/
+---
+
+Lisa DeBruine and Helena Paterson ran a workshop on Creating Open Source Textbooks at the 2023 [Society for the Improvement of Psychological Science](https://www.improvingpsych.org/SIPS2023/).
+
+### Abstract
+
+One great way to contribute to open research is by creating your own open-source textbook. In this workshop, we'll introduce you to quarto, an open-source scientific and technical publishing system that you can use to create dynamic online textbooks. While quarto integrates very easily with R and python to create code-focussed textbooks, you can also use it to publish any type of text.
+
+This workshop will use an in-development R package [booktem](https://github.com/debruine/booktem) to make setting up a textbook very straightforward. You will just need to install R, RStudio, and quarto on your machine (or use the free service posit.cloud) to participate, but need absolutely no other experience with R. By the end of the workshop, you will have the bones of a textbook, with chapters, appendices, and linked references. If you have a GitHub or GitLab account, you will also be able to put this online. Additionally, we will discuss getting credit for your textbook by registering a DOI with Zenodo and how to set up a textbook in languages other than English.

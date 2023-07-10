@@ -7,5 +7,5 @@ categories: [talk, pedagogy, reproducibility]
 url: https://www.sheffield.ac.uk/smi/events/teaching-reproducible-research-and-open-science-conference
 ---
 
-Helena Paterson will be giving a keynote talk on the first day of the [Teaching Reproducible Research and Open Science Conference](https://www.sheffield.ac.uk/smi/events/teaching-reproducible-research-and-open-science-conference) at the University of Sheffield, UK. 
+Helena Paterson gave a keynote talk on the first day of the [Teaching Reproducible Research and Open Science Conference](https://www.sheffield.ac.uk/smi/events/teaching-reproducible-research-and-open-science-conference) at the University of Sheffield, UK. 
 

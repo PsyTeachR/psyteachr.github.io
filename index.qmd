@@ -1,5 +1,6 @@
 ---
 listing:
+  id: news-listing
   contents: posts
   date-format: iso
   sort: "date desc"
@@ -26,3 +27,7 @@ This website contains our open materials for teaching reproducible research. See
 
 ### Recent News
 
+::: {#news-listing}
+:::
+
+[Older news...](posts.html)
