@@ -1,0 +1,412 @@
+---
+title: "Coding Club"
+page-layout: full
+title-block-banner: false
+format:
+  html:
+    toc: true
+    toc_float: true
+---
+
+Coding club is meant to build coding skills in R, with some additional skills in git, github, HTML, CSS, and/or JavaScript. You don't need to have any experience apart from basic R. 
+
+<!--
+If you can complete the [intro shiny tutorial](https://psyteachr.github.io/shiny-tutorials/01-first-app.html) then you should be fine.
+-->
+
+## Autumn 2023
+
+We're still thinking of ideas for this coding club. It might be in person in Glasgow or online. We might cover package development again, shiny apps, or data dashboards. Check back here in late August.
+
+<!--
+[Register on Eventbrite](https://coding-club-packages.eventbrite.co.uk) for free (this just helps us track interest).
+-->
+
+## Autumn 2022: Creating an R Package
+
+Wednesdays from 16:05 to 17:00 UK time from October 5 to December 7. 
+
+Our next set of sessions will be making your own R package. Making an R package develops generic coding skills and gives you valuable insight to how R works. We'll cover setting up a package project, creating functions, documenting them with roxygen, creating vignettes, unit testing, package testing, version control with git, and distribution with github.
+
+
+[Book/Code](https://psyteachr.github.io/intro-r-pkgs/) -- this will update regularly before sessions to show what we intend to cover, and after sessions to document what we did actually cover.
+
+You will need only very basic R skills and a willingness to learn. The only people this would not be suitable for are those with zero previous experience in R (unless you know you pick up coding languages quickly). If you can install packages and understand the following code, you should be fine:
+
+```{r}
+library(ggplot2)
+
+df <- data.frame(
+  id = 1:10,
+  name = LETTERS[1:10],
+  score = rnorm(10, mean = 100, sd = 10)
+)
+
+ggplot(df, aes(x = name, y = score)) +
+  geom_point() +
+  theme_minimal()
+
+```
+
+
+### Resources
+
+* [R Packages](https://r-pkgs.org/) by Hadley Wickham and Jenny Bryan
+* [usethis](https://usethis.r-lib.org/)
+* [testthat](https://testthat.r-lib.org/)
+* [pkgdown](https://pkgdown.r-lib.org/)
+
+The schedule below is only indicative. Coding club is much less formal than a class, so the tasks might move around depending on the skill and interests of the attendees. 
+
+### 1. Setting up
+
+(2022-10-05)
+
+Create a package project and edit the default files. We'll start using the most helpful package, [usethis](https://usethis.r-lib.org/).
+
+### 2. Adding Data 
+
+(2022-10-12)
+
+Add datasets to your package and document them with a codebook. You can use our demo data or your own.
+
+### 3. Custom Functions 
+
+(2022-10-19)
+
+Learn to write custom functions and include them in your package. 
+
+### 4. Documentation 
+
+(2022-10-26)
+
+Write function documentation using the roxygen format. This is what creates the help documentation for functions.
+
+### 5. Analysis Vignette 
+
+(2022-11-02)
+
+Include your study analysis code as a package vignette.
+
+### 6. Pkgdown Websites 
+
+(2022-11-09)
+
+Create a package website using [pkgdown](https://pkgdown.r-lib.org/).
+
+### 7. Unit Tests 
+
+(2022-11-16)
+
+Write unit tests for your custom functions using [testthat](https://testthat.r-lib.org/).
+
+### 8. Package Maintenance 
+
+(2022-11-22)
+
+How to run CMD-check to make sure everything is put together right, and how to troubleshoot the inevitable problems.
+
+### 9. Sharing your package 
+
+(2022-11-30)
+
+Set up a github account and make a package repository to share your package and pkgdown website.
+
+### 10. Next steps 
+
+(2022-12-07)
+
+Whatever we didn't get to. We'll also discuss how to continue your learning.
+
+
+## Autumn 2021: Database App
+
+In autumn 2021, we'll be making a custom web app for searching, visualising and updating a list of anything you're interested in. The focus will be learning by doing, but the sessions will be supported by material from [Building Web Apps with R Shiny](https://debruine.github.io/shinyintro/).
+
+### 1. Setting Up the Framework 
+
+2021-10-06 14:00 (Europe/London)
+
+Before the session:
+
+1. Check out the [demo app](https://shiny.psy.gla.ac.uk/debruine/seen/)
+2. Bookmark the [book](https://debruine.github.io/shinyintro/)
+3. Install the {shinyintro} package
+
+```{r, eval = FALSE}
+# you may have to install devtools first with 
+# install.packages("devtools")
+
+devtools::install_github("debruine/shinyintro")
+```
+
+In this first session, we:
+
+* created a project with the demo shiny app
+* discussed the structure of a shiny app 
+* added a new sliderInput widget for binwidth and changed the plot to a ggplot
+
+Resources:
+
+* [session recording](https://uofglasgow.zoom.us/rec/share/uaZUUUVZfDRK-frdddapJ1ISfZcLSQa9ycRmU_6xVaA9h_A_orkqgayH8nHexNPD.0WQv5U5sm5Zpt3dp?startTime=1633524211000) (contact Lisa for the password)
+* zip file with the [code for our  progress](files/demoapp.zip)
+
+
+### 2. Reading Data from a GoogleSheet
+
+2021-10-20 14:00 (Europe/London)
+
+Before the session:
+
+* make sure you have the R packages shiny, shinydashboard, and tidyverse (these will already be installed if you installed the shinyintro package as mentioned in week 1)
+
+In this second session, we:
+
+* made a [Google form](https://forms.gle/aHPtwTNvrL6L1wb17) to collect data about book recommendations and save it into a public [Google Sheet](https://docs.google.com/spreadsheets/d/1KzLoJSakrpr3nY2KiFMOd9jn1DEwKKNbw2QibnW_aXg/)
+* set up the UI (user interface) for our [app](https://shiny.psy.gla.ac.uk/debruine/bookrecs/)
+
+Resources:
+
+* [session recording](https://uofglasgow.zoom.us/rec/share/No7ZhAvhdx-TwqjuighP1N5kYKyFst1J7Zpz1ZJ2r4GWaSv_uNuTRmnbFnHmm_OL.EzF-oahY_eWDp0UA) (contact Lisa for the password)
+* [code for the app](https://github.com/debruine/bookrecs) (will update as we go)
+* zip file with the [code for our  progress](files/bookrecs1.zip)
+
+### 3. Filtering Data
+
+2021-11-03 14:00 (Europe/London)
+
+In this third session, we:
+
+* selected columns to display
+* filtered the book table by genre
+
+You can work on your own to add filtering for language  and/or page length. Remember that all the columns are character columns and you need to deal with the page number entry that contains non-numeric characters.
+
+Resources:
+
+* [session recording](https://uofglasgow.zoom.us/rec/share/5dbyA_Uah2D7QvOhc9KYnt7wMI_iXniEho_hTDaRgHib8XZqy5PBclM2GJqE_62M._nwIaVJNherl5r8B) (contact Lisa for the password)
+* [code for the app](https://github.com/debruine/bookrecs) (will update as we go)
+* zip file with the [code for our  progress](files/bookrecs2.zip)
+
+### 4. Filtering Data 2
+
+2021-11-10 14:00 (Europe/London)
+
+In this fourth session, we:
+
+* updated the table to DT for text search
+* added select/unselect all buttons for the genre filter
+* added a page length selector
+
+Resources:
+
+* [sesssion recording](https://uofglasgow.zoom.us/rec/share/hXISdgOEVOpjlP26Ob_PnrcJhVdEu4Bp-ZlK3tX4j9nupqYg6V8YvcwYex_k2L9X.Uv-in_02v19AtacW)
+* [code for the app](https://github.com/debruine/bookrecs) (will update as we go)
+
+
+### 5. Input Interface
+
+2021-11-24 14:00 (Europe/London)
+
+In this fifth session, we will:
+
+* create an input tab so people can add their ratings of the books
+* write the rating data to another google sheet
+* read in the saved rating data and join it to the book table
+* add filters by average rating
+
+Resources:
+
+* [session recording](https://uofglasgow.zoom.us/rec/share/v38DtAgowwbKSKJz1wMAQQlTyNLhWj6y8ZIb0WnDYhkksfAS4gODmUafAs5Kb6XX.jLqqVJaLPp7f_HMo)
+* [code for the app](https://github.com/debruine/bookrecs) (will update as we go)
+
+
+### 6. Make it Functional
+
+2021-12-08 14:00 (Europe/London)
+
+In this seventh session, we will:
+
+* make sure the user interface has a clear design
+* add help messages
+* clean user inputs
+
+### 7. Make it Pretty
+
+2021-12-15 14:00 (Europe/London)
+
+In this last session, we will:
+
+* use CSS to change the style of the app
+
+---------
+
+
+## Summer 2021: Distribution Simulation App
+
+### 1. Setting Up the Framework 
+
+2021-05-12 14:00 (Europe/London)
+
+1. Check out the [demo app](https://shiny.psy.gla.ac.uk/debruine/simulate/)
+1. Download the [template](https://github.com/debruine/shiny_template)
+1. You can access the code for the final app at <https://github.com/debruine/shiny_apps/tree/master/simulate>
+
+In this first session, we:
+
+* discussed the structure of a shiny app 
+* created inputs for a random uniform distribution (`runif()`)
+* generated random data with the input parameters and created a plot
+* output the plot
+
+To prep for the next meeting, I'd like you to:
+
+* create another tab with inputs and a plot for the normal distribution
+* make your ggplot prettier (e.g., set colour and fill for the histogram)
+
+Resources:
+
+* [session recording](https://uofglasgow.zoom.us/rec/share/9xNKJg3banlJUPXMZ_aNwMdfnGl1bnkUUjiWEpShdzLhaybDHbUDVxZGcC8w3drC.SqVu7wB77G2fQAqR) (contact Lisa for the password)
+* zip file with the [code for our  progress](files/sim1.zip)
+
+### 2. Input checking
+
+2021-05-26 14:00 (Europe/London)
+
+In this second session, we added the normal distribution tab, used a fluidRow to put the plot next to the input, and learned how to check the user input for errors, such as impossible values, and handle these without crashing.
+
+To prep for the next meeting, I'd like you to:
+
+* add error checking for the normal distribution tab
+* create another tab with inputs and a plot for the binomial distribution
+
+Resources:
+
+* [session recording](https://uofglasgow.zoom.us/rec/share/9e33zZ_xdL9vaqrD1pMBxb7ENKW0H3VldCo2WU5u6weNZ1VTVDMawQecMaKcS2S8.z1TCqr0zV1Ab-ofy) (contact Lisa for the password)
+* zip file with the [code for our  progress](files/sim2.zip)
+
+### 3. Distribution comparisons
+
+2021-06-09 14:00 (Europe/London) [Zoom link](https://uofglasgow.zoom.us/j/93838448011)
+
+In this third session, we restructured the simulation functions to keep a record of previously simulated data to make faceted plots for comparison. We learned a lot about debugging. 
+
+The video ends with an unresolved bug. The resolution is to make sure that `input$unif_submit` is definitely an integer when you add it to the data table. I really don't know why this fixes it. So the relevant code in the `observeEvent()` function for `unif_submit` should be:
+
+```{r, eval = FALSE}
+data <- data.frame(
+    x = x,
+    sample = as.integer(input$unif_submit),
+    n = input$unif_n,
+    min = input$unif_min,
+    max = input$unif_max
+)
+```
+
+To do:
+
+* Update the norm and binomial functions to display multiple plots
+* Make your ggplots prettier
+* Make it handle plots with different parameters well. You can either give all facets the same values, or set the axes to vary by facet (or you can give users the option to choose which)
+* Think about how you'd want to visualise these distributions and create your own interface options
+
+Resources:
+
+* [session recording](https://uofglasgow.zoom.us/rec/share/oQJCmOuAx4TJkZMiEWH6V0Q66921trhkgLMoB0bkIHUnuFgL-_DZrGnAaWvtKW3W.lpgRRxeV6B4wRmrs) (contact Lisa for the password)
+* zip file with the [code for our  progress](files/sim3.zip)
+
+## Spring 2021: Buzzfeed-style App
+
+### 1. Setting Up the Framework 
+
+2021-03-17 14:00 (Europe/London)
+
+1. Check out the [demo app](https://shiny.psy.gla.ac.uk/debruine/coding_club/)
+1. Download the [template](https://github.com/debruine/shiny_template)
+1. You can access the code for the final app at <https://github.com/PsyTeachR/shiny-tutorials/tree/master/coding_club>
+
+In this first session, we:
+
+* discussed the structure of a shiny app 
+* edited the main tab to have a collapsible box for each question 
+* added six custom image buttons for the first question
+* wrote a function to more easily set up a custom image button
+* edited the www/custom.css file to remove the background and padding from the custom image buttons
+
+To prep for the next meeting, I'd like you to:
+
+* decide what your quiz theme and questions will be
+* find images for each question ([Pixabay](https://pixabay.com) is a good site for open-access images)
+* set up a few questions with image buttons
+* Edit the info tab to include image citation information
+
+The password for the [session recording](https://uofglasgow.zoom.us/rec/share/lTH8SniBrkm3PilcTG0I0_KlSNqVnWNelq_4A5vE-VQ9h9_IECoNHjfdo30of_q9.0UOkISRJLtYCX0wA) is on the coding club channel of the Methods and MetaScience Team. Contact Lisa to be added if you're at Glasgow, or to ask for the password if you're not.
+
+You can download a zip file with the [code for our current progress](files/quiz1.zip).
+
+### 2. Button Actions
+
+2021-03-31 14:00 (Europe/London)
+
+In this second session, we:
+
+* used CSS to set the style of selected and unselected buttons
+* used `observeEvent()` to change the style of buttons when clicking on them
+* wrote a custom function to do this for all image buttons, using their question number and colour name
+
+To prep for the next meeting, I'd just like you to:
+
+* get your app caught up to the same place we left off (all image buttons displaying the correct outlines when you click on them)
+* try out a few other input options for the final question, like [`selectInput()`](https://shiny.rstudio.com/reference/shiny/1.6.0/selectInput.html), 
+[`radioButtons()`](https://shiny.rstudio.com/reference/shiny/1.6.0/radioButtons.html), 
+[`textInput()`](https://shiny.rstudio.com/reference/shiny/1.6.0/textInput.html), or
+[`sliderInput()`](https://shiny.rstudio.com/reference/shiny/1.6.0/sliderInput.html).
+
+Resources:
+
+* [session recording](https://uofglasgow.zoom.us/rec/share/PAjIgwcdRBVNATStImFEeLQzmg3m6YGxjYZ8_Y3kjh1bYGPoeDVQvBDrOc4vzi3q.sHHPrI5czz3904RM)
+* zip file with the [code for our current progress](files/quiz2.zip)
+
+### 3. Outputs
+
+2021-04-14 14:00 (Europe/London)
+
+In this third session, we:
+
+* updated the custom function `Q()` to close the current question box and open the next one
+* created a new feedback tab and added it to the UI
+* used `observeEvent()` to respond to clicking the submit button
+* used `reactiveValues()` to create values for saving the image button answers and plot
+* made a feedback plot with `outputPlot()` and `renderPlot()` that creates a plot from the quiz answers
+
+To prep for the next meeting, I'd like you to:
+
+* make your feedback plot nicer, especially thinking about font sizes
+* if you want further challenge, add feedback text in addition to the plot using `textOutput()` and `renderText()`
+
+Resources:
+
+* [session recording](https://uofglasgow.zoom.us/rec/share/hFnvznxyycp41nc6vCjGNXFA0W39s2yLQ3AikPlyXXCJP3LorWtzsE1jW90COms.4D1tvi9ZqlnX25wf)
+* zip file with the [code for our current progress](files/quiz3.zip)
+
+### 4. Saving Data
+
+2021-04-28 14:00 (Europe/London)
+
+In this fourth session, we:
+
+* Added a button to allow participants to save their data
+* added conditional properties so the button could only be used once, after the quiz was completed
+* Learned to save data in a CSV file
+* Read the full data from the saved file and created a feedback visualisation
+* Discussed pros and cons of local storage of saved data
+
+Resources:
+
+* [session recording](https://uofglasgow.zoom.us/rec/share/gNGYoC65CziY_pcmEi03PXCwbu30bLueCKkJOuiK5qzqdgNxQGQmMhFGbPUyItJR.Rkivv76FW8oDwR7a)
+* [persistent data storage in Shiny](https://shiny.rstudio.com/articles/persistent-data-storage.html)
+* zip file with the [code for our final progress](files/quiz4.zip)
+
+
+
+
