@@ -7,4 +7,4 @@ categories: [textbook, pedagogy]
 url: https://psyteachr.github.io/AITutoR/
 ---
 
-This book aims to teach students how to use AI to support their learning journey. The philosophy of this book is firmly rooted in the cognitive science of learning and as such, retrieval practice, distributed practice, and elaboration will all play a key role.
+This [book](https://psyteachr.github.io/AITutoR/) aims to teach students how to use AI to support their learning journey. The philosophy of this book is firmly rooted in the cognitive science of learning and as such, retrieval practice, distributed practice, and elaboration will all play a key role.

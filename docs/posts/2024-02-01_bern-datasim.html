@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Emily Nordmann">
-<meta name="dcterms.date" content="2023-05-28">
+<meta name="author" content="Lisa DeBruine">
+<meta name="dcterms.date" content="2024-02-01">
 
-<title>PsyTeachR - Data Visualization Using R for Researchers Who Don’t Use R</title>
+<title>PsyTeachR - Data simulation with {faux} and data simulation for mixed designs</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -72,15 +72,15 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../styles.css">
-<meta property="og:title" content="PsyTeachR - Data Visualization Using R for Researchers Who Don’t Use R">
+<meta property="og:title" content="PsyTeachR - Data simulation with {faux} and data simulation for mixed designs">
 <meta property="og:description" content="Psychologists from @UofGPsychNeuro advocating open, reproducible methods teaching.">
-<meta property="og:image" content="https://psyteachr.github.io/images/introdataviz.png">
+<meta property="og:image" content="https://psyteachr.github.io/images/datasim.png">
 <meta property="og:site_name" content="PsyTeachR">
 <meta property="og:image:height" content="1024">
 <meta property="og:image:width" content="1024">
-<meta name="twitter:title" content="PsyTeachR - Data Visualization Using R for Researchers Who Don’t Use R">
+<meta name="twitter:title" content="PsyTeachR - Data simulation with {faux} and data simulation for mixed designs">
 <meta name="twitter:description" content="Psychologists from @UofGPsychNeuro advocating open, reproducible methods teaching.">
-<meta name="twitter:image" content="https://psyteachr.github.io/images/introdataviz.png">
+<meta name="twitter:image" content="https://psyteachr.github.io/images/datasim.png">
 <meta name="twitter:site" content="@PsyTeachR">
 <meta name="twitter:image-height" content="1024">
 <meta name="twitter:image-width" content="1024">
@@ -148,12 +148,10 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Data Visualization Using R for Researchers Who Don’t Use R</h1>
+      <h1 class="title">Data simulation with {faux} and data simulation for mixed designs</h1>
                                 <div class="quarto-categories">
-                <div class="quarto-category">rstats</div>
-                <div class="quarto-category">talk</div>
-                <div class="quarto-category">dataviz</div>
-                <div class="quarto-category">data skills</div>
+                <div class="quarto-category">workshop</div>
+                <div class="quarto-category">simulation</div>
               </div>
                   </div>
   </div>
@@ -164,14 +162,14 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Author</div>
       <div class="quarto-title-meta-contents">
-               <p>Emily Nordmann </p>
+               <p>Lisa DeBruine </p>
             </div>
     </div>
       
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">May 28, 2023</p>
+        <p class="date">February 1, 2024</p>
       </div>
     </div>
     
@@ -190,10 +188,10 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>Emily Nordmann was invited by the Association for Psychological Science to give a <a href="https://www.psychologicalscience.org/conventions/2023-aps-annual-convention/2023-workshops">workshop at the 2023 APS Conference</a> introducing researchers who don’t use R to data visualisation using ggplot2. (Unfortunately, air travel problems meant this was cancelled.)</p>
+<p>Lisa gave a 2-day <a href="https://kogpsy.github.io/datasimulationcourse_24/">data simulation workshop</a> at the Bern Institute of Psychology, covering material on using <a href="https://debruine.github.io/faux">faux</a> to simulate data from <a href="https://debruine.github.io/data-sim-workshops/">fixed and mixed designs</a>.</p>
 <section id="abstract" class="level3">
 <h3 class="anchored" data-anchor-id="abstract">Abstract</h3>
-<p>This workshop will provide a pragmatic introduction to the programming language R through focusing on data visualization using materials adapted from the PsyTeachR team at the University of Glasgow. No prior knowledge of R or programming is required.</p>
+<p>Being able to simulate data allows you to prep analysis scripts for pre-registration, calculate power and sensitivity for analyses that don’t have empirical methods, create reproducible examples when your data are too big or confidential to share, enhance your understanding of statistical concepts, and create demo data for teaching and tutorials. This workshop will cover the basics of simulation using the R package {faux}. We will simulate data with factorial designs by specifying the within and between-subjects factor structure, each cell mean and standard deviation, and correlations between cells where appropriate. This can be used to create simulated data sets to be used in preparing the analysis code for pre-registrations or registered reports. We will also create data sets for simulation-based power analyses.</p>
 
 
 </section>

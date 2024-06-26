@@ -53,7 +53,7 @@
     "href": "index.html",
     "title": "PsyTeachR",
     "section": "",
-    "text": "The psyTeachR team at the University of Glasgow School of Psychology and Neuroscience has successfully made the transition to teaching reproducible research using R across all undergraduate and postgraduate levels. Our curriculum now emphasizes essential ‘data science’ graduate skills that have been overlooked in traditional approaches to teaching, including programming skills, data visualisation, data wrangling and reproducible reports. Students learn about probability and inference through data simulation as well as by working with real datasets.\nThis website contains our open materials for teaching reproducible research. See our GitHub for open data and code.\n\nQuick Links\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRecent News\n\n\n\n\n\n\n\n\n\n\nAITutoR\n\n\n\n\n\n\n\n\n\n\n\n2024-06-01\n\n\nEmily Nordmann, Carolina Kuepper-Tetzel\n\n\n\n\n\n\n\n\n\n\n\n\nCreating Open Source Textbooks\n\n\n\n\n\n\n\n\n\n\n\n2023-06-23\n\n\nLisa DeBruine, Helena Paterson\n\n\n\n\n\n\n\n\n\n\n\n\nTeaching Reproducibility: reflections on redeveloping a curriculum for teaching reproducible methods\n\n\n\n\n\n\n\n\n\n\n\n2023-06-20\n\n\nHelena Paterson\n\n\n\n\n\n\n\n\n\n\n\n\nFake It Until You Make It: How and why to simulate research data\n\n\n\n\n\n\n\n\n\n\n\n2023-06-01\n\n\nLisa DeBruine\n\n\n\n\n\n\n\n\n\n\n\n\nData Visualization Using R for Researchers Who Don’t Use R\n\n\n\n\n\n\n\n\n\n\n\n2023-05-28\n\n\nEmily Nordmann\n\n\n\n\n\n\nNo matching items\n\n\nOlder news…"
+    "text": "The psyTeachR team at the University of Glasgow School of Psychology and Neuroscience has successfully made the transition to teaching reproducible research using R across all undergraduate and postgraduate levels. Our curriculum now emphasizes essential ‘data science’ graduate skills that have been overlooked in traditional approaches to teaching, including programming skills, data visualisation, data wrangling and reproducible reports. Students learn about probability and inference through data simulation as well as by working with real datasets.\nThis website contains our open materials for teaching reproducible research. See our GitHub for open data and code.\n\nQuick Links\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRecent News\n\n\n\n\n\n\n\n\n\n\nSGSSS Data Visualisation Workshop\n\n\n\n\n\n\n\n\n\n\n\n2024-06-05\n\n\nJames Bartlett, Wilhelmiina Toivo\n\n\n\n\n\n\n\n\n\n\n\n\nAITutoR\n\n\n\n\n\n\n\n\n\n\n\n2024-06-01\n\n\nEmily Nordmann, Carolina Kuepper-Tetzel\n\n\n\n\n\n\n\n\n\n\n\n\nData simulation with {faux} and data simulation for mixed designs\n\n\n\n\n\n\n\n\n\n\n\n2024-02-01\n\n\nLisa DeBruine\n\n\n\n\n\n\n\n\n\n\n\n\nCreating Open Source Textbooks\n\n\n\n\n\n\n\n\n\n\n\n2023-06-23\n\n\nLisa DeBruine, Helena Paterson\n\n\n\n\n\n\n\n\n\n\n\n\nTeaching Reproducibility: reflections on redeveloping a curriculum for teaching reproducible methods\n\n\n\n\n\n\n\n\n\n\n\n2023-06-20\n\n\nHelena Paterson\n\n\n\n\n\n\nNo matching items\n\n\nOlder news…"
   },
   {
     "objectID": "papers.html",
@@ -70,25 +70,32 @@
     "text": "Electronic supplementary material is available online at https://doi.org/10.6084/m9.figshare.c.6641489."
   },
   {
-    "objectID": "posts/2023-06-23_SIPS-booktem.html",
-    "href": "posts/2023-06-23_SIPS-booktem.html",
-    "title": "Creating Open Source Textbooks",
+    "objectID": "posts/2022-06-29_riots-teaching-open.html",
+    "href": "posts/2022-06-29_riots-teaching-open.html",
+    "title": "Reflecting on our Teaching with Open Science",
     "section": "",
-    "text": "Lisa DeBruine and Helena Paterson ran a workshop on Creating Open Source Textbooks at the 2023 Society for the Improvement of Psychological Science.\n\nAbstract\nOne great way to contribute to open research is by creating your own open-source textbook. In this workshop, we’ll introduce you to quarto, an open-source scientific and technical publishing system that you can use to create dynamic online textbooks. While quarto integrates very easily with R and python to create code-focussed textbooks, you can also use it to publish any type of text.\nThis workshop will use an in-development R package booktem to make setting up a textbook very straightforward. You will just need to install R, RStudio, and quarto on your machine (or use the free service posit.cloud) to participate, but need absolutely no other experience with R. By the end of the workshop, you will have the bones of a textbook, with chapters, appendices, and linked references. If you have a GitHub or GitLab account, you will also be able to put this online. Additionally, we will discuss getting credit for your textbook by registering a DOI with Zenodo and how to set up a textbook in languages other than English."
+    "text": "View Helena Paterson and Phil McAleer’s talk on Reflecting on our Teaching with Open Science for the RIOT Science Club on YouTube.\n\n\nThis was part of a conference on Teaching & Mentoring Open Research"
   },
   {
-    "objectID": "posts/2022-11-21_riots-code-review.html",
-    "href": "posts/2022-11-21_riots-code-review.html",
-    "title": "Code Review",
+    "objectID": "posts/2023-05-28_aps-dataviz.html",
+    "href": "posts/2023-05-28_aps-dataviz.html",
+    "title": "Data Visualization Using R for Researchers Who Don’t Use R",
     "section": "",
-    "text": "View Lisa DeBruine’s talk on Code Review for the RIOT Science Club on YouTube.\n\n\n\nAbstract\nSharing analyses using computationally reproducible code is increasingly common, with more journals encouraging or even requiring this level of transparency. However, this increased focus on writing code hasn’t been matched by an increased focus on assessing code, either informally within research teams or formally during the review process. A recent survey suggests that people don’t arrange for their code to be reviewed because there is a lack of time, it’s not seen as a priority, there are not enough colleagues with the appropriate expertise, or they are embarrassed for others see their code. In this talk, I’ll summarise the work of a group of researchers developing a code review guide for beginners. I’ll cover the goals of code check, explain some key concepts, and present checklists for both code reviewers and code writers to get their code in shape for review."
+    "text": "Emily Nordmann was invited by the Association for Psychological Science to give a workshop at the 2023 APS Conference introducing researchers who don’t use R to data visualisation using ggplot2. (Unfortunately, air travel problems meant this was cancelled.)\n\nAbstract\nThis workshop will provide a pragmatic introduction to the programming language R through focusing on data visualization using materials adapted from the PsyTeachR team at the University of Glasgow. No prior knowledge of R or programming is required."
   },
   {
-    "objectID": "posts/2023-06-20_shefield-teaching-open.html",
-    "href": "posts/2023-06-20_shefield-teaching-open.html",
-    "title": "Teaching Reproducibility: reflections on redeveloping a curriculum for teaching reproducible methods",
+    "objectID": "posts/2024-06-01_AITutoR.html",
+    "href": "posts/2024-06-01_AITutoR.html",
+    "title": "AITutoR",
     "section": "",
-    "text": "Helena Paterson gave a keynote talk on the first day of the Teaching Reproducible Research and Open Science Conference at the University of Sheffield, UK."
+    "text": "This book aims to teach students how to use AI to support their learning journey. The philosophy of this book is firmly rooted in the cognitive science of learning and as such, retrieval practice, distributed practice, and elaboration will all play a key role."
+  },
+  {
+    "objectID": "posts/2023-06-01_empseb.html",
+    "href": "posts/2023-06-01_empseb.html",
+    "title": "Fake It Until You Make It: How and why to simulate research data",
+    "section": "",
+    "text": "Lisa DeBruine was invited to give a talk and workshop on data simulation at the European Evolutionary Biology Conference in Millport, Scotland.\n\nAbstract\nBeing able to simulate data allows you to prep analysis scripts for pre-registration, calculate power and sensitivity for analyses that don’t have empirical methods, create reproducible examples when your data are too big or confidential to share, enhance your understanding of statistical concepts, and create demo data for teaching and tutorials. This workshop will cover the basics of simulation using the R package {faux}. We will simulate data with factorial designs by specifying the within and between-subjects factor structure, each cell mean and standard deviation, and correlations between cells where appropriate. This can be used to create simulated data sets to be used in preparing the analysis code for pre-registrations or registered reports. We will also create data sets for simulation-based power analyses."
   },
   {
     "objectID": "posts/2023-02-27_newcastle-teaching-psych.html",
@@ -96,6 +103,13 @@
     "title": "Teaching Psychology with an Open Science Perspective",
     "section": "",
     "text": "Seminar given by Phil McAleer to the University of Newcastle, School of Psychology, on Thursday 27th February 2023.\nIn response to the Replication Crisis, recent years have seen a notable increase in the number of researchers taking steps to make their work more open and reproducible. However, whilst individuals can readily improve their own and lab practice, they are often limited in what they can do in the larger field simply by not being at the proverbial table. One area however where we, as lecturers, can readily have an influence is in the postgraduate and undergraduate classes we teach and the students that we interact with. As such, at Glasgow, based on the noted issues and reflecting on the necessary skills sought in a graduate researcher, we have rebuilt our research curriculum to centre on reproducible methods with a focus on teaching traditionally overlooked skills, such as data wrangling, visualisation, and dynamic reproducible report writing. These developments have partly been made possible through a change of analytical software from SPSS to R (with all our materials available here: https://psyteachr.github.io/), but fundamental to the approach has been the focus on the skills taught and not simply a change of software. In addition, we have promoted a focus on the importance of the research question and the hypothesis, as opposed to the outcome, by using assignments based on pre-registration and Registered Reports, as well as assessments discussing the benefits and limitations of open science practices, aiming to develop a more holistic view of the issues within our students. Through honest discussions of different approaches and through developing a diverse skillset, we have looked to build a cohort that knows how research should be conducted, can discuss the reasoning behind those ideas, and has the skillset to implement that approach. That said, these developments have not been without issue and, throughout this talk, as well as highlighting what we have implemented and why, I will also discuss what has not worked and present advice on common implementation challenges, ranging from staff training to building an inclusive and supportive student community. In brief, I will share the rationale and reflections behind our approach to developing students as accountable practitioners of reproducible research with the hope that our experiences can be of benefit to others considering similar changes."
+  },
+  {
+    "objectID": "posts/2024-02-01_bern-datasim.html",
+    "href": "posts/2024-02-01_bern-datasim.html",
+    "title": "Data simulation with {faux} and data simulation for mixed designs",
+    "section": "",
+    "text": "Lisa gave a 2-day data simulation workshop at the Bern Institute of Psychology, covering material on using faux to simulate data from fixed and mixed designs.\n\nAbstract\nBeing able to simulate data allows you to prep analysis scripts for pre-registration, calculate power and sensitivity for analyses that don’t have empirical methods, create reproducible examples when your data are too big or confidential to share, enhance your understanding of statistical concepts, and create demo data for teaching and tutorials. This workshop will cover the basics of simulation using the R package {faux}. We will simulate data with factorial designs by specifying the within and between-subjects factor structure, each cell mean and standard deviation, and correlations between cells where appropriate. This can be used to create simulated data sets to be used in preparing the analysis code for pre-registrations or registered reports. We will also create data sets for simulation-based power analyses."
   },
   {
     "objectID": "posts/2022-12-09_riots-r-repro.html",
@@ -112,32 +126,39 @@
     "text": "Have you been meaning to learn R, but need some structure to help motivate you and get over the initial steep learning curve?\nEmily Nordmann and Lisa DeBruine are offering a 10-week microcredential course on “Applied Data Skills for Processing and Presenting Data”, starting January 24, 2023!\nIt’s a paid course (£799) for course credits (if you complete the assessment) or a CPD certificate. There are also some fully funded places for Scottish-domiciled learners.\n\nSign up for the course\nTextbook"
   },
   {
-    "objectID": "posts/2023-06-01_empseb.html",
-    "href": "posts/2023-06-01_empseb.html",
-    "title": "Fake It Until You Make It: How and why to simulate research data",
+    "objectID": "posts/2024-06-05_sgsss-dataviz.html",
+    "href": "posts/2024-06-05_sgsss-dataviz.html",
+    "title": "SGSSS Data Visualisation Workshop",
     "section": "",
-    "text": "Lisa DeBruine was invited to give a talk and workshop on data simulation at the European Evolutionary Biology Conference in Millport, Scotland.\n\nAbstract\nBeing able to simulate data allows you to prep analysis scripts for pre-registration, calculate power and sensitivity for analyses that don’t have empirical methods, create reproducible examples when your data are too big or confidential to share, enhance your understanding of statistical concepts, and create demo data for teaching and tutorials. This workshop will cover the basics of simulation using the R package {faux}. We will simulate data with factorial designs by specifying the within and between-subjects factor structure, each cell mean and standard deviation, and correlations between cells where appropriate. This can be used to create simulated data sets to be used in preparing the analysis code for pre-registrations or registered reports. We will also create data sets for simulation-based power analyses."
+    "text": "James Bartlett and Wilhelmiina Toivo presented a workshop on data visualisation to the SGSSS Summer School. You can view some of the student creations.\n\nAbstract\nIn addition to benefiting reproducibility and transparency, one of the advantages of using R is that researchers have a much larger range of fully customisable data visualisations options. These options not only look attractive, but can increase transparency about the distribution of the underlying data rather than relying on commonly used visualisations of aggregations such as bar charts of means.\nIn this tutorial, we provide a practical introduction to data visualisation using R and RStudio, specifically aimed at researchers who have little to no prior experience of using R. First, we provide a brief overview of general data visualisation principles and the ggplot2 package for data visualisation. The workshop then walks you through three different types of plots: bar charts, scatterplots, and. violin-boxplots (with lineplots as a bonus extra)."
   },
   {
-    "objectID": "posts/2024-06-01_AITutoR.html",
-    "href": "posts/2024-06-01_AITutoR.html",
-    "title": "AITutoR",
+    "objectID": "posts/2023-06-20_shefield-teaching-open.html",
+    "href": "posts/2023-06-20_shefield-teaching-open.html",
+    "title": "Teaching Reproducibility: reflections on redeveloping a curriculum for teaching reproducible methods",
     "section": "",
-    "text": "This book aims to teach students how to use AI to support their learning journey. The philosophy of this book is firmly rooted in the cognitive science of learning and as such, retrieval practice, distributed practice, and elaboration will all play a key role."
+    "text": "Helena Paterson gave a keynote talk on the first day of the Teaching Reproducible Research and Open Science Conference at the University of Sheffield, UK."
   },
   {
-    "objectID": "posts/2023-05-28_aps-dataviz.html",
-    "href": "posts/2023-05-28_aps-dataviz.html",
+    "objectID": "posts/2022-11-21_riots-code-review.html",
+    "href": "posts/2022-11-21_riots-code-review.html",
+    "title": "Code Review",
+    "section": "",
+    "text": "View Lisa DeBruine’s talk on Code Review for the RIOT Science Club on YouTube.\n\n\n\nAbstract\nSharing analyses using computationally reproducible code is increasingly common, with more journals encouraging or even requiring this level of transparency. However, this increased focus on writing code hasn’t been matched by an increased focus on assessing code, either informally within research teams or formally during the review process. A recent survey suggests that people don’t arrange for their code to be reviewed because there is a lack of time, it’s not seen as a priority, there are not enough colleagues with the appropriate expertise, or they are embarrassed for others see their code. In this talk, I’ll summarise the work of a group of researchers developing a code review guide for beginners. I’ll cover the goals of code check, explain some key concepts, and present checklists for both code reviewers and code writers to get their code in shape for review."
+  },
+  {
+    "objectID": "posts/2023-06-23_SIPS-booktem.html",
+    "href": "posts/2023-06-23_SIPS-booktem.html",
+    "title": "Creating Open Source Textbooks",
+    "section": "",
+    "text": "Lisa DeBruine and Helena Paterson ran a workshop on Creating Open Source Textbooks at the 2023 Society for the Improvement of Psychological Science.\n\nAbstract\nOne great way to contribute to open research is by creating your own open-source textbook. In this workshop, we’ll introduce you to quarto, an open-source scientific and technical publishing system that you can use to create dynamic online textbooks. While quarto integrates very easily with R and python to create code-focussed textbooks, you can also use it to publish any type of text.\nThis workshop will use an in-development R package booktem to make setting up a textbook very straightforward. You will just need to install R, RStudio, and quarto on your machine (or use the free service posit.cloud) to participate, but need absolutely no other experience with R. By the end of the workshop, you will have the bones of a textbook, with chapters, appendices, and linked references. If you have a GitHub or GitLab account, you will also be able to put this online. Additionally, we will discuss getting credit for your textbook by registering a DOI with Zenodo and how to set up a textbook in languages other than English."
+  },
+  {
+    "objectID": "posts/2024-05-23_aps-dataviz.html",
+    "href": "posts/2024-05-23_aps-dataviz.html",
     "title": "Data Visualization Using R for Researchers Who Don’t Use R",
     "section": "",
-    "text": "Emily Nordmann was invited by the Association for Psychological Science to give a workshop at the 2023 APA Conference introducing researchers who don’t use R to data visualisation using ggplot2. (Unfortunately, air travel problems meant this was cancelled.)\n\nAbstract\nThis workshop will provide a pragmatic introduction to the programming language R through focusing on data visualization using materials adapted from the PsyTeachR team at the University of Glasgow. No prior knowledge of R or programming is required."
-  },
-  {
-    "objectID": "posts/2022-06-29_riots-teaching-open.html",
-    "href": "posts/2022-06-29_riots-teaching-open.html",
-    "title": "Reflecting on our Teaching with Open Science",
-    "section": "",
-    "text": "View Helena Paterson and Phil McAleer’s talk on Reflecting on our Teaching with Open Science for the RIOT Science Club on YouTube.\n\n\nThis was part of a conference on Teaching & Mentoring Open Research"
+    "text": "Emily Nordmann and Wilhelmiina Toivo introduced researchers who don’t use R to data visualisation using ggplot2 at and invited workshop at the Association for Psychological Science to give a workshop at the 2024 APS Conference\n\nAbstract\nThis workshop will provide a pragmatic introduction to the programming language R through focusing on data visualization using materials adapted from the PsyTeachR team at the University of Glasgow. No prior knowledge of R or programming is required."
   },
   {
     "objectID": "about.html",
@@ -151,6 +172,6 @@
     "href": "posts.html",
     "title": "Posts",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\n2024-06-01\n\n\nAITutoR\n\n\nEmily Nordmann, Carolina Kuepper-Tetzel\n\n\n\n\n2023-06-23\n\n\nCreating Open Source Textbooks\n\n\nLisa DeBruine, Helena Paterson\n\n\n\n\n2023-06-20\n\n\nTeaching Reproducibility: reflections on redeveloping a curriculum for teaching reproducible methods\n\n\nHelena Paterson\n\n\n\n\n2023-06-01\n\n\nFake It Until You Make It: How and why to simulate research data\n\n\nLisa DeBruine\n\n\n\n\n2023-05-28\n\n\nData Visualization Using R for Researchers Who Don’t Use R\n\n\nEmily Nordmann\n\n\n\n\n2023-02-27\n\n\nTeaching Psychology with an Open Science Perspective\n\n\nPhil McAleer\n\n\n\n\n2022-12-09\n\n\nR is for Reproducibility\n\n\nEmily Nordmann\n\n\n\n\n2022-11-21\n\n\nCode Review\n\n\nLisa DeBruine\n\n\n\n\n2022-11-03\n\n\nApplied Data Skills Course\n\n\nEmily Nordmann, Lisa DeBruine\n\n\n\n\n2022-06-29\n\n\nReflecting on our Teaching with Open Science\n\n\nHelena Paterson, Phil McAleer\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\n2024-06-05\n\n\nSGSSS Data Visualisation Workshop\n\n\nJames Bartlett, Wilhelmiina Toivo\n\n\n\n\n2024-06-01\n\n\nAITutoR\n\n\nEmily Nordmann, Carolina Kuepper-Tetzel\n\n\n\n\n2024-02-01\n\n\nData simulation with {faux} and data simulation for mixed designs\n\n\nLisa DeBruine\n\n\n\n\n2023-06-23\n\n\nCreating Open Source Textbooks\n\n\nLisa DeBruine, Helena Paterson\n\n\n\n\n2023-06-20\n\n\nTeaching Reproducibility: reflections on redeveloping a curriculum for teaching reproducible methods\n\n\nHelena Paterson\n\n\n\n\n2023-06-01\n\n\nFake It Until You Make It: How and why to simulate research data\n\n\nLisa DeBruine\n\n\n\n\n2023-05-28\n\n\nData Visualization Using R for Researchers Who Don’t Use R\n\n\nEmily Nordmann\n\n\n\n\n2023-05-28\n\n\nData Visualization Using R for Researchers Who Don’t Use R\n\n\nEmily Nordmann, Wilhelmiina Toivo\n\n\n\n\n2023-02-27\n\n\nTeaching Psychology with an Open Science Perspective\n\n\nPhil McAleer\n\n\n\n\n2022-12-09\n\n\nR is for Reproducibility\n\n\nEmily Nordmann\n\n\n\n\n2022-11-21\n\n\nCode Review\n\n\nLisa DeBruine\n\n\n\n\n2022-11-03\n\n\nApplied Data Skills Course\n\n\nEmily Nordmann, Lisa DeBruine\n\n\n\n\n2022-06-29\n\n\nReflecting on our Teaching with Open Science\n\n\nHelena Paterson, Phil McAleer\n\n\n\n\n\nNo matching items"
   }
 ]
