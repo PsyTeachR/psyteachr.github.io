@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Lisa DeBruine">
+<meta name="dcterms.date" content="2024-09-03">
 
-<title>PsyTeachR - Posts</title>
+<title>PsyTeachR - Using R, Shiny and associated technology in statistical education: Using data simulation in the classroom</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +25,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href=".//images/favicon.ico" rel="icon">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="..//images/favicon.ico" rel="icon">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,91 +69,31 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="PsyTeachR - Posts">
-<meta property="og:image" content="https://psyteachr.github.io/images/logo.png">
+<link rel="stylesheet" href="../styles.css">
+<meta property="og:title" content="PsyTeachR - Using R, Shiny and associated technology in statistical education: Using data simulation in the classroom">
+<meta property="og:description" content="Psychologists from @UofGPsychNeuro advocating open, reproducible methods teaching.">
+<meta property="og:image" content="https://psyteachr.github.io/images/RSS2024.jpg">
 <meta property="og:site_name" content="PsyTeachR">
-<meta property="og:image:height" content="1024">
-<meta property="og:image:width" content="1024">
-<meta name="twitter:title" content="PsyTeachR - Posts">
-<meta name="twitter:image" content="https://psyteachr.github.io/images/logo.png">
+<meta name="twitter:title" content="PsyTeachR - Using R, Shiny and associated technology in statistical education: Using data simulation in the classroom">
+<meta name="twitter:description" content="Psychologists from @UofGPsychNeuro advocating open, reproducible methods teaching.">
+<meta name="twitter:image" content="https://psyteachr.github.io/images/RSS2024.jpg">
 <meta name="twitter:site" content="@PsyTeachR">
-<meta name="twitter:image-height" content="1024">
-<meta name="twitter:image-width" content="1024">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/logo.png" alt="Hexagon with PsyTeachR in rainbow art deco letters" class="navbar-logo">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../images/logo.png" alt="Hexagon with PsyTeachR in rainbow art deco letters" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">PsyTeachR</span>
     </a>
   </div>
@@ -164,19 +104,19 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./resources.html"> 
+    <a class="nav-link" href="../resources.html"> 
 <span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./papers.html"> 
+    <a class="nav-link" href="../papers.html"> 
 <span class="menu-text">Papers</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./posts.html" aria-current="page"> 
+    <a class="nav-link" href="../posts.html"> 
 <span class="menu-text">Posts</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./coding_club.html"> 
+    <a class="nav-link" href="../coding_club.html"> 
 <span class="menu-text">Coding Club</span></a>
   </li>  
   <li class="nav-item">
@@ -201,239 +141,89 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Using R, Shiny and associated technology in statistical education: Using data simulation in the classroom</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">talk</div>
+                <div class="quarto-category">pedagogy</div>
+                <div class="quarto-category">simulation</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Lisa DeBruine </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">September 3, 2024</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(14)</span></div><div class="category" data-category="code review">code review <span class="quarto-category-count">(1)</span></div><div class="category" data-category="course">course <span class="quarto-category-count">(1)</span></div><div class="category" data-category="data simulation">data simulation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="data skills">data skills <span class="quarto-category-count">(7)</span></div><div class="category" data-category="dataviz">dataviz <span class="quarto-category-count">(3)</span></div><div class="category" data-category="open science">open science <span class="quarto-category-count">(3)</span></div><div class="category" data-category="pedagogy">pedagogy <span class="quarto-category-count">(6)</span></div><div class="category" data-category="reproducibility">reproducibility <span class="quarto-category-count">(3)</span></div><div class="category" data-category="rstats">rstats <span class="quarto-category-count">(7)</span></div><div class="category" data-category="simulation">simulation <span class="quarto-category-count">(2)</span></div><div class="category" data-category="talk">talk <span class="quarto-category-count">(9)</span></div><div class="category" data-category="textbook">textbook <span class="quarto-category-count">(1)</span></div><div class="category" data-category="workshop">workshop <span class="quarto-category-count">(3)</span></div></div></div>
+    
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Posts</h1>
+
+
+
+
+<p>Lisa DeBruine gave a talk in an invited symposium on “Using R, Shiny and associated technology in statistical education” at the <a href="https://rss.org.uk/training-events/conference-2024/">Royal Statistical Society annual conference</a>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../images/RSS2024.jpg" class="img-fluid figure-img"></p>
+<figcaption>Andy Field, Lisa DeBruine, Richard Morey, Martina Sladekova, and Danielle Evans after their symposium (photo taken by Hadley Wickham)</figcaption>
+</figure>
 </div>
+<section id="talk-abstract" class="level3">
+<h3 class="anchored" data-anchor-id="talk-abstract">Talk Abstract</h3>
+<p>Being able to simulate data allows you to prep analysis scripts for pre-registration, calculate power and sensitivity for analyses that don’t have empirical methods, create reproducible examples when your data are too big or confidential to share, enhance your understanding of statistical concepts, and create demo data for teaching and tutorials. I will introduce the R package {faux} for data simulation from descriptive statistics. I will also give several examples of how to use data simulation in teaching statistical concepts.</p>
+</section>
+<section id="symposium-abstract" class="level3">
+<h3 class="anchored" data-anchor-id="symposium-abstract">Symposium Abstract</h3>
+<p>This session will explore cutting-edge uses of R and RStudio to enhance statistics education. We begin by very briefly overviewing the student experience of learning statistics through computers and explore some of the barriers and opportunities. We then look at using technology to enhance student engagement including how data simulation can be used as a powerful tool to help students understand key statistical concepts. We then move onto a series of talks that look at different approaches to automating assessment with a particular emphasis on large group teaching. We discuss various packages based on shiny in R (learnr, gradethis and flexTeaching) to generate and mark assessments, and to generate rich but efficient student feedback.</p>
+<ul>
+<li>Intro: The student experience (Field)</li>
+<li>Presentation 1: Using technology to engage students (Evans)</li>
+<li>Presentation 2: Using data simulation in the classroom (DeBruine)</li>
+<li>Presentation 3: Using learnr and gradethis to create and mark interactive assessments (Field, Sladekova, Evans)</li>
+<li>Presentation 4: Using shiny for efficient marking and feedback (Sladekova)</li>
+<li>Presentation 5: Automated assessment using flexTeaching (Morey)</li>
+</ul>
+</section>
+<section id="speakers" class="level3">
+<h3 class="anchored" data-anchor-id="speakers">Speakers</h3>
+<p>Speakers:</p>
+<ul>
+<li>Lisa DeBruine, University of Glasgow</li>
+<li>Danielle Evans, University of Sussex</li>
+<li>Andy Field, University of Sussex</li>
+<li>Richard Morey, University of Cardiff</li>
+<li>Martina Sladekova, University of Sussex</li>
+</ul>
+<p>Organised by Andy Field for RSS Teaching Statistics Section</p>
 
 
+</section>
 
-<div class="quarto-title-meta column-page-left">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-
-
-
-
-<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-date-sort" data-direction="asc">
-          Date - Oldest
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Date - Newest
-        </option>
-         <option value="listing-title-sort" data-direction="asc">
-          Title
-        </option>
-         <option value="listing-author" data-direction="asc">
-          Author
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
-</th>
-<th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
-</th>
-<th>
-<a class="sort" data-sort="listing-author" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Author</a>
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-categories="talk,pedagogy,simulation" data-listing-date-sort="1725314400000" data-listing-file-modified-sort="1725534735968" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="332" data-listing-title-sort="Using R, Shiny and associated technology in statistical education: Using data simulation in the classroom" data-listing-filename-sort="2024-09-03_RSS.qmd">
-<td>
-<span class="listing-date">2024-09-03</span>
-</td>
-<td>
-<a href="./posts/2024-09-03_RSS.html" class="title listing-title">Using R, Shiny and associated technology in statistical education: Using data simulation in the classroom</a>
-</td>
-<td>
-<span class="listing-author">Lisa DeBruine</span>
-</td>
-</tr>
-<tr data-index="1" data-categories="workshop,dataviz" data-listing-date-sort="1717538400000" data-listing-file-modified-sort="1719390505798" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="151" data-listing-title-sort="SGSSS Data Visualisation Workshop" data-listing-filename-sort="2024-06-05_sgsss-dataviz.qmd">
-<td>
-<span class="listing-date">2024-06-05</span>
-</td>
-<td>
-<a href="./posts/2024-06-05_sgsss-dataviz.html" class="title listing-title">SGSSS Data Visualisation Workshop</a>
-</td>
-<td>
-<span class="listing-author">James Bartlett, Wilhelmiina Toivo</span>
-</td>
-</tr>
-<tr data-index="2" data-categories="textbook,pedagogy" data-listing-date-sort="1717192800000" data-listing-file-modified-sort="1719389615471" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="44" data-listing-title-sort="AITutoR" data-listing-filename-sort="2024-06-01_AITutoR.qmd">
-<td>
-<span class="listing-date">2024-06-01</span>
-</td>
-<td>
-<a href="./posts/2024-06-01_AITutoR.html" class="title listing-title">AITutoR</a>
-</td>
-<td>
-<span class="listing-author">Emily Nordmann, Carolina Kuepper-Tetzel</span>
-</td>
-</tr>
-<tr data-index="3" data-categories="rstats,talk,dataviz,data skills" data-listing-date-sort="1716847200000" data-listing-file-modified-sort="1719392957218" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="72" data-listing-title-sort="Data Visualization Using R for Researchers Who Don’t Use R" data-listing-filename-sort="2024-05-23_aps-dataviz.qmd">
-<td>
-<span class="listing-date">2024-05-28</span>
-</td>
-<td>
-<a href="./posts/2024-05-23_aps-dataviz.html" class="title listing-title">Data Visualization Using R for Researchers Who Don’t Use R</a>
-</td>
-<td>
-<span class="listing-author">Emily Nordmann, Wilhelmiina Toivo</span>
-</td>
-</tr>
-<tr data-index="4" data-categories="workshop,simulation" data-listing-date-sort="1706742000000" data-listing-file-modified-sort="1719391304699" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="148" data-listing-title-sort="Data simulation with {faux} and data simulation for mixed designs" data-listing-filename-sort="2024-02-01_bern-datasim.qmd">
-<td>
-<span class="listing-date">2024-02-01</span>
-</td>
-<td>
-<a href="./posts/2024-02-01_bern-datasim.html" class="title listing-title">Data simulation with {faux} and data simulation for mixed designs</a>
-</td>
-<td>
-<span class="listing-author">Lisa DeBruine</span>
-</td>
-</tr>
-<tr data-index="5" data-categories="workshop,pedagogy" data-listing-date-sort="1687471200000" data-listing-file-modified-sort="1717597313396" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="194" data-listing-title-sort="Creating Open Source Textbooks" data-listing-filename-sort="2023-06-23_SIPS-booktem.qmd">
-<td>
-<span class="listing-date">2023-06-23</span>
-</td>
-<td>
-<a href="./posts/2023-06-23_SIPS-booktem.html" class="title listing-title">Creating Open Source Textbooks</a>
-</td>
-<td>
-<span class="listing-author">Lisa DeBruine, Helena Paterson</span>
-</td>
-</tr>
-<tr data-index="6" data-categories="talk,pedagogy,reproducibility" data-listing-date-sort="1687212000000" data-listing-file-modified-sort="1717597313396" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="26" data-listing-title-sort="Teaching Reproducibility: reflections on redeveloping a curriculum for teaching reproducible methods" data-listing-filename-sort="2023-06-20_shefield-teaching-open.qmd">
-<td>
-<span class="listing-date">2023-06-20</span>
-</td>
-<td>
-<a href="./posts/2023-06-20_shefield-teaching-open.html" class="title listing-title">Teaching Reproducibility: reflections on redeveloping a curriculum for teaching reproducible methods</a>
-</td>
-<td>
-<span class="listing-author">Helena Paterson</span>
-</td>
-</tr>
-<tr data-index="7" data-categories="rstats,talk,data simulation,data skills" data-listing-date-sort="1685570400000" data-listing-file-modified-sort="1717597313396" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="145" data-listing-title-sort="Fake It Until You Make It: How and why to simulate research data" data-listing-filename-sort="2023-06-01_empseb.qmd">
-<td>
-<span class="listing-date">2023-06-01</span>
-</td>
-<td>
-<a href="./posts/2023-06-01_empseb.html" class="title listing-title">Fake It Until You Make It: How and why to simulate research data</a>
-</td>
-<td>
-<span class="listing-author">Lisa DeBruine</span>
-</td>
-</tr>
-<tr data-index="8" data-categories="rstats,talk,dataviz,data skills" data-listing-date-sort="1685224800000" data-listing-file-modified-sort="1719390472349" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="75" data-listing-title-sort="Data Visualization Using R for Researchers Who Don’t Use R" data-listing-filename-sort="2023-05-28_aps-dataviz.qmd">
-<td>
-<span class="listing-date">2023-05-28</span>
-</td>
-<td>
-<a href="./posts/2023-05-28_aps-dataviz.html" class="title listing-title">Data Visualization Using R for Researchers Who Don’t Use R</a>
-</td>
-<td>
-<span class="listing-author">Emily Nordmann</span>
-</td>
-</tr>
-<tr data-index="9" data-categories="talk,pedagogy,open science" data-listing-date-sort="1677452400000" data-listing-file-modified-sort="1717597313395" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="383" data-listing-title-sort="Teaching Psychology with an Open Science Perspective" data-listing-filename-sort="2023-02-27_newcastle-teaching-psych.qmd">
-<td>
-<span class="listing-date">2023-02-27</span>
-</td>
-<td>
-<a href="./posts/2023-02-27_newcastle-teaching-psych.html" class="title listing-title">Teaching Psychology with an Open Science Perspective</a>
-</td>
-<td>
-<span class="listing-author">Phil McAleer</span>
-</td>
-</tr>
-<tr data-index="10" data-categories="rstats,talk,open science,reproducibility,data skills" data-listing-date-sort="1670540400000" data-listing-file-modified-sort="1717597313395" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="66" data-listing-title-sort="R is for Reproducibility" data-listing-filename-sort="2022-12-09_riots-r-repro.qmd">
-<td>
-<span class="listing-date">2022-12-09</span>
-</td>
-<td>
-<a href="./posts/2022-12-09_riots-r-repro.html" class="title listing-title">R is for Reproducibility</a>
-</td>
-<td>
-<span class="listing-author">Emily Nordmann</span>
-</td>
-</tr>
-<tr data-index="11" data-categories="rstats,talk,code review,open science,reproducibility,data skills" data-listing-date-sort="1668985200000" data-listing-file-modified-sort="1717597313394" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="168" data-listing-title-sort="Code Review" data-listing-filename-sort="2022-11-21_riots-code-review.qmd">
-<td>
-<span class="listing-date">2022-11-21</span>
-</td>
-<td>
-<a href="./posts/2022-11-21_riots-code-review.html" class="title listing-title">Code Review</a>
-</td>
-<td>
-<span class="listing-author">Lisa DeBruine</span>
-</td>
-</tr>
-<tr data-index="12" data-categories="rstats,data skills,course" data-listing-date-sort="1667430000000" data-listing-file-modified-sort="1717597313393" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="79" data-listing-title-sort="Applied Data Skills Course" data-listing-filename-sort="2022-11-01_ADS.qmd">
-<td>
-<span class="listing-date">2022-11-03</span>
-</td>
-<td>
-<a href="./posts/2022-11-01_ADS.html" class="title listing-title">Applied Data Skills Course</a>
-</td>
-<td>
-<span class="listing-author">Emily Nordmann, Lisa DeBruine</span>
-</td>
-</tr>
-<tr data-index="13" data-categories="rstats,talk,pedagogy,data skills" data-listing-date-sort="1656453600000" data-listing-file-modified-sort="1717597313365" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="47" data-listing-title-sort="Reflecting on our Teaching with Open Science" data-listing-filename-sort="2022-06-29_riots-teaching-open.qmd">
-<td>
-<span class="listing-date">2022-06-29</span>
-</td>
-<td>
-<a href="./posts/2022-06-29_riots-teaching-open.html" class="title listing-title">Reflecting on our Teaching with Open Science</a>
-</td>
-<td>
-<span class="listing-author">Helena Paterson, Phil McAleer</span>
-</td>
-</tr>
-</tbody>
-</table>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

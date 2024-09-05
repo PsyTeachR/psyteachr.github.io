@@ -1,0 +1,39 @@
+---
+title: "Using R, Shiny and associated technology in statistical education: Using data simulation in the classroom"
+date: 2024-09-03
+author: Lisa DeBruine
+image: ../images/RSS2024.jpg
+categories: [talk, pedagogy, simulation]
+url: https://virtual.oxfordabstracts.com/#/event/6693/program?session=92628&s=1226
+---
+
+Lisa DeBruine gave a talk in an invited symposium on "Using R, Shiny and associated technology in statistical education" at the [Royal Statistical Society annual conference](https://rss.org.uk/training-events/conference-2024/) in Brighton, UK. 
+
+![Andy Field, Lisa DeBruine, Richard Morey, Martina Sladekova, and Danielle Evans after their symposium (photo taken by Hadley Wickham)](../images/RSS2024.jpg)
+
+### Talk Abstract
+
+Being able to simulate data allows you to prep analysis scripts for pre-registration, calculate power and sensitivity for analyses that don’t have empirical methods, create reproducible examples when your data are too big or confidential to share, enhance your understanding of statistical concepts, and create demo data for teaching and tutorials. I will introduce the R package {faux} for data simulation from descriptive statistics. I will also give several examples of how to use data simulation in teaching statistical concepts.
+
+### Symposium Abstract 
+
+This session will explore cutting-edge uses of R and RStudio to enhance statistics education. We begin by very briefly overviewing the student experience of learning statistics through computers and explore some of the barriers and opportunities. We then look at using technology to enhance student engagement including how data simulation can be used as a powerful tool to help students understand key statistical concepts. We then move onto a series of talks that look at different approaches to automating assessment with a particular emphasis on large group teaching. We discuss various packages based on shiny in R (learnr, gradethis and flexTeaching) to generate and mark assessments, and to generate rich but efficient student feedback.
+
+* Intro: The student experience (Field)
+* Presentation 1: Using technology to engage students (Evans)
+* Presentation 2: Using data simulation in the classroom (DeBruine)
+* Presentation 3: Using learnr and gradethis to create and mark interactive assessments (Field, Sladekova, Evans)
+* Presentation 4: Using shiny for efficient marking and feedback (Sladekova)
+* Presentation 5: Automated assessment using flexTeaching (Morey)
+
+### Speakers
+
+Speakers:
+
+* Lisa DeBruine, University of Glasgow
+* Danielle Evans, University of Sussex 
+* Andy Field, University of Sussex
+* Richard Morey, University of Cardiff
+* Martina Sladekova, University of Sussex
+
+Organised by Andy Field for RSS Teaching Statistics Section

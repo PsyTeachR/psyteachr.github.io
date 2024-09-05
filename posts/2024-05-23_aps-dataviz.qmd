@@ -1,6 +1,6 @@
 ---
 title: "Data Visualization Using R for Researchers Who Don’t Use R "
-date: 2023-05-28
+date: 2024-05-28
 author: [Emily Nordmann, Wilhelmiina Toivo]
 image: ../images/introdataviz.png
 categories: [rstats, talk, dataviz, data skills]
