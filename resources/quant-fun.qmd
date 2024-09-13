@@ -4,7 +4,9 @@ author: [James Bartlett, Wil Toivo, Phil McAleer, Emily Nordmann]
 categories: [textbook, postgraduate]
 description: This book contains materials for students on the MSc Conversion in Psychological Studies/Science, a one-year postgraduate degree for students with a non-psychology undergraduate degree. This research methods course covers core data skills that allow you to manipulate and analyse quantitative data.
 image: ../../images/quant-fun.png
-url: https://psyteachr.github.io/quant-fundamentals-v3/
-contact: James Bartlett
+url: https://psyteachr.github.io/quant-fun/
+contact: 
+  name: James Bartlett
+  url: https://www.gla.ac.uk/schools/psychologyneuroscience/staff/jamesbartlett/
 order: 4
 ---
