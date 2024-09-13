@@ -7,7 +7,7 @@ categories: [rstats, talk, dataviz, data skills]
 url: https://emilynordmann.github.io/aps-dataviz/
 ---
 
-Emily Nordmann was invited by the Association for Psychological Science to give a [workshop at the 2023 APA Conference](https://www.psychologicalscience.org/conventions/2023-aps-annual-convention/2023-workshops) introducing researchers who don't use R to data visualisation using ggplot2. (Unfortunately, air travel problems meant this was cancelled.)
+Emily Nordmann was invited by the Association for Psychological Science to give a [workshop at the 2023 APS Conference](https://www.psychologicalscience.org/conventions/2023-aps-annual-convention/2023-workshops) introducing researchers who don't use R to data visualisation using ggplot2. (Unfortunately, air travel problems meant this was cancelled.)
 
 ### Abstract
 

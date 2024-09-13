@@ -1,0 +1,16 @@
+---
+title: "SGSSS Data Visualisation Workshop"
+date: 2024-06-05
+author: [James Bartlett, Wilhelmiina Toivo]
+image: ../images/introdataviz.png
+categories: [workshop, dataviz]
+url: https://bartlettje.github.io/SGSSS-workshop/
+---
+
+James Bartlett and Wilhelmiina Toivo presented a workshop on data visualisation to the [SGSSS Summer School](https://social.sgsss.ac.uk/summer-school-2024). You can [view some of the student creations](https://padlet.com/jamesbartlett1/sgsss-2024-data-visualisation-t7yzkd0lympfleb6).
+
+### Abstract
+
+In addition to benefiting reproducibility and transparency, one of the advantages of using R is that researchers have a much larger range of fully customisable data visualisations options. These options not only look attractive, but can increase transparency about the distribution of the underlying data rather than relying on commonly used visualisations of aggregations such as bar charts of means.
+
+In this tutorial, we provide a practical introduction to data visualisation using R and RStudio, specifically aimed at researchers who have little to no prior experience of using R. First, we provide a brief overview of general data visualisation principles and the ggplot2 package for data visualisation. The workshop then walks you through three different types of plots: bar charts, scatterplots, and. violin-boxplots (with lineplots as a bonus extra).

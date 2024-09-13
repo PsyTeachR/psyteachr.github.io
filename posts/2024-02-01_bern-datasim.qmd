@@ -1,0 +1,14 @@
+---
+title: "Data simulation with {faux} and data simulation for mixed designs"
+date: 2024-02-01
+author: [Lisa DeBruine]
+image: ../images/datasim.png
+categories: [workshop, simulation]
+url: https://debruine.github.io/data-sim-workshops/
+---
+
+Lisa gave a 2-day [data simulation workshop](https://kogpsy.github.io/datasimulationcourse_24/) at the Bern Institute of Psychology, covering material on using [faux](https://debruine.github.io/faux) to simulate data from [fixed and mixed designs](https://debruine.github.io/data-sim-workshops/).
+
+### Abstract
+
+Being able to simulate data allows you to prep analysis scripts for pre-registration, calculate power and sensitivity for analyses that don’t have empirical methods, create reproducible examples when your data are too big or confidential to share, enhance your understanding of statistical concepts, and create demo data for teaching and tutorials. This workshop will cover the basics of simulation using the R package {faux}. We will simulate data with factorial designs by specifying the within and between-subjects factor structure, each cell mean and standard deviation, and correlations between cells where appropriate. This can be used to create simulated data sets to be used in preparing the analysis code for pre-registrations or registered reports. We will also create data sets for simulation-based power analyses.

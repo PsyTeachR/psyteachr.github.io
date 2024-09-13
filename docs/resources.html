@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.353">
+<meta name="generator" content="quarto-1.4.553">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -48,7 +48,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -57,8 +63,10 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 <script>
@@ -71,9 +79,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-project','listing-website','listing-format','listing-language','listing-freeze','listing-title-block-banner','listing-title','listing-author','listing-categories','listing-description','listing-image','listing-url','listing-contact','listing-order','listing-path','listing-outputHref','listing-filename','listing-file-modified','listing-reading-time','listing-doi','listing-date','listing-venue','listing-links','listing-date-modified',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] }],
+      valueNames: ['listing-project','listing-website','listing-format','listing-language','listing-freeze','listing-title-block-banner','listing-title','listing-author','listing-categories','listing-description','listing-image','listing-url','listing-contact','listing-order','listing-path','listing-outputHref','listing-filename','listing-file-modified','listing-reading-time','listing-word-count','listing-doi','listing-date','listing-venue','listing-links','listing-date-modified',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] }],
       
-      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-freeze","listing-title-block-banner","listing-title","listing-author","listing-categories","listing-description","listing-image","listing-url","listing-contact","listing-order","listing-path","listing-outputHref","listing-filename","listing-file-modified","listing-reading-time","listing-doi","listing-date","listing-venue","listing-links","listing-date-modified"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-freeze","listing-title-block-banner","listing-title","listing-author","listing-categories","listing-description","listing-image","listing-url","listing-contact","listing-order","listing-path","listing-outputHref","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-doi","listing-date","listing-venue","listing-links","listing-date-modified"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -94,14 +102,41 @@ ul.task-list li input[type="checkbox"] {
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="PsyTeachR - Resources">
-<meta property="og:image" content="https://psyteachr.github.io/images/data-skills.png">
-<meta property="og:site-name" content="PsyTeachR">
+<meta property="og:image" content="https://psyteachr.github.io/images/logo.png">
+<meta property="og:site_name" content="PsyTeachR">
 <meta property="og:image:height" content="1024">
 <meta property="og:image:width" content="1024">
 <meta name="twitter:title" content="PsyTeachR - Resources">
-<meta name="twitter:image" content="https://psyteachr.github.io/images/data-skills.png">
+<meta name="twitter:image" content="https://psyteachr.github.io/images/logo.png">
 <meta name="twitter:site" content="@PsyTeachR">
 <meta name="twitter:image-height" content="1024">
 <meta name="twitter:image-width" content="1024">
@@ -112,9 +147,9 @@ ul.task-list li input[type="checkbox"] {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
     <img src="./images/logo.png" alt="Hexagon with PsyTeachR in rainbow art deco letters" class="navbar-logo">
     </a>
@@ -129,39 +164,39 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./resources.html" rel="" target="" aria-current="page">
- <span class="menu-text">Resources</span></a>
+    <a class="nav-link active" href="./resources.html" aria-current="page"> 
+<span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./papers.html" rel="" target="">
- <span class="menu-text">Papers</span></a>
+    <a class="nav-link" href="./papers.html"> 
+<span class="menu-text">Papers</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./posts.html" rel="" target="">
- <span class="menu-text">Posts</span></a>
+    <a class="nav-link" href="./posts.html"> 
+<span class="menu-text">Posts</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./coding_club.html" rel="" target="">
- <span class="menu-text">Coding Club</span></a>
+    <a class="nav-link" href="./coding_club.html"> 
+<span class="menu-text">Coding Club</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://psyteachr.github.io/mms/" rel="" target="">
- <span class="menu-text">M&amp;Ms</span></a>
+    <a class="nav-link" href="https://psyteachr.github.io/mms/"> 
+<span class="menu-text">M&amp;Ms</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/psyteachr/" rel="" target=""><i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/psyteachr/"> <i class="bi bi-github" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/psyteachr" rel="" target=""><i class="bi bi-twitter" role="img">
+    <a class="nav-link" href="https://twitter.com/psyteachr"> <i class="bi bi-twitter" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools">
-</div>
           </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -171,7 +206,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(22)</span></div><div class="category" data-category="postgraduate">postgraduate <span class="quarto-category-count">(3)</span></div><div class="category" data-category="r-package">r-package <span class="quarto-category-count">(5)</span></div><div class="category" data-category="reference">reference <span class="quarto-category-count">(1)</span></div><div class="category" data-category="talk">talk <span class="quarto-category-count">(1)</span></div><div class="category" data-category="template">template <span class="quarto-category-count">(1)</span></div><div class="category" data-category="textbook">textbook <span class="quarto-category-count">(9)</span></div><div class="category" data-category="tutorial">tutorial <span class="quarto-category-count">(4)</span></div><div class="category" data-category="undergraduate">undergraduate <span class="quarto-category-count">(4)</span></div><div class="category" data-category="workshop">workshop <span class="quarto-category-count">(2)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(23)</span></div><div class="category" data-category="postgraduate">postgraduate <span class="quarto-category-count">(3)</span></div><div class="category" data-category="r-package">r-package <span class="quarto-category-count">(5)</span></div><div class="category" data-category="reference">reference <span class="quarto-category-count">(1)</span></div><div class="category" data-category="talk">talk <span class="quarto-category-count">(1)</span></div><div class="category" data-category="template">template <span class="quarto-category-count">(1)</span></div><div class="category" data-category="textbook">textbook <span class="quarto-category-count">(10)</span></div><div class="category" data-category="tutorial">tutorial <span class="quarto-category-count">(4)</span></div><div class="category" data-category="undergraduate">undergraduate <span class="quarto-category-count">(4)</span></div><div class="category" data-category="workshop">workshop <span class="quarto-category-count">(2)</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
@@ -182,7 +217,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page-left">
 
     
   
@@ -190,255 +225,546 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
+
 </header>
 
 
 
 
 
-<div class="quarto-listing quarto-listing-container-custom" id="listing-listing">
 
+<div class="quarto-listing quarto-listing-container-custom" id="listing-listing">
 <ul class="reslist list">
-  <li data-index="0" data-categories="textbook,undergraduate" data-listing-file-modified-sort="1670257255222" data-listing-reading-time-sort="1">
+
+  <li data-index="0" data-categories="textbook,undergraduate" data-listing-file-modified-sort="1717597314280" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
     <div>
       <a href="https://psyteachr.github.io/data-skills/"><img src="./images/data-skills.png"></a>
     </div>
+  
     <div>
+      
       <h3 class="anchored"><a href="https://psyteachr.github.io/data-skills/">Level 1: Data Skills</a></h3>
+      
+      
       <p>Our first-year undergraduate course covers current state of psychological science and what Open Science is as well as its importance. It also aims to make students confident and competent at using RStudio as a tool to achieve good data management skills.</p>
+      
+      
         Author: Emily Nordmann, Heather Cleland-Woods
+      
+      
+      
         <br>Contact: 
+        
           <a href="https://www.gla.ac.uk/schools/psychologyneuroscience/staff/emilynordmann/">Emily Nordmann</a>
+        
+      
+      
     </div>
   </li>
-  <li data-index="1" data-categories="textbook,undergraduate" data-listing-file-modified-sort="1670249851737" data-listing-reading-time-sort="1">
+
+  <li data-index="1" data-categories="textbook,undergraduate" data-listing-file-modified-sort="1717597314281" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
     <div>
       <a href="https://psyteachr.github.io/analysis/"><img src="./images/analysis.png"></a>
     </div>
+  
     <div>
+      
       <h3 class="anchored"><a href="https://psyteachr.github.io/analysis/">Level 2: Analysis</a></h3>
+      
+      
       <p>Our second-year undergraduate course covers data skills such as R Markdown, data wrangling with tidyverse, and data visualisation with ggplot2. It also introduces statistical concepts such as permutation tests, NHST, alpha, power, effect size, and sample size. Semester 2 focusses on correlations and the general linear model.</p>
+      
+      
         Author: Phil McAleer, Carolina Kuepper-Tetzel, Helena Paterson
+      
+      
+      
         <br>Contact: 
+        
           Carolina Kuepper-Tetzel
+        
+      
+      
     </div>
   </li>
-  <li data-index="2" data-categories="textbook,undergraduate" data-listing-file-modified-sort="1670249848710" data-listing-reading-time-sort="1">
+
+  <li data-index="2" data-categories="textbook,undergraduate" data-listing-file-modified-sort="1717597314285" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
     <div>
       <a href="https://psyteachr.github.io/stat-models/"><img src="./images/stat-models.png"></a>
     </div>
+  
     <div>
+      
       <h3 class="anchored"><a href="https://psyteachr.github.io/stat-models/">Level 3: Statistical Models</a></h3>
+      
+      
       <p>This third-year undergraduate course teaches students how to specify, estimate, and interpret statistical models corresponding to various study designs, using a General Linear Models approach.</p>
+      
+      
         Author: Dale Barr
+      
+      
+      
         <br>Contact: 
+        
           Dale Barr
+        
+      
+      
     </div>
   </li>
-  <li data-index="3" data-categories="textbook,postgraduate" data-listing-file-modified-sort="1670249845759" data-listing-reading-time-sort="1">
+
+  <li data-index="3" data-categories="textbook,postgraduate" data-listing-file-modified-sort="1717597314287" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
     <div>
       <a href="https://psyteachr.github.io/quant-fun/"><img src="./images/quant-fun.png"></a>
     </div>
+  
     <div>
+      
       <h3 class="anchored"><a href="https://psyteachr.github.io/quant-fun/">Fundamentals of Quantitative Analysis</a></h3>
+      
+      
       <p>This book contains materials for students on the MSc Conversion in Psychological Studies/Science, a one-year postgraduate degree for students with a non-psychology undergraduate degree. This research methods course covers core data skills that allow you to manipulate and analyse quantitative data.</p>
+      
+      
         Author: Emily Nordmann, Wil Toivo, Phil McAleer
+      
+      
+      
         <br>Contact: 
+        
           Phil McAleer
+        
+      
+      
     </div>
   </li>
-  <li data-index="4" data-categories="textbook,postgraduate" data-listing-file-modified-sort="1670252712493" data-listing-reading-time-sort="1">
+
+  <li data-index="4" data-categories="textbook,postgraduate" data-listing-file-modified-sort="1717597314287" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
     <div>
       <a href="https://psyteachr.github.io/reprores/"><img src="./images/reprores.png"></a>
     </div>
+  
     <div>
+      
       <h3 class="anchored"><a href="https://psyteachr.github.io/reprores/">Data Skills for Reproducible Research</a></h3>
+      
+      
       <p>This book provides an overview of skills needed for reproducible research and open science using the statistical programming language R and tidyverse packages. It covers reproducible workflows, data visualisation, data tidying and wrangling, archiving, iteration and functions, probability and data simulations. It assumes at least an undergraduate level of methods training, but no prior experience in R.</p>
+      
+      
         Author: Lisa DeBruine, Dale Barr
+      
+      
+      
         <br>Contact: 
+        
           <a href="https://debruine.github.io/">Lisa DeBruine</a>
+        
+      
+      
         <br>DOI: <a href="https://doi.org/10.5281/zenodo.6527194">10.5281/zenodo.6527194</a>
+      
     </div>
   </li>
-  <li data-index="5" data-categories="textbook,postgraduate" data-listing-file-modified-sort="1670257796221" data-listing-reading-time-sort="1">
+
+  <li data-index="5" data-categories="textbook,postgraduate" data-listing-file-modified-sort="1717597314288" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
     <div>
       <a href=""><img src="./images/statsresdesign.png"></a>
     </div>
+  
     <div>
+      
       <h3 class="anchored">Statistics and Research Design</h3>
+      
+      
       <p>Coming soon! The second term statistics course for our MSc in Research Methods.</p>
+      
+      
         Author: James Bartlett, Christoph Scheepers, Guillaume Rousselet
+      
+      
+      
         <br>Contact: 
+        
           James Bartlett
+        
+      
+      
     </div>
   </li>
-  <li data-index="6" data-categories="reference" data-listing-file-modified-sort="1670257547574" data-listing-reading-time-sort="1">
+
+  <li data-index="6" data-categories="reference" data-listing-file-modified-sort="1717597314276" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
     <div>
       <a href="https://psyteachr.github.io/glossary/"><img src="./images/glossary.png"></a>
     </div>
+  
     <div>
+      
       <h3 class="anchored"><a href="https://psyteachr.github.io/glossary/">Glossary of Terms</a></h3>
+      
+      
       <p>PsyTeachR books (and external websites) can link to the glossary to define common terms. Anyone can contribute to the glossary through the github project.</p>
+      
+      
+      
+      
         <br>Contact: 
+        
           <a href="https://debruine.github.io/">Lisa DeBruine</a>
+        
+      
+      
     </div>
   </li>
-  <li data-index="7" data-categories="textbook" data-listing-file-modified-sort="1670257042159" data-listing-reading-time-sort="1">
+
+  <li data-index="7" data-categories="textbook" data-listing-file-modified-sort="1717597314274" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
     <div>
       <a href="https://psyteachr.github.io/ads/"><img src="./images/ads.png"></a>
     </div>
+  
     <div>
+      
       <h3 class="anchored"><a href="https://psyteachr.github.io/ads/">Applied Data Skills</a></h3>
+      
+      
       <p>This book provides an overview of the basic skills needed to turn raw data into informative summaries and visualisations presented in professional reports and presentations.</p>
+      
+      
         Author: Emily Nordmann, Lisa DeBruine
+      
+      
+      
+      
     </div>
   </li>
-  <li data-index="8" data-categories="textbook,undergraduate" data-listing-file-modified-sort="1670257100143" data-listing-reading-time-sort="1">
+
+  <li data-index="8" data-categories="textbook" data-listing-file-modified-sort="1717599359334" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+    <div>
+      <a href="https://psyteachr.github.io/AITutoR/"><img src="./images/aitutor.png"></a>
+    </div>
+  
+    <div>
+      
+      <h3 class="anchored"><a href="https://psyteachr.github.io/AITutoR/">AITutoR</a></h3>
+      
+      
+      <p>This book aims to teach students how to use AI to support their learning journey. The philosophy of this book is firmly rooted in the cognitive science of learning and as such, retrieval practice, distributed practice, and elaboration will all play a key role.</p>
+      
+      
+        Author: Emily Nordmann, Carolina Kuepper-Tetzel
+      
+      
+      
+      
+    </div>
+  </li>
+
+  <li data-index="9" data-categories="textbook,undergraduate" data-listing-file-modified-sort="1717597314277" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
     <div>
       <a href="https://psyteachr.github.io/handyworkbook/"><img src="./images/handyworkbook.png"></a>
     </div>
+  
     <div>
+      
       <h3 class="anchored"><a href="https://psyteachr.github.io/handyworkbook/">A Handy Workbook for Research Methods &amp; Statistics</a></h3>
+      
+      
       <p>A Handy Workbook to help students understand Research Methods and Statistics through worked examples and self-tests.</p>
+      
+      
         Author: Phil McAleer
+      
+      
+      
+      
     </div>
   </li>
-  <li data-index="9" data-categories="tutorial" data-listing-file-modified-sort="1674128049781" data-listing-reading-time-sort="1">
+
+  <li data-index="10" data-categories="tutorial" data-listing-file-modified-sort="1717597314280" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
     <div>
       <a href="https://psyteachr.github.io/introdataviz/"><img src="./images/introdataviz.png"></a>
     </div>
+  
     <div>
+      
       <h3 class="anchored"><a href="https://psyteachr.github.io/introdataviz/">Data Visualisation Using R, For Researchers Who Don’t Use R</a></h3>
+      
+      
       <p>In this tutorial, we provide a practical introduction to data visualisation using R, specifically aimed at researchers who have little to no prior experience of using R.</p>
+      
+      
         Author: Emily Nordmann, Phil McAleer, Wilhelmiina Toivo, Helena Paterson, Lisa DeBruine
+      
+      
+      
         <br>Contact: 
+        
           <a href="https://www.gla.ac.uk/schools/psychologyneuroscience/staff/emilynordmann/">Emily Nordmann</a>
+        
+      
+      
     </div>
   </li>
-  <li data-index="10" data-categories="tutorial" data-listing-file-modified-sort="1674128058413" data-listing-reading-time-sort="1">
+
+  <li data-index="11" data-categories="tutorial" data-listing-file-modified-sort="1717597314289" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
     <div>
       <a href="https://psyteachr.github.io/tutorials/"><img src="./images/tutorials.png"></a>
     </div>
+  
     <div>
+      
       <h3 class="anchored"><a href="https://psyteachr.github.io/tutorials/">Tutorials</a></h3>
+      
+      
       <p>Collected short tutorials in R.</p>
+      
+      
+      
+      
         <br>Contact: 
+        
           <a href="https://www.gla.ac.uk/schools/psychologyneuroscience/staff/dalebarr/">Dale Barr</a>
+        
+      
+      
     </div>
   </li>
-  <li data-index="11" data-categories="tutorial" data-listing-file-modified-sort="1674127885332" data-listing-reading-time-sort="1">
+
+  <li data-index="12" data-categories="tutorial" data-listing-file-modified-sort="1717597314288" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
     <div>
       <a href="https://debruine.github.io/shinyintro/"><img src="./images/shinyintro.png"></a>
     </div>
+  
     <div>
+      
       <h3 class="anchored"><a href="https://debruine.github.io/shinyintro/">Building Web Apps with R Shiny</a></h3>
+      
+      
       <p>Learn the basics of Shiny app programming, including skills that will form the basis of almost any app you want to build.</p>
+      
+      
         Author: Lisa DeBruine
+      
+      
+      
+      
     </div>
   </li>
-  <li data-index="12" data-categories="tutorial" data-listing-file-modified-sort="1686559209286" data-listing-reading-time-sort="1">
+
+  <li data-index="13" data-categories="tutorial" data-listing-file-modified-sort="1717597314279" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
     <div>
       <a href="https://psyteachr.github.io/intro-r-pkgs/"><img src="./images/intro-r-pkgs.png"></a>
     </div>
+  
     <div>
+      
       <h3 class="anchored"><a href="https://psyteachr.github.io/intro-r-pkgs/">Coding Club: Creating an R Package</a></h3>
+      
+      
       <p>Making an R package develops generic coding skills and gives you valuable insight to how R works. Covers setting up a package project, creating functions, documenting them with roxygen, creating vignettes, unit testing, package testing, version control with git, and distribution with github.</p>
+      
+      
         Author: Lisa DeBruine
+      
+      
+      
+      
     </div>
   </li>
-  <li data-index="13" data-categories="template" data-listing-file-modified-sort="1670257029863" data-listing-reading-time-sort="1">
+
+  <li data-index="14" data-categories="template" data-listing-file-modified-sort="1717597314274" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
     <div>
       <a href="https://psyteachr.github.io/template/"><img src="./images/template.png"></a>
     </div>
+  
     <div>
+      
       <h3 class="anchored"><a href="https://psyteachr.github.io/template/">Book Template</a></h3>
+      
+      
       <p>Fork the GitHub project to get started making a book with the psyTeachR styles and conventions. This includes custom code to make the subheader menu accessible on mobile or smaller screens, and integrated support for webexercises. The template has a CC-BY-SA license, so feel free to make any modifications.</p>
+      
+      
         Author: Lisa DeBruine
+      
+      
+      
+      
     </div>
   </li>
-  <li data-index="14" data-categories="r-package" data-listing-file-modified-sort="1670259570224" data-listing-reading-time-sort="1">
+
+  <li data-index="15" data-categories="r-package" data-listing-file-modified-sort="1717597314289" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
     <div>
       <a href="https://psyteachr.github.io/webexercises/"><img src="./images/webex_hex.png"></a>
     </div>
+  
     <div>
+      
       <h3 class="anchored"><a href="https://psyteachr.github.io/webexercises/">{webexercises}</a></h3>
+      
+      
       <p>The R package {webexercises} helps instructors easily create interactive web pages that students can use in self-guided learning. <img src="http://cranlogs.r-pkg.org/badges/grand-total/webexercises?color=467AAC"> (formerly webex <img src="http://cranlogs.r-pkg.org/badges/grand-total/webex?color=467AAC">).
 </p>
+      
+      
         Author: Dale Barr, Lisa DeBruine
+      
+      
+      
+      
     </div>
   </li>
-  <li data-index="15" data-categories="r-package" data-listing-file-modified-sort="1670258708068" data-listing-reading-time-sort="1">
+
+  <li data-index="16" data-categories="r-package" data-listing-file-modified-sort="1717597314286" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
     <div>
       <a href="https://psyteachr.github.io/markr/"><img src="./images/markr.png"></a>
     </div>
+  
     <div>
+      
       <h3 class="anchored"><a href="https://psyteachr.github.io/markr/">{markr}</a></h3>
+      
+      
       <p>The R package {markr} helps instructors create individual feedback documents and marking summaries from flexibly organised spreadsheets and other types of input.</p>
+      
+      
         Author: Lisa DeBruine, Helena Paterson, Phil McAleer
+      
+      
+      
+      
     </div>
   </li>
-  <li data-index="16" data-categories="r-package" data-listing-file-modified-sort="1670259594448" data-listing-reading-time-sort="1">
+
+  <li data-index="17" data-categories="r-package" data-listing-file-modified-sort="1717597314274" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
     <div>
       <a href="https://debruine.github.io/faux/"><img src="./images/faux.png"></a>
     </div>
+  
     <div>
+      
       <h3 class="anchored"><a href="https://debruine.github.io/faux/">{faux}</a></h3>
+      
+      
       <p>The R package {faux} package makes it easier to simulate data with a specified structure. <img src="http://cranlogs.r-pkg.org/badges/grand-total/faux?color=467AAC">
 </p>
+      
+      
         Author: Lisa DeBruine
+      
+      
+      
+      
     </div>
   </li>
-  <li data-index="17" data-categories="r-package,textbook" data-listing-file-modified-sort="1686559209285" data-listing-reading-time-sort="1">
+
+  <li data-index="18" data-categories="r-package,textbook" data-listing-file-modified-sort="1717597314274" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
     <div>
       <a href="https://debruine.github.io/booktem/"><img src="./images/booktem.png"></a>
     </div>
+  
     <div>
+      
       <h3 class="anchored"><a href="https://debruine.github.io/booktem/">{booktem}</a></h3>
+      
+      
       <p>The R package {booktem} helps to make the creation of open-source, methods-focussed books quick and easy. It integrates with  [webexercises](https://psyteachr.github.io/webexercises/) for short self-checking quizzes and [glossary](https://debruine.github.io/glossary/) for defining terms in text and creating glossary tables.
 </p>
+      
+      
         Author: Lisa DeBruine
+      
+      
+      
+      
     </div>
   </li>
-  <li data-index="18" data-categories="r-package" data-listing-file-modified-sort="1686559209285" data-listing-reading-time-sort="1">
+
+  <li data-index="19" data-categories="r-package" data-listing-file-modified-sort="1717597314275" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
     <div>
       <a href="https://debruine.github.io/glossary/"><img src="./images/glossary-pkg.png"></a>
     </div>
+  
     <div>
+      
       <h3 class="anchored"><a href="https://debruine.github.io/glossary/">{glossary}</a></h3>
+      
+      
       <p>The R package {glossary} provides a lightweight solution for making glossaries in educational materials written in quarto or R Markdown. <img src="http://cranlogs.r-pkg.org/badges/grand-total/glossary?color=467AAC"></p>
+      
+      
         Author: Lisa DeBruine
+      
+      
+      
+      
     </div>
   </li>
-  <li data-index="19" data-categories="workshop" data-listing-file-modified-sort="1670259177706" data-listing-reading-time-sort="1">
+
+  <li data-index="20" data-categories="workshop" data-listing-file-modified-sort="1717597314276" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
     <div>
       <a href="https://psyteachr.github.io/hack-your-data/"><img src="./images/hydb_hex.png"></a>
     </div>
+  
     <div>
+      
       <h3 class="anchored"><a href="https://psyteachr.github.io/hack-your-data/">Hack Your Data Beautiful</a></h3>
+      
+      
       <p>A 2017 workshop sponsored by the SGSSS to teach social science and humanities postgraduates coding skills to make your own website or to visualise your data in a way that is engaging and rigorous.</p>
+      
+      
         Author: Carolyn Saund, Shannon McNee, Rebecca Lai, Jack Taylor, Stephanie Allan, Anna Henschel, Lovisa Sundin, Dale Barr, Lisa DeBruine
+      
+      
+      
+      
     </div>
   </li>
-  <li data-index="20" data-categories="workshop" data-listing-file-modified-sort="1670259711200" data-listing-reading-time-sort="1">
+
+  <li data-index="21" data-categories="workshop" data-listing-file-modified-sort="1717597314287" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
     <div>
       <a href="https://psyteachr.github.io/sips2019/"><img src="./images/Rlogo-warhol-9b.svg"></a>
     </div>
+  
     <div>
+      
       <h3 class="anchored"><a href="https://psyteachr.github.io/sips2019/">Redesigning methods curricula for reproducibility</a></h3>
+      
+      
       <p>A 2019 workshop on experiences, insights, and teaching materials for the transition to teaching R across all undergraduate and postgraduate levels.</p>
+      
+      
         Author: Dale Barr, Heather Cleland Woods, Lisa DeBruine, Rebecca Lai, Phil McAleer, Shanon McNee, Emily Nordmann, Helena Paterson, Niamh Stack
+      
+      
+      
+      
     </div>
   </li>
-  <li data-index="21" data-categories="talk" data-listing-date-sort="1618527600000" data-listing-file-modified-sort="1670260518772" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+
+  <li data-index="22" data-categories="talk" data-listing-date-sort="1618524000000" data-listing-file-modified-sort="1717597314286" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
     <div>
       <a href=""><img src="./images/logo.png"></a>
     </div>
+  
     <div>
+      
       <h3 class="anchored">Creating a curriculum centered on reproducible research for the Psychologists of the future</h3>
+      
+      
       <p>A talk by Phil McAleer for the Project Tier Spring Symposium 2021.</p>
+      
+      
         Author: Phil McAleer
+      
+      
+      
+      
     </div>
   </li>
+
 </ul>
 <div class="listing-no-matching d-none">
 No matching items
@@ -523,10 +849,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/psyteachr\.github\.io");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -536,8 +879,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -549,7 +901,130 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -593,6 +1068,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -618,6 +1094,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -678,6 +1180,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+
 
 
 

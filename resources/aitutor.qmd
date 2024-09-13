@@ -1,0 +1,9 @@
+---
+title: "AITutoR"
+author: [Emily Nordmann, Carolina Kuepper-Tetzel]
+categories: [textbook]
+description: This book aims to teach students how to use AI to support their learning journey. The philosophy of this book is firmly rooted in the cognitive science of learning and as such, retrieval practice, distributed practice, and elaboration will all play a key role.
+image: ../../images/aitutor.png
+url: https://psyteachr.github.io/AITutoR/
+order: 9
+---

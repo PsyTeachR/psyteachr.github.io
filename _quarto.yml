@@ -1,6 +1,7 @@
 project:
   type: website
   output-dir: docs
+  resources: reprores/data
 
 website:
   title: "PsyTeachR"
