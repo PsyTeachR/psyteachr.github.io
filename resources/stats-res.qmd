@@ -2,7 +2,7 @@
 title: "Statistics and Research Design"
 author: [James Bartlett, Guillaume Rousselet]
 categories: [textbook, postgraduate]
-description: MSc Statistics and Research Design course on the MSc Research Methods in Psychological Science programme. The course covers three topics: regression modelling, bootstrapping, and an introduction to Bayesian statistics.
+description: MSc Statistics and Research Design course on the MSc Research Methods in Psychological Science programme. The course covers three topics on regression modelling, bootstrapping, and an introduction to Bayesian statistics.
 image: ../../images/statsresdesign.png
 url: https://psyteachr.github.io/statsres-v1/
 contact: 
