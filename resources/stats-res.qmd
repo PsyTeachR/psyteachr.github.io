@@ -1,10 +1,10 @@
 ---
 title: "Statistics and Research Design"
-author: [James Bartlett, Guillaume Rousselet]
+author: [James Bartlett, Guillaume Rousselet, Lisa DeBruine]
 categories: [textbook, postgraduate]
 description: MSc Statistics and Research Design course on the MSc Research Methods in Psychological Science programme. The course covers three topics on regression modelling, bootstrapping, and an introduction to Bayesian statistics.
 image: ../../images/statsresdesign.png
-url: https://psyteachr.github.io/statsres-v1/
+url: https://psyteachr.github.io/statsres-v2/
 contact: 
   name: James Bartlett
   url: https://www.gla.ac.uk/schools/psychologyneuroscience/staff/jamesbartlett/
