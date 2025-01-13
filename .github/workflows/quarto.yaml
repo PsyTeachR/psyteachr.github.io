@@ -28,11 +28,6 @@ jobs:
           with:
             use-public-rspm: true
 
-        - name: Install R Dependencies
-          uses: r-lib/actions/setup-r-dependencies@v2
-          with:
-            extra-packages: any::tidyverse
-
         - name: Publish to GitHub Pages (and render)
           uses: quarto-dev/quarto-actions/publish@v2
           with:
