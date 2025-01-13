@@ -1,0 +1,7 @@
+character,integer,double,logical,date
+A,1,1.5,TRUE,05-Sep-21
+B,2,2.5,TRUE,04-Sep-21
+C,3,3.5,FALSE,03-Sep-21
+D,4,4.5,FALSE,02-Sep-21
+E,5,5.5,,01-Sep-21
+F,6,6.5,TRUE,31-Aug-21

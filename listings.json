@@ -1,0 +1,83 @@
+[
+  {
+    "listing": "/index.html",
+    "items": [
+      "/posts/2025-01-08_bartlett-talk-EWS.html",
+      "/posts/2024-11-11_quant-fun-rewrite.html",
+      "/posts/2024-09-03_RSS.html",
+      "/posts/2024-06-05_sgsss-dataviz.html",
+      "/posts/2024-06-01_AITutoR.html",
+      "/posts/2024-05-23_aps-dataviz.html",
+      "/posts/2024-02-01_bern-datasim.html",
+      "/posts/2023-06-23_SIPS-booktem.html",
+      "/posts/2023-06-20_shefield-teaching-open.html",
+      "/posts/2023-06-01_empseb.html",
+      "/posts/2023-05-28_aps-dataviz.html",
+      "/posts/2023-02-27_newcastle-teaching-psych.html",
+      "/posts/2022-12-09_riots-r-repro.html",
+      "/posts/2022-11-21_riots-code-review.html",
+      "/posts/2022-11-01_ADS.html",
+      "/posts/2022-06-29_riots-teaching-open.html"
+    ]
+  },
+  {
+    "listing": "/posts.html",
+    "items": [
+      "/posts/2025-01-08_bartlett-talk-EWS.html",
+      "/posts/2024-11-11_quant-fun-rewrite.html",
+      "/posts/2024-09-03_RSS.html",
+      "/posts/2024-06-05_sgsss-dataviz.html",
+      "/posts/2024-06-01_AITutoR.html",
+      "/posts/2024-05-23_aps-dataviz.html",
+      "/posts/2024-02-01_bern-datasim.html",
+      "/posts/2023-06-23_SIPS-booktem.html",
+      "/posts/2023-06-20_shefield-teaching-open.html",
+      "/posts/2023-06-01_empseb.html",
+      "/posts/2023-05-28_aps-dataviz.html",
+      "/posts/2023-02-27_newcastle-teaching-psych.html",
+      "/posts/2022-12-09_riots-r-repro.html",
+      "/posts/2022-11-21_riots-code-review.html",
+      "/posts/2022-11-01_ADS.html",
+      "/posts/2022-06-29_riots-teaching-open.html"
+    ]
+  },
+  {
+    "listing": "/resources.html",
+    "items": [
+      "/resources/l1-data-skills.html",
+      "/resources/l2-analysis.html",
+      "/resources/l3-stat-models.html",
+      "/resources/quant-fun.html",
+      "/resources/reprores.html",
+      "/resources/stats-res.html",
+      "/resources/glossary.html",
+      "/resources/ads.html",
+      "/resources/handy-workbook.html",
+      "/resources/aitutor.html",
+      "/resources/introdataviz.html",
+      "/resources/tutorials.html",
+      "/resources/shiny-intro.html",
+      "/resources/intro-r-pkgs.html",
+      "/resources/book-template.html",
+      "/resources/webex.html",
+      "/resources/markr.html",
+      "/resources/faux.html",
+      "/resources/glossary-pkg.html",
+      "/resources/booktem.html",
+      "/resources/hack-your-data-beautiful.html",
+      "/resources/redesigning-methods-curricula.html",
+      "/resources/psych-future.html"
+    ]
+  },
+  {
+    "listing": "/papers.html",
+    "items": [
+      "/papers/2023-teaching-open.html",
+      "/papers/2022-embedding.html",
+      "/papers/2022-open-source-tutorials.html",
+      "/papers/2022-dataviz.html",
+      "/papers/2022-02-05_improving-pedagogy-rr.html",
+      "/papers/2021-mixed-effects.html"
+    ]
+  }
+]
