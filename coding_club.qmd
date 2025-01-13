@@ -34,6 +34,7 @@ Our next set of sessions will be making your own R package. Making an R package 
 You will need only very basic R skills and a willingness to learn. The only people this would not be suitable for are those with zero previous experience in R (unless you know you pick up coding languages quickly). If you can install packages and understand the following code, you should be fine:
 
 ```{r}
+#| eval: false
 library(ggplot2)
 
 df <- data.frame(
@@ -133,7 +134,8 @@ Before the session:
 2. Bookmark the [book](https://debruine.github.io/shinyintro/)
 3. Install the {shinyintro} package
 
-```{r, eval = FALSE}
+```{r}
+#| eval: false
 # you may have to install devtools first with 
 # install.packages("devtools")
 
@@ -293,7 +295,8 @@ In this third session, we restructured the simulation functions to keep a record
 
 The video ends with an unresolved bug. The resolution is to make sure that `input$unif_submit` is definitely an integer when you add it to the data table. I really don't know why this fixes it. So the relevant code in the `observeEvent()` function for `unif_submit` should be:
 
-```{r, eval = FALSE}
+```{r}
+#| eval: false
 data <- data.frame(
     x = x,
     sample = as.integer(input$unif_submit),

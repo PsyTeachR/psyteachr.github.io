@@ -1,0 +1,10 @@
+---
+title: "New version of QuantFun"
+date: 2024-11-11
+author: James Bartlett
+image: ../images/quant-fun.png
+categories: [book]
+url: https://psyteachr.github.io/quant-fun-v3/
+---
+
+James Bartlett and Wil Toivo released a complete rewrite of their MSc Conversion book, [Fundamentals of Quantitative Analysis](psyteachr.github.io/quant-fun-v3/).

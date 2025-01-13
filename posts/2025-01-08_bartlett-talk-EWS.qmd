@@ -1,0 +1,14 @@
+---
+title: "Talk at Edinburgh Winterschool"
+date: 2025-01-08
+author: James Bartlett
+image: ../images/ews.png
+categories: [talk]
+url: https://pairprogramming.ed.ac.uk/winter-school-25/
+---
+
+James Bartlett gave a flash talk at the Edinburgh Winterschool for Teaching Programming Across Disciplines, on *Rapidly teaching programming and reproducible research practices*.
+
+Several UK psychology departments teach students research methods and statistics using R/RStudio. Common worries for departments considering a shift are not having the time and that students outside computer science degrees will not be able to develop programming skills. In our MSc conversion programme, students develop reproducible research practices and programming skills using R/RStudio in a 10-week course. In this short talk, I will outline our approach to rapidly teaching these skills and note what works well and not so well. Our take-home message is that psychology students can rapidly learn programming and reproducible research practices with the right support and resources. 
+
+[Slides and video](https://media.ed.ac.uk/media/14%20-%20James%20Bartlett%20%E2%80%93%20Rapidly%20teaching%20programming%20and%20reproducible%20research%20practices%20-%20Edinbutgh%20Winter%20School%2025%20-%20Teaching%20Programming%20across%20Disciplines/1_9v8cd31m)

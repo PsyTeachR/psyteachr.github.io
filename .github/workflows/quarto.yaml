@@ -1,0 +1,32 @@
+name: Render and Publish
+# on:
+#   push:
+#     branches:
+#       - master  # changes pushed to this branch will trigger a build.
+
+
+#configure manual trigger
+on:
+  workflow_dispatch:
+
+jobs:
+  build-deploy:
+      runs-on: ubuntu-latest
+      permissions:
+        contents: write
+      steps:
+        - name: Check out repository
+          uses: actions/checkout@v4
+
+        - name: Set up Quarto
+          uses: quarto-dev/quarto-actions/setup@v2
+          with:
+            version: 1.5.57
+
+        - name: Publish to GitHub Pages (and render)
+          uses: quarto-dev/quarto-actions/publish@v2
+          with:
+            target: gh-pages # renderred html files will be pushed here
+          env:
+            QUARTO_PROFILE: website
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # this secret is always available for github actions
