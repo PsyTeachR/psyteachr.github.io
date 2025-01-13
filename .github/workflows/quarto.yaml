@@ -22,6 +22,16 @@ jobs:
           uses: quarto-dev/quarto-actions/setup@v2
           with:
             version: 1.5.57
+            
+        - name: Install R
+          uses: r-lib/actions/setup-r@v2
+          with:
+            use-public-rspm: true
+
+        - name: Install R Dependencies
+          uses: r-lib/actions/setup-r-dependencies@v2
+          with:
+            extra-packages: any::tidyverse
 
         - name: Publish to GitHub Pages (and render)
           uses: quarto-dev/quarto-actions/publish@v2
