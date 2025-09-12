@@ -75,8 +75,8 @@
   {
     "listing": "/papers.html",
     "items": [
-      "/papers/2023-teaching-open.html",
       "/papers/2024-delphi-research-methods.html",
+      "/papers/2023-teaching-open.html",
       "/papers/2022-embedding.html",
       "/papers/2022-open-source-tutorials.html",
       "/papers/2022-dataviz.html",
