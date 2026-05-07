@@ -1,0 +1,11 @@
+---
+title: "How to improve your data visualisation"
+date: 2026-05-05
+author: Wilhelmiina Toivo
+image: ../images/template.png
+categories: [workshop]
+---
+
+Wilhelmiina Toivo delivered a workshop on "How to improve your data visualisation" for the University of Strasbourg, France.
+
+Abstract: Data visualisation is often left as an afterthought in the research process, even though effective data visualisation can significantly improve your communication, as well as your understanding of your data. This workshop will cover some key perceptual, cognitive and ethical principles to better data visualisation. In the process, we will also have some fun with truly atrocious plots.

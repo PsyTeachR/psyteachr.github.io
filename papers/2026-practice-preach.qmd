@@ -1,0 +1,11 @@
+---
+title: "Practice What You Preach: Designing Student Assignments That Advance Open and Reproducible Science"
+author: [Bartlett, J.E., Mahrholz, G., Nordmann, E.]
+categories: [pedagogy, research methods, education]
+doi: 10.1177/25152459261425883
+venue: Advances in Methods and Practices in Psychological Science
+url: https://journals.sagepub.com/doi/10.1177/25152459261425883
+date: 2026-05-07
+abstract: |
+  Since the replication crisis came to widespread attention in psychology, there has been significant progress in reforming research practices to be more open and reproducible. However, the integration of these principles into teaching—particularly assessment—has lagged behind. Although many open educational resources have been developed to support the teaching of open science, fewer efforts have focused on embedding open science into how students are assessed. In this commentary, we address that gap by offering a series of practical, scalable strategies for integrating open and reproducible science into psychology education through assessment. We argue that to normalize open science, students must not only learn about its principles but also be assessed on their understanding and application of them. Drawing on examples from our undergraduate and postgraduate programs and the wider literature, we outline a range of assessment strategies aligned with curriculum standards and pedagogical evidence. These include incorporating preregistration and registered reports, evaluating reproducibility through code and data submission, engaging students in peer review and code review, and integrating open-science concepts into essays, multiple-choice exams, and final dissertations. We highlight that even small changes at the course level can promote open science and that educators should approach implementation flexibly, recognizing it as a continuum rather than a binary shift. We also stress the need to avoid framing open science as overly technical or inaccessible, which may discourage student engagement. By embedding open and reproducible practices into assessment design, educators can support the development of critical, ethical, and transparent future scientists.
+---
