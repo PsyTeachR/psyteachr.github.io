@@ -1,0 +1,11 @@
+---
+title: "Teaching Reproducible Research"
+date: 2025-11-25
+author: Lisa DeBruine
+image: ../images/template.png
+categories: [talk]
+---
+
+Lisa DeBruine [spoke about PsyTeachR](https://debruine.github.io/talks/teach-repro-2025/#/title-slide){target="_blank"} at the Maths and Stats seminar at the University of Glasgow, Scotland. 
+
+Abstract: In this talk, I will give an overview of how the School of Psychology and Neuroscience transformed our undergraduate and postgraduate curriculum to prioritise data skills and reproducibility using open source software and teaching resources. While our ethos is agnostic to specific tools and coding languages, I will give specific examples of how we use R, RStudio, and RMarkdown/quarto to instill transferable skills and good research practice supporting computational reproducibility and literate coding.
