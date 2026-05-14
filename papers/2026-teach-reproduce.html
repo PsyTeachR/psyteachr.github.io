@@ -6,8 +6,21 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Bartlett">
+<meta name="author" content="J.E.">
+<meta name="author" content="Checketts">
+<meta name="author" content="M.">
+<meta name="author" content="DeBruine">
+<meta name="author" content="L.">
+<meta name="author" content="Mahrholz">
+<meta name="author" content="G.">
+<meta name="author" content="McAleer">
+<meta name="author" content="P.">
+<meta name="author" content="Paterson">
+<meta name="author" content="H.">
+<meta name="dcterms.date" content="2026-05-01">
 
-<title>Papers – PsyTeachR</title>
+<title>How to…teach reproducible research – PsyTeachR</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +36,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href=".//images/favicon.ico" rel="icon">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="..//images/favicon.ico" rel="icon">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,73 +80,17 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-project','listing-website','listing-format','listing-language','listing-freeze','listing-title-block-banner','listing-title','listing-author','listing-categories','listing-doi','listing-venue','listing-url','listing-date','listing-abstract','listing-path','listing-outputHref','listing-date-modified','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count','listing-year','listing-volume','listing-pages',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
-      
-      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-freeze","listing-title-block-banner","listing-title","listing-author","listing-categories","listing-doi","listing-venue","listing-url","listing-date","listing-abstract","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-year","listing-volume","listing-pages"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="Papers – PsyTeachR">
+<link rel="stylesheet" href="../styles.css">
+<meta property="og:title" content="How to…teach reproducible research – PsyTeachR">
+<meta property="og:description" content="Academics have increasingly recognised the benefit of reproducible research practices, alongside the importance of supporting students to develop such skills from the start of their degree. However, reproducible research is often considered more in the domain of professional research rather than an essential part of the curriculum. Commonly cited barriers are a lack of time within already busy curricula and a failure to recognise the benefits to all students as future consumers of research. In this chapter, we demonstrate how you can teach reproducible research skills at all levels of Higher Education. We will outline how we built and assessed a curriculum incorporating reproducible research skills for different programmes, and the opportunities and challenges that each target audience provides. In short, we aim to convince educators that all students can develop reproducible research skills given the right support and resources.">
 <meta property="og:image" content="https://psyteachr.github.io/images/logo.png">
 <meta property="og:site_name" content="PsyTeachR">
 <meta property="og:image:height" content="1024">
 <meta property="og:image:width" content="1024">
-<meta name="twitter:title" content="Papers – PsyTeachR">
+<meta name="twitter:title" content="How to…teach reproducible research – PsyTeachR">
+<meta name="twitter:description" content="Academics have increasingly recognised the benefit of reproducible research practices, alongside the importance of supporting students to develop such skills from the start of their degree. However, reproducible research is often considered more in the domain of professional research rather than an essential part of the curriculum. Commonly cited barriers are a lack of time within already busy curricula and a failure to recognise the benefits to all students as future consumers of research. In this chapter, we demonstrate how you can teach reproducible research skills at all levels of Higher Education. We will outline how we built and assessed a curriculum incorporating reproducible research skills for different programmes, and the opportunities and challenges that each target audience provides. In short, we aim to convince educators that all students can develop reproducible research skills given the right support and resources.">
 <meta name="twitter:image" content="https://psyteachr.github.io/images/logo.png">
 <meta name="twitter:site" content="@PsyTeachR">
 <meta name="twitter:image-height" content="1024">
@@ -143,17 +98,17 @@ window.Quarto = {
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/logo.png" alt="Hexagon with PsyTeachR in rainbow art deco letters" class="navbar-logo">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../images/logo.png" alt="Hexagon with PsyTeachR in rainbow art deco letters" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">PsyTeachR</span>
     </a>
   </div>
@@ -164,19 +119,19 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./resources.html"> 
+    <a class="nav-link" href="../resources.html"> 
 <span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./papers.html" aria-current="page"> 
+    <a class="nav-link" href="../papers.html"> 
 <span class="menu-text">Papers</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./posts.html"> 
+    <a class="nav-link" href="../posts.html"> 
 <span class="menu-text">Posts</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./coding_club.html"> 
+    <a class="nav-link" href="../coding_club.html"> 
 <span class="menu-text">Coding Club</span></a>
   </li>  
   <li class="nav-item">
@@ -200,217 +155,79 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
-<!-- sidebar -->
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(9)</span></div><div class="category" data-category="data skills">data skills <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dataviz">dataviz <span class="quarto-category-count">(1)</span></div><div class="category" data-category="education">education <span class="quarto-category-count">(3)</span></div><div class="category" data-category="mixed-effects">mixed-effects <span class="quarto-category-count">(1)</span></div><div class="category" data-category="open research">open research <span class="quarto-category-count">(1)</span></div><div class="category" data-category="pedagogy">pedagogy <span class="quarto-category-count">(7)</span></div><div class="category" data-category="registered reports">registered reports <span class="quarto-category-count">(1)</span></div><div class="category" data-category="research methods">research methods <span class="quarto-category-count">(3)</span></div><div class="category" data-category="rstats">rstats <span class="quarto-category-count">(2)</span></div><div class="category" data-category="tutorials">tutorials <span class="quarto-category-count">(3)</span></div></div></div>
-<!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Papers</h1>
-</div>
-
-
-
-<div class="quarto-title-meta column-page-left">
-
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">How to…teach reproducible research</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">pedagogy</div>
+                <div class="quarto-category">research methods</div>
+                <div class="quarto-category">education</div>
+              </div>
+                  </div>
+  </div>
     
   
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Authors</div>
+      <div class="quarto-title-meta-contents">
+               <p>Bartlett </p>
+               <p>J.E. </p>
+               <p>Checketts </p>
+               <p>M. </p>
+               <p>DeBruine </p>
+               <p>L. </p>
+               <p>Mahrholz </p>
+               <p>G. </p>
+               <p>McAleer </p>
+               <p>P. </p>
+               <p>Paterson </p>
+               <p>H. </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">May 1, 2026</p>
+      </div>
+    </div>
     
+      
+      <div>
+      <div class="quarto-title-meta-heading">Doi</div>
+      <div class="quarto-title-meta-contents">
+        <p class="doi">
+          <a href="https://doi.org/10.4337/9781035359066.00011">10.4337/9781035359066.00011</a>
+        </p>
+      </div>
+    </div>
+    </div>
+    
+  <div>
+    <div class="abstract">
+      <div class="block-title">Abstract</div>
+      <p>Academics have increasingly recognised the benefit of reproducible research practices, alongside the importance of supporting students to develop such skills from the start of their degree. However, reproducible research is often considered more in the domain of professional research rather than an essential part of the curriculum. Commonly cited barriers are a lack of time within already busy curricula and a failure to recognise the benefits to all students as future consumers of research. In this chapter, we demonstrate how you can teach reproducible research skills at all levels of Higher Education. We will outline how we built and assessed a curriculum incorporating reproducible research skills for different programmes, and the opportunities and challenges that each target audience provides. In short, we aim to convince educators that all students can develop reproducible research skills given the right support and resources.</p>
+    </div>
   </div>
   
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
-</header>
 
 
 
 
 
 
-<div class="quarto-listing quarto-listing-container-custom" id="listing-listing">
-<ul class="paperlist list">
-
-  <li data-index="0" data-categories="pedagogy,research methods,education" data-listing-date-sort="1778112000000" data-listing-file-modified-sort="1778746253705" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-    <div>
-      <h3 class="anchored"><a href="./papers/2026-practice-preach.html">Practice What You Preach: Designing Student Assignments That Advance Open and Reproducible Science</a></h3>
-      
-        <p class="abstract">Since the replication crisis came to widespread attention in psychology, there has been significant progress in reforming research practices to be more open and reproducible.</p>
-      
-      
-      
-        Authors: <div class="authors">Bartlett , J.E. , Mahrholz , G. , Nordmann , E. </div>
-      
-      
-        <br>DOI: <a href="https://doi.org/10.1177/25152459261425883">10.1177/25152459261425883</a>
-      
-      
-        <br>Categories: pedagogy | research methods | education
-      
-    </div>
-  </li>
-
-  <li data-index="1" data-categories="pedagogy,research methods,education" data-listing-date-sort="1777593600000" data-listing-file-modified-sort="1778746253705" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-    <div>
-      <h3 class="anchored"><a href="./papers/2026-teach-reproduce.html">How to...teach reproducible research</a></h3>
-      
-        <p class="abstract">Academics have increasingly recognised the benefit of reproducible research practices, alongside the importance of supporting students to develop such skills from the start of their degree.</p>
-      
-      
-      
-        Authors: <div class="authors">Bartlett , J.E. , Checketts , M. , DeBruine , L. , Mahrholz , G. , McAleer , P. , Paterson , H. </div>
-      
-      
-        <br>DOI: <a href="https://doi.org/10.4337/9781035359066.00011">10.4337/9781035359066.00011</a>
-      
-      
-        <br>Categories: pedagogy | research methods | education
-      
-    </div>
-  </li>
-
-  <li data-index="2" data-categories="pedagogy,research methods,education" data-listing-date-sort="1706486400000" data-listing-file-modified-sort="1778746253705" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-    <div>
-      <h3 class="anchored"><a href="./papers/2024-delphi-research-methods.html">A Delphi Study to Strengthen Research-Methods Training in Undergraduate Psychology Programs</a></h3>
-      
-        <p class="abstract">Psychology programs often emphasize inferential statistical tests over a solid understanding of data and research design.</p>
-      
-      
-      
-        Authors: <div class="authors">Thibault , R.T. , Bailey-Rodriguez , D. , Bartlett , J.E. , Blazey , P. , Green , R.J. , Pownall , M. &amp; Munafó, M.R. </div>
-      
-      
-        <br>DOI: <a href="https://doi.org/10.1177/25152459231213808">10.1177/25152459231213808</a>
-      
-      
-        <br>Categories: pedagogy | research methods | education
-      
-    </div>
-  </li>
-
-  <li data-index="3" data-categories="pedagogy,open research" data-listing-date-sort="1684281600000" data-listing-file-modified-sort="1778746253705" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
-    <div>
-      <h3 class="anchored"><a href="./papers/2023-teaching-open.html">Teaching open and reproducible scholarship: a critical review of the evidence base for current pedagogical methods and their outcomes</a></h3>
-      
-        <p class="abstract">In recent years, the scientific community has called for improvements in the credibility, robustness and reproducibility of research, characterized by increased interest and promotion of open and transparent research practices.</p>
-      
-      
-      
-        Authors: <div class="authors">Madeleine Pownall, Flávio Azevedo, Laura M. König, Hannah R. Slack, Thomas Rhys Evans, Zoe Flack, Sandra Grinschgl, Mahmoud M. Elsherif, Katie A. Gilligan-Lee, Catia M. F. de Oliveira, Biljana Gjoneska, Tamara Kalandadze, Katherine Button, Sarah Ashcroft-Jones, Jenny Terry, Nihan Albayrak-Aydemir, Filip Děchtěrenko, Shilaan Alzahawi, Bradley J. Baker, Merle-Marie Pittelkow, Lydia Riedl, Kathleen Schmidt, Charlotte R. Pennington, John J. Shaw, Timo Lüke, Matthew C. Makel, Helena Hartmann, Mirela Zaneva, Daniel Walker, Steven Verheyen, Daniel Cox, Jennifer Mattschey, Tom Gallagher-Mitchell, Peter Branney, Yanna Weisberg, Kamil Izydorczak, Ali H. Al-Hoorie, Ann-Marie Creaven, Suzanne L. K. Stewart, Kai Krautter, Karen Matvienko-Sikar, Samuel J. Westwood, Patrícia Arriaga, Meng Liu, Myriam A. Baum, Tobias Wingen, Robert M. Ross, Aoife O'Mahony, Agata Bochynska, Michelle Jamieson, Myrthe Vel Tromp, Siu Kit Yeung, Martin R. Vasilev, Amélie Gourdon-Kanhukamwe, Leticia Micheli, Markus Konkol, David Moreau, James Bartlett, Kait Clark, Gwen Brekelmans, Theofilos Gkinopoulos, Samantha L. Tyler, Jan Philipp Röer, Zlatomira G. Ilchovska, Christopher R. Madan, Olly Robertson, Bethan J. Iley, Samuel Guay, Martina Sladekova, Shanu Sadhwani, FORRT </div>
-      
-      
-        <br>DOI: <a href="https://doi.org/10.1098/rsos.221255">10.1098/rsos.221255</a>
-      
-      
-        <br>Categories: pedagogy | open research
-      
-    </div>
-  </li>
-
-  <li data-index="4" data-categories="data skills,pedagogy" data-listing-date-sort="1667433600000" data-listing-file-modified-sort="1778746253705" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-    <div>
-      <h3 class="anchored"><a href="./papers/2022-embedding.html">Embedding Data Skills in Research Methods Education: Preparing Students for Reproducible Research</a></h3>
-      
-        <p class="abstract">Many initiatives to improve reproducibility incentivise replication and encourage greater transparency without directly addressing the underlying skills needed for transparent and reproducible data preparation and analysis.</p>
-      
-      
-      
-        Authors: <div class="authors">Phil McAleer, Niamh Stack, Heather Cleland Woods, Lisa DeBruine, Helena Paterson, Emily Nordmann, Carolina Kuepper-Tetzel, Dale Barr</div>
-      
-      
-        <br>DOI: <a href="https://doi.org/10.31234/osf.io/hq68s">10.31234/osf.io/hq68s</a>
-      
-      
-        <br>Categories: data skills | pedagogy
-      
-    </div>
-  </li>
-
-  <li data-index="5" data-categories="tutorials,pedagogy" data-listing-date-sort="1651536000000" data-listing-file-modified-sort="1778746253705" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-    <div>
-      <h3 class="anchored"><a href="./papers/2022-open-source-tutorials.html">Open-source tutorials benefit the field</a></h3>
-      
-        <p class="abstract">Open research is increasingly required by journals and funders but involves many new skills.</p>
-      
-      
-      
-        Authors: <div class="authors">Freda Wan, Wilhelmiina Toivo, Helena Paterson, Emily Nordmann, Phil McAleer, Kalliopi Mavromati, Rebecca Lai, Carolina Kuepper-Tetzel, Lisa DeBruine, James Bartlett, Dale Barr</div>
-      
-      
-        <br>DOI: <a href="https://doi.org/10.1038/s44159-022-00058-8">10.1038/s44159-022-00058-8</a>
-      
-      
-        <br>Categories: tutorials | pedagogy
-      
-    </div>
-  </li>
-
-  <li data-index="6" data-categories="tutorials,rstats,dataviz" data-listing-date-sort="1651017600000" data-listing-file-modified-sort="1778746253705" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-    <div>
-      <h3 class="anchored"><a href="./papers/2022-dataviz.html">Data visualisation using R, for researchers who don’t use R</a></h3>
-      
-        <p class="abstract">In addition to benefiting reproducibility and transparency, one of the advantages of using R is that researchers have a much larger range of fully customizable data visualizations options than are typically available in point-and-click software because of the open-source nature of R.</p>
-      
-      
-      
-        Authors: <div class="authors">Emily Nordmann, Phil McAleer, Wilhelmiina Toivo, Helena Paterson, Lisa DeBruine</div>
-      
-      
-        <br>DOI: <a href="https://doi.org/10.1177/25152459221074654">10.1177/25152459221074654</a>
-      
-      
-        <br>Categories: tutorials | rstats | dataviz
-      
-    </div>
-  </li>
-
-  <li data-index="7" data-categories="pedagogy,registered reports" data-listing-date-sort="1644019200000" data-listing-file-modified-sort="1778746253705" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-    <div>
-      <h3 class="anchored"><a href="./papers/2022-02-05_improving-pedagogy-rr.html">Improving Pedagogy through Registered Reports</a></h3>
-      
-        <p class="abstract">An emphasis on research-led teaching across educational settings has meant that more and more implementations for improving student learning are based on published research.</p>
-      
-      
-      
-        Authors: <div class="authors">Phil McAleer, Helena Paterson</div>
-      
-      
-        <br>DOI: <a href="https://doi.org/10.31234/osf.io/q34k8">10.31234/osf.io/q34k8</a>
-      
-      
-        <br>Categories: pedagogy | registered reports
-      
-    </div>
-  </li>
-
-  <li data-index="8" data-categories="tutorials,mixed-effects,rstats" data-listing-date-sort="1619136000000" data-listing-file-modified-sort="1778746253705" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-    <div>
-      <h3 class="anchored"><a href="./papers/2021-mixed-effects.html">Understanding Mixed-Effects Models Through Data Simulation</a></h3>
-      
-        <p class="abstract">Experimental designs that sample both subjects and stimuli from a larger population need to account for random effects of both subjects and stimuli using mixed-effects models.</p>
-      
-      
-      
-        Authors: <div class="authors">Lisa DeBruine, Dale Barr</div>
-      
-      
-        <br>DOI: <a href="https://doi.org/10.1177/2515245920965119">10.1177/2515245920965119</a>
-      
-      
-        <br>Categories: tutorials | mixed-effects | rstats
-      
-    </div>
-  </li>
-
-</ul>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
