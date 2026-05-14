@@ -5,7 +5,7 @@ categories: [pedagogy, research methods, education]
 doi: 10.4337/9781035359066.00011
 venue: Teaching Open Science
 url: https://osf.io/preprints/psyarxiv/g5ehx_v1
-date: 2026-05-01
+date: 2026-05-21
 abstract: |
   Academics have increasingly recognised the benefit of reproducible research practices, alongside the importance of supporting students to develop such skills from the start of their degree. However, reproducible research is often considered more in the domain of professional research rather than an essential part of the curriculum. Commonly cited barriers are a lack of time within already busy curricula and a failure to recognise the benefits to all students as future consumers of research. In this chapter, we demonstrate how you can teach reproducible research skills at all levels of Higher Education. We will outline how we built and assessed a curriculum incorporating reproducible research skills for different programmes, and the opportunities and challenges that each target audience provides. In short, we aim to convince educators that all students can develop reproducible research skills given the right support and resources.
 ---

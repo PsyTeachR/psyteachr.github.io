@@ -1,0 +1,11 @@
+---
+title: "How to...supervise open and efficient student research"
+author: [Robertson, A., Creaven, A-M., Ahern, E., Button, K., Nordmann, E.]
+categories: [pedagogy, open research, education]
+doi: 10.4337/9781035359066.00019
+venue: Teaching Open Science
+url: https://osf.io/preprints/psyarxiv/pj56r_v1
+date: 2026-05-21
+abstract: |
+  Research projects that are conducted as part of a degree support students to develop essential skills in project management, data analysis, and scientific communication. However, these projects can be resource-intensive, place an undue burden on certain populations, such as those with rare conditions, and often make limited contributions to wider knowledge. Incorporating open science approaches into the design and delivery of student research projects can help address these challenges. This chapter uses case studies and practical examples to demonstrate how supervisors can enhance efficiency in data collection and analysis (e.g., pooling data and using pre-existing data). It also examines the role of openness and transparency in student research projects and considers potential ethical implications. The examples provided will be useful for supervisors seeking to enhance students’ dissertation experience and embed some aspects of open science into their supervision.
+---
