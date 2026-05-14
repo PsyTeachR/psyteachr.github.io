@@ -2,7 +2,7 @@
 title: "How to...teach reproducible research"
 author: [Bartlett, J.E., Checketts, M., DeBruine, L., Mahrholz, G., McAleer, P., Paterson, H.]
 categories: [pedagogy, research methods, education]
-doi: 0000
+doi: 10.4337/9781035359066.00011
 venue: Teaching Open Science
 url: https://osf.io/preprints/psyarxiv/g5ehx_v1
 date: 2026-05-01
