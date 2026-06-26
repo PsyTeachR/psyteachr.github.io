@@ -1,0 +1,23 @@
+---
+title: "“Anxious, excited for the challenge”: A mixed methods time-capsule study across a quantitative research methods and statistics course."
+date: 2026-06-23
+author: [James Bartlett, Thinh Pham, Ashley Robertson, Wilhelmiina Toivo]
+image: ../images/template.png
+categories: [talk]
+url: https://www.bps.org.uk/member-networks/division-academics-researchers-and-teachers-psychology
+---
+
+James Bartlett gave a talk on "“Anxious, excited for the challenge”: A mixed methods time-capsule study across a quantitative research methods and statistics course" at BPS DART-P in Lancaster, UK. [Slides available as a PDF.](https://bartlettje.github.io/talks/2026_DARTP_diary.pdf)
+
+## Abstract
+
+Objectives: Psychology students often begin with high anxiety and low confidence about learning quantitative research methods and statistics. Anecdotally, many later report enjoying the subject and performing better than expected. However, previous research has not compared student perspectives at the start and end of a course, and often excludes online learners. This study investigates how confidence, attitudes, and anxiety shift across an introductory research methods course.
+
+Design: We used a mixed methods, time capsule design where students complete quantitative measures and free text prompts at the beginning and end of the course.
+
+Methods: Thirty two face to face and 30 online distance-learning students on an MSc Psychology Conversion degree completed the time one measures. Data collection for time two closes on 3 June 2026. At time one, participants completed quantitative items on concepts including perceived value and confidence, and provided free text responses about anticipated barriers. At time two, they repeat the quantitative measures and we remind them of their earlier free-text responses to reflect on.
+
+Results: Our analysis plan uses ordinal regression to compare quantitative items between time one and time two, to investigate how their perspectives shift over the course. Content analysis of free text responses explores differences in what students emphasise at the start versus the end of the course.
+
+Conclusions: A conversion degree offers a unique opportunity to track perspectives towards quantitative research methods and statistics across two modes of study. The perceived versus actual challenges enable us to alter our course design and share best practice to address those challenges for future students.     
+

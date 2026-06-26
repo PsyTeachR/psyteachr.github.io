@@ -1,0 +1,22 @@
+---
+title: "Evaluating Psychology Students’ Data Skills For Reproducible Research"
+date: 2026-06-22
+author: [Dale Barr, James Bartlett, Heather Cleland Woods, Gaby Mahrholz, Ashley Robertson, Holly Scott, Wilhelmiina Toivo]
+image: ../images/template.png
+categories: [talk]
+url: https://www.bps.org.uk/member-networks/division-academics-researchers-and-teachers-psychology
+---
+
+James Bartlett gave a talk on "Evaluating Psychology Students’ Data Skills For Reproducible Research" at BPS DART-P in Lancaster, UK. [Slides available as a PDF.](https://bartlettje.github.io/talks/2026_DARTP_dataskills.pdf)
+
+## Abstract
+
+Objectives: In the 2024 BPS accreditation standards, teaching how to clean or process data is now mandatory. However, previous studies have not evaluated how well psychology students can independently process realistic data and reflect on any challenges they faced. 
+
+Design: Our study adopted an exploratory mixed methods approach given the lack of previous studies with similar objectives.    
+
+Methods: From an initial 132 participants, 42 undergraduates and postgraduates from UK universities completed one of two versions of a data set with the same instructions and research question. One was processed which participants could import and analyse immediately. The other was unprocessed and required several wrangling steps prior to analysis. For quantitative data, participants entered the results from their analyses. For qualitative data, there were free-text boxes to reflect on their experiences completing each step of the analysis. 
+
+Results: Participants who finished the study accurately reported the intended results, but there was a clear attrition pattern across data sets. 49% of participants completed the study using the processed data but only 31% for unprocessed data. Our content analysis identified key challenges in recognising the steps to wrangle unprocessed data without a list of instructions to follow and how to interpret non-significant findings. 
+
+Conclusions: Our findings reinforce efforts to develop reproducible data skills in psychology students over treating statistics as simply a flowchart of tests to memorise. Students should develop independence in processing and analysing realistic data prior to their dissertation and learn how to interpret both statistically significant and non-significant findings. 
