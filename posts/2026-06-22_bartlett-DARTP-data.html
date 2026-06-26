@@ -6,8 +6,16 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Dale Barr">
+<meta name="author" content="James Bartlett">
+<meta name="author" content="Heather Cleland Woods">
+<meta name="author" content="Gaby Mahrholz">
+<meta name="author" content="Ashley Robertson">
+<meta name="author" content="Holly Scott">
+<meta name="author" content="Wilhelmiina Toivo">
+<meta name="dcterms.date" content="2026-06-22">
 
-<title>PsyTeachR</title>
+<title>Evaluating Psychology Students’ Data Skills For Reproducible Research – PsyTeachR</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +31,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href=".//images/favicon.ico" rel="icon">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="..//images/favicon.ico" rel="icon">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,76 +75,18 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-news-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-news-listing'] = new List('listing-news-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="PsyTeachR">
+<link rel="stylesheet" href="../styles.css">
+<meta property="og:title" content="Evaluating Psychology Students’ Data Skills For Reproducible Research – PsyTeachR">
 <meta property="og:description" content="Psychologists from @UofGPsychNeuro advocating open, reproducible methods teaching.">
-<meta property="og:image" content="https://psyteachr.github.io/images/logo.png">
+<meta property="og:image" content="https://psyteachr.github.io/images/template.png">
 <meta property="og:site_name" content="PsyTeachR">
 <meta property="og:image:height" content="1024">
 <meta property="og:image:width" content="1024">
-<meta name="twitter:title" content="PsyTeachR">
+<meta name="twitter:title" content="Evaluating Psychology Students’ Data Skills For Reproducible Research – PsyTeachR">
 <meta name="twitter:description" content="Psychologists from @UofGPsychNeuro advocating open, reproducible methods teaching.">
-<meta name="twitter:image" content="https://psyteachr.github.io/images/logo.png">
+<meta name="twitter:image" content="https://psyteachr.github.io/images/template.png">
 <meta name="twitter:site" content="@PsyTeachR">
 <meta name="twitter:image-height" content="1024">
 <meta name="twitter:image-width" content="1024">
@@ -148,14 +96,14 @@ window.Quarto = {
 <body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/logo.png" alt="Hexagon with PsyTeachR in rainbow art deco letters" class="navbar-logo">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../images/logo.png" alt="Hexagon with PsyTeachR in rainbow art deco letters" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">PsyTeachR</span>
     </a>
   </div>
@@ -166,19 +114,19 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./resources.html"> 
+    <a class="nav-link" href="../resources.html"> 
 <span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./papers.html"> 
+    <a class="nav-link" href="../papers.html"> 
 <span class="menu-text">Papers</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./posts.html"> 
+    <a class="nav-link" href="../posts.html"> 
 <span class="menu-text">Posts</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./coding_club.html"> 
+    <a class="nav-link" href="../coding_club.html"> 
 <span class="menu-text">Coding Club</span></a>
   </li>  
   <li class="nav-item">
@@ -202,187 +150,62 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Evaluating Psychology Students’ Data Skills For Reproducible Research</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">talk</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Authors</div>
+      <div class="quarto-title-meta-contents">
+               <p>Dale Barr </p>
+               <p>James Bartlett </p>
+               <p>Heather Cleland Woods </p>
+               <p>Gaby Mahrholz </p>
+               <p>Ashley Robertson </p>
+               <p>Holly Scott </p>
+               <p>Wilhelmiina Toivo </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">June 22, 2026</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
-<p>The psyTeachR team at the University of Glasgow <a href="https://www.gla.ac.uk/schools/psychologyneuroscience/">School of Psychology and Neuroscience</a> has successfully made the transition to teaching reproducible research using R across all undergraduate and postgraduate levels. Our curriculum now emphasizes essential ‘data science’ graduate skills that have been overlooked in traditional approaches to teaching, including programming skills, data visualisation, data wrangling and reproducible reports. Students learn about probability and inference through data simulation as well as by working with real datasets.</p>
-<p>This website contains our open materials for teaching reproducible research. See our <a href="https://github.com/PsyTeachR">GitHub</a> for open data and code.</p>
-<section id="quick-links" class="level3">
-<h3 class="anchored" data-anchor-id="quick-links">Quick Links</h3>
-<!-- no spaces between <a> or % is wonky -->
-<div class="hexes">
-<div class="hexrow">
-<a href="./data-skills/"><img src="images/data-skills.png"></a><a href="./analysis/"><img src="images/analysis.png"></a><a href="./stat-models/"><img src="images/stat-models.png"></a><a href="./quant-fun/"><img src="images/quant-fun.png"></a><a href="./reprores/"><img src="images/reprores.png"></a>
-</div>
-<div class="hexrow">
-<a href="./AITutoR/"><img src="images/aitutor.png"></a><a href="./ads/"><img src="images/ads.png"></a><a href="./glossary/"><img src="images/glossary.png"></a><a href="./introdataviz/"><img src="images/introdataviz.png"></a>
-</div>
-<div class="hexrow">
-<a href="./tutorials/"><img src="images/tutorials.png"></a><a href="https://debruine.github.io/shinyintro/"><img src="images/shinyintro.png"></a><a href="https://psyteachr.github.io/intro-r-pkgs/"><img src="images/intro-r-pkgs.png"></a><a href="./handyworkbook/"><img src="images/handyworkbook.png"></a><a href="./template/"><img src="images/template.png"></a>
-</div>
-<div class="hexrow">
-<a href="https://psyteachr.github.io/webexercises"><img src="images/webexercises.png"></a><a href="https://psyteachr.github.io/markr/"><img src="images/markr.png"></a><a href="https://debruine.github.io/faux/"><img src="images/faux.png"></a><a href="https://debruine.github.io/glossary/"><img src="images/glossary-pkg.png"></a>
-</div>
-</div>
-</section>
-<section id="recent-news" class="level3">
-<h3 class="anchored" data-anchor-id="recent-news">Recent News</h3>
-<div id="listing-news-listing" class="quarto-listing quarto-listing-container-default">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="talk" data-listing-date-sort="1782172800000" data-listing-file-modified-sort="1782463974077" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="293">
-<div class="thumbnail">
-<p><a href="./posts/2026-06-23_bartlett-DARTP-diary.html" class="no-external"></a></p><a href="./posts/2026-06-23_bartlett-DARTP-diary.html" class="no-external">
-<p><img loading="lazy" src="./images/template.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/2026-06-23_bartlett-DARTP-diary.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2026-06-23_bartlett-DARTP-diary.html" class="no-external">“Anxious, excited for the challenge”: A mixed methods time-capsule study across a quantitative research methods and statistics course.</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2026-06-23_bartlett-DARTP-diary.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./posts/2026-06-23_bartlett-DARTP-diary.html" class="no-external">James Bartlett gave a talk on ““Anxious, excited for the challenge”: A mixed methods time-capsule study across a quantitative research methods and statistics course” at BPS…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/2026-06-23_bartlett-DARTP-diary.html" class="no-external">
-<div class="listing-date">
-2026-06-23
-</div>
-<div class="listing-author">
-James Bartlett, Thinh Pham, Ashley Robertson, Wilhelmiina Toivo
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="talk" data-listing-date-sort="1782086400000" data-listing-file-modified-sort="1782463974077" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="277">
-<div class="thumbnail">
-<p><a href="./posts/2026-06-22_bartlett-DARTP-data.html" class="no-external"></a></p><a href="./posts/2026-06-22_bartlett-DARTP-data.html" class="no-external">
-<p><img loading="lazy" src="./images/template.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/2026-06-22_bartlett-DARTP-data.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2026-06-22_bartlett-DARTP-data.html" class="no-external">Evaluating Psychology Students’ Data Skills For Reproducible Research</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2026-06-22_bartlett-DARTP-data.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./posts/2026-06-22_bartlett-DARTP-data.html" class="no-external">James Bartlett gave a talk on “Evaluating Psychology Students’ Data Skills For Reproducible Research” at BPS DART-P in Lancaster, UK. Slides available as a PDF.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/2026-06-22_bartlett-DARTP-data.html" class="no-external">
-<div class="listing-date">
-2026-06-22
-</div>
-<div class="listing-author">
-Dale Barr, James Bartlett, Heather Cleland Woods, Gaby Mahrholz, Ashley Robertson, Holly Scott, Wilhelmiina Toivo
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="workshop" data-listing-date-sort="1777939200000" data-listing-file-modified-sort="1782463974077" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="76">
-<div class="thumbnail">
-<p><a href="./posts/2026-05-05-Toivo-Strasbourg.html" class="no-external"></a></p><a href="./posts/2026-05-05-Toivo-Strasbourg.html" class="no-external">
-<p><img loading="lazy" src="./images/template.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/2026-05-05-Toivo-Strasbourg.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2026-05-05-Toivo-Strasbourg.html" class="no-external">How to improve your data visualisation</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2026-05-05-Toivo-Strasbourg.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./posts/2026-05-05-Toivo-Strasbourg.html" class="no-external">Wilhelmiina Toivo delivered a workshop on “How to improve your data visualisation” for the University of Strasbourg, France.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/2026-05-05-Toivo-Strasbourg.html" class="no-external">
-<div class="listing-date">
-2026-05-05
-</div>
-<div class="listing-author">
-Wilhelmiina Toivo
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="talk" data-listing-date-sort="1764028800000" data-listing-file-modified-sort="1782463974077" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="91">
-<div class="thumbnail">
-<p><a href="./posts/2025-11-25-DeBruine-MathsStats.html" class="no-external"></a></p><a href="./posts/2025-11-25-DeBruine-MathsStats.html" class="no-external">
-<p><img loading="lazy" src="./images/template.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/2025-11-25-DeBruine-MathsStats.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2025-11-25-DeBruine-MathsStats.html" class="no-external">Teaching Reproducible Research</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2025-11-25-DeBruine-MathsStats.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./posts/2025-11-25-DeBruine-MathsStats.html" class="no-external">Lisa DeBruine spoke about PsyTeachR at the Maths and Stats seminar at the University of Glasgow, Scotland.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/2025-11-25-DeBruine-MathsStats.html" class="no-external">
-<div class="listing-date">
-2025-11-25
-</div>
-<div class="listing-author">
-Lisa DeBruine
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="workshop" data-listing-date-sort="1756684800000" data-listing-file-modified-sort="1782463974077" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="162">
-<div class="thumbnail">
-<p><a href="./posts/2025-09-01_bartlett-muenster.html" class="no-external"></a></p><a href="./posts/2025-09-01_bartlett-muenster.html" class="no-external">
-<p><img loading="lazy" src="./images/template.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/2025-09-01_bartlett-muenster.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2025-09-01_bartlett-muenster.html" class="no-external">Creating open educational materials at ESPLAT 2025</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2025-09-01_bartlett-muenster.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./posts/2025-09-01_bartlett-muenster.html" class="no-external">James Bartlett delivered a workshop on “Creating open educational materials using Quarto- and Github-Pages” at ESPLAT 2025 in Münster, Germany.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/2025-09-01_bartlett-muenster.html" class="no-external">
-<div class="listing-date">
-2025-09-01
-</div>
-<div class="listing-author">
-James Bartlett
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-<p><a href="posts.html">Older news…</a></p>
 
+<p>James Bartlett gave a talk on “Evaluating Psychology Students’ Data Skills For Reproducible Research” at BPS DART-P in Lancaster, UK. <a href="https://bartlettje.github.io/talks/2026_DARTP_dataskills.pdf">Slides available as a PDF.</a></p>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>Objectives: In the 2024 BPS accreditation standards, teaching how to clean or process data is now mandatory. However, previous studies have not evaluated how well psychology students can independently process realistic data and reflect on any challenges they faced.</p>
+<p>Design: Our study adopted an exploratory mixed methods approach given the lack of previous studies with similar objectives.</p>
+<p>Methods: From an initial 132 participants, 42 undergraduates and postgraduates from UK universities completed one of two versions of a data set with the same instructions and research question. One was processed which participants could import and analyse immediately. The other was unprocessed and required several wrangling steps prior to analysis. For quantitative data, participants entered the results from their analyses. For qualitative data, there were free-text boxes to reflect on their experiences completing each step of the analysis.</p>
+<p>Results: Participants who finished the study accurately reported the intended results, but there was a clear attrition pattern across data sets. 49% of participants completed the study using the processed data but only 31% for unprocessed data. Our content analysis identified key challenges in recognising the steps to wrangle unprocessed data without a list of instructions to follow and how to interpret non-significant findings.</p>
+<p>Conclusions: Our findings reinforce efforts to develop reproducible data skills in psychology students over treating statistics as simply a flowchart of tests to memorise. Students should develop independence in processing and analysing realistic data prior to their dissertation and learn how to interpret both statistically significant and non-significant findings.</p>
 
 
 </section>
