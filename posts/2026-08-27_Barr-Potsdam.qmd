@@ -1,0 +1,14 @@
+---
+title: "“Building and sustaining a culture of open research: Lessons from PsyTeachR at the University of Glasgow"
+date: 2026-08-25
+author: [Lisa DeBruine]
+image: ../images/template.png
+categories: [talk]
+url: https://vasishth.github.io/smlp2026/
+---
+
+Lisa DeBruine and Dale Barr both gave invited keynotes at the 10th annual Summer School on Statistical Methods for Linguistics and Psychology. 
+ 
+Dale's talk: Building and sustaining a culture of open research: Lessons from PsyTeachR at the University of Glasgow
+
+Abstract: In this talk I will reflect on a decade of experience as a leader of the PsyTeachR initiative at the University of Glasgow. The PsyTeachR team successfully reformed our research methods teaching curriculum to emphasize data skills and computational reproducibility, and to embody values of openness and transparency. This turned out to be a much more challenging effort than anyone anticipated, as it ultimately required a culture shift. I will attempt to distill some take-away lessons for others seeking to change culture in their home departments.

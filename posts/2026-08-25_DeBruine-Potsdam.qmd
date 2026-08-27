@@ -1,0 +1,16 @@
+---
+title: "“Power and Simulation"
+date: 2026-08-25
+author: [Lisa DeBruine]
+image: ../images/template.png
+categories: [talk]
+url: https://vasishth.github.io/smlp2026/
+---
+
+Lisa DeBruine and Dale Barr both gave invited keynotes at the 10th annual Summer School on Statistical Methods for Linguistics and Psychology. 
+ 
+Lisa's talk: Power and Simulation 
+
+Slides: https://www.scienceverse.org/talks/2026-power-sim/
+ 
+Abstract: Power analyses help us to plan studies and interpret findings. The statistical power of a specific test depends on the effect size, sample size, and alpha criterion. In this talk, I will cover common mistakes with conducting and reporting power analyses, and present simulation-based methods for conducting power analyses for any inferential test. I will cover fixed effects and mixed effects models, with additional materials at https://debruine.github.io/data-sim-workshops/.
