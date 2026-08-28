@@ -1,7 +1,7 @@
 ---
-title: "“Building and sustaining a culture of open research: Lessons from PsyTeachR at the University of Glasgow"
+title: "Building and sustaining a culture of open research: Lessons from PsyTeachR at the University of Glasgow"
 date: 2026-08-25
-author: [Lisa DeBruine]
+author: [Dale Barr]
 image: ../images/template.png
 categories: [talk]
 url: https://vasishth.github.io/smlp2026/
