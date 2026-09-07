@@ -1,6 +1,50 @@
 [
   {
-    "listing": "/posts.html",
+    "listing": "/papers.html",
+    "items": [
+      "/papers/2026-supervise-projects.html",
+      "/papers/2026-teach-reproduce.html",
+      "/papers/2026-practice-preach.html",
+      "/papers/2024-delphi-research-methods.html",
+      "/papers/2023-teaching-open.html",
+      "/papers/2022-embedding.html",
+      "/papers/2022-open-source-tutorials.html",
+      "/papers/2022-dataviz.html",
+      "/papers/2022-02-05_improving-pedagogy-rr.html",
+      "/papers/2021-mixed-effects.html"
+    ]
+  },
+  {
+    "listing": "/resources.html",
+    "items": [
+      "/resources/l1-data-skills.html",
+      "/resources/l2-analysis.html",
+      "/resources/l3-stat-models.html",
+      "/resources/quant-fun.html",
+      "/resources/reprores.html",
+      "/resources/stats-res.html",
+      "/resources/glossary.html",
+      "/resources/ads.html",
+      "/resources/aitutor.html",
+      "/resources/handy-workbook.html",
+      "/resources/introdataviz.html",
+      "/resources/tutorials.html",
+      "/resources/shiny-intro.html",
+      "/resources/intro-r-pkgs.html",
+      "/resources/book-template.html",
+      "/resources/webex.html",
+      "/resources/markr.html",
+      "/resources/RSetGo.html",
+      "/resources/faux.html",
+      "/resources/glossary-pkg.html",
+      "/resources/booktem.html",
+      "/resources/hack-your-data-beautiful.html",
+      "/resources/redesigning-methods-curricula.html",
+      "/resources/psych-future.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
     "items": [
       "/posts/2026-08-27_Barr-Potsdam.html",
       "/posts/2026-08-25_DeBruine-Potsdam.html",
@@ -28,51 +72,7 @@
     ]
   },
   {
-    "listing": "/resources.html",
-    "items": [
-      "/resources/l1-data-skills.html",
-      "/resources/l2-analysis.html",
-      "/resources/l3-stat-models.html",
-      "/resources/quant-fun.html",
-      "/resources/reprores.html",
-      "/resources/stats-res.html",
-      "/resources/glossary.html",
-      "/resources/ads.html",
-      "/resources/handy-workbook.html",
-      "/resources/aitutor.html",
-      "/resources/introdataviz.html",
-      "/resources/tutorials.html",
-      "/resources/shiny-intro.html",
-      "/resources/intro-r-pkgs.html",
-      "/resources/book-template.html",
-      "/resources/webex.html",
-      "/resources/markr.html",
-      "/resources/RSetGo.html",
-      "/resources/faux.html",
-      "/resources/booktem.html",
-      "/resources/glossary-pkg.html",
-      "/resources/hack-your-data-beautiful.html",
-      "/resources/redesigning-methods-curricula.html",
-      "/resources/psych-future.html"
-    ]
-  },
-  {
-    "listing": "/papers.html",
-    "items": [
-      "/papers/2026-supervise-projects.html",
-      "/papers/2026-teach-reproduce.html",
-      "/papers/2026-practice-preach.html",
-      "/papers/2024-delphi-research-methods.html",
-      "/papers/2023-teaching-open.html",
-      "/papers/2022-embedding.html",
-      "/papers/2022-open-source-tutorials.html",
-      "/papers/2022-dataviz.html",
-      "/papers/2022-02-05_improving-pedagogy-rr.html",
-      "/papers/2021-mixed-effects.html"
-    ]
-  },
-  {
-    "listing": "/index.html",
+    "listing": "/posts.html",
     "items": [
       "/posts/2026-08-27_Barr-Potsdam.html",
       "/posts/2026-08-25_DeBruine-Potsdam.html",
